@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this atlas or its data, please cite the archived release."
+title: "Alanya Neighbourhood-Level Historical and Projected Heatwave Atlas under the RCP8.5 Scenario"
+type: software
+authors:
+  - family-names: "Aksel"
+    given-names: "Murat"
+    affiliation: "Alanya Alaaddin Keykubat University"
+version: 1.0.0
+date-released: 2026-08-09
+doi: "10.XXXX/figshare.XXXXXXXX"
+url: "https://YOUR-GITHUB-USERNAME.github.io/alanya-heatwave-atlas/"
+repository-code: "https://github.com/YOUR-GITHUB-USERNAME/alanya-heatwave-atlas"
+keywords:
+  - Alanya
+  - heatwave
+  - climate risk
+  - neighbourhood
+  - RCP8.5
+license: CC-BY-4.0
