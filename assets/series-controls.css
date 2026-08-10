@@ -1,0 +1,4 @@
+.chart-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.chart-actions label{font-size:9px;color:#60757b;text-transform:uppercase;letter-spacing:.08em}
+.chart-actions select{border:1px solid #a9d4cc;background:#fff;color:var(--ink);padding:6px 7px;border-radius:3px;font-size:10px}
+@media(max-width:700px){.chart-head{align-items:flex-start;gap:10px}.chart-actions{max-width:200px}}

@@ -1,4 +1,4 @@
-const state={selected:"",features:new Map(),layers:{},active:"lst",opacity:.67};
+const state={selected:"",features:new Map(),layers:{},active:"lst",opacity:.67,series:"both"};
 const map=L.map("map",{zoomControl:false,minZoom:8}).setView([36.56,32.05],10);
 L.control.zoom({position:"bottomright"}).addTo(map);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"© OpenStreetMap contributors"}).addTo(map);
@@ -11,6 +11,7 @@ const legends={
 };
 function style(name){return name===state.selected?{color:"#00e0c2",weight:3.3,fillColor:"#00e0c2",fillOpacity:.24}:{color:"#0b3558",weight:1.15,fillColor:"#dff4ef",fillOpacity:.12}}
 function select(name,zoom=true){state.selected=name;document.getElementById("selected").textContent=name;const url=chartPath(name);document.getElementById("chart").src=url;document.getElementById("full").href=url;document.querySelectorAll(".list button").forEach(b=>b.classList.toggle("active",b.dataset.name===name));state.features.forEach((layer,n)=>layer.setStyle(style(n)));const layer=state.features.get(name);if(zoom&&layer)map.fitBounds(layer.getBounds(),{padding:[54,54],maxZoom:13})}
+function applySeriesFilter(){const frame=document.getElementById("chart");const win=frame.contentWindow;const doc=frame.contentDocument;if(!win||!doc||!win.Plotly)return;const graph=doc.querySelector(".plotly-graph-div");if(!graph||!graph.data)return;const visible=graph.data.map(trace=>state.series==="both"||(state.series==="historical"&&trace.legendgroup==="Historical")||(state.series==="rcp85"&&trace.legendgroup==="RCP8.5"));win.Plotly.restyle(graph,{visible});}
 function showLayer(key){Object.values(state.layers).forEach(layer=>{if(map.hasLayer(layer))map.removeLayer(layer)});state.active=key;const layer=state.layers[key];if(layer){layer.setOpacity(state.opacity);layer.addTo(map);layer.bringToBack()}document.getElementById("legend").innerHTML=legends[key];if(key==="population"&&state.populationMeta){document.getElementById("pop-low").textContent=state.populationMeta.low.toFixed(2);document.getElementById("pop-high").textContent=`≥ ${state.populationMeta.high.toFixed(2)}`}}
 Promise.all([fetch("data/neighbourhoods.geojson").then(r=>r.json()),fetch("data/risk_lst.json").then(r=>r.json()),fetch("data/lulc_2026.json").then(r=>r.json()),fetch("data/vulnerable_population.json").then(r=>r.json())]).then(([geo,lstMeta,lulcMeta,populationMeta])=>{
   state.populationMeta=populationMeta;
@@ -25,3 +26,5 @@ function renderList(names){const list=document.getElementById("list");list.repla
 document.getElementById("search").addEventListener("input",e=>{const q=e.target.value.toLocaleLowerCase("tr");document.querySelectorAll(".list button").forEach(b=>b.hidden=!b.dataset.name.toLocaleLowerCase("tr").includes(q))});
 document.getElementById("thematic-layer").addEventListener("change",e=>showLayer(e.target.value));
 document.getElementById("opacity").addEventListener("input",e=>{state.opacity=+e.target.value;state.layers[state.active]?.setOpacity(state.opacity)});
+document.getElementById("series-filter").addEventListener("change",e=>{state.series=e.target.value;applySeriesFilter()});
+document.getElementById("chart").addEventListener("load",applySeriesFilter);
