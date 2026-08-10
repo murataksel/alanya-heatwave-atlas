@@ -1,5 +1,10 @@
 # Alanya Neighbourhood Heatwave Atlas
 
+Version 5 renders all 102 neighbourhood charts directly inside the atlas from
+`data/heatwave_charts.json`. The chart panel no longer depends on loading a
+separate HTML file for each neighbourhood. The time-series selector supports
+Historical + RCP8.5, Historical only, and RCP8.5 only views.
+
 This static web atlas links 102 Alanya neighbourhood polygons to neighbourhood-specific interactive HWI, HWF and HWTL time-series graphics. The map layer menu provides LST risk classes (4–7), 2026 Dynamic World land cover, and total vulnerable population. Only one thematic raster is displayed at a time.
 
 In the land-cover overlay, Dynamic World class 0 (Water) remains in the legend but is rendered transparent so the blue water on the OpenStreetMap basemap remains visible. Zero-valued cells in the vulnerable-population overlay are also transparent.
