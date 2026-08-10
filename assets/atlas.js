@@ -1,4 +1,8 @@
 const state={selected:"",features:new Map(),layers:{},charts:{},active:"lst",opacity:.67,series:"both"};
+if(typeof window.Plotly==="undefined"){
+  document.getElementById("chart").innerHTML="<p style='padding:24px'>The chart library could not be loaded. Please refresh the page with Ctrl+F5.</p>";
+  throw new Error("Plotly library failed to load from assets/plotly-3.7.0.min.js");
+}
 const map=L.map("map",{zoomControl:false,minZoom:8}).setView([36.56,32.05],10);
 L.control.zoom({position:"bottomright"}).addTo(map);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:18,attribution:"© OpenStreetMap contributors"}).addTo(map);
