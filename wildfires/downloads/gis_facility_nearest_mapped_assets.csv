@@ -1,0 +1,5 @@
+﻿asset_id,name,distance_to_elektrik_m,distance_to_fiberhat_m,distance_to_TR_MJ_road_WGS84_m,distance_to_TR_rivers_m,interpretation
+santraller:1163,ALANYA,297.882663410019,759.5148313052066,93.23313508148469,3752.990813511759,Straight-line distance to supplied mapped geometries; not access time or verified network connectivity.
+santraller:2220,GUZELBAG,196.85144426630282,8884.817221401283,8390.445820726569,2518.6331324823927,Straight-line distance to supplied mapped geometries; not access time or verified network connectivity.
+santraller:2221,MAHMUTLAR,163.0568534662407,3450.5855725480137,2154.911694942258,4287.389787788237,Straight-line distance to supplied mapped geometries; not access time or verified network connectivity.
+santraller:2752,DIM SANT.,5651.645917890394,6728.072840323665,3186.9786941110096,4110.949859018409,Straight-line distance to supplied mapped geometries; not access time or verified network connectivity.

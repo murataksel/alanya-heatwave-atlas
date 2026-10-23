@@ -1,0 +1,5 @@
+﻿configuration,scenario,period,climate_model,mean_relative_score,mean_score_change,cells_outside_training_climate_fraction,valid_native_cells,interpretation
+RCP45_CLMcom_CCLM_202140,RCP45,202140,CLMcom_CCLM,0.201858788728714,0.05473105609416962,0.6990207868063907,5821,"One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+RCP45_CLMcom_CCLM_204160,RCP45,204160,CLMcom_CCLM,0.25256484746932983,0.10544423758983612,0.8270056691290156,5821,"One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+RCP85_CLMcom_CCLM_202140,RCP85,202140,CLMcom_CCLM,0.20316268503665924,0.05602508783340454,0.6959285346160453,5821,"One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+RCP85_CLMcom_CCLM_204160,RCP85,204160,CLMcom_CCLM,0.3005050718784332,0.1534043550491333,1.0,5821,"One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."

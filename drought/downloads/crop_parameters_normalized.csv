@@ -1,0 +1,4 @@
+﻿FAO_Code,Crop,Clim,Kc_in,Kc_mid,Kc_end,lgp_f1,lgp_f2,lgp_f3,lgp_f4,Season start,Season End,RD1,RD2,DF,Type,Ky,stage_fraction_sum_input,parameter_status
+323,Banana,2,0.75,1.13,1.03,0.329,0.164,0.493,0.014,1,365,0.6,1.0,0.5,0,1.15,1.0,inherited; local calibration required
+322,Citrus,2,0.1,0.52,0.6,0.164,0.247,0.342,0.247,1,365,1.6,1.6,0.5,0,0.9,1.0,inherited; local calibration required
+33,Avocado,2,0.84,0.78,0.69,0.2502532928064843,0.2502532928064843,0.33333333333333337,0.1661600810536981,1,365,1.6,1.6,0.5,0,0.9,0.987,inherited; local calibration required

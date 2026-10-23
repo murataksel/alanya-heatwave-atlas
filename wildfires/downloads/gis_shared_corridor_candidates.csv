@@ -1,0 +1,4 @@
+﻿screening_distance_m,electricity_near_fibre_km,fibre_near_electricity_km,interpretation
+100,0.0,0.0,Candidate shared corridors from geometry only; no verified functional dependency or cascading outage.
+300,0.0,0.0,Candidate shared corridors from geometry only; no verified functional dependency or cascading outage.
+500,1.1386000526424622,1.023190738100244,Candidate shared corridors from geometry only; no verified functional dependency or cascading outage.

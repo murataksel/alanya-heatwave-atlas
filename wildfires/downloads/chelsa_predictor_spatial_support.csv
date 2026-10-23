@@ -1,0 +1,11 @@
+﻿variable,finite_native_district_cells,positive_fire_cells_supported,total_burnable_training_positive_cells,missing_is_not_zero
+bio01d,6982,118,118,True
+bio04d,6982,118,118,True
+bio12d,6982,118,118,True
+bio15d,6982,118,118,True
+cdd,6982,118,118,True
+fd,6982,118,118,True
+gdd5,6982,118,118,True
+prsd,6982,118,118,True
+scd,6982,118,118,True
+swe,849,0,118,True

@@ -1,0 +1,8 @@
+﻿input,files_found,ready,expected
+tasmax,0,False,inputs/raw_climate/tasmax_*MPI-M-MPI-ESM-LR*rcp85*SMHI-RCA4*.nc
+tasmin,0,False,inputs/raw_climate/tasmin_*MPI-M-MPI-ESM-LR*rcp85*SMHI-RCA4*.nc
+pr,0,False,inputs/raw_climate/pr_*MPI-M-MPI-ESM-LR*rcp85*SMHI-RCA4*.nc
+hurs,0,False,inputs/raw_climate/hurs_*MPI-M-MPI-ESM-LR*rcp85*SMHI-RCA4*.nc
+sfcWind,0,False,inputs/raw_climate/sfcWind_*MPI-M-MPI-ESM-LR*rcp85*SMHI-RCA4*.nc
+rsds,0,False,inputs/raw_climate/rsds_*MPI-M-MPI-ESM-LR*rcp85*SMHI-RCA4*.nc
+static AWC + elevation,0,False,inputs/static/static_alanya.nc

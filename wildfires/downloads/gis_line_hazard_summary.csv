@@ -1,0 +1,147 @@
+﻿configuration,layer,label,hazard_class,length_km
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,0,13.31992348229003
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,1,8.366410796219284
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,2,11.942698190251019
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,3,52.9419849509719
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,4,42.19112325284988
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,5,13.320282176727423
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,6,12.380655687113713
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,255,0.1559859230984246
+HIST_199110,elektrik,Electricity lines,0,2.2770582524059693
+HIST_199110,elektrik,Electricity lines,1,4.267107878733711
+HIST_199110,elektrik,Electricity lines,2,18.804133422416452
+HIST_199110,elektrik,Electricity lines,3,42.791661078442644
+HIST_199110,elektrik,Electricity lines,4,8.35987301274925
+HIST_199110,elektrik,Electricity lines,5,16.76494161916306
+HIST_199110,elektrik,Electricity lines,6,10.615251611345126
+HIST_199110,elektrik,Electricity lines,255,0.4107812133413665
+HIST_199110,fiberhat,Fibre routes,0,26.268897345307835
+HIST_199110,fiberhat,Fibre routes,1,0.40798060505634964
+HIST_199110,fiberhat,Fibre routes,2,3.781375768378193
+HIST_199110,fiberhat,Fibre routes,3,23.73223727745987
+HIST_199110,fiberhat,Fibre routes,4,1.0478614135186817
+HIST_199110,fiberhat,Fibre routes,5,4.386772758410295
+HIST_199110,fiberhat,Fibre routes,6,0.8877260190650421
+HIST_199110,fiberhat,Fibre routes,255,8.571926651082148
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,0,13.31992348229003
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,1,5.126413938558202
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,2,6.040452966137172
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,3,58.42491298704481
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,4,16.118664059499157
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,5,22.125704599520677
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,6,33.30734659388609
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,255,0.1556458325856657
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,0,2.2770582524059693
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,1,3.526155773913606
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,2,14.94722624432162
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,3,47.91883037851018
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,4,8.122000122220053
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,5,14.906562376519343
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,6,12.182109583786279
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,255,0.4108653569204757
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,0,26.268897345307835
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,2,0.3622404956379687
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,3,27.55946883079187
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,5,5.434637780564049
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,6,0.8877260190650421
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,255,8.571807366911646
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,0,13.31992348229003
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,1,0.637436557793737
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,2,3.3977471178195153
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,3,61.2233087603097
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,4,3.681039539998661
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,5,39.874602054379814
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,6,32.32938414046705
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,255,0.15562280646327978
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,0,2.2770582524059693
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,2,4.01151417732995
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,3,60.1298293532888
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,4,2.832543816411553
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,5,18.36056180724409
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,6,16.2685270578114
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,255,0.4107736241055889
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,0,26.268897345307835
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,3,27.921592916494653
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,5,5.434634171929025
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,6,0.8877260190650421
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,255,8.571927385481855
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,0,13.31992348229003
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,1,4.169584448451299
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,2,6.504893166571413
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,3,57.43836889529014
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,4,14.631245364002591
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,5,30.768725821161393
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,6,27.63045531973584
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,255,0.15586796201897263
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,0,2.2770582524059693
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,1,3.150937968411796
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,2,8.610339835733633
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,3,53.84758844948581
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,4,8.096604903902522
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,5,13.737656543610408
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,6,14.159824629917967
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,255,0.4107975051292902
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,0,26.268897345307835
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,3,27.921592916494653
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,5,5.434634171929025
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,6,0.8877260190650421
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,255,8.571927385481855
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,0,13.31992348229003
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,2,0.4588611072489052
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,3,64.7994930758667
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,4,0.18661971156387908
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,5,23.475397182882677
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,6,52.22287916487893
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,255,0.15589073479062387
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,0,2.2770582524059693
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,2,0.4600180075394149
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,3,63.681390796932
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,4,1.0182090604369955
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,5,18.77042515992428
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,6,17.672982553821498
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,255,0.41072425753720243
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,0,26.268897345307835
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,3,27.921592916494653
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,5,5.434634171929025
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,6,0.8877260190650421
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,255,8.571927385481855
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,-1,4.616495186187796
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,0,106.87925201499361
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,1,42.96811962605666
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,255,0.15519763228334454
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,-1,5.227384219559645
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,0,87.34101607936886
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,1,11.311810238987489
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,255,0.4105975506813756
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,0,55.63911812304935
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,1,4.875027510267072
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,255,8.570632204961512
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,0,81.57864456940138
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,1,72.88514992095384
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,255,0.1552699691660799
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,0,70.12061782458738
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,1,33.75959271332871
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,255,0.4105975506811428
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,0,55.27686363090385
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,1,5.236992475395829
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,255,8.57092173197826
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,-1,1.698927212250524
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,0,105.08834463510829
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,1,47.67652264299791
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,255,0.1552699691645493
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,-1,2.8719216471059035
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,0,82.3153700439536
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,1,18.692918846856607
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,255,0.4105975506813174
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,0,55.27686363090385
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,1,5.236992475395829
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,255,8.57092173197826
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,0,78.44239116233756
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,1,76.02140332802131
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,255,0.1552699691623068
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,0,65.3939273895569
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,1,38.486283148359355
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,255,0.4105975506809099
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,0,55.27686363090385
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,1,5.236992475395829
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,255,8.57092173197826

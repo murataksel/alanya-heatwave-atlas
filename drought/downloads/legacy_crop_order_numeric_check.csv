@@ -1,0 +1,10 @@
+﻿revenue_crop,compared_hazard_crop,paired_cells,mean_absolute_difference_percentage_points
+Banana,Banana,54,18.054291480131845
+Banana,Citrus,54,1.4145063721150142e-15
+Banana,Avocado,54,5.7024370299848846
+Citrus,Banana,73,1.9466924267400004e-15
+Citrus,Citrus,73,17.33003648305209
+Citrus,Avocado,73,13.039756534391016
+Avocado,Banana,49,12.979668871497902
+Avocado,Citrus,49,5.7817643143941
+Avocado,Avocado,49,1.3050784942532453e-15

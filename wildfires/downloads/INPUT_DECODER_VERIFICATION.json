@@ -1,0 +1,13 @@
+{
+  "actual_native_hdf_window_comparison": {
+    "source": "CHELSA EUR11 bio01d2000",
+    "shape": [
+      82,
+      128
+    ],
+    "reference": "standard xarray/h5netcdf decoded subset",
+    "maximum_absolute_difference": 0.0,
+    "equal_including_nodata": true
+  },
+  "synthetic_controls": "Classic NetCDF1/2, fixed/unlimited-single-record layouts, scale/fill; HDF contiguous/global chunk decoding and explicit row-layout fallback. See tests."
+}

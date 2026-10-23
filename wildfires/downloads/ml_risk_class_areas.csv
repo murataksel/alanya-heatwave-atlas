@@ -1,0 +1,217 @@
+﻿configuration,dimension,risk_class,label,area_ha,model_status
+change_direction_RCP45_CLMcom_CCLM_202140,population,0,Non-burnable / not modelled,81941.57432947998,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,population,1,Low,47990.49829348644,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,population,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,population,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,population,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,population,255,Unknown,19984.635333717037,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,economic,0,Non-burnable / not modelled,81941.57432947998,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,economic,1,Low,47990.49829348644,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,economic,255,Unknown,19984.635333717037,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological,0,Non-burnable / not modelled,81941.57432947998,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological,1,Low,47990.49829348644,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological,255,Unknown,19984.635333717037,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological_economic,0,Non-burnable / not modelled,81941.57432947998,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological_economic,1,Low,47990.49829348644,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological_economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological_economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological_economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,ecological_economic,255,Unknown,19984.635333717037,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,population,0,Non-burnable / not modelled,54633.447479284514,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,population,1,Low,82991.67253538033,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,population,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,population,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,population,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,population,255,Unknown,12291.587942018614,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,economic,0,Non-burnable / not modelled,54633.447479284514,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,economic,1,Low,82991.67253538033,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,economic,255,Unknown,12291.587942018614,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological,0,Non-burnable / not modelled,54633.447479284514,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological,1,Low,82991.67253538033,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological,255,Unknown,12291.587942018614,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological_economic,0,Non-burnable / not modelled,54633.447479284514,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological_economic,1,Low,82991.67253538033,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological_economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological_economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological_economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,ecological_economic,255,Unknown,12291.587942018614,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,population,0,Non-burnable / not modelled,82557.92537652355,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,population,1,Low,50280.70082820919,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,population,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,population,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,population,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,population,255,Unknown,17078.081751950725,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,economic,0,Non-burnable / not modelled,82557.92537652355,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,economic,1,Low,50280.70082820919,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,economic,255,Unknown,17078.081751950725,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological,0,Non-burnable / not modelled,82557.92537652355,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological,1,Low,50280.70082820919,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological,255,Unknown,17078.081751950725,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological_economic,0,Non-burnable / not modelled,82557.92537652355,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological_economic,1,Low,50280.70082820919,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological_economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological_economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological_economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,ecological_economic,255,Unknown,17078.081751950725,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,population,0,Non-burnable / not modelled,47725.988097022,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,population,1,Low,90156.72232559854,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,population,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,population,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,population,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,population,255,Unknown,12033.997534062924,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,economic,0,Non-burnable / not modelled,47725.988097022,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,economic,1,Low,90156.72232559854,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological,0,Non-burnable / not modelled,47725.988097022,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological,1,Low,90156.72232559854,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological,255,Unknown,12033.997534062924,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological_economic,0,Non-burnable / not modelled,47725.988097022,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological_economic,1,Low,90156.72232559854,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological_economic,2,Moderate-low,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological_economic,3,Moderate-high,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological_economic,4,High,0.0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,ecological_economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+HIST_199110,population,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+HIST_199110,population,1,Low,30098.878734910362,Later-period discrimination failed
+HIST_199110,population,2,Moderate-low,32049.83015779891,Later-period discrimination failed
+HIST_199110,population,3,Moderate-high,30855.318400502252,Later-period discrimination failed
+HIST_199110,population,4,High,22054.0768998062,Later-period discrimination failed
+HIST_199110,population,255,Unknown,12033.997534062924,Later-period discrimination failed
+HIST_199110,economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+HIST_199110,economic,1,Low,22159.41641172378,Later-period discrimination failed
+HIST_199110,economic,2,Moderate-low,32995.92331441817,Later-period discrimination failed
+HIST_199110,economic,3,Moderate-high,36993.54101165117,Later-period discrimination failed
+HIST_199110,economic,4,High,22909.223455224597,Later-period discrimination failed
+HIST_199110,economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+HIST_199110,ecological,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+HIST_199110,ecological,1,Low,57084.06797374034,Later-period discrimination failed
+HIST_199110,ecological,2,Moderate-low,40865.2096237437,Later-period discrimination failed
+HIST_199110,ecological,3,Moderate-high,11503.815970991389,Later-period discrimination failed
+HIST_199110,ecological,4,High,5605.010624542291,Later-period discrimination failed
+HIST_199110,ecological,255,Unknown,12033.997534062924,Later-period discrimination failed
+HIST_199110,ecological_economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+HIST_199110,ecological_economic,1,Low,54765.75430213914,Later-period discrimination failed
+HIST_199110,ecological_economic,2,Moderate-low,37130.148708386194,Later-period discrimination failed
+HIST_199110,ecological_economic,3,Moderate-high,16891.74867073124,Later-period discrimination failed
+HIST_199110,ecological_economic,4,High,6270.452511761158,Later-period discrimination failed
+HIST_199110,ecological_economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,population,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,population,1,Low,18401.688170063953,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,population,2,Moderate-low,15731.174326098746,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,population,3,Moderate-high,38195.8367057557,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,population,4,High,42729.40499109931,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,population,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,economic,1,Low,16219.572033209288,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,economic,2,Moderate-low,26503.21421903739,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,economic,3,Moderate-high,21531.237077437378,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,economic,4,High,50804.08086333368,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological,1,Low,44676.180179243995,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological,2,Moderate-low,21935.888744631266,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological,3,Moderate-high,25302.036791206432,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological,4,High,23143.998477936042,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological_economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological_economic,1,Low,42722.78625224667,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological_economic,2,Moderate-low,20948.458847467788,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological_economic,3,Moderate-high,26182.137351721703,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological_economic,4,High,25204.721741581565,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,ecological_economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,population,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,population,1,Low,11793.561767654428,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,population,2,Moderate-low,9552.310961690173,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,population,3,Moderate-high,41869.59191620171,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,population,4,High,51842.639547471415,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,population,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,economic,1,Low,5490.184338661525,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,economic,2,Moderate-low,31318.09311436774,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,economic,3,Moderate-high,10578.125429590558,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,economic,4,High,67671.7013103979,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological,1,Low,39427.11326724545,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological,2,Moderate-low,8321.009547908983,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological,3,Moderate-high,38148.41849068511,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological,4,High,29161.56288717818,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological_economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological_economic,1,Low,36808.277453029266,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological_economic,2,Moderate-low,9995.347199620968,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological_economic,3,Moderate-high,34692.41385061294,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological_economic,4,High,33562.065689754556,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,ecological_economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,population,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,population,1,Low,18187.029496767544,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,population,2,Moderate-low,14456.239000654652,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,population,3,Moderate-high,41084.542864657305,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,population,4,High,41330.29283093821,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,population,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,economic,1,Low,14508.448679891128,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,economic,2,Moderate-low,27827.951960422015,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,economic,3,Moderate-high,21284.895666311466,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,economic,4,High,51436.80788639313,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological,1,Low,44332.72630196973,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological,2,Moderate-low,21496.354527538584,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological,3,Moderate-high,27935.8348611561,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological,4,High,21293.1885023533,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological_economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological_economic,1,Low,42336.40064031313,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological_economic,2,Moderate-low,20702.117436341876,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological_economic,3,Moderate-high,28129.02766712287,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological_economic,4,High,23890.55844923985,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,ecological_economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,population,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,population,1,Low,9367.918759405007,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,population,2,Moderate-low,8307.290656571005,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,population,3,Moderate-high,36835.40311422869,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,population,4,High,60547.49166281302,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,population,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,economic,1,Low,921.9338941587862,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,economic,2,Moderate-low,34448.13044778454,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,economic,3,Moderate-high,5469.249005136036,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,economic,4,High,74218.79084593835,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,economic,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological,1,Low,38869.00071667478,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological,2,Moderate-low,1430.4661350942733,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological,3,Moderate-high,32646.530505341816,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological,4,High,42112.10683590684,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological,255,Unknown,12033.997534062924,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological_economic,0,Non-burnable / not modelled,22824.606229602814,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological_economic,1,Low,35370.06434194333,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological_economic,2,Moderate-low,4886.470775166447,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological_economic,3,Moderate-high,29469.582140554972,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological_economic,4,High,45331.98693535297,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,ecological_economic,255,Unknown,12033.997534062924,Later-period discrimination failed

@@ -1,0 +1,8 @@
+﻿test,fold,training_cells,shared_groups,block_m,positive_cells,background_cells,positive_fraction,roc_auc,average_precision,reason,interpretation
+spatial_block,1,22.0,0.0,5000.0,0,1051,0.0,,,Test subset has only one class; discrimination metric undefined.,
+spatial_block,2,22.0,0.0,5000.0,0,1050,0.0,,,Test subset has only one class; discrimination metric undefined.,
+spatial_block,3,22.0,0.0,5000.0,0,1051,0.0,,,Test subset has only one class; discrimination metric undefined.,
+spatial_block,4,14.0,0.0,5000.0,4,1046,0.0038095238095238095,0.9040391969407265,0.024543959380024953,,
+spatial_block,5,8.0,0.0,5000.0,7,1043,0.006666666666666667,0.9252842076427886,0.07940329444566732,,
+spatial_block_pooled,0,,,5000.0,11,5241,0.0020944402132520943,0.9586997623631853,0.03257649069132457,,
+temporal_transfer_2011_2024,0,,,,107,5053,0.020736434108527133,0.1913871837032132,0.013754301274436196,,"Same MODIS product; longer fire window, static land cover and historical climate. Not independent inventory validation."

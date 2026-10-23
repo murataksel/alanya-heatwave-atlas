@@ -1,0 +1,294 @@
+{
+  "checked_date": "2026-10-17",
+  "authenticated_download_executed": false,
+  "requests": [
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1981.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1982.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1983.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1984.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1985.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1986.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1987.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1988.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1989.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1990.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1991.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1992.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1993.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1994.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1995.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1996.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1997.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1998.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_1999.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2000.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2001.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2002.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2003.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2004.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2005.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2006.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2007.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2008.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2009.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2010.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2011.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2012.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2013.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2014.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2015.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2016.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2017.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2018.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2019.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2020.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2021.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2022.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2023.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2024.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_historical/FWI_ERA5_2025.nc",
+      "store": "ewds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "all calendar dates verified for default consolidated product"
+    },
+    {
+      "target": "data/fwi_projections/historical/multi_model_mean_case/archive.zip",
+      "store": "cds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "verified"
+    },
+    {
+      "target": "data/fwi_projections/rcp4_5/multi_model_mean_case/archive.zip",
+      "store": "cds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "verified"
+    },
+    {
+      "target": "data/fwi_projections/rcp8_5/multi_model_mean_case/archive.zip",
+      "store": "cds",
+      "schema_enums": "verified",
+      "projection_constraint_combination": "verified"
+    }
+  ]
+}

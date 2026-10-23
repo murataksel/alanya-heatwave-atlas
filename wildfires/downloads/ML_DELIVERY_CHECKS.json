@@ -1,0 +1,9 @@
+{
+  "valid_nonempty_png_count": 28,
+  "valid_svg_count": 28,
+  "executed_ml_notebooks": 3,
+  "valid_ml_geotiff_count": 18,
+  "model_validation_status": "Later-period discrimination failed",
+  "temporal_transfer_auc": 0.1913871837032132,
+  "public_input_files_hash_verified": 359
+}

@@ -1,0 +1,8 @@
+﻿layer,label,features,length_km,area_ha,interpretation
+elektrik,Electricity lines,5,104.29080808859693,,"Inventory of supplied geometry, not a current exhaustive asset census."
+fiberhat,Fibre routes,9,69.08477783827793,,"Inventory of supplied geometry, not a current exhaustive asset census."
+santraller,Energy facilities,4,,,"Inventory of supplied geometry, not a current exhaustive asset census."
+TR_MJ_road_WGS84,Supplied major roads,7,154.6190644595209,,"Inventory of supplied geometry, not a current exhaustive asset census."
+TR_PS_District_Center_GCS,District centres,1,,,"Inventory of supplied geometry, not a current exhaustive asset census."
+TR_PS_Places_GCS,Settlements,1,,,"Inventory of supplied geometry, not a current exhaustive asset census."
+TR_rivers,Rivers,9,125.87666482123113,,"Inventory of supplied geometry, not a current exhaustive asset census."

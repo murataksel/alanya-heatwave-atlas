@@ -1,0 +1,11 @@
+﻿indicator,crop,unit,mean,min,max,coverage_pct,weighting,status
+AWC,all,mm/m,226.91005666843492,129.0,349.0,92.73189994611086,district land area; not planted crop area,legacy_screening
+precip,all,mm/year,1449.911383877812,884.8910522022607,1938.5691821697378,100.0,district land area; not planted crop area,legacy_screening
+ET0,all,mm/year,1524.8133933584204,1242.2713286537648,1652.790791780478,100.0,district land area; not planted crop area,legacy_screening
+P_minus_ET0,all,mm/year,-74.90200948060757,-602.4055393479898,495.5203896735461,100.0,district land area; not planted crop area,legacy_screening
+loss,Banana,%,40.89298533828766,37.2013610345193,43.49402064335637,92.73189994611086,district land area; not planted crop area,legacy_screening
+irr,Banana,mm/year,1351.8377309003959,885.6050505971918,1628.6089378734691,92.73189994611086,district land area; not planted crop area,legacy_screening
+loss,Citrus,%,24.330295682741383,14.769586263866117,30.719190483948395,92.73189994611086,district land area; not planted crop area,legacy_screening
+irr,Citrus,mm/year,1043.1429559426692,387.8157400680506,1495.8107789935455,92.73189994611086,district land area; not planted crop area,legacy_screening
+loss,Avocado,%,27.17379101688727,23.12191416887327,32.101822757908145,92.73189994611086,district land area; not planted crop area,legacy_screening
+irr,Avocado,mm/year,1035.4935910235595,341.09736379095693,1461.2565018684427,92.73189994611086,district land area; not planted crop area,legacy_screening

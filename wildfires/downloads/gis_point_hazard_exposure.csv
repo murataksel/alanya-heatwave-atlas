@@ -1,0 +1,37 @@
+﻿configuration,layer,asset_id,name,hazard_class,model_status
+change_direction_RCP45_CLMcom_CCLM_202140,santraller,santraller:1163,ALANYA,0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,santraller,santraller:2220,GUZELBAG,0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,santraller,santraller:2221,MAHMUTLAR,-1,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_202140,santraller,santraller:2752,DIM SANT.,0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,santraller,santraller:1163,ALANYA,0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,santraller,santraller:2220,GUZELBAG,1,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,santraller,santraller:2221,MAHMUTLAR,0,Later-period discrimination failed
+change_direction_RCP45_CLMcom_CCLM_204160,santraller,santraller:2752,DIM SANT.,1,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,santraller,santraller:1163,ALANYA,0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,santraller,santraller:2220,GUZELBAG,0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,santraller,santraller:2221,MAHMUTLAR,-1,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_202140,santraller,santraller:2752,DIM SANT.,0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,santraller,santraller:1163,ALANYA,0,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,santraller,santraller:2220,GUZELBAG,1,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,santraller,santraller:2221,MAHMUTLAR,1,Later-period discrimination failed
+change_direction_RCP85_CLMcom_CCLM_204160,santraller,santraller:2752,DIM SANT.,1,Later-period discrimination failed
+HIST_199110,santraller,santraller:1163,ALANYA,3,Later-period discrimination failed
+HIST_199110,santraller,santraller:2220,GUZELBAG,3,Later-period discrimination failed
+HIST_199110,santraller,santraller:2221,MAHMUTLAR,2,Later-period discrimination failed
+HIST_199110,santraller,santraller:2752,DIM SANT.,4,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,santraller,santraller:1163,ALANYA,3,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,santraller,santraller:2220,GUZELBAG,3,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,santraller,santraller:2221,MAHMUTLAR,1,Later-period discrimination failed
+RCP45_CLMcom_CCLM_202140,santraller,santraller:2752,DIM SANT.,4,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,santraller,santraller:1163,ALANYA,3,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,santraller,santraller:2220,GUZELBAG,4,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,santraller,santraller:2221,MAHMUTLAR,2,Later-period discrimination failed
+RCP45_CLMcom_CCLM_204160,santraller,santraller:2752,DIM SANT.,5,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,santraller,santraller:1163,ALANYA,3,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,santraller,santraller:2220,GUZELBAG,3,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,santraller,santraller:2221,MAHMUTLAR,1,Later-period discrimination failed
+RCP85_CLMcom_CCLM_202140,santraller,santraller:2752,DIM SANT.,4,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,santraller,santraller:1163,ALANYA,3,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,santraller,santraller:2220,GUZELBAG,5,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,santraller,santraller:2221,MAHMUTLAR,3,Later-period discrimination failed
+RCP85_CLMcom_CCLM_204160,santraller,santraller:2752,DIM SANT.,5,Later-period discrimination failed

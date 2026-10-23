@@ -1,0 +1,30 @@
+[
+  {
+    "notebook": "00_Start_and_Data_Audit_Alanya.ipynb",
+    "status": "PASS",
+    "engine": "inprocess",
+    "seconds": 1.98,
+    "code_cells": 6
+  },
+  {
+    "notebook": "01_Agricultural_Drought_Hazard_Alanya.ipynb",
+    "status": "PASS",
+    "engine": "inprocess",
+    "seconds": 10.67,
+    "code_cells": 8
+  },
+  {
+    "notebook": "02_Crop_Exposure_and_Risk_Alanya.ipynb",
+    "status": "PASS",
+    "engine": "inprocess",
+    "seconds": 5.83,
+    "code_cells": 8
+  },
+  {
+    "notebook": "03_Daily_Recalculation_and_Scenarios_Alanya.ipynb",
+    "status": "PASS",
+    "engine": "inprocess",
+    "seconds": 0.43,
+    "code_cells": 9
+  }
+]

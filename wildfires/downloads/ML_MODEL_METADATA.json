@@ -1,0 +1,48 @@
+{
+  "quantile_levels": [
+    0.5,
+    0.75
+  ],
+  "fixed_historical_cutpoints": [
+    0.07000000029802322,
+    0.17000000178813934
+  ],
+  "hazard_matrix": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      3,
+      3,
+      5,
+      6
+    ]
+  ],
+  "native_cell_width_m": 463.3127165279167,
+  "training_fire_years": [
+    2001,
+    2010
+  ],
+  "climate_reference": "1991-2010",
+  "landcover_reference": 2000,
+  "trees": 100,
+  "max_depth": 10,
+  "positive_cells": 11,
+  "background_cells": 5241,
+  "balanced_sample_cells": 22,
+  "training_support": "limited: fewer than 50 native positive cells",
+  "validation_status": "Later-period discrimination failed",
+  "temporal_transfer_auc": 0.1913871837032132,
+  "score_interpretation": "Relative RF score from balanced detected-burn/background samples; not annual or cumulative fire probability.",
+  "validation_interpretation": "Spatial folds and temporal MODIS transfer; no independent OGM perimeter validation.",
+  "training_sample_adaptation": "All available native positive cells rather than 10% used in the larger Catalonia example."
+}

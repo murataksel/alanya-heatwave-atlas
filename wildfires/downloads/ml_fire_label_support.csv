@@ -1,0 +1,4 @@
+﻿period,years,expected_months,available_months,positive_cells,background_cells,unknown_inside_cells,background_min_coverage
+training,2001-2010,120,120,11,5587,1384,0.9
+temporal_test,2011-2024,168,166,108,5671,1203,0.9
+all,2001-2024,288,286,119,5600,1263,0.9

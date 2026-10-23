@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "notebooks_executed": 16,
+  "executed_code_cells": 92,
+  "notebook_errors": 0,
+  "execution_engine": "IPython in-process; actual local data",
+  "unit_tests_passed": 34,
+  "input_sha256_checks": 1408,
+  "spatial_output_checks": 121,
+  "png_figures": 71,
+  "gis_source_shapefiles": 25,
+  "limitations": "See FINAL_WORKFLOW_COVERAGE.csv and FINAL_METHOD_EN.md; execution success is not scientific validation."
+}

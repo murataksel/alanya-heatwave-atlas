@@ -1,0 +1,7 @@
+﻿layer,valid_area_fraction,district_mean,district_population_estimate,state,note
+burnable,0.926210551248278,,,insufficient_coverage,"EFFIS source reference, not current official population; sector indicators retain source units"
+wui,0.9999953025234641,0.03771940725824648,,usable,"EFFIS source reference, not current official population; sector indicators retain source units"
+protected,0.0,,,insufficient_coverage,"EFFIS source reference, not current official population; sector indicators retain source units"
+irreplaceability,0.0,,,insufficient_coverage,"EFFIS source reference, not current official population; sector indicators retain source units"
+population_density,0.9999953025234641,104.23641696177022,156311.9954736981,usable,"EFFIS source reference, not current official population; sector indicators retain source units"
+restoration_cost,0.926210551248278,,,insufficient_coverage,"EFFIS source reference, not current official population; sector indicators retain source units"

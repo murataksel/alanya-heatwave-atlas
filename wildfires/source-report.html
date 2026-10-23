@@ -1,0 +1,1057 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Alanya · Final wildfire assessment</title><style>body{font:15px/1.6 system-ui;color:#213c32;background:#f3f5f0;max-width:1250px;margin:32px auto;padding:0 22px}h1{font-size:34px;line-height:1.2}h2{margin-top:38px;color:#244e3b}a{color:#25634e}table{border-collapse:collapse;width:100%;font-size:12px;background:white}td,th{padding:9px;text-align:left;border-bottom:1px solid #dbe2d6;vertical-align:top;overflow-wrap:anywhere}th{background:#e7eddf}figure{margin:24px 0;padding:16px;background:white;border:1px solid #dae0d4;border-radius:10px}img{width:100%;height:auto}figcaption{font-size:13px;color:#536557}.note{background:#fff0d7;padding:18px;border-left:5px solid #bd6a3a;margin:20px 0}.good{background:#e8f0e4;padding:18px;border-left:5px solid #4d7a5c}.scroll{overflow-x:auto}.small{font-size:13px}code{overflow-wrap:anywhere}</style><h1>Alanya · Final wildfire assessment</h1><p>P2R Alanya | CLIMAAX FIRE adaptation v2.0.0 | source review: 17 October 2026 | English analytical outputs</p><p><a href="index.html#view=figures&allFigures=1">All figures</a> · <a href="index.html#module=evidence">Infrastructure atlas</a> · <a href="index.html#module=evidence">Institutional resources atlas</a> · <a href="downloads/FINAL_WORKFLOW_COVERAGE.csv">Coverage table</a></p><div class="good"><b>Türkçe okuma notu.</b> Final paket; kurum kanıtları, yangın geçmişi, ECLIPS/CHELSA ML alternatifleri, nüfus–ekonomi–ekoloji riskleri, değişim haritaları, FWI yanıt yüzeyleri, CMIP6/SSP nüfus ve altyapı maruziyetini aynı kaynak ve kalite kayıtlarıyla birleştirir. Sağlanan tüm GIS katman türleri incelenmiştir. Çalışma sınırında 104,29 km elektrik hattı, 69,08 km fiber, 154,62 km ana yol ve 4 enerji tesisi geometrisi bulunur. Bunlar güncel ve eksiksiz altyapı envanteri iddiası taşımaz.</div><div class="note"><b>Scientific interpretation.</b> The ECLIPS RF has only 11 positive native training cells and later-period ROC AUC≈0.19. Its detailed hazard/risk maps are exploratory method examples with failed discrimination. The full ten-variable CHELSA case has zero positive training support because SWE is missing at all burned cells. The explicitly labelled nine-predictor sensitivity excludes SWE; its zero-positive held-out fire period cannot establish successful validation. Legacy CHELSA unit metadata also have limits; native indicator values are not interpreted as annual precipitation totals. FWI response results describe weather danger independently of this failed RF; they are not ignition, damage, casualty or outage probabilities.</div><h2>What is complete and what remains conditional</h2><p>The ten official FIRE notebooks (four ML, two FWI product/risk and four response notebooks) were reviewed. Alanya adapters and the unchanged originals are supplied together. Source coverage, successful code execution and scientific validation are distinct states. Authenticated EWDS 1981–2025 and CDS seasonal FWI products are not downloaded in this package; working public-FWI response results are labelled 1981–2010 and do not substitute their product identity. Full five-variable Pareto remains unavailable because raw protected-area/irreplaceability inputs have no valid district coverage. Aggregated ecological vulnerability is a different JRC product and is included with about 92.6% source coverage.</p><h2>Supplied infrastructure inventory</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>label</th>
+      <th>features</th>
+      <th>length_km</th>
+      <th>area_ha</th>
+      <th>interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>Supplied major roads</td>
+      <td>7</td>
+      <td>154.619</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+    <tr>
+      <td>TR_PS_District_Center_GCS</td>
+      <td>District centres</td>
+      <td>1</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+    <tr>
+      <td>TR_PS_Places_GCS</td>
+      <td>Settlements</td>
+      <td>1</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+    <tr>
+      <td>TR_rivers</td>
+      <td>Rivers</td>
+      <td>9</td>
+      <td>125.877</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>Electricity lines</td>
+      <td>5</td>
+      <td>104.291</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>Fibre routes</td>
+      <td>9</td>
+      <td>69.085</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+    <tr>
+      <td>santraller</td>
+      <td>Energy facilities</td>
+      <td>4</td>
+      <td>Not assessed</td>
+      <td>Not assessed</td>
+      <td>Inventory of supplied geometry, not a current exhaustive asset census.</td>
+    </tr>
+  </tbody>
+</table><p>Counts are source features, not unique physical roads/circuits, current operating assets or verified service connections. ED50 source data are transformed from EPSG:4230. Missing/ambiguous CRSs, misleading map-sheet rectangles and duplicate/empty sources are flagged. CAPACITY units are unknown; zero/unfilled GUCU_MW is not zero generation capacity. No replacement costs, asset fragility, functional connectivity or electricity/telecom service populations were supplied.</p><h2>Boundary and scope sensitivity</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>working_boundary_km2</th>
+      <th>supplied_boundary_km2</th>
+      <th>intersection_km2</th>
+      <th>symmetric_difference_km2</th>
+      <th>intersection_over_union</th>
+      <th>decision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1,498.605</td>
+      <td>1,470.344</td>
+      <td>1,301.438</td>
+      <td>366.073</td>
+      <td>0.780</td>
+      <td>Existing working district retained; supplied older boundary retained for sensitivity/context. No unreviewed rescope.</td>
+    </tr>
+  </tbody>
+</table><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>scope</th>
+      <th>source_features_intersecting</th>
+      <th>clipped_length_km</th>
+      <th>point_count</th>
+      <th>scope_area_km2</th>
+      <th>meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>elektrik</td>
+      <td>working_district</td>
+      <td>5</td>
+      <td>104.291</td>
+      <td>Not assessed</td>
+      <td>1,498.605</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>supplied_legacy_district</td>
+      <td>5</td>
+      <td>106.738</td>
+      <td>Not assessed</td>
+      <td>1,470.344</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>common_intersection</td>
+      <td>5</td>
+      <td>101.398</td>
+      <td>Not assessed</td>
+      <td>1,301.438</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>working_district</td>
+      <td>9</td>
+      <td>69.085</td>
+      <td>Not assessed</td>
+      <td>1,498.605</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>supplied_legacy_district</td>
+      <td>9</td>
+      <td>72.157</td>
+      <td>Not assessed</td>
+      <td>1,470.344</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>common_intersection</td>
+      <td>9</td>
+      <td>64.916</td>
+      <td>Not assessed</td>
+      <td>1,301.438</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>working_district</td>
+      <td>7</td>
+      <td>154.619</td>
+      <td>Not assessed</td>
+      <td>1,498.605</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>supplied_legacy_district</td>
+      <td>9</td>
+      <td>146.530</td>
+      <td>Not assessed</td>
+      <td>1,470.344</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>common_intersection</td>
+      <td>7</td>
+      <td>141.130</td>
+      <td>Not assessed</td>
+      <td>1,301.438</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>santraller</td>
+      <td>working_district</td>
+      <td>4</td>
+      <td>Not assessed</td>
+      <td>4.000</td>
+      <td>1,498.605</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>santraller</td>
+      <td>supplied_legacy_district</td>
+      <td>3</td>
+      <td>Not assessed</td>
+      <td>3.000</td>
+      <td>1,470.344</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>santraller</td>
+      <td>common_intersection</td>
+      <td>3</td>
+      <td>Not assessed</td>
+      <td>3.000</td>
+      <td>1,301.438</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>TR_rivers</td>
+      <td>working_district</td>
+      <td>9</td>
+      <td>125.877</td>
+      <td>Not assessed</td>
+      <td>1,498.605</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>TR_rivers</td>
+      <td>supplied_legacy_district</td>
+      <td>10</td>
+      <td>125.974</td>
+      <td>Not assessed</td>
+      <td>1,470.344</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+    <tr>
+      <td>TR_rivers</td>
+      <td>common_intersection</td>
+      <td>8</td>
+      <td>108.584</td>
+      <td>Not assessed</td>
+      <td>1,301.438</td>
+      <td>Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.</td>
+    </tr>
+  </tbody>
+</table><p>Working geoBoundaries/OSM geometry, supplied legacy district geometry and forestry-plan scope are different. No boundary is silently substituted. All maps and lengths use the declared working district unless explicitly labelled as sensitivity results. Institutional2017 totals disagree between older and newer plans and do not become spatial training labels.</p><h2>Historical weather response</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>cell</th>
+      <th>baseline</th>
+      <th>pe_percent</th>
+      <th>pe_bootstrap_low</th>
+      <th>pe_bootstrap_high</th>
+      <th>fsl_mean_days</th>
+      <th>return20_fwi</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>district_area_mean</td>
+      <td>1981-2010</td>
+      <td>13.489</td>
+      <td>5.489</td>
+      <td>19.851</td>
+      <td>60.667</td>
+      <td>65.415</td>
+    </tr>
+    <tr>
+      <td>9790</td>
+      <td>1981-2010</td>
+      <td>100.000</td>
+      <td>100.000</td>
+      <td>100.000</td>
+      <td>67.300</td>
+      <td>91.890</td>
+    </tr>
+    <tr>
+      <td>9791</td>
+      <td>1981-2010</td>
+      <td>34.841</td>
+      <td>23.775</td>
+      <td>45.140</td>
+      <td>39.333</td>
+      <td>74.268</td>
+    </tr>
+    <tr>
+      <td>9792</td>
+      <td>1981-2010</td>
+      <td>55.033</td>
+      <td>44.529</td>
+      <td>68.351</td>
+      <td>65.733</td>
+      <td>74.114</td>
+    </tr>
+    <tr>
+      <td>9793</td>
+      <td>1981-2010</td>
+      <td>58.298</td>
+      <td>44.910</td>
+      <td>73.508</td>
+      <td>68.400</td>
+      <td>72.340</td>
+    </tr>
+    <tr>
+      <td>9887</td>
+      <td>1981-2010</td>
+      <td>0.799</td>
+      <td>0.183</td>
+      <td>1.899</td>
+      <td>21.200</td>
+      <td>52.324</td>
+    </tr>
+    <tr>
+      <td>9888</td>
+      <td>1981-2010</td>
+      <td>11.064</td>
+      <td>5.640</td>
+      <td>17.357</td>
+      <td>28.433</td>
+      <td>64.739</td>
+    </tr>
+  </tbody>
+</table><p>Annual PE means P(max daily FWI &gt;60) in a year, fitted to 30 annual maxima with a Gumbel survival function. Six native weather cells are retained. District-area-mean FWI has different extremes from individual cells. Baseline season-length cutoff is half the baseline fitted20-year return level and remains fixed under perturbation.200-resample bootstrap intervals describe short-sample statistical uncertainty; local fire-incident calibration is unavailable.</p><h2>Matched climate projections</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario</th>
+      <th>period</th>
+      <th>models_available</th>
+      <th>ensemble_size</th>
+      <th>band</th>
+      <th>pe_percent_min</th>
+      <th>pe_percent_median</th>
+      <th>pe_percent_max</th>
+      <th>fsl_mean_days_min</th>
+      <th>fsl_mean_days_median</th>
+      <th>fsl_mean_days_max</th>
+      <th>dt_C_min</th>
+      <th>dt_C_median</th>
+      <th>dt_C_max</th>
+      <th>dp_percent_min</th>
+      <th>dp_percent_median</th>
+      <th>dp_percent_max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ssp245</td>
+      <td>2021-2040</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>17.127</td>
+      <td>17.868</td>
+      <td>18.273</td>
+      <td>67.746</td>
+      <td>68.303</td>
+      <td>69.559</td>
+      <td>1.038</td>
+      <td>1.241</td>
+      <td>1.546</td>
+      <td>-11.556</td>
+      <td>-10.868</td>
+      <td>0.215</td>
+    </tr>
+    <tr>
+      <td>ssp245</td>
+      <td>2041-2060</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>19.940</td>
+      <td>20.173</td>
+      <td>20.212</td>
+      <td>71.193</td>
+      <td>74.358</td>
+      <td>75.169</td>
+      <td>1.680</td>
+      <td>1.807</td>
+      <td>2.048</td>
+      <td>-22.272</td>
+      <td>-17.521</td>
+      <td>-3.123</td>
+    </tr>
+    <tr>
+      <td>ssp245</td>
+      <td>2061-2080</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>22.424</td>
+      <td>22.509</td>
+      <td>22.855</td>
+      <td>75.801</td>
+      <td>76.581</td>
+      <td>79.938</td>
+      <td>2.393</td>
+      <td>2.442</td>
+      <td>2.527</td>
+      <td>-25.350</td>
+      <td>-14.092</td>
+      <td>-10.066</td>
+    </tr>
+    <tr>
+      <td>ssp245</td>
+      <td>2081-2100</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>23.368</td>
+      <td>23.802</td>
+      <td>24.701</td>
+      <td>76.635</td>
+      <td>77.042</td>
+      <td>82.633</td>
+      <td>2.767</td>
+      <td>2.802</td>
+      <td>2.890</td>
+      <td>-27.331</td>
+      <td>-8.743</td>
+      <td>-7.964</td>
+    </tr>
+    <tr>
+      <td>ssp585</td>
+      <td>2021-2040</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>16.651</td>
+      <td>17.910</td>
+      <td>18.559</td>
+      <td>66.885</td>
+      <td>67.679</td>
+      <td>70.096</td>
+      <td>0.950</td>
+      <td>1.215</td>
+      <td>1.718</td>
+      <td>-13.970</td>
+      <td>-7.224</td>
+      <td>4.688</td>
+    </tr>
+    <tr>
+      <td>ssp585</td>
+      <td>2041-2060</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>21.253</td>
+      <td>22.834</td>
+      <td>23.573</td>
+      <td>75.528</td>
+      <td>76.835</td>
+      <td>77.202</td>
+      <td>2.124</td>
+      <td>2.563</td>
+      <td>2.794</td>
+      <td>-15.866</td>
+      <td>-12.901</td>
+      <td>-10.189</td>
+    </tr>
+    <tr>
+      <td>ssp585</td>
+      <td>2061-2080</td>
+      <td>3</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>28.712</td>
+      <td>28.877</td>
+      <td>29.215</td>
+      <td>84.368</td>
+      <td>86.515</td>
+      <td>88.544</td>
+      <td>3.547</td>
+      <td>3.777</td>
+      <td>3.803</td>
+      <td>-34.012</td>
+      <td>-24.601</td>
+      <td>-17.521</td>
+    </tr>
+    <tr>
+      <td>ssp585</td>
+      <td>2081-2100</td>
+      <td>1</td>
+      <td>3</td>
+      <td>minimum/maximum across three selected models, not a confidence interval</td>
+      <td>36.158</td>
+      <td>36.158</td>
+      <td>36.158</td>
+      <td>93.864</td>
+      <td>93.864</td>
+      <td>93.864</td>
+      <td>4.721</td>
+      <td>4.892</td>
+      <td>5.935</td>
+      <td>-43.254</td>
+      <td>-37.356</td>
+      <td>-30.062</td>
+    </tr>
+  </tbody>
+</table><p>MPI-ESM1-2-LR, MRI-ESM2-0 and IPSL-CM6A-LR, common r1i1p1f1 member, monthly Amon tas/pr. Native GCM/district intersection weights; model calendars retained. Temperature and precipitation anomalies use each model’s 1981–2010 baseline. SSP2-4.5/SSP5-8.5 are separate from ML RCP pathways. The response perturbation domain is−40…+60% precipitation and0…+5°C. Two SSP5-8.5 late-century model cases exceed+5°C and remain missing; only one model contributes there, so ensemble spread is not assessable. Bilinear interpolation is bounded. The upstream degree-four polynomial is separately reproduced and checked for physical bounds.</p><h2>Population and infrastructure interpretation</h2><p>SSP2/SSP5 population rasters are scenarios, including their2020 maps; they are not official current Alanya residents or seasonal tourist counts. People/cell counts are integrated by source-pixel fractions against district/native weather-cell intersections, conserving counts. Population years2030/2050/2070/2090 match the four20-year climate windows. Fixed2020 population is exported separately to distinguish demographic and climate effects. “Affected” counts people living in cells above a chosen annual weather-PE threshold; no fire footprint or casualty calculation is implied.</p><p>Electricity, fibre and roads are partitioned into disjoint native weather/hazard-cell segments with conserved kilometres. Four energy facilities are sampled as points. Historical MODIS burned-cell coincidence, vegetation proximity100/300/500m, boundary sensitivity and shared-corridor candidates are supplied. Coincidence/proximity does not establish asset damage, a fire cause, road closure, functional dependency or cascading outage. WorldCover tree cover may include orchards.</p><h2>Observed coincidence and weather-exposed infrastructure</h2><p>Historical2001–2024 MODIS burned-cell overlap (km), with no inference of actual damage:</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>source_length_km</th>
+      <th>burn_cell_overlap_km</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>154.619</td>
+      <td>0.970</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>104.291</td>
+      <td>0.881</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>69.085</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table><p>Baseline1981–2010 line kilometres in native cells above annual PE20%/50% (FWI60), followed by mid-century2041–2060 PE50% exposed-length model min/median/max:</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>total_length_km</th>
+      <th>length_in_cells_annual_pe_gt20_km</th>
+      <th>length_in_cells_annual_pe_gt50_km</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>154.619</td>
+      <td>124.745</td>
+      <td>70.594</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>104.291</td>
+      <td>74.465</td>
+      <td>24.955</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>69.085</td>
+      <td>38.040</td>
+      <td>18.021</td>
+    </tr>
+  </tbody>
+</table><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>layer</th>
+      <th>scenario</th>
+      <th>min</th>
+      <th>median</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>ssp245</td>
+      <td>70.594</td>
+      <td>70.594</td>
+      <td>70.594</td>
+    </tr>
+    <tr>
+      <td>TR_MJ_road_WGS84</td>
+      <td>ssp585</td>
+      <td>70.594</td>
+      <td>124.745</td>
+      <td>124.745</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>ssp245</td>
+      <td>24.955</td>
+      <td>24.955</td>
+      <td>24.955</td>
+    </tr>
+    <tr>
+      <td>elektrik</td>
+      <td>ssp585</td>
+      <td>24.955</td>
+      <td>74.465</td>
+      <td>74.465</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>ssp245</td>
+      <td>18.021</td>
+      <td>18.021</td>
+      <td>18.021</td>
+    </tr>
+    <tr>
+      <td>fiberhat</td>
+      <td>ssp585</td>
+      <td>18.021</td>
+      <td>38.040</td>
+      <td>38.040</td>
+    </tr>
+  </tbody>
+</table><p>Mid-century scenario population in native cells above annual PE50% (model spread):</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario</th>
+      <th>total_scenario_people</th>
+      <th>annual_pe_gt50_people_min</th>
+      <th>annual_pe_gt50_people_median</th>
+      <th>annual_pe_gt50_people_max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ssp245</td>
+      <td>261,023.487</td>
+      <td>56,460.712</td>
+      <td>56,460.712</td>
+      <td>56,460.712</td>
+    </tr>
+    <tr>
+      <td>ssp585</td>
+      <td>235,101.464</td>
+      <td>50,572.894</td>
+      <td>183,231.615</td>
+      <td>183,231.615</td>
+    </tr>
+  </tbody>
+</table><p>At300m all accepted supplied line geometries lie near WorldCover tree/shrub/grass classes; this includes possible orchards and is a proximity screen. At500m about1.139km of electricity geometry and1.023km of fibre geometry are near the other source layer; this is a candidate corridor, not an established dependency. Four complete FWI-cell Pareto profiles cover about66.1% of district area and all are non-dominated; there is no unique spatial ranking from these selected indicators. Field verification should first establish current geometry, source dates, road subtypes and network/service connections before intervention or outage modelling.</p><h2>Selected result figures</h2><figure><a href="figures/17_gis_infrastructure_overview.webp"><img src="figures/17_gis_infrastructure_overview.webp" alt="17_gis_infrastructure_overview"></a><figcaption>Supplied GIS infrastructure after datum transformation and strict district clipping. Missing-CRS layers are omitted, and source completeness/current operating status are unverified.</figcaption></figure><figure><a href="figures/20_ml_population_economic_ecological_risk.webp"><img src="figures/20_ml_population_economic_ecological_risk.webp" alt="20_ml_population_economic_ecological_risk"></a><figcaption>Actual JRC vulnerability crossed with exploratory ML hazard. Zero vulnerability is valid, non-burnable and unknown are separate. The local model fails temporal transfer, so these are method examples.</figcaption></figure><figure><a href="figures/24_road_risk_historical_future_interval.webp"><img src="figures/24_road_risk_historical_future_interval.webp" alt="24_road_risk_historical_future_interval"></a><figcaption>Original risk matrix applied separately to both defensible road vulnerability classes. Historical and future hazard use fixed susceptibility quantiles. Unknown/non-burnable cells remain separate; all maps inherit failed local ML validation.</figcaption></figure><figure><a href="figures/change_predictors_RCP45_CLMcom_CCLM_202140.webp"><img src="figures/change_predictors_RCP45_CLMcom_CCLM_202140.webp" alt="change_predictors_RCP45_CLMcom_CCLM_202140"></a><figcaption>Fourteen real ECLIPS predictor differences. Future minus fixed 1991–2010 reference. Absolute physical units avoid misleading Celsius percentage changes. This is one RCM, not an ensemble.</figcaption></figure><figure><a href="figures/33_response_joint_surfaces.webp"><img src="figures/33_response_joint_surfaces.webp" alt="33_response_joint_surfaces"></a><figcaption>Thirty-year FWI runs for 36 prescribed temperature/precipitation perturbations. Absolute and baseline-relative surfaces. Bilinear interpolation stays within adjacent response values; the source degree-four polynomial is separately diagnosed. These are perturbations, not independent climate projections.</figcaption></figure><figure><a href="figures/35_response_native_cell_projections.webp"><img src="figures/35_response_native_cell_projections.webp" alt="35_response_native_cell_projections"></a><figcaption>Coarse native FWI cells, not downscaled local fire probability. Future cell PE is interpolated for model-specific regional temperature/precipitation anomalies; source weather-cell differences are retained.</figcaption></figure><figure><a href="figures/36_response_affected_population.webp"><img src="figures/36_response_affected_population.webp" alt="36_response_affected_population"></a><figcaption>People/cell counts conserved by fractional native population-cell intersections with district and weather cells. SSP2 pairs with SSP2-4.5, SSP5 with SSP5-8.5. Midpoint population years 2030/2050/2070/2090 pair with 20-year climate periods. Bands show the spread of available models, not uncertainty quantiles. SSP5-8.5 in 2081–2100 has only one in-domain model; missing models are not extrapolated. Counts are residents in danger-weather cells, not casualties or predicted fire impacts.</figcaption></figure><figure><a href="figures/38_response_infrastructure_weather.webp"><img src="figures/38_response_infrastructure_weather.webp" alt="38_response_infrastructure_weather"></a><figcaption>All accepted electricity, fibre, road lines and four energy facilities assigned to native FWI cells; exact line lengths conserved. Historical and 24 model/scenario/future combinations exported. Missing fragility and functional network data prevent outage/loss estimation.</figcaption></figure><figure><a href="figures/41_chelsa_historical_susceptibility.webp"><img src="figures/41_chelsa_historical_susceptibility.webp" alt="41_chelsa_historical_susceptibility"></a><figcaption>1991–2020 climate | 2001–2020 fire labels | fixed CORINE 2000. 9 predictors; SWE excluded. No detected positive test labels in 2021–2024: temporal ROC AUC is undefined.</figcaption></figure><figure><a href="figures/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.webp"><img src="figures/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.webp" alt="chelsa_hazard_RCP85_CSC_REMO2009_2041_2060"></a><figcaption>RCP85_CSC_REMO2009_2041_2060 | fixed historical quantiles. 9 predictors; SWE excluded. No detected positive test labels in 2021–2024: temporal ROC AUC is undefined.</figcaption></figure><h2>CHELSA predictor quality and explicit sensitivity</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variable</th>
+      <th>finite_native_district_cells</th>
+      <th>positive_fire_cells_supported</th>
+      <th>total_burnable_training_positive_cells</th>
+      <th>missing_is_not_zero</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bio01d</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>bio04d</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>bio12d</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>bio15d</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>cdd</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>fd</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>gdd5</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>prsd</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>scd</td>
+      <td>6982</td>
+      <td>118</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>swe</td>
+      <td>849</td>
+      <td>0</td>
+      <td>118</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table><p>All ten source variables are audited. SWE has no valid support at any burned training cell, so the full ten-variable model cannot be fitted without inventing missing values. The explicit config option runs a nine-predictor sensitivity excluding SWE on118 positive training cells; all images and GeoTIFFs identify this variant. The2021–2024 held-out sample contains no positive MODIS detections, so temporal discrimination remains undefined. This is a method example, not a validated replacement for the failed ECLIPS model. Native CHELSA unit metadata have gaps/inherited aggregation labels; no annual precipitation total or frost-day-derived humidity is inferred.</p><h2>Official workflow coverage and explicit remaining inputs</h2><div class="scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>branch</th>
+      <th>analysis</th>
+      <th>notebooks</th>
+      <th>state</th>
+      <th>result_file</th>
+      <th>source_url</th>
+      <th>limitation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ML/ECLIPS</td>
+      <td>Native fire labels, terrain, vegetation and 14 climate predictors</td>
+      <td>04–06</td>
+      <td>complete</td>
+      <td>outputs/downloads/ml_modis_district_annual_detected_area.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML.html</td>
+      <td>Native MODIS labels; fixed pre-training CORINE 2000; no institutional totals rasterized.</td>
+    </tr>
+    <tr>
+      <td>ML/ECLIPS</td>
+      <td>Spatial RF testing and later-period transfer</td>
+      <td>05</td>
+      <td>validation_failed</td>
+      <td>outputs/tables/ml_model_validation.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML.html</td>
+      <td>11 positive training cells; later ROC AUC≈0.19 fails discrimination. Not validated planning maps.</td>
+    </tr>
+    <tr>
+      <td>ML/ECLIPS</td>
+      <td>Future susceptibility, hazard and climate novelty</td>
+      <td>06</td>
+      <td>method_example_validation_failed</td>
+      <td>outputs/tables/ml_future_scenario_summary.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML.html</td>
+      <td>One RCM, two RCPs and two periods; fixed thresholds and static land cover.</td>
+    </tr>
+    <tr>
+      <td>ML/CHELSA</td>
+      <td>Full ten-predictor source intersection</td>
+      <td>14</td>
+      <td>insufficient_positive_support</td>
+      <td>outputs/tables/chelsa_predictor_spatial_support.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML_CHELSA.html</td>
+      <td>All ten sources audited; SWE missing at every burned training cell gives zero positive support. Full ten-variable model not fitted.</td>
+    </tr>
+    <tr>
+      <td>ML/CHELSA</td>
+      <td>Explicit nine-predictor sensitivity and RF</td>
+      <td>14</td>
+      <td>unvalidated_no_later_positive_labels</td>
+      <td>outputs/tables/chelsa_model_validation.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Hazard_assessment_FIRE_ML_CHELSA.html</td>
+      <td>SWE excluded explicitly after QA; 1991–2020 climate, 2001–2020 training and zero-positive2021–2024 test. No successful temporal validation; source-unit metadata limits retained.</td>
+    </tr>
+    <tr>
+      <td>ML risk</td>
+      <td>Population, economic, ecological and combined vulnerability</td>
+      <td>08</td>
+      <td>exploratory_validation_failed</td>
+      <td>outputs/tables/ml_vulnerability_source_coverage.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML.html</td>
+      <td>Original risk matrix, 0.30/0.60 thresholds, valid zero, unknown separate. Approx.92.6% native source coverage.</td>
+    </tr>
+    <tr>
+      <td>ML risk</td>
+      <td>Area-weighted aggregation to analysis zones</td>
+      <td>08</td>
+      <td>exploratory_validation_failed</td>
+      <td>outputs/tables/ml_risk_5km_zone_summary.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML.html</td>
+      <td>5 km analyst grid, not neighbourhood boundaries; &gt;=90% known coverage, class shares exported.</td>
+    </tr>
+    <tr>
+      <td>ML risk</td>
+      <td>Road vulnerability and historical/future road risk</td>
+      <td>08–09</td>
+      <td>exploratory_validation_failed</td>
+      <td>outputs/tables/road_risk_uncertainty_length_summary.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Risk_assessment_FIRE_ML.html</td>
+      <td>Source combines primary/secondary; use class1–2 risk envelope; exact line lengths.</td>
+    </tr>
+    <tr>
+      <td>ML change</td>
+      <td>14-predictor physical-unit change panels</td>
+      <td>09</td>
+      <td>exploratory_validation_failed</td>
+      <td>outputs/tables/ml_climate_absolute_changes.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Change_assessment_FIRE_ML.html</td>
+      <td>All four futures; Celsius differences, not misleading temperature percentages.</td>
+    </tr>
+    <tr>
+      <td>ML change</td>
+      <td>Susceptibility difference and hazard/risk transitions</td>
+      <td>06/09</td>
+      <td>exploratory_validation_failed</td>
+      <td>outputs/tables/ml_hazard_transition_matrix.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/01_wildfire_ML/Change_assessment_FIRE_ML.html</td>
+      <td>Risk direction/transition is ordinal, not expected loss change.</td>
+    </tr>
+    <tr>
+      <td>FWI products</td>
+      <td>Daily EWDS historical FWI 1981–2025</td>
+      <td>01</td>
+      <td>missing_input</td>
+      <td>Not produced; see limitation</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Hazard_Assessment.html</td>
+      <td>Implementation present; authenticated source not downloaded. Public 1981–2010 response archive is a distinct source.</td>
+    </tr>
+    <tr>
+      <td>FWI products</td>
+      <td>CDS seasonal EURO-CORDEX FWI change</td>
+      <td>01</td>
+      <td>missing_input</td>
+      <td>Not produced; see limitation</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Hazard_Assessment.html</td>
+      <td>Implementation present; authenticated product not downloaded. Daily severity thresholds are not applied to seasonal means.</td>
+    </tr>
+    <tr>
+      <td>FWI risk</td>
+      <td>Fuel-normalised danger and Pareto profiles</td>
+      <td>02/13</td>
+      <td>partial_selected_indicators</td>
+      <td>outputs/tables/response_fwi_fuel_pareto.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/02_wildfire_FWI/FWI_Risk_Assessment.html</td>
+      <td>Executed public-FWI adaptation with danger/WUI/restoration; raw protected-area/irreplaceability remain unavailable, preventing full five-indicator Pareto.</td>
+    </tr>
+    <tr>
+      <td>Response</td>
+      <td>Historical daily/seasonal FWI and threshold days</td>
+      <td>10</td>
+      <td>complete_with_model_assumptions</td>
+      <td>outputs/tables/response_historical_annual.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_historical.html</td>
+      <td>Complete 1981–2010, six native weather cells, no fine-grid downscaling.</td>
+    </tr>
+    <tr>
+      <td>Response</td>
+      <td>Annual-maximum Gumbel and return-level diagnostics</td>
+      <td>10</td>
+      <td>complete_with_model_assumptions</td>
+      <td>outputs/tables/response_historical_gumbel.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_historical.html</td>
+      <td>Annual survival probability, Q–Q, T20 and baseline bootstrap; 30-year tail assumptions remain.</td>
+    </tr>
+    <tr>
+      <td>Response</td>
+      <td>Joint PE and season-length response tables</td>
+      <td>11</td>
+      <td>complete</td>
+      <td>outputs/tables/response_surface_table.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_response.html</td>
+      <td>All 36 true perturbation runs, native cells and district mean.</td>
+    </tr>
+    <tr>
+      <td>Response</td>
+      <td>Degree-four polynomial and bounded response comparison</td>
+      <td>11</td>
+      <td>complete</td>
+      <td>outputs/tables/response_polynomial_diagnostics.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_response.html</td>
+      <td>Official polynomial diagnosed; bounded bilinear selected; no extrapolation.</td>
+    </tr>
+    <tr>
+      <td>Response</td>
+      <td>Matched-baseline three-model SSP projections</td>
+      <td>12</td>
+      <td>complete_with_out_of_domain</td>
+      <td>outputs/tables/response_projection_model_spread.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_projections.html</td>
+      <td>CMIP6 public adaptation; own 1981–2010 references. Two late-century forcings outside +5°C; one SSP585 model remains there.</td>
+    </tr>
+    <tr>
+      <td>Response</td>
+      <td>Annual calendars and rolling climate pathway diagnostics</td>
+      <td>12</td>
+      <td>complete_with_out_of_domain</td>
+      <td>outputs/tables/response_cmip6_rolling20_diagnostics.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/hazard_assessment_projections.html</td>
+      <td>Model calendar-day weighted tas; pr flux integrated by days; overlapping windows are not independent samples.</td>
+    </tr>
+    <tr>
+      <td>Response risk</td>
+      <td>Scenario population conservation and PE curves</td>
+      <td>13</td>
+      <td>complete_with_scenario_assumptions</td>
+      <td>outputs/tables/response_affected_population_summary.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/risk_assessment_population.html</td>
+      <td>12 real SSP count clips, fractional source-pixel area, not densities/casualties/tourists.</td>
+    </tr>
+    <tr>
+      <td>Response risk</td>
+      <td>Fixed-population counterfactual</td>
+      <td>13</td>
+      <td>complete_with_scenario_assumptions</td>
+      <td>outputs/tables/response_population_counterfactual_summary.csv</td>
+      <td>https://handbook.climaax.eu/notebooks/workflows/FIRE/03_response_model_FWI/risk_assessment_population.html</td>
+      <td>Same mid-century weather, fixed2020 versus SSP2050 counts; population and weather effects separated.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>All-layer source, CRS and semantic audit</td>
+      <td>07</td>
+      <td>complete_with_quality_flags</td>
+      <td>outputs/tables/gis_all_layer_audit.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Missing CRS quarantined; PAFTA map-sheet rectangles not treated as lakes; source copy dates not survey dates.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>Alternative district boundary sensitivity</td>
+      <td>07</td>
+      <td>complete_with_quality_flags</td>
+      <td>outputs/tables/gis_boundary_sensitivity_inventory.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Working1498.61km² and supplied1470.34km² scopes retained; different from OIM1776.97km² plan scope.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>Electricity, fibre, roads and facility inventory</td>
+      <td>07</td>
+      <td>complete_with_quality_flags</td>
+      <td>outputs/tables/gis_district_inventory.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Metric clipped geometry; no reliance on geographic SHAPE_Leng or unfilled power-capacity values.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>Historical observed burn-cell coincidence</td>
+      <td>07</td>
+      <td>complete</td>
+      <td>outputs/tables/gis_historical_burn_cell_overlap.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Real MODIS cells; coincidence does not prove damage, outage or a fire cause.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>Vegetation proximity and shared-corridor candidates</td>
+      <td>07</td>
+      <td>complete_with_quality_flags</td>
+      <td>outputs/tables/gis_fuel_proximity_sensitivity.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Buffered WorldCover context, 100/300/500m sensitivity; orchards may be tree cover, no functional cascade model.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>Future exact-line and point ML hazard overlays</td>
+      <td>08</td>
+      <td>exploratory_validation_failed</td>
+      <td>outputs/tables/gis_line_hazard_summary.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>All five ECLIPS hazards, inherited failed ML diagnostic; electric/telecom fragility unavailable.</td>
+    </tr>
+    <tr>
+      <td>GIS extension</td>
+      <td>Native FWI weather exposure and facility samples</td>
+      <td>13</td>
+      <td>complete_exposure_only</td>
+      <td>outputs/tables/response_infrastructure_weather_summary.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Conserved line kilometres, baseline+24 model-future combinations; no loss or service failure probability.</td>
+    </tr>
+    <tr>
+      <td>Local evidence</td>
+      <td>Institutional fire/agricultural/resource evidence</td>
+      <td>00/03</td>
+      <td>complete</td>
+      <td>outputs/tables/source_quality_checks.csv</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Original PDFs and workbook preserved; 2017 old/new plan conflict and forestry/district scope differences retained.</td>
+    </tr>
+    <tr>
+      <td>Local validation</td>
+      <td>Matched-scope annual/event observations</td>
+      <td>03</td>
+      <td>missing_input</td>
+      <td>Not produced; see limitation</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>No verified district-matched series/perimeters supplied. OIM totals and PDF dots are not substituted as independent spatial labels.</td>
+    </tr>
+    <tr>
+      <td>Conditional loss</td>
+      <td>Crop/asset monetary loss and functional outages</td>
+      <td>02/07</td>
+      <td>missing_input</td>
+      <td>Not produced; see limitation</td>
+      <td>Supplied local evidence / Alanya extension</td>
+      <td>Crop-specific spatial exposure, monetary asset values, fragility, connectivity and service populations unavailable; not fabricated.</td>
+    </tr>
+  </tbody>
+</table></div><h2>Institutional evidence issues</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>check</th>
+      <th>state</th>
+      <th>detail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2017 burned area across plans</td>
+      <td>unresolved</td>
+      <td>2020-2024 narrative: 2078.610 ha; 2026-2030 Table 14 sum: 9.451 ha. Do not merge or silently correct.</td>
+    </tr>
+    <tr>
+      <td>2018 records across plans</td>
+      <td>unresolved</td>
+      <td>Old: 15 fires / 10.300 ha; new: 18 fires / 15.912 ha.</td>
+    </tr>
+    <tr>
+      <td>2019 records across plans</td>
+      <td>agree</td>
+      <td>28 fires / 3.570 ha in both plans.</td>
+    </tr>
+    <tr>
+      <td>Forest area unit sum vs printed total</td>
+      <td>rounding_or_source_difference</td>
+      <td>Table 2 rows sum to 108,975 ha; printed total 108,973 ha (2-ha difference).</td>
+    </tr>
+    <tr>
+      <td>Geographic support</td>
+      <td>different_boundaries</td>
+      <td>Forestry area: 177,697 ha; downloaded district boundary: 149,860.5 ha. No district calibration from OIM totals.</td>
+    </tr>
+    <tr>
+      <td>Fuel table 7</td>
+      <td>source_arithmetic_issue</td>
+      <td>Reported total 117,697 ha conflicts with unit/land-use totals and agricultural entries; table is retained in the PDF, not used as a spatial fuel grid.</td>
+    </tr>
+    <tr>
+      <td>Tower visibility table 19</td>
+      <td>scope_unresolved</td>
+      <td>Visible+invisible totals 178,239.97 ha, different from 177,697 ha plan area; do not map coverage without the GIS source.</td>
+    </tr>
+    <tr>
+      <td>No reported climate losses</td>
+      <td>absence_of_record</td>
+      <td>Agriculture notes state no reported or detected climate-related losses. This is not evidence of zero loss or an observed wildfire loss series.</td>
+    </tr>
+    <tr>
+      <td>Institutional map digitisation</td>
+      <td>not_georeferenced</td>
+      <td>Embedded PDF risk/ignition maps have no delivered GIS geometry. No pixel-perfect validation or invented coordinates.</td>
+    </tr>
+  </tbody>
+</table><h2>Reproduce</h2><p>Extract the full archive, update/create the supplied conda environment and run root notebooks00→15. Public input clips are included. Download flags default to false; only the optional authenticated products require personal EWDS/CDS access. Python text files explicitly use UTF-8/UTF-8-sig, including the Windows-Turkish manifest read that previously failed. Modules, source hashes, spatial splits, model metadata, native-source rasters, GeoPackages and CSVs accompany the notebooks. See README_TR.md and docs/FINAL_METHOD_EN.md.</p><ul><li><span title="Referenced upstream notebook; not included in the supplied output archive">00_Local_evidence_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">01_FWI_hazard_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">02_Exposure_and_relative_risk_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">03_Validation_and_report_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">04_ML_inputs_and_historical_fires_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">05_ML_historical_model_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">06_ML_future_susceptibility_and_hazard_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">07_GIS_infrastructure_and_quality_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">08_ML_risk_dimensions_and_roads_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">09_ML_change_and_road_risk_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">10_FWI_response_historical_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">11_FWI_response_surfaces_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">12_FWI_response_CMIP6_projections_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">13_FWI_population_and_infrastructure_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">14_CHELSA_alternative_workflow_Alanya_EN.ipynb (not included in uploaded outputs)</span></li><li><span title="Referenced upstream notebook; not included in the supplied output archive">15_Final_validation_and_report_Alanya_EN.ipynb (not included in uploaded outputs)</span></li></ul><h2>Primary sources and attribution</h2><ul><li><a href="https://handbook.climaax.eu/notebooks/workflows/fire.html">CLIMAAX FIRE Handbook</a> and supplied FIRE-main repository snapshot; Apache-2.0 OR CC-BY-4.0, originals preserved unchanged.</li><li><a href="https://doi.org/10.5281/zenodo.10458186">El Garroussi2024 perturbed historical FWI</a>, CLIMAAX public mirror.</li><li><a href="https://doi.org/10.6084/m9.figshare.19608594.v3">Wang et al.2022 SSP gridded population</a>; native30-arcsec counts.</li><li><a href="https://pangeo-data.github.io/pangeo-cmip6-cloud/">Pangeo CMIP6 public catalog</a>; exact model dataset versions and original metadata retained in data/response/cmip6.</li><li><a href="https://doi.org/10.5281/zenodo.3952159">ECLIPS2.0</a>, CLIMAAX mirror; CHELSA EUR11 source URLs/versions in local manifests.</li><li>NASA MCD64A1.061 (DOI10.5067/MODIS/MCD64A1.061); Copernicus CORINE2000 and GLO-30; JRC/EFFIS vulnerability/indicator mirrors; ESA WorldCover2021v200; geoBoundaries Turkey ADM2/OSM2021. Original citations and licence files retained.</li><li>Supplied institutional files and GIS; their source dates/completeness are not independently verified. Exact inputSHA256 hashes and comparison with all30 files of the uploaded FIRE archive are retained.</li></ul></html>

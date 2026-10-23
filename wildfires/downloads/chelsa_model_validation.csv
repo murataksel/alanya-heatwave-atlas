@@ -1,0 +1,8 @@
+﻿test,fold,positive_cells,background_cells,positive_fraction,roc_auc,average_precision,reason,coverage_fraction
+spatial_block,1,4,1085,0.0036730945821854912,0.72926267281106,0.007592248428627757,,
+spatial_block,2,0,1089,0.0,,,Test subset has only one class; discrimination metric undefined.,
+spatial_block,3,36,1052,0.03308823529411765,0.8704451837769328,0.4641029432714272,,
+spatial_block,4,76,1014,0.06972477064220184,0.9671636561818748,0.6307606633107922,,
+spatial_block,5,2,1086,0.001838235294117647,0.9995395948434622,0.8333333333333333,,
+spatial_pooled_available,0,118,5326,0.021675238795003673,0.9439772589853421,0.4470569553172654,,1.0
+temporal_transfer_2021_2024,0,0,4461,0.0,,,Test subset has only one class; discrimination metric undefined.,

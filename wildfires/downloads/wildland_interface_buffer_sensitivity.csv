@@ -1,0 +1,4 @@
+﻿buffer_m,built_up_within_buffer_of_wildland_ha,cropland_within_buffer_of_wildland_ha,wildland_within_buffer_of_built_up_ha,interpretation,analysis_resolution_m
+100,5085.72,693.56,17110.56,"land-cover proximity screening, not a standard WUI definition or fire-spread distance",20
+300,5175.8,694.4,38125.32,"land-cover proximity screening, not a standard WUI definition or fire-spread distance",20
+500,5176.04,694.4,54073.6,"land-cover proximity screening, not a standard WUI definition or fire-spread distance",20

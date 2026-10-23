@@ -1,0 +1,57 @@
+{
+  "version": "2.0.1",
+  "verified_utc": "2026-10-17T19:13:36.921645+00:00",
+  "reported_notebook": "04_ML_inputs_and_historical_fires_Alanya_EN.ipynb",
+  "unit_tests_passed": 46,
+  "boundary_regression_tests_passed": 12,
+  "rerun_notebooks": [
+    {
+      "notebook": "04_ML_inputs_and_historical_fires_Alanya_EN.ipynb",
+      "code_cells": 8,
+      "errors": 0,
+      "seconds": 12.19,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T19:10:39Z"
+    },
+    {
+      "notebook": "05_ML_historical_model_Alanya_EN.ipynb",
+      "code_cells": 4,
+      "errors": 0,
+      "seconds": 17.7,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T19:12:37Z"
+    },
+    {
+      "notebook": "06_ML_future_susceptibility_and_hazard_Alanya_EN.ipynb",
+      "code_cells": 6,
+      "errors": 0,
+      "seconds": 26.78,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T19:11:23Z"
+    },
+    {
+      "notebook": "15_Final_validation_and_report_Alanya_EN.ipynb",
+      "code_cells": 3,
+      "errors": 0,
+      "seconds": 1.7,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T19:12:56Z"
+    }
+  ],
+  "ml_input_clip_checks": 359,
+  "final_input_sha256_checks": 1409,
+  "spatial_output_invariants": 121,
+  "unchanged_ml_table_and_raster_sha256_checks": 179,
+  "original_source_inputs_unchanged": 1408,
+  "legacy_false_mismatch_reproduced_with_same_reordered_boundary": true,
+  "real_reordered_boundary_native_modis_mask_identical": true,
+  "original_legacy_model_verified_with_reordered_boundary": true,
+  "actual_geometry_change_rejected": true,
+  "changed_hole_with_same_bbox_rejected": true,
+  "numerical_boundary_tolerance_m": 0.001,
+  "limitations": [
+    "Executed under Linux/IPython; Windows itself was not available.",
+    "The scientific validation limits reported for the models remain unchanged."
+  ],
+  "patch_overlay_on_original_archive_smoke_test": "passed: original legacy inputs/model, equivalent reordering, 359 hashes, unchanged native mask"
+}

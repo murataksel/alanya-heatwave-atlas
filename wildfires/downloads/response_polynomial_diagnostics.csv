@@ -1,0 +1,3 @@
+﻿cell,indicator,polynomial_degree,training_rmse,dense_min,dense_max,outside_physical_bounds,default_method,official_polynomial
+district_area_mean,pe_percent,4,0.044422955040745324,10.628062141655096,38.13654302581972,0,bounded bilinear interpolation; no extrapolation,"degree-four fit reproduced for comparison, not used for exposure"
+district_area_mean,fsl_mean_days,4,0.2093377718117079,49.38088623952237,97.71138510979355,0,bounded bilinear interpolation; no extrapolation,"degree-four fit reproduced for comparison, not used for exposure"

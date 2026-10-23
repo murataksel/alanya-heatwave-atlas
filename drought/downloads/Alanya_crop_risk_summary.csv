@@ -1,0 +1,4 @@
+﻿crop,known_allocated_production_t,production_with_valid_hazard_t,production_cell_valid_area_pct,hazard_coverage_of_known_production_pct,price_USD_t,gross_value_known_USD,potential_loss_known_USD,production_weighted_loss_pct,source_grid_assumption,hazard_status,price_reference_year
+Banana,149846.68017891853,135558.3116915378,55.542327148039185,90.46467464589789,1000.0,149846680.17891854,55402176.45113869,40.86962707030908,uniform production within source cell,legacy_screening,undocumented
+Citrus,9637.680613797243,9042.756542495576,82.86144897866862,93.82710327161104,500.0,4818840.306898622,1035168.9419666736,22.894986436978492,uniform production within source cell,legacy_screening,undocumented
+Avocado,40271.8558618881,36302.86461539345,55.92645199244464,90.14450374448532,3500.0,140951495.51660836,34844926.40924852,27.423988066120252,uniform production within source cell,legacy_screening,undocumented

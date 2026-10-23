@@ -1,0 +1,46 @@
+{
+  "model_variant": "nine-predictor sensitivity; SWE excluded after spatial QA",
+  "climate_predictors": [
+    "bio01d",
+    "bio04d",
+    "bio12d",
+    "bio15d",
+    "cdd",
+    "fd",
+    "gdd5",
+    "prsd",
+    "scd"
+  ],
+  "excluded_predictors": [
+    "swe"
+  ],
+  "full_ten_predictor_positive_support": 0,
+  "full_ten_predictor_status": "not fitted: zero positive support because SWE is missing at all observed burned cells",
+  "validation_status": "unvalidated_no_later_positive_labels",
+  "temporal_metrics": {
+    "test": "temporal_transfer_2021_2024",
+    "fold": 0,
+    "positive_cells": 0,
+    "background_cells": 4461,
+    "positive_fraction": 0.0,
+    "roc_auc": null,
+    "average_precision": null,
+    "reason": "Test subset has only one class; discrimination metric undefined."
+  },
+  "training_positive_native_cells": 118,
+  "training_background_native_cells": 5326,
+  "balanced_training_sample": 236,
+  "climate_baseline": "1991-2020",
+  "training_fires": "2001-2020",
+  "test_fires": "2021-2024",
+  "land_cover_year": 2000,
+  "thresholds": [
+    0.03999999910593033,
+    0.12999999523162842
+  ],
+  "model": "100-tree Random Forest, balanced sample; not calibrated annual ignition probability",
+  "future_model": "CSC-REMO2009, RCP45/RCP85; not CMIP6 SSP",
+  "source_grid": "CHELSA approximately 1 km, aligned to native MODIS labels approximately 500 m; no added climate information",
+  "relative_humidity": "Not available; no dimensionally invalid frost-day-derived RH formula used",
+  "source_unit_limits": "Some legacy attributes omit units or retain daily-variable labels after index aggregation (e.g. bio12d/GDD5). Native decoded predictor values are retained, not called annual precipitation totals. See chelsa_climate_input_coverage.csv; physical-unit harmonisation is not independently established."
+}

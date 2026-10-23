@@ -1,0 +1,139 @@
+{
+  "notebooks": [
+    {
+      "notebook": "00_Local_evidence_Alanya_EN.ipynb",
+      "code_cells": 9,
+      "errors": 0,
+      "seconds": 3.16,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:23:06Z"
+    },
+    {
+      "notebook": "01_FWI_hazard_Alanya_EN.ipynb",
+      "code_cells": 7,
+      "errors": 0,
+      "seconds": 0.11,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:23:06Z"
+    },
+    {
+      "notebook": "02_Exposure_and_relative_risk_Alanya_EN.ipynb",
+      "code_cells": 9,
+      "errors": 0,
+      "seconds": 8.72,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:23:15Z"
+    },
+    {
+      "notebook": "03_Validation_and_report_Alanya_EN.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "seconds": 0.26,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:23:16Z"
+    },
+    {
+      "notebook": "04_ML_inputs_and_historical_fires_Alanya_EN.ipynb",
+      "code_cells": 8,
+      "errors": 0,
+      "seconds": 11.54,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:23:27Z"
+    },
+    {
+      "notebook": "05_ML_historical_model_Alanya_EN.ipynb",
+      "code_cells": 4,
+      "errors": 0,
+      "seconds": 16.02,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:23:43Z"
+    },
+    {
+      "notebook": "06_ML_future_susceptibility_and_hazard_Alanya_EN.ipynb",
+      "code_cells": 6,
+      "errors": 0,
+      "seconds": 26.54,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:24:10Z"
+    },
+    {
+      "notebook": "07_GIS_infrastructure_and_quality_Alanya_EN.ipynb",
+      "code_cells": 7,
+      "errors": 0,
+      "seconds": 7.27,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:30:25Z"
+    },
+    {
+      "notebook": "08_ML_risk_dimensions_and_roads_Alanya_EN.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "seconds": 21.86,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:34:12Z"
+    },
+    {
+      "notebook": "09_ML_change_and_road_risk_Alanya_EN.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "seconds": 37.39,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:34:49Z"
+    },
+    {
+      "notebook": "10_FWI_response_historical_Alanya_EN.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "seconds": 4.12,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:34:53Z"
+    },
+    {
+      "notebook": "11_FWI_response_surfaces_Alanya_EN.ipynb",
+      "code_cells": 4,
+      "errors": 0,
+      "seconds": 6.98,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:35:01Z"
+    },
+    {
+      "notebook": "12_FWI_response_CMIP6_projections_Alanya_EN.ipynb",
+      "code_cells": 5,
+      "errors": 0,
+      "seconds": 3.8,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:35:04Z"
+    },
+    {
+      "notebook": "13_FWI_population_and_infrastructure_Alanya_EN.ipynb",
+      "code_cells": 6,
+      "errors": 0,
+      "seconds": 13.61,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:35:18Z"
+    },
+    {
+      "notebook": "14_CHELSA_alternative_workflow_Alanya_EN.ipynb",
+      "code_cells": 4,
+      "errors": 0,
+      "seconds": 39.09,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:46:12Z"
+    },
+    {
+      "notebook": "15_Final_validation_and_report_Alanya_EN.ipynb",
+      "code_cells": 3,
+      "errors": 0,
+      "seconds": 1.37,
+      "execution": "IPython in-process on actual included inputs",
+      "executed_utc": "2026-10-17T18:48:01Z"
+    }
+  ],
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "limitations": [
+    "Execution is IPython in-process, not a network Jupyter kernel.",
+    "Not run on Windows itself; cp1254/UTF-8 regressions test the reported Windows failure.",
+    "Successful execution does not establish source completeness or scientific ML validation."
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "public_inputs": {
+    "state": "complete",
+    "detail": "Public inputs downloaded or retained; see provenance for individual failures.",
+    "updated_utc": "2026-10-17T15:07:14.377855+00:00"
+  },
+  "local_evidence": {
+    "state": "complete",
+    "detail": "140 unit-year fire records, source discrepancies, crop values and selected geolocated resources prepared.",
+    "updated_utc": "2026-10-17T18:57:33.104308+00:00",
+    "fire_records": 140,
+    "mapped_resources": 16,
+    "crop_records": 146
+  },
+  "landcover_exposure": {
+    "state": "complete",
+    "detail": "Land-cover and buffer-sensitivity screening generated. These are approximate class areas, not parcel or building losses.",
+    "updated_utc": "2026-10-17T18:58:25.108932+00:00",
+    "analysis_resolution_m": 20,
+    "valid_fraction": 1.0
+  },
+  "effis_coverage": {
+    "state": "partial",
+    "detail": "Coverage checked by fractional pixel intersections. Missing ecological data are not converted to zero.",
+    "updated_utc": "2026-10-17T18:58:33.235919+00:00"
+  },
+  "historical_hazard": {
+    "state": "missing_input",
+    "detail": "No daily FWI NetCDF files. Run the EWDS download in notebook 01. Institutional evidence and exposure inputs remain usable.",
+    "updated_utc": "2026-10-17T18:57:49.796232+00:00"
+  },
+  "projection_hazard": {
+    "state": "missing_input",
+    "detail": "No seasonal EURO-CORDEX FWI files; download CDS projections in notebook 01.",
+    "updated_utc": "2026-10-17T18:57:49.849315+00:00"
+  },
+  "climate_download": {
+    "state": "not_requested",
+    "detail": "Requests are prepared. Set DOWNLOAD_CLIMATE=True in notebook 01 to retrieve from EWDS/CDS, or copy matching NetCDF files into data/fwi_historical and scenario subfolders.",
+    "updated_utc": "2026-10-17T18:57:49.747967+00:00",
+    "jobs": 48
+  },
+  "relative_risk": {
+    "state": "missing_input",
+    "detail": "Historical FWI cells are required for the baseline relative danger/Pareto screening.",
+    "updated_utc": "2026-10-17T18:58:33.329730+00:00"
+  },
+  "crop_monetary_scenarios": {
+    "state": "missing_input",
+    "detail": "Crop inventory is included, but no crop-specific spatial exposure has been supplied. No wildfire loss is calculated. See data/templates/crop_exposed_area.csv.",
+    "updated_utc": "2026-10-17T18:58:33.394694+00:00"
+  },
+  "independent_annual_validation": {
+    "state": "missing_input",
+    "detail": "No matched-scope verified district fire series and/or FWI series. OIM totals are not substituted for district observations. See data/templates/verified_annual_fires.csv.",
+    "updated_utc": "2026-10-17T19:04:38.555460+00:00"
+  },
+  "event_weather_validation": {
+    "state": "missing_input",
+    "detail": "Event dates with verified coordinates and the daily FWI archive are needed. PDF map dots are not treated as georeferenced events. See data/templates/fire_events.csv.",
+    "updated_utc": "2026-10-17T19:04:38.591946+00:00"
+  },
+  "ml_fire_history": {
+    "state": "complete",
+    "detail": "Rasterized real satellite fire history; QA-supported backgrounds and unknown cells remain distinct. No OIM annual total was converted into a fire footprint.",
+    "updated_utc": "2026-10-17T19:21:35.658177+00:00",
+    "periods": [
+      {
+        "period": "training",
+        "years": "2001-2010",
+        "expected_months": 120,
+        "available_months": 120,
+        "positive_cells": 11,
+        "background_cells": 5587,
+        "unknown_inside_cells": 1384,
+        "background_min_coverage": 0.9
+      },
+      {
+        "period": "temporal_test",
+        "years": "2011-2024",
+        "expected_months": 168,
+        "available_months": 166,
+        "positive_cells": 108,
+        "background_cells": 5671,
+        "unknown_inside_cells": 1203,
+        "background_min_coverage": 0.9
+      },
+      {
+        "period": "all",
+        "years": "2001-2024",
+        "expected_months": 288,
+        "available_months": 286,
+        "positive_cells": 119,
+        "background_cells": 5600,
+        "unknown_inside_cells": 1263,
+        "background_min_coverage": 0.9
+      }
+    ]
+  },
+  "ml_public_inputs": {
+    "state": "complete",
+    "detail": "Real MODIS, CORINE 2000, GLO-30 and ECLIPS clips prepared. Catalogue gaps remain recorded; no synthetic fire history.",
+    "updated_utc": "2026-10-17T17:02:52.432995+00:00",
+    "monthly_files": 286,
+    "missing_months": [
+      "2023-09",
+      "2024-07"
+    ]
+  },
+  "ml_historical_model": {
+    "state": "validation_failed",
+    "detail": "Real-data method-example maps produced. The later-period diagnostic and small sample prevent decision use; a larger matched regional inventory or authoritative local perimeters are needed.",
+    "updated_utc": "2026-10-17T19:22:15.993592+00:00",
+    "quantile_levels": [
+      0.5,
+      0.75
+    ],
+    "fixed_historical_cutpoints": [
+      0.07000000029802322,
+      0.17000000178813934
+    ],
+    "hazard_matrix": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        3,
+        5,
+        6
+      ]
+    ],
+    "native_cell_width_m": 463.3127165279167,
+    "training_fire_years": [
+      2001,
+      2010
+    ],
+    "climate_reference": "1991-2010",
+    "landcover_reference": 2000,
+    "trees": 100,
+    "max_depth": 10,
+    "positive_cells": 11,
+    "background_cells": 5241,
+    "balanced_sample_cells": 22,
+    "training_support": "limited: fewer than 50 native positive cells",
+    "validation_status": "Later-period discrimination failed",
+    "temporal_transfer_auc": 0.1913871837032132,
+    "score_interpretation": "Relative RF score from balanced detected-burn/background samples; not annual or cumulative fire probability.",
+    "validation_interpretation": "Spatial folds and temporal MODIS transfer; no independent OGM perimeter validation.",
+    "training_sample_adaptation": "All available native positive cells rather than 10% used in the larger Catalonia example."
+  },
+  "ml_future_model": {
+    "state": "method_example_validation_failed",
+    "detail": "Conditional method-example maps generated with fixed historical quantiles; later-period model check failed and substantial future climate novelty remains. Not suitable for decision use.",
+    "updated_utc": "2026-10-17T19:25:41.614106+00:00",
+    "scenarios": [
+      {
+        "configuration": "RCP45_CLMcom_CCLM_202140",
+        "scenario": "RCP45",
+        "period": "202140",
+        "climate_model": "CLMcom_CCLM",
+        "mean_relative_score": 0.201858788728714,
+        "mean_score_change": 0.05473105609416962,
+        "cells_outside_training_climate_fraction": 0.6990207868063907,
+        "valid_native_cells": 5821,
+        "interpretation": "One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+      },
+      {
+        "configuration": "RCP45_CLMcom_CCLM_204160",
+        "scenario": "RCP45",
+        "period": "204160",
+        "climate_model": "CLMcom_CCLM",
+        "mean_relative_score": 0.25256484746932983,
+        "mean_score_change": 0.10544423758983612,
+        "cells_outside_training_climate_fraction": 0.8270056691290156,
+        "valid_native_cells": 5821,
+        "interpretation": "One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+      },
+      {
+        "configuration": "RCP85_CLMcom_CCLM_202140",
+        "scenario": "RCP85",
+        "period": "202140",
+        "climate_model": "CLMcom_CCLM",
+        "mean_relative_score": 0.20316268503665924,
+        "mean_score_change": 0.05602508783340454,
+        "cells_outside_training_climate_fraction": 0.6959285346160453,
+        "valid_native_cells": 5821,
+        "interpretation": "One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+      },
+      {
+        "configuration": "RCP85_CLMcom_CCLM_204160",
+        "scenario": "RCP85",
+        "period": "204160",
+        "climate_model": "CLMcom_CCLM",
+        "mean_relative_score": 0.3005050718784332,
+        "mean_score_change": 0.1534043550491333,
+        "cells_outside_training_climate_fraction": 1.0,
+        "valid_native_cells": 5821,
+        "interpretation": "One RCM; fixed CORINE 2000; conditional relative susceptibility, not annual fire probability."
+      }
+    ]
+  },
+  "gis_inventory": {
+    "state": "complete_with_quality_flags",
+    "detail": "All supplied GIS layer types reviewed. Declared ED50/WGS84 layers transformed and clipped; missing/ambiguous CRS and misleading map-sheet layer excluded from quantitative metrics.",
+    "updated_utc": "2026-10-17T19:29:46.354713+00:00",
+    "source_shapefiles": 25,
+    "usable_district_layers": 7
+  },
+  "gis_observed_fire_overlap": {
+    "state": "complete",
+    "detail": "Observed satellite-cell coincidence quantified for line and point assets; no actual damage inferred.",
+    "updated_utc": "2026-10-17T19:29:52.393908+00:00"
+  },
+  "ml_ordinal_risk": {
+    "state": "exploratory_validation_failed",
+    "detail": "Original CLIMAAX 3x6 matrix applied to four real JRC vulnerability products, including combined ecological-economic vulnerability. Source coverage is about 92.6%; unknown areas retained. Risk inherits the failed local ML diagnostic and is a method example, not validated expected damage.",
+    "updated_utc": "2026-10-17T19:32:55.516258+00:00"
+  },
+  "gis_ml_hazard_exposure": {
+    "state": "exploratory_validation_failed",
+    "detail": "Exact line/cell partitions and point samples complete; local ML validation failed, so scenario overlays are method examples. Electric/fibre fragility and asset values are absent; no failure probabilities or monetary losses calculated.",
+    "updated_utc": "2026-10-17T19:33:15.825743+00:00"
+  },
+  "response_historical": {
+    "state": "complete_with_model_assumptions",
+    "detail": "Complete 1981–2010 daily FWI, six native weather cells. Annual maxima Gumbel, threshold-day seasonality, Q–Q and bootstrap diagnostics calculated. Meteorological danger only.",
+    "updated_utc": "2026-10-17T19:38:36.654976+00:00",
+    "native_cells": 6,
+    "years": 30
+  },
+  "response_surfaces": {
+    "state": "complete",
+    "detail": "PE and season length evaluated for all 36 actual simulations in each of six cells and district mean; degree-four polynomial diagnosed, bounded bilinear interpolation selected. No extrapolation beyond -40..60% precipitation, 0..5°C warming.",
+    "updated_utc": "2026-10-17T18:35:00.974262+00:00"
+  },
+  "response_projections": {
+    "state": "complete_with_out_of_domain",
+    "detail": "Three selected CMIP6 models and two SSP pathways, four future periods. Same reference period, bounded interpolation, native weather support and model spread retained.",
+    "updated_utc": "2026-10-17T19:39:49.904666+00:00",
+    "district_model_period_cases": 24,
+    "out_of_domain_cases": 2
+  },
+  "response_population": {
+    "state": "complete_with_scenario_assumptions",
+    "detail": "Twelve SSP2/SSP5 native count rasters integrated with exact population-cell fractions. 2020 and future population separated; all source coverage >=99%. Annual weather exceedance exposure is not casualties or fire footprint.",
+    "updated_utc": "2026-10-17T18:35:13.233154+00:00",
+    "population_rasters": 12
+  },
+  "response_infrastructure": {
+    "state": "complete_exposure_only",
+    "detail": "Line kilometres and facility samples assigned to native FWI cells with length conservation, for baseline and all model futures. No fragility, monetary value, current operating status, connectivity or outage model supplied.",
+    "updated_utc": "2026-10-17T18:35:14.156610+00:00"
+  },
+  "response_fwi_pareto": {
+    "state": "partial_selected_indicators",
+    "detail": "FWI/fuel danger plus three-variable Pareto calculated using >=90% indicator coverage. Full five-variable ecological screening remains unavailable because raw PAF/irreplaceability clips have no valid district data.",
+    "updated_utc": "2026-10-17T18:35:18.137147+00:00",
+    "complete_cells": 4,
+    "native_cells": 6,
+    "selected_variables": [
+      "danger_index",
+      "wui",
+      "restoration_cost"
+    ]
+  },
+  "ml_change_assessment": {
+    "state": "exploratory_validation_failed",
+    "detail": "Fourteen predictor delta panels and rasters for every future, susceptibility differences, hazard transition matrices, four-dimensional risk changes, and road risk intervals complete. Inherit failed ML temporal discrimination.",
+    "updated_utc": "2026-10-17T19:36:55.073794+00:00"
+  },
+  "chelsa_inputs": {
+    "state": "complete",
+    "detail": "Ten alternative climate predictors: historical annual 1991–2020 means require >=90% source years, and six CSC-REMO2009 future climatologies. No frost-day-derived relative humidity is invented.",
+    "updated_utc": "2026-10-17T18:45:37.932772+00:00",
+    "ready_predictors": 70,
+    "required_predictors": 70
+  },
+  "chelsa_full_predictors": {
+    "state": "insufficient_positive_support",
+    "detail": "Full ten-predictor intersection checked without imputing SWE nodata as zero.",
+    "updated_utc": "2026-10-17T18:45:42.653018+00:00",
+    "positive_training_cells": 0
+  },
+  "chelsa_model": {
+    "state": "unvalidated_no_later_positive_labels",
+    "detail": "9 predictors; SWE excluded. No detected positive test labels in 2021–2024: temporal ROC AUC is undefined. Explicit nine-predictor sensitivity; SWE excluded after spatial QA. Full ten-variable case remains blocked; no SWE zero imputation, synthetic fire labels or humidity.",
+    "updated_utc": "2026-10-17T18:46:12.757746+00:00",
+    "training_positive_native_cells": 118,
+    "future_configurations": 6
+  }
+}

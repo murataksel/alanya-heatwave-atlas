@@ -1,0 +1,17 @@
+﻿check,status,finding
+boundary,PASS,Alanya supplied district polygon: 1577.46 km²
+spatial_grid,PASS,Native CF grid; 23 cells intersect the district; no smoothing
+hazard_origin,REVIEW,legacy_screening
+daily_climate,MISSING,Original upload contains no raw daily tasmax/tasmin/pr/hurs/sfcWind/rsds
+legacy_soil_units,FIX_REQUIRED,AWC raster is mm/m; legacy depletion uses an additional factor 1000
+legacy_rainfed_state,FIX_REQUIRED,Legacy state update adds irrigation to the rainfed branch
+legacy_ET_aggregation,FIX_REQUIRED,Zero ET days removed before mean; use matching-season sums
+legacy_ET0_solar_distance,FIX_REQUIRED,Inherited ET0 uses 0.0033; FAO inverse-distance coefficient is 0.033
+legacy_day_index,FIX_REQUIRED,Crop calendar 1..365 is compared with loop 0..364
+AWC_unit,PASS,Display as mm/m; rooting-zone TAW = AWC × root depth (m)
+production,REVIEW,"User-supplied, locally modified MapSPAM rasters (TURKSTAT update indicated by archive folder name; source year and calibration not independently documented)"
+production_zero_nodata,REVIEW,Policy: unknown; unknown pixels are never silently made zero
+prices,REVIEW,User values in USD/t; source year undocumented; no automatic EUR conversion
+vulnerability,MISSING,"Irrigation presence, supply reliability and planted area layers are not supplied"
+scenario_comparison,NOT_COMPARABLE,TRC12 2021–2025 rcp26 is not Alanya baseline for TR611 2046–2050 rcp85
+legacy_crop_order,CONFIRMED_ERROR,BANA matches Citrus hazard; CITR matches Banana hazard; new risk joins by crop name

@@ -1,0 +1,16 @@
+﻿layer,scope,source_features_intersecting,clipped_length_km,point_count,scope_area_km2,meaning
+elektrik,working_district,5,104.29080808859693,,1498.6053742067772,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+elektrik,supplied_legacy_district,5,106.73844358906199,,1470.3441790144009,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+elektrik,common_intersection,5,101.39783927365892,,1301.4381977750465,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+fiberhat,working_district,9,69.08477783827793,,1498.6053742067772,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+fiberhat,supplied_legacy_district,9,72.15686227866868,,1470.3441790144009,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+fiberhat,common_intersection,9,64.91568308625058,,1301.4381977750465,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+TR_MJ_road_WGS84,working_district,7,154.6190644595209,,1498.6053742067772,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+TR_MJ_road_WGS84,supplied_legacy_district,9,146.52958048448463,,1470.3441790144009,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+TR_MJ_road_WGS84,common_intersection,7,141.1296588466868,,1301.4381977750465,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+santraller,working_district,4,,4.0,1498.6053742067772,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+santraller,supplied_legacy_district,3,,3.0,1470.3441790144009,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+santraller,common_intersection,3,,3.0,1301.4381977750465,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+TR_rivers,working_district,9,125.87666482123113,,1498.6053742067772,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+TR_rivers,supplied_legacy_district,10,125.97449911647257,,1470.3441790144009,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.
+TR_rivers,common_intersection,8,108.58396115542203,,1301.4381977750465,Geometric sensitivity to unresolved district boundaries; neither source boundary is asserted to be authoritative.

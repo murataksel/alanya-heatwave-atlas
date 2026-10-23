@@ -1,0 +1,9 @@
+﻿scenario,period,population_assumption,annual_pe_threshold_percent,people_model_median
+ssp245,2041-2060,fixed_2020_population,20,153834.12830864257
+ssp245,2041-2060,fixed_2020_population,50,48675.55669044772
+ssp245,2041-2060,changing_SSP_population,20,203826.7524741401
+ssp245,2041-2060,changing_SSP_population,50,56460.71228904079
+ssp585,2041-2060,fixed_2020_population,20,151496.29697653567
+ssp585,2041-2060,fixed_2020_population,50,151496.29697653567
+ssp585,2041-2060,changing_SSP_population,20,183231.6148966909
+ssp585,2041-2060,changing_SSP_population,50,183231.6148966909

@@ -1,0 +1,51 @@
+{
+  "study_name": "Alanya",
+  "map_crs": "EPSG:32636",
+  "dpi": 300,
+  "transparent_png": true,
+  "boundary": "inputs/boundaries/alanya.geojson",
+  "context_boundary": "inputs/boundaries/antalya_districts.geojson",
+  "hazard_file": "inputs/legacy/agridrought_hazard_TR611_mpi_m_mpi_esm_lr-smhi_rca4_rcp85_2046-2050.nc",
+  "hazard_origin": "legacy_screening",
+  "crops": [
+    "Banana",
+    "Citrus",
+    "Avocado"
+  ],
+  "crop_codes": {
+    "Banana": "BANA",
+    "Citrus": "CITR",
+    "Avocado": "AVOC"
+  },
+  "production_files": {
+    "Banana": "inputs/production/spam2020_V2r0_global_P_BANA_A.tif",
+    "Citrus": "inputs/production/spam2020_V2r0_global_P_CITR_A.tif",
+    "Avocado": "inputs/production/spam2020_V2r0_global_P_AVOC_A.tif"
+  },
+  "production_unit": "tonne/source_cell",
+  "production_source": "User-supplied, locally modified MapSPAM rasters (TURKSTAT update indicated by archive folder name; source year and calibration not independently documented)",
+  "zero_nodata_policy": "unknown",
+  "price_file": "inputs/parameters/Crop_UnitPrices.csv",
+  "price_currency": "USD",
+  "price_reference_year": null,
+  "output_dir": "outputs",
+  "recompute": {
+    "run": false,
+    "download": false,
+    "scenario": "rcp85",
+    "start_year": 2046,
+    "end_year": 2050,
+    "gcm": "mpi_m_mpi_esm_lr",
+    "rcm": "smhi_rca4",
+    "gcm_file": "MPI-M-MPI-ESM-LR",
+    "rcm_file": "SMHI-RCA4",
+    "ensemble_member": "r1i1p1",
+    "raw_dir": "inputs/raw_climate",
+    "static_file": "inputs/static/static_alanya.nc",
+    "spinup_cycles": 10,
+    "spinup_tolerance_mm": 0.1,
+    "initial_depletion_fraction": 0.5,
+    "runoff_fraction": 0.0,
+    "irrigation_efficiency": 0.85
+  }
+}

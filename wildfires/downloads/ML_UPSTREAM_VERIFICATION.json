@@ -1,0 +1,55 @@
+{
+  "commit": "e5eda4d9bf24db7ec89778b94c2b146af8889f14",
+  "files": [
+    {
+      "path": "01_wildfire_ML/CORINE_to_FuelType.xlsx",
+      "git_blob_match": true,
+      "sha256": "a4a01f69d2942b0e9dae0f70273d62bf2858cf933d1f7f97a8ec5c423900dea0"
+    },
+    {
+      "path": "01_wildfire_ML/files_registry_cat.txt",
+      "git_blob_match": true,
+      "sha256": "da57be539a2c4e04c90e08668ac8a226e5d69f1c64f39744b48c9114026e2675"
+    },
+    {
+      "path": "01_wildfire_ML/Change_assessment_FIRE_ML.ipynb",
+      "git_blob_match": true,
+      "sha256": "01804bbd18715bff3c4b982fa810656f41e03bddc6fa4e95a00c4626663c9156"
+    },
+    {
+      "path": "01_wildfire_ML/clc2000legend.xls",
+      "git_blob_match": true,
+      "sha256": "bd19b9ee0b36ad81d6992a876b8ed6bd3da10fc0782fd2c67b1bee6da18634a7"
+    },
+    {
+      "path": "01_wildfire_ML/shared_funcs.py",
+      "git_blob_match": true,
+      "sha256": "a90c7dab2a84fc99573e4e86dab8ebafd9d300c0452716eca592a32a6882ce17"
+    },
+    {
+      "path": "01_wildfire_ML/Hazard_assessment_FIRE_ML.ipynb",
+      "git_blob_match": true,
+      "sha256": "616becb497d99849b5c7b3e07c007caa6165b51705596853fcb626b7664699cb"
+    },
+    {
+      "path": "01_wildfire_ML/Risk_assessment_FIRE_ML.ipynb",
+      "git_blob_match": true,
+      "sha256": "c9abefe9d794e48e694248721ea64b362b4ea5dd3933ac9a2100dce7dab476f2"
+    },
+    {
+      "path": "01_wildfire_ML/Hazard_assessment_FIRE_ML_CHELSA.ipynb",
+      "git_blob_match": true,
+      "sha256": "700ee6f9450b9ddc5312f9f6bcbfb114c6e88d8ac0416eafeb3e77e95ea8c6a1"
+    },
+    {
+      "path": "01_wildfire_ML/Risk_workflow_description_FIRE_ML.md",
+      "git_blob_match": true,
+      "sha256": "0fe7235e7b3956da91f736674de9f0d3020a0c9781538bc186152f17198ec8db"
+    },
+    {
+      "path": "01_wildfire_ML/files_registry_eclips.txt",
+      "git_blob_match": true,
+      "sha256": "e2e3ca84dc91882b606a8b25ce23a364a5daf655ee13b799ac275fb49d2b0e4d"
+    }
+  ]
+}

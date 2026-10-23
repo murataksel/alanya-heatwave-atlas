@@ -1,0 +1,33 @@
+{
+  "notebooks": [
+    {
+      "notebook": "04_ML_inputs_and_historical_fires_Alanya_EN.ipynb",
+      "code_cells": 8,
+      "errors": 0,
+      "seconds": 12.17,
+      "execution": "IPython in-process, actual local inputs; no Jupyter transport"
+    },
+    {
+      "notebook": "05_ML_historical_model_Alanya_EN.ipynb",
+      "code_cells": 4,
+      "errors": 0,
+      "seconds": 16.31,
+      "execution": "IPython in-process, actual local inputs; no Jupyter transport"
+    },
+    {
+      "notebook": "06_ML_future_susceptibility_and_hazard_Alanya_EN.ipynb",
+      "code_cells": 6,
+      "errors": 0,
+      "seconds": 24.83,
+      "execution": "IPython in-process, actual local inputs; no Jupyter transport"
+    }
+  ],
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "limitations": [
+    "Not executed on Windows itself. Explicit UTF-8/cp1254 regressions test the former Windows failure.",
+    "Notebook cells executed in-process with IPython. This environment cannot launch a Jupyter network kernel.",
+    "Maps are exploratory: only 11 native positive training cells, one RCM, static CORINE 2000, and no independent authoritative perimeter validation.",
+    "Later-period MODIS transfer fails: ROC AUC 0.191; current susceptibility/hazard maps are method examples and unsuitable for decision use."
+  ]
+}

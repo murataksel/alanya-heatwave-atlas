@@ -1,0 +1,37 @@
+﻿asset_id,layer,label,source_length_km,burn_cell_overlap_km,burn_cell_overlap_fraction,interpretation,intersects_burned_cell
+elektrik:2784,elektrik,Electricity lines,33.05656066914257,0.8812019510834895,0.026657399718721143,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+elektrik:2967,elektrik,Electricity lines,19.820348936386033,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+elektrik:2968,elektrik,Electricity lines,12.765624359768628,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+elektrik:2969,elektrik,Electricity lines,7.095791253106092,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+elektrik:4067,elektrik,Electricity lines,31.55248287019363,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1713,fiberhat,Fibre routes,3.1377293962599224,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1714,fiberhat,Fibre routes,5.48819684233329,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1715,fiberhat,Fibre routes,9.704827821969008,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1716,fiberhat,Fibre routes,4.621864004394862,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1717,fiberhat,Fibre routes,8.46833541147742,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1719,fiberhat,Fibre routes,4.884487083188066,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1727,fiberhat,Fibre routes,19.98416455424181,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1728,fiberhat,Fibre routes,4.264403987988875,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+fiberhat:1729,fiberhat,Fibre routes,8.530768736424676,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+santraller:1163,santraller,Energy facilities,,,,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,False
+santraller:2220,santraller,Energy facilities,,,,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,False
+santraller:2221,santraller,Energy facilities,,,,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,False
+santraller:2752,santraller,Energy facilities,,,,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,False
+TR_MJ_road_WGS84:3600,TR_MJ_road_WGS84,Supplied major roads,7.619405344335451,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_MJ_road_WGS84:3601,TR_MJ_road_WGS84,Supplied major roads,10.571591741903218,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_MJ_road_WGS84:3620,TR_MJ_road_WGS84,Supplied major roads,26.331330455369102,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_MJ_road_WGS84:3621,TR_MJ_road_WGS84,Supplied major roads,24.335675258094906,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_MJ_road_WGS84:3623,TR_MJ_road_WGS84,Supplied major roads,51.524206347404984,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_MJ_road_WGS84:3624,TR_MJ_road_WGS84,Supplied major roads,4.591421334596626,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_MJ_road_WGS84:3655,TR_MJ_road_WGS84,Supplied major roads,29.645433977816577,0.969597365414913,0.03270646556027665,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:3985,TR_rivers,Rivers,2.592396062162837,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:3995,TR_rivers,Rivers,25.123290889348613,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:3998,TR_rivers,Rivers,16.335502832050434,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:3999,TR_rivers,Rivers,18.13397972193825,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:4001,TR_rivers,Rivers,13.081295877495826,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:4007,TR_rivers,Rivers,5.1716476933650775,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:4026,TR_rivers,Rivers,10.323842299732465,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:4038,TR_rivers,Rivers,27.008489411223,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_rivers:4079,TR_rivers,Rivers,8.106220033914639,0.0,0.0,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,
+TR_PS_Places_GCS:1005,TR_PS_Places_GCS,Settlements,,,,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,False
+TR_PS_District_Center_GCS:894,TR_PS_District_Center_GCS,District centres,,,,Historical satellite burned-cell coincidence; not evidence of actual infrastructure damage.,False

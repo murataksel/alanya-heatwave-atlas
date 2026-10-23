@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "rasterio": "1.5.2",
+    "pyproj": "3.8.0",
+    "xarray": "2026.9.0",
+    "netCDF4": "1.7.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "h5netcdf": "1.8.1",
+    "h5py": "3.16.0",
+    "numcodecs": "0.17.0",
+    "folium": "0.20.0",
+    "nbformat": "5.11.1",
+    "ipython": "9.17.1"
+  },
+  "execution_note": "Actual runtime versions; conda environment targets Python3.11. This verification runtime is Python3.12.14"
+}

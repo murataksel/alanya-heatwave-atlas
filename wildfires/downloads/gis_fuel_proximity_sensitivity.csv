@@ -1,0 +1,13 @@
+﻿layer,label,buffer_m,total_length_km,within_buffer_km,fraction,valid_landcover_length_fraction,unknown_landcover_length_km,facility_count,within_buffer_count,interpretation
+elektrik,Electricity lines,100,104.29080808859693,103.94210667041023,0.9966564510854065,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+fiberhat,Fibre routes,100,69.08477783827793,68.41031381548038,0.9902371543500303,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+TR_MJ_road_WGS84,Supplied major roads,100,154.6190644595209,154.33133037575158,0.9981390775789835,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+santraller,Energy facilities,100,,,,,,4.0,4.0,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+elektrik,Electricity lines,300,104.29080808859693,104.29080808859688,0.9999999999999994,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+fiberhat,Fibre routes,300,69.08477783827793,69.08477783827723,0.9999999999999899,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+TR_MJ_road_WGS84,Supplied major roads,300,154.6190644595209,154.6190644595193,0.9999999999999897,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+santraller,Energy facilities,300,,,,,,4.0,4.0,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+elektrik,Electricity lines,500,104.29080808859693,104.29080808859688,0.9999999999999994,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+fiberhat,Fibre routes,500,69.08477783827793,69.08477783827723,0.9999999999999899,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+TR_MJ_road_WGS84,Supplied major roads,500,154.6190644595209,154.6190644595193,0.9999999999999897,1.0,0.0,,,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."
+santraller,Energy facilities,500,,,,,,4.0,4.0,"Analyst-selected vegetation proximity, not a fire spread distance, standard WUI, or fragility function."

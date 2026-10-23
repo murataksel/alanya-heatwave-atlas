@@ -1,0 +1,10 @@
+﻿check,state,detail
+2017 burned area across plans,unresolved,2020-2024 narrative: 2078.610 ha; 2026-2030 Table 14 sum: 9.451 ha. Do not merge or silently correct.
+2018 records across plans,unresolved,Old: 15 fires / 10.300 ha; new: 18 fires / 15.912 ha.
+2019 records across plans,agree,28 fires / 3.570 ha in both plans.
+Forest area unit sum vs printed total,rounding_or_source_difference,"Table 2 rows sum to 108,975 ha; printed total 108,973 ha (2-ha difference)."
+Geographic support,different_boundaries,"Forestry area: 177,697 ha; downloaded district boundary: 149,860.5 ha. No district calibration from OIM totals."
+Fuel table 7,source_arithmetic_issue,"Reported total 117,697 ha conflicts with unit/land-use totals and agricultural entries; table is retained in the PDF, not used as a spatial fuel grid."
+Tower visibility table 19,scope_unresolved,"Visible+invisible totals 178,239.97 ha, different from 177,697 ha plan area; do not map coverage without the GIS source."
+No reported climate losses,absence_of_record,Agriculture notes state no reported or detected climate-related losses. This is not evidence of zero loss or an observed wildfire loss series.
+Institutional map digitisation,not_georeferenced,Embedded PDF risk/ignition maps have no delivered GIS geometry. No pixel-perfect validation or invented coordinates.

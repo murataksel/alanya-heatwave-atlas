@@ -1,0 +1,12 @@
+﻿class_code,class_name,area_ha_approx,analysis_resolution_m,method,source
+10,Tree cover,97388.36,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+20,Shrubland,8683.28,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+30,Grassland,28229.88,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+40,Cropland,694.4,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+50,Built-up,5176.04,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+60,Bare / sparse vegetation,9088.68,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+70,Snow and ice,0.0,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+80,Permanent water,597.8,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+90,Herbaceous wetland,1.56,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+95,Mangroves,0.0,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200
+100,Moss and lichen,0.0,20,nearest-neighbour class reprojection; district pixel-centre mask,ESA WorldCover 2021 v200

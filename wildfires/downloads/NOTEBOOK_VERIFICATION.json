@@ -1,0 +1,26 @@
+[
+  {
+    "notebook": "00_Local_evidence_Alanya_EN.ipynb",
+    "executed_code_cells": 9,
+    "errors": 0,
+    "engine": "IPython in-process"
+  },
+  {
+    "notebook": "01_FWI_hazard_Alanya_EN.ipynb",
+    "executed_code_cells": 7,
+    "errors": 0,
+    "engine": "IPython in-process"
+  },
+  {
+    "notebook": "02_Exposure_and_relative_risk_Alanya_EN.ipynb",
+    "executed_code_cells": 9,
+    "errors": 0,
+    "engine": "IPython in-process"
+  },
+  {
+    "notebook": "03_Validation_and_report_Alanya_EN.ipynb",
+    "executed_code_cells": 5,
+    "errors": 0,
+    "engine": "IPython in-process"
+  }
+]

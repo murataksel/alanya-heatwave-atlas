@@ -1,0 +1,717 @@
+﻿configuration,layer,label,asset_id,hazard_class,length_km,model_status,interpretation,road_risk_lower,road_risk_upper
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,-1,2.336682261769103,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,0,30.524339666841623,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,255,0.19553874053195716,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,0,15.438765981637568,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,1,4.166524144599617,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,255,0.21505881014889458,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,-1,0.4454928377341737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,0,9.447265670840459,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,1,2.8728658511939513,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,255,1.1641532182693482e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,-1,0.5126070479438044,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,0,4.38118366680293,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,1,2.2020005383592545,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,255,2.3283064365386963e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,-1,1.9326020721125639,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,0,27.549461093246272,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,1,2.070419704834666,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,255,1.7462298274040223e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,0,2.9262026358714843,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,255,0.21152676038843804,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,0,4.193869804402662,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,255,1.2943270379306266,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,0,7.1407967569969415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,1,0.6860602513872812,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,255,1.877970813584787,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,0,1.2236384131837257,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,1,2.8138855853502753,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,255,0.5843400058608691,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,0,6.093511478332506,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,1,1.3750816735295155,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,255,0.9997422596153961,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,0,4.220054381786019,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,255,0.664432701402048,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,0,17.781907098310278,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,255,2.2022574559315338,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,0,4.136503388925933,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,255,0.12790059906294235,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,0,7.922634165239801,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,255,0.608134571184872,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,-1,1.5794789296436234,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,0,6.039926414691608,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,2.9103830456733704e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,9.777737704267912,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,1,0.6386564053560831,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15519763227923938,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,-1,0.8677829660992731,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,8.738912045829121,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,16.72463544343853,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,2.417137685026998e-12,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,18.771378204584252,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,1,5.564297053510571,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,1.1641532182693482e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,-1,1.989503717999659,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,29.4941719056528,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,20.04053072375148,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,1.2223608791828156e-12,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,0,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,-1,0.1797295724452404,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,29.465704405371294,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,255,5.820766091346741e-14,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,0,31.07262305640381,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,1,1.7883988722069595,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,255,0.19553874053184075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,0,14.99312413636265,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,1,4.612165989874626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,255,0.21505881014883638,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,0,4.467092487462158,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,1,8.29853187230647,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,0,3.3559138680767364,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,1,3.739877385029304,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,255,1.1641532182693482e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,0,16.23186427628202,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,1,15.320618593911346,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,255,3.4924596548080445e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,0,2.9262026358714843,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,255,0.21152676038843804,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,0,4.193869804402662,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,255,1.2943270379306266,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,0,7.1407967569969415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,1,0.6860602513872812,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,255,1.877970813584787,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,1,3.025959551991342,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,255,0.5843400058608691,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,1,1.524972672017206,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,255,1.0000317866321426,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,0,4.220054381786019,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,255,0.664432701402048,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,0,17.781907098310278,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,255,2.2022574559315338,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,0,4.136503388925933,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,255,0.12790059906294235,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,0,7.922634165239801,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,255,0.608134571184872,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,0,5.056615918622705,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,1,2.5627894257125647,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,2.9103830456733704e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,9.777737704267912,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,1,0.6386564053560831,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15519763227923938,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,4.659276867062657,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,21.672053588302706,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,3.8895386200986665e-12,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,14.535548803579772,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,1,9.80005411763329,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,7.233688184502199e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,13.31260996345513,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,38.211596383949185,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,8.149072527885437e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,0,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,29.645433977816577,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,-1,1.3399365384331374,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,0,31.521085390177593,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,255,0.19553874053195716,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,0,14.99312413636265,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,1,4.612165989874626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,255,0.21505881014883638,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,0,7.603966095731608,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,1,5.161658264037028,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,255,5.820766091346741e-14,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,-1,0.5126070479438044,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,0,3.8685583157385484,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,1,2.7146258894236617,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,255,1.7462298274040223e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,-1,1.0193780607289618,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,0,24.32863610594321,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,1,6.204468703521292,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,255,2.9103830456733704e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,0,2.9262026358714843,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,255,0.21152676038843804,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,0,4.193869804402662,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,255,1.2943270379306266,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,0,7.1407967569969415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,1,0.6860602513872812,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,255,1.877970813584787,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,1,3.025959551991342,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,255,0.5843400058608691,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,1,1.524972672017206,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,255,1.0000317866321426,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,0,4.220054381786019,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,255,0.664432701402048,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,0,17.781907098310278,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,255,2.2022574559315338,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,0,4.136503388925933,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,255,0.12790059906294235,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,0,7.922634165239801,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,255,0.608134571184872,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,-1,0.42124035343265326,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,0,5.583802528285184,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,1,1.6143624626174606,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,2.3283064365386963e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,9.777737704267912,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,1,0.6386564053560831,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15519763227923938,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,-1,0.8677829660992731,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,9.25787496449683,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,16.2056725247709,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,2.242514702286596e-12,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,17.48002872890419,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,1,6.855574192308814,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,7.233688190322965e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,-1,0.4099038927185976,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,28.752045396740964,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,22.362257057944653,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,9.313225746154785e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,0,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,29.645433977816577,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,0,30.548891161598736,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,1,2.3121307670120874,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,255,0.19553874053178252,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,0,14.99312413636265,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,1,4.612165989874626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,255,0.21505881014883638,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,0,3.798243604550706,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,1,8.967380755217922,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,0,1.537410897503048,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,1,5.558380355602993,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,255,1.1641532182693482e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,0,14.516257589541746,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,1,17.036225280651728,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,255,1.7462298274040223e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,0,2.9262026358714843,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,255,0.21152676038843804,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,0,4.193869804402662,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,255,1.2943270379306266,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,0,7.1407967569969415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,1,0.6860602513872812,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,255,1.877970813584787,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,1,3.025959551991342,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,255,0.5843400058608691,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,1,1.524972672017206,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,255,1.0000317866321426,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,0,4.220054381786019,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,255,0.664432701402048,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,0,17.781907098310278,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,255,2.2022574559315338,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,0,4.136503388925933,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,255,0.12790059906294235,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,0,7.922634165239801,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,255,0.608134571184872,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,0,5.056615918622705,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,1,2.5627894257125647,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,2.9103830456733704e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,9.777737704267912,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,1,0.6386564053560831,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15519763227923938,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,2.122499244599085,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,24.208831210769986,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,5.820766091346741e-14,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,14.535548803579772,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,1,9.80005411763329,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,7.233688184502199e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,12.713134178854881,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,38.81107216854938,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,8.731149137020111e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,0,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+change_direction_RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,29.645433977816577,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,0,0.7625441812236103,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,2,2.2277539670060245,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,3,19.512340076507357,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,4,0.0843768000061455,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,5,8.685885181030276,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,6,1.5880535164783447,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2784,255,0.1956069468910902,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2967,2,2.8742699281159334,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2967,3,9.3594253902373,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2967,5,2.5151701083117337,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2967,6,4.856352684617765,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2967,255,0.21513082510343934,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2968,0,1.514514071182359,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2968,1,2.236293290723532,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2968,2,3.035297328122278,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2968,3,3.114720847307497,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2968,4,2.8647666766757784,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2968,255,3.214575722395665e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2969,2,5.045755368893118,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2969,3,1.5374486024964162,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2969,4,0.5125872817165068,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:2969,255,1.1641532182693482e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,1,2.030814588010179,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,2,5.621056830279097,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,3,9.267726161894073,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,4,4.8981422543508195,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,5,5.563886329821051,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,6,4.170845410249017,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,elektrik,Electricity lines,elektrik:4067,255,1.1295589496615997e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1713,0,0.4499162767961866,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1713,3,2.4762521807050737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1713,255,0.2115609387586618,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1714,0,1.7892382141226153,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1714,3,1.260710637295248,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1714,5,1.0021469430756509,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1714,6,0.14184541108460624,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1714,255,1.294255636755274,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1715,0,3.520878316963671,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1715,2,0.686057969992604,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1715,3,3.6188088955936206,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1715,255,1.8790826394191136,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1716,1,0.40798060505634964,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1716,2,2.0599668639879534,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1716,4,0.5580726400331786,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1716,255,0.584279448774775,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1717,2,1.0353509343976355,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1717,4,0.4897887734855032,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1717,255,0.9998647507662104,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1719,0,3.216412607308356,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1719,3,1.0036382095816512,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1719,255,0.6644362662980594,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1727,0,8.326992083390131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1727,3,8.550723959193748,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1727,5,0.9040883454449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1727,255,2.2023601662130052,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1728,0,2.0105644473561455,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1728,3,1.5998716616408475,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1728,6,0.526022767036736,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1728,255,0.12794511195534083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1729,3,5.222231733449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1729,5,2.4805374698896756,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1729,6,0.21985784094369984,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,fiberhat,Fibre routes,fiberhat:1729,255,0.6081416921417075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,3,1.967167713130757,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,4,1.4755714113846876,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,5,2.717135476835368,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,6,1.4595307429845443,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,1.1641532182693482e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,0.10378640233808083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,2,0.6386564053560676,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,3,5.829782644258579,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,6,3.8441365884943117,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.1552297014562031,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,0.8896621842402148,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,1.4304689379453723,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,2,2.1746265125720576,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,3,2.9044043673379782,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,4,18.36279921017581,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,5,0.5691231592532293,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,0.00024608384456092263,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,3.420403812884467,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,2,5.383134914376568,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,3,10.165910241285824,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,4,2.600114800115662,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,5,2.038849988881318,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,6,0.7271625028364775,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,9.899771470463343e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,8.828074245770452,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,6.935941858273911,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,2,3.746280357946324,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,3,8.971296270605565,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,4,19.752637831173715,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,5,3.1081056163729595,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,6,0.18154226423569395,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,0.0003279030265912977,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,3,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,0.07799683705681479,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,3,18.512002379756566,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,5,4.887067935384548,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,6,6.1682835885626845,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+HIST_199110,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,255,8.323705624824375e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,0,0.7625441812236103,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,1,0.5237668581923248,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,2,2.9886543427244563,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,3,18.312039150389516,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,4,0.4438619603913154,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,5,8.24203240121575,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,6,1.588053516478399,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,255,0.19560825852758731,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,2,0.44567519520515003,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,3,11.7877902560551,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,5,0.777265980117529,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,6,6.594436475323502,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,255,0.21518102968476363,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,0,1.514514071182359,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,1,0.8207172384241369,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,2,3.591247343594752,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,3,3.974321813358883,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,4,2.712603400690486,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,5,0.152189161263161,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,255,3.133125491085801e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,1,0.5126292495944861,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,2,2.3310125141380773,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,3,3.7395652445350698,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,4,0.5125842448384329,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,255,5.820766091346741e-14,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,1,1.6690424277026579,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,2,5.590636848659184,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,3,10.105113914171614,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,4,4.4529505162998175,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,5,5.735074833922902,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,6,3.9996195919843767,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,255,4.473745315567826e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,0,0.4499162767961866,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,3,2.4762521807050737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,255,0.2115609387586618,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,0,1.7892382141226153,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,3,1.2606932754937392,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,5,1.0021469430756509,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,6,0.14184541108460624,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,255,1.2942729985567822,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,0,3.520878316963671,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,3,4.304866121070697,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,255,1.879083383934641,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,2,0.21207396664106637,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,3,2.2558951812617996,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,5,0.5580726400332274,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,255,0.5842577699161625,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,2,0.15016652899690228,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,3,0.8852965083946353,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,5,0.4897923821205269,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,255,0.9997490391372846,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,0,3.216412607308356,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,3,1.0036382095816512,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,255,0.6644362662980594,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,0,8.326992083390131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,3,8.550723959193748,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,5,0.9040883454449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,255,2.2023601662130052,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,0,2.0105644473561455,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,3,1.5998716616408475,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,6,0.526022767036736,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,255,0.12794511195534083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,3,5.222231733449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,5,2.4805374698896756,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,6,0.21985784094369984,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,255,0.6081416921417075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,3,2.915611490975221,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,4,0.775091110063183,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,5,2.8523409646440667,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,6,1.0763617786529363,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,5.820766091346741e-14,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,0.10378640233808083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,3,6.46844744344415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,6,3.8441403584997005,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15521753762129353,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,0.8896621842402148,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,1.430454399879131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,2,1.023951213195381,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,3,2.8686576842042815,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,4,5.006799290471247,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,5,3.7778568032674347,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,6,11.33381652515157,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,0.0001323549600023372,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,3.420403812884467,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,2,2.7417164523922612,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,3,12.551531868260023,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,4,0.3743380611096015,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,5,4.079300219419962,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,6,1.1683194264357266,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,6.541759299595035e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,8.828074245770452,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,3.6959595386790713,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,2,2.2747853005495307,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,3,10.517240785807944,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,4,9.809423940141075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,5,6.655416147808533,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,6,9.743136524068037,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,0.0001698645806369623,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,3,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,0.07799683705681479,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,3,18.512002379756566,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,4,0.15301165771404843,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,5,4.76079046438068,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,6,6.141571981078119,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,255,6.065783067870877e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,0,0.7625441812236103,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,2,0.5237668581923248,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,3,21.216316282528656,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,5,8.770272883828717,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,6,1.5880535164783447,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,255,0.19560694689120664,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,3,12.233656092855268,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,5,0.7772659801174775,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,6,6.594365414737469,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,255,0.2150614486758291,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,0,1.514514071182359,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,2,0.4454928667565032,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,3,7.109832085766571,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,4,0.8006903664895986,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,5,2.8950868425460596,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,255,8.127027543916326e-06,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,2,1.8184571486068666,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,3,4.764741770374344,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,5,0.5125923341248811,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,2,1.2237973037742556,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,3,14.80528312176396,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,4,2.0318534499219543,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,5,5.405343766626955,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,6,8.086108126595587,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,255,9.710151100922183e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,0,0.4499162767961866,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,3,2.4762521807050737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,255,0.2115609387586618,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,0,1.7892382141226153,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,3,1.2606932754937392,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,5,1.0021469430756509,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,6,0.14184541108460624,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,255,1.2942729985567822,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,0,3.520878316963671,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,3,4.304866121070697,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,255,1.879083383934641,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,3,2.4679648409615815,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,5,0.5580726400332274,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,255,0.5842620768574471,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,3,1.0353509343976355,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,5,0.4897887734855032,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,255,0.9998647507662104,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,0,3.216412607308356,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,3,1.0036382095816512,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,255,0.6644362662980594,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,0,8.326992083390131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,3,8.550723959193748,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,5,0.9040883454449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,255,2.2023601662130052,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,0,2.0105644473561455,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,3,1.5998716616408475,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,6,0.526022767036736,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,255,0.12794511195534083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,3,5.222231733449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,5,2.4805374698896756,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,6,0.21985784094369984,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,255,0.6081416921417075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,3,1.9671993516237185,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,5,3.1054792135726577,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,6,2.546726779138923,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,2.3283064365386963e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,0.10378640233808083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,3,6.46844744344415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,6,3.8441403584997005,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15521753762129353,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,0.8896621842402148,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,0.637436557793737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,2,0.7929694385310678,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,3,3.407450751692243,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,4,1.981814561567708,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,5,11.880366795029532,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,6,6.7415588374176405,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,7.132909716041012e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,3.420403812884467,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,3,15.2932466811025,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,5,3.333933310138989,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,6,2.2880147986846606,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,7.665528439187766e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,8.828074245770452,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,2,2.6047776792884476,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,3,10.983540818093893,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,4,1.699224978430953,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,5,16.667754800254084,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,6,10.74065977816344,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,0.0001740474039528586,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,3,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,0.07799683705681479,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,3,18.512002379756566,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,5,4.887067935384548,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,6,6.1682835885626845,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP45_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,255,8.323705624824375e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,0,0.7625441812236103,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,1,0.5237668581923248,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,2,2.4397735559009983,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,3,18.77651127574778,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,4,0.16470778298538483,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,5,8.605563789207071,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,6,1.5880535164783447,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2784,255,0.1956397094073594,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,3,12.233656092855268,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,5,0.7772659801174775,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,6,6.594365414737469,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2967,255,0.2150614486758291,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,0,1.514514071182359,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,1,0.4454994329223271,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,2,1.6501775332574216,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,3,5.59149639246373,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,4,3.4117065737935746,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,5,0.1521891612631095,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2968,255,4.119488611238142e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,1,0.5126292495944861,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,2,1.8184176998193284,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,3,4.252153985170479,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,4,0.5125872817165327,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:2969,255,3.0368052972126344e-06,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,1,1.6690424277026579,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,2,2.7019710467558853,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,3,12.99377070324855,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,4,4.007603265407029,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,5,4.202637613022749,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,6,5.977405698702154,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,elektrik,Electricity lines,elektrik:4067,255,5.2115354692093044e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,0,0.4499162767961866,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,3,2.4762521807050737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1713,255,0.2115609387586618,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,0,1.7892382141226153,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,3,1.2606932754937392,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,5,1.0021469430756509,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,6,0.14184541108460624,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1714,255,1.2942729985567822,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,0,3.520878316963671,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,3,4.304866121070697,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1715,255,1.879083383934641,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,3,2.4679648409615815,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,5,0.5580726400332274,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1716,255,0.5842620768574471,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,3,1.0353509343976355,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,5,0.4897887734855032,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1717,255,0.9998647507662104,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,0,3.216412607308356,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,3,1.0036382095816512,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1719,255,0.6644362662980594,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,0,8.326992083390131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,3,8.550723959193748,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,5,0.9040883454449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1727,255,2.2023601662130052,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,0,2.0105644473561455,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,3,1.5998716616408475,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,6,0.526022767036736,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1728,255,0.12794511195534083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,3,5.222231733449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,5,2.4805374698896756,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,6,0.21985784094369984,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,fiberhat,Fibre routes,fiberhat:1729,255,0.6081416921417075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,3,2.38844532267652,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,4,0.5271661682986724,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,5,2.157049702146164,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,6,2.5467436605244638,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,4.906896527165227e-07,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,0.10378640233808083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,3,6.46844744344415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,6,3.8441403584997005,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15521753762129353,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,0.8896621842402148,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,1,1.430454399879131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,2,1.542961600078082,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,3,2.349593997529014,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,4,5.006802347015911,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,5,10.304470246818688,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,6,4.807274044901325,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,0.00011163490689599231,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,3.420403812884467,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,2,1.7303067917151502,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,3,13.56289671683424,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,4,0.3291423313789936,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,5,3.889839336673984,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,6,1.4029235350686104,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,0.00016273353953005827,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,8.828074245770452,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,1,2.739130048572168,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,2,3.2316247747781808,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,3,9.565561700453022,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,4,8.768134517309015,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,5,9.530298600138009,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,6,8.861090132179056,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,0.0002923282053520743,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,3,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,0.07799683705681479,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,3,18.512002379756566,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,5,4.887067935384548,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,6,6.1682835885626845,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_202140,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,255,8.323705624824375e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,0,0.7625441812236103,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,3,21.74008314072091,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,5,8.77027288382881,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,6,1.5880535164783447,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2784,255,0.19560694689120664,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,3,12.233656092855268,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,5,0.7772659801174775,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,6,6.594365414737469,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2967,255,0.2150614486758291,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,0,1.514514071182359,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,2,0.4454928667565032,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,3,7.109832085766623,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,4,0.13184840612040552,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,5,3.563911095389989,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2968,255,2.5834552749985313e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,3,6.583198918981185,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:2969,5,0.512592334124907,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,2,0.01452514078291175,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,3,16.014620558608016,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,4,0.88636065431659,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,5,5.146382866463096,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,6,9.490563622605682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,elektrik,Electricity lines,elektrik:4067,255,3.0027417416729442e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,0,0.4499162767961866,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,3,2.4762521807050737,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1713,255,0.2115609387586618,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,0,1.7892382141226153,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,3,1.2606932754937392,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,5,1.0021469430756509,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,6,0.14184541108460624,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1714,255,1.2942729985567822,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,0,3.520878316963671,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,3,4.304866121070697,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1715,255,1.879083383934641,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,0,1.0115644465426592,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,3,2.4679648409615815,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,5,0.5580726400332274,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1716,255,0.5842620768574471,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,0,5.9433309528280684,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,3,1.0353509343976355,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,5,0.4897887734855032,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1717,255,0.9998647507662104,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,0,3.216412607308356,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,3,1.0036382095816512,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1719,255,0.6644362662980594,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,0,8.326992083390131,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,3,8.550723959193748,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,5,0.9040883454449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1727,255,2.2023601662130052,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,0,2.0105644473561455,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,3,1.5998716616408475,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,6,0.526022767036736,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1728,255,0.12794511195534083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,3,5.222231733449682,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,5,2.4805374698896756,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,6,0.21985784094369984,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,fiberhat,Fibre routes,fiberhat:1729,255,0.6081416921417075,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,3,1.9671993516237185,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,5,3.1054792135726577,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,6,2.546726779138923,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3600,255,2.3283064365386963e-13,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,0,0.10378640233808083,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,3,6.46844744344415,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,6,3.8441403584997005,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3601,255,0.15521753762129353,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,0,0.8896621842402148,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,3,4.837912789981466,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,4,0.18661971156387908,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,2.0,3.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,5,3.336620894327794,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,6,17.08027642981921,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3620,255,0.00023844543672656642,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,0,3.420403812884467,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,3,15.2932466811025,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,5,3.333929117661746,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,6,2.2880147986846606,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3621,255,8.084776163513592e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,0,8.828074245770452,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,2,0.4588611072489052,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,1.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,3,13.12926309536167,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,5,8.812300021935933,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,6,20.295437210173755,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3623,255,0.00027066691448754073,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3624,3,4.591421334596626,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,0,0.07799683705681479,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,3,18.512002379756566,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,1.0,2.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,5,4.887067935384548,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,3.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,6,6.1682835885626845,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,4.0,4.0
+RCP85_CLMcom_CCLM_204160,TR_MJ_road_WGS84,Supplied major roads,TR_MJ_road_WGS84:3655,255,8.323705624824375e-05,Later-period discrimination failed,Exploratory hazard exposure; not expected damage or outage.,,

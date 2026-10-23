@@ -1,0 +1,3 @@
+﻿period,expected_months,available_months,positive_cells,background_cells,unknown_cells_inside
+2001-2020,240,240,119,5735,1128
+2021-2024,48,46,0,4805,2177
