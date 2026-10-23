@@ -1,0 +1,507 @@
+[
+  {
+    "figure": "drought/Alanya_study_domain",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_Avocado_yield_reduction",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_Banana_yield_reduction",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_Citrus_yield_reduction",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_annual_precipitation",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_climatic_water_balance",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_irrigation_requirement_comparison",
+    "translated_text_elements": 12,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_irrigation_seasonality",
+    "translated_text_elements": 18,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_reference_ET0",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_soil_AWC",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_yield_reduction_comparison",
+    "translated_text_elements": 12,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_crop_production_density",
+    "translated_text_elements": 12,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_crop_revenue_loss_density",
+    "translated_text_elements": 12,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "drought/Alanya_crop_risk_summary",
+    "translated_text_elements": 14,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/00_ml_map_overview",
+    "translated_text_elements": 24,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/01_institutional_fire_history",
+    "translated_text_elements": 11,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/02_fire_counts_by_forestry_unit",
+    "translated_text_elements": 2,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/03_local_resources_map",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/04_agricultural_production_values",
+    "translated_text_elements": 14,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/09_ml_rasterized_historical_fires",
+    "translated_text_elements": 8,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/09_worldcover_map",
+    "translated_text_elements": 12,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/10_ml_fire_observation_coverage",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/10_wildland_built_up_proximity",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/11_interface_buffer_sensitivity",
+    "translated_text_elements": 5,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/11_ml_terrain_elevation",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/12_ml_fuel_type",
+    "translated_text_elements": 12,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/13_ml_susceptibility_historical",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/14_effis_wui_indicator",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/14_ml_hazard_historical",
+    "translated_text_elements": 14,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/15_ml_feature_importance",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/16_gis_boundary_comparison",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/17_gis_infrastructure_overview",
+    "translated_text_elements": 11,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/18_gis_observed_fire_overlap",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/19_gis_fuel_proximity",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/20_ml_population_economic_ecological_risk",
+    "translated_text_elements": 28,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/21_ml_aggregated_risk_analysis_zones",
+    "translated_text_elements": 28,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/22_ml_hazard_and_risk_change",
+    "translated_text_elements": 22,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/23_road_vulnerability_interval",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/24_road_risk_historical_future_interval",
+    "translated_text_elements": 22,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/30_response_historical_annual_exceedance",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/31_response_historical_diagnostics",
+    "translated_text_elements": 8,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/32_response_gumbel_diagnostics",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/33_response_joint_surfaces",
+    "translated_text_elements": 17,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/34_response_cmip6_model_spread",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/35_response_native_cell_projections",
+    "translated_text_elements": 10,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/36_response_affected_population",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/37_response_population_weather_cells",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/38_response_infrastructure_weather",
+    "translated_text_elements": 10,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/39_response_relative_danger",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/40_response_pareto_profiles",
+    "translated_text_elements": 8,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/41_chelsa_historical_susceptibility",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/42_chelsa_historical_hazard",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/43_response_rolling_climate_diagnostics",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/44_response_population_counterfactual",
+    "translated_text_elements": 9,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/change_predictors_RCP45_CLMcom_CCLM_202140",
+    "translated_text_elements": 37,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/change_predictors_RCP45_CLMcom_CCLM_204160",
+    "translated_text_elements": 37,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/change_predictors_RCP85_CLMcom_CCLM_202140",
+    "translated_text_elements": 37,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/change_predictors_RCP85_CLMcom_CCLM_204160",
+    "translated_text_elements": 37,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_future_RCP45_CSC_REMO2009_2021_2040",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_future_RCP45_CSC_REMO2009_2041_2060",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_future_RCP45_CSC_REMO2009_2061_2080",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_future_RCP85_CSC_REMO2009_2021_2040",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_future_RCP85_CSC_REMO2009_2041_2060",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_future_RCP85_CSC_REMO2009_2061_2080",
+    "translated_text_elements": 6,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_hazard_RCP45_CSC_REMO2009_2021_2040",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_hazard_RCP45_CSC_REMO2009_2041_2060",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_hazard_RCP45_CSC_REMO2009_2061_2080",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_hazard_RCP85_CSC_REMO2009_2021_2040",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/chelsa_hazard_RCP85_CSC_REMO2009_2061_2080",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/gis_hazard_TR_MJ_road_WGS84",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/gis_hazard_elektrik",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/gis_hazard_fiberhat",
+    "translated_text_elements": 11,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_change_RCP45_CLMcom_CCLM_202140",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_change_RCP45_CLMcom_CCLM_204160",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_change_RCP85_CLMcom_CCLM_202140",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_change_RCP85_CLMcom_CCLM_204160",
+    "translated_text_elements": 7,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_hazard_RCP45_CLMcom_CCLM_202140",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_hazard_RCP45_CLMcom_CCLM_204160",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_hazard_RCP85_CLMcom_CCLM_202140",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_hazard_RCP85_CLMcom_CCLM_204160",
+    "translated_text_elements": 13,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_susceptibility_RCP45_CLMcom_CCLM_202140",
+    "translated_text_elements": 5,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_susceptibility_RCP45_CLMcom_CCLM_204160",
+    "translated_text_elements": 5,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_susceptibility_RCP85_CLMcom_CCLM_202140",
+    "translated_text_elements": 5,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "wildfires/ml_susceptibility_RCP85_CLMcom_CCLM_204160",
+    "translated_text_elements": 5,
+    "scientific_geometry_unchanged": true
+  },
+  {
+    "figure": "floods/coastal-2050-t100",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/coastal-area",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/coastal-change-central",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/coastal-transitions",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/discharge-model-spread",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/discharge-q10-rcp85",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/discharge-q50-rcp45",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/discharge-seasonality",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/population-central",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/population-displacement",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/population-exposure",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/population-qa",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/river-area",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/river-qa",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/river-t100-central",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  },
+  {
+    "figure": "floods/river-t100",
+    "method": "Turkish redraw from retained source CSV/GeoJSON values; original English WebP retained",
+    "models_recomputed": false
+  }
+]

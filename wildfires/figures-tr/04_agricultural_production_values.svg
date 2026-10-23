@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="800.39952pt" height="512.39952pt" viewBox="0 0 800.39952 512.39952" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-17T21:57:32.183689</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 512.39952  L 800.39952 512.39952  L 800.39952 0  L 0 0  L 0 512.39952  z " style="fill: none" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 227.887031 472.198661  L 793.19952 472.198661  L 793.19952 35.229937  L 227.887031 35.229937  L 227.887031 472.198661  z " style="fill: none" />
+   </g>
+   <g id="patch_3">
+    <path d="M 227.887031 452.336446  L 265.669921 452.336446  L 265.669921 425.404629  L 227.887031 425.404629  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_4">
+    <path d="M 227.887031 418.671675  L 266.369877 418.671675  L 266.369877 391.739859  L 227.887031 391.739859  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_5">
+    <path d="M 227.887031 385.006905  L 276.782536 385.006905  L 276.782536 358.075088  L 227.887031 358.075088  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_6">
+    <path d="M 227.887031 351.342134  L 279.977413 351.342134  L 279.977413 324.410317  L 227.887031 324.410317  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_7">
+    <path d="M 227.887031 317.677363  L 290.395489 317.677363  L 290.395489 290.745547  L 227.887031 290.745547  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_8">
+    <path d="M 227.887031 284.012593  L 292.340196 284.012593  L 292.340196 257.080776  L 227.887031 257.080776  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_9">
+    <path d="M 227.887031 250.347822  L 321.649718 250.347822  L 321.649718 223.416005  L 227.887031 223.416005  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_10">
+    <path d="M 227.887031 216.683051  L 383.463637 216.683051  L 383.463637 189.751235  L 227.887031 189.751235  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_11">
+    <path d="M 227.887031 183.018281  L 461.25194 183.018281  L 461.25194 156.086464  L 227.887031 156.086464  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_12">
+    <path d="M 227.887031 149.35351  L 551.680842 149.35351  L 551.680842 122.421694  L 227.887031 122.421694  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_13">
+    <path d="M 227.887031 115.688739  L 589.047009 115.688739  L 589.047009 88.756923  L 227.887031 88.756923  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="patch_14">
+    <path d="M 227.887031 82.023969  L 766.279878 82.023969  L 766.279878 55.092152  L 227.887031 55.092152  z " clip-path="url(#pf4c7a37f0c)" style="fill: #668b4b" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0f9c3c708a" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="227.887031" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="227.887031" y="487.556082" transform="rotate(-0 227.887031 487.556082)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="297.340873" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="297.340873" y="487.556082" transform="rotate(-0 297.340873 487.556082)">0.5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="366.794715" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="366.794715" y="487.556082" transform="rotate(-0 366.794715 487.556082)">1.0</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="436.248557" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="436.248557" y="487.556082" transform="rotate(-0 436.248557 487.556082)">1.5</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="505.702398" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="505.702398" y="487.556082" transform="rotate(-0 505.702398 487.556082)">2.0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="575.15624" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="575.15624" y="487.556082" transform="rotate(-0 575.15624 487.556082)">2.5</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="644.610082" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="644.610082" y="487.556082" transform="rotate(-0 644.610082 487.556082)">3.0</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="714.063924" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="714.063924" y="487.556082" transform="rotate(-0 714.063924 487.556082)">3.5</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m0f9c3c708a" x="783.517766" y="472.198661" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle" x="783.517766" y="487.556082" transform="rotate(-0 783.517766 487.556082)">4.0</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #28423e" x="510.543276" y="502.556942" transform="rotate(-0 510.543276 502.556942)">Yıllık brüt üretim değeri (milyar TL, 2025 nominal fiyatları)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_10">
+      <defs>
+       <path id="m029e7fe208" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="438.870538" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="443.049678" transform="rotate(-0 220.887031 443.049678)">Sofralık domates (cam sera)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="405.205767" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8.165px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="409.384908" transform="rotate(-0 220.887031 409.384908)">Sofralık zeytin</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="371.540996" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="375.720137" transform="rotate(-0 220.887031 375.720137)">Patlıcan (yüksek tünel)</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="337.876226" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="342.055366" transform="rotate(-0 220.887031 342.055366)">Mango (plastik sera)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="304.211455" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="308.390596" transform="rotate(-0 220.887031 308.390596)">Hıyar (cam sera)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="270.546684" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="274.725825" transform="rotate(-0 220.887031 274.725825)">Patlıcan (cam sera)</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="236.881914" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="241.061054" transform="rotate(-0 220.887031 241.061054)">Patlıcan (plastik sera)</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="203.217143" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="207.396284" transform="rotate(-0 220.887031 207.396284)">Hıyar (plastik sera)</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="169.552372" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="173.731513" transform="rotate(-0 220.887031 173.731513)">Sofralık domates (plastik sera)</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="135.887602" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="140.066742" transform="rotate(-0 220.887031 140.066742)">Muz (plastik sera)</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="102.222831" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="font-size: 11.000px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="106.401972" transform="rotate(-0 220.887031 106.401972)">Muz</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m029e7fe208" x="227.887031" y="68.55806" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="font-size: 10.970px; font-family: 'DejaVu Sans'; text-anchor: end" x="220.887031" y="72.737201" transform="rotate(-0 220.887031 72.737201)">Avokado</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_15">
+    <path d="M 227.887031 472.198661  L 227.887031 35.229937  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_16">
+    <path d="M 227.887031 472.198661  L 793.19952 472.198661  " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 13.200px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #203833" x="227.887031" y="17.229937" transform="rotate(-0 227.887031 17.229937)">Tarım: bildirilen en yüksek üretim değerleri</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf4c7a37f0c">
+   <rect x="227.887031" y="35.229937" width="565.312489" height="436.968723" />
+  </clipPath>
+ </defs>
+</svg>

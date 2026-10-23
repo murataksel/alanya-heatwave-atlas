@@ -1,0 +1,55 @@
+{
+  "release": "11.0.0 FINAL",
+  "date": "2026-10-23",
+  "purpose": "Data-preservation and software/localisation QA; this is not scientific validation of the source models.",
+  "checks": {
+    "all_v10_files_retained": true,
+    "all_102_heatwave_trace_payloads_and_33660_csv_values_unchanged": true,
+    "heatwave_geometries_raster_pngs_and_georeferencing_byte_identical": true,
+    "drought_and_wildfire_geometries_tables_metadata_all_92_native_rasters_unchanged": true,
+    "all_four_flood_map_numeric_and_geometry_payloads_unchanged": true,
+    "retained_daily_discharge_trace_payloads_unchanged": true,
+    "all_existing_source_downloads_and_101_original_english_figures_byte_identical": true,
+    "85_localized_svg_scientific_geometries_and_embedded_images_unchanged": true,
+    "all_static_relative_html_assets_and_links_resolve": true,
+    "four_hazard_links_and_two_language_controls_on_all_entry_pages": true,
+    "language_runtime_present_in_every_retained_map_and_standalone_chart": true
+  },
+  "details": {
+    "v10_files_retained": 583,
+    "heatwave_neighbourhoods": 102,
+    "heatwave_annual_values": 33660,
+    "original_source_download_files": 129,
+    "original_webp_figures": 101,
+    "turkish_source_figure_counterparts": 101,
+    "exact_translation_entries": 1368
+  },
+  "browser_checks": {
+    "environment": "Chrome, managed local static preview; desktop viewport and 390 px CSS iframe viewports (375 px content width with scrollbar). No physical-device test.",
+    "completed": [
+      "All four hazards reachable from the shared navigation on the Floods page; EN/TR preference retained across hazard navigation.",
+      "Heatwave neighbourhood, time-series and indicator selection retained when switching TR to EN; Mahmutlar historical HWTL checked.",
+      "Heatwave map, summary cards, three indicator plots, methods and standalone source chart localised.",
+      "Drought Avocado crop and 1.2 price sensitivity retained; 41.81 million USD conditional value, 27.4% yield reduction and 4200 USD/t restored/localised correctly.",
+      "Drought figure and table filtering with Turkish terms; correct counts and Turkish SVG counterpart paths.",
+      "Wildfire FWI SSP5-8.5 2081-2100: out-of-domain IPSL case remains NoData; available-model median reports 1/3 support and no model spread.",
+      "Both ECLIPS and CHELSA experimental raster branches render; validation caveats, units, classes and chart labels translate.",
+      "Flood coastal scenario state and exposure QA selection retained across language changes; embedded maps and parent selectors return to canonical English labels.",
+      "Flood discharge embedded title, legend and interpretation localised; river return-period and native-cell notes localised.",
+      "Coastal and river street basemaps start unchecked, using the supplied geographic background. Optional remote tile service is not required to display the data.",
+      "Four hazard entry pages reviewed at 390 px iframe width: no document-level horizontal overflow; shared navigation and EN/TR controls visible; mobile sidebar height corrected.",
+      "Bilingual installation guide reviewed; original data and model identifiers preserved."
+    ],
+    "pending": [],
+    "limits": [
+      "Browser QA does not constitute scientific validation.",
+      "Optional third-party street tiles depend on service availability. A tile-policy 403 was observed in the cloud preview before changing the default to the supplied offline background.",
+      "An earlier preview-injected live-reload CSS exception is outside the delivered static files."
+    ]
+  },
+  "syntax_and_translation_checks": {
+    "scripts_parsed": 14,
+    "translation_edge_cases": 14,
+    "failures": []
+  }
+}

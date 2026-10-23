@@ -1,105 +1,20 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Alanya Climate Risk Atlas | Heatwaves</title>
-    <meta
-      name="description"
-      content="Interactive neighbourhood-scale heatwave indicators, exposure layers and LST risk map for Alanya."
-    />
-    <link rel="stylesheet" href="assets/leaflet.css" />
-    <link rel="stylesheet" href="assets/atlas.css" />
-    <link rel="stylesheet" href="assets/layers.css" />
-    <link rel="stylesheet" href="assets/series-controls.css" />
-    <link rel="stylesheet" href="assets/navigation.css" />
-  </head>
-  <body>
-    <main>
-      <header>
-        <div>
-          <p class="eyebrow">PATHWAYS2RESILIENCE · ALANYA</p>
-          <h1>Neighbourhood Heatwave Atlas</h1>
-        </div>
-        <div class="header-note"><span></span>Historical &amp; RCP8.5 projections</div>
-      </header>
-
-      <nav class="hazard-nav" aria-label="Climate hazard">
-        <span class="atlas-name">ALANYA CLIMATE RISK ATLAS</span>
-        <a class="active" href="index.html" aria-current="page">Heatwaves</a>
-        <a href="floods/index.html">Floods</a>
-      <a href="drought/index.html">Drought</a>
-        <a href="wildfires/index.html">Wildfires</a>
-      </nav>
-
-      <section class="atlas">
-        <aside>
-          <div class="side-head">
-            <small>102 neighbourhoods</small>
-            <strong>Select an area</strong>
-          </div>
-          <label class="search">⌕ <input id="search" placeholder="Search neighbourhood…" /></label>
-          <div id="list" class="list" role="listbox"></div>
-          <div class="note">
-            <b>Indicators</b>
-            <p>HWI: intensity · HWF: frequency · HWTL: total heatwave length</p>
-          </div>
-        </aside>
-
-        <section class="map-wrap">
-          <div id="map"></div>
-          <div class="controls">
-            <label for="thematic-layer">Map layer</label>
-            <select id="thematic-layer">
-              <option value="lst">LST risk</option>
-              <option value="lulc">Land cover (2026)</option>
-              <option value="population">Vulnerable population</option>
-              <option value="none">No thematic layer</option>
-            </select>
-            <label class="opacity-label" for="opacity">Opacity</label>
-            <input
-              id="opacity"
-              aria-label="Thematic layer opacity"
-              type="range"
-              min="0"
-              max="1"
-              step=".05"
-              value=".67"
-            />
-          </div>
-          <div id="legend" class="legend" aria-live="polite"></div>
-        </section>
-
-        <section class="chart">
-          <div class="chart-head">
-            <div>
-              <small>SELECTED NEIGHBOURHOOD</small>
-              <h2 id="selected">Loading…</h2>
-            </div>
-            <div class="chart-actions">
-              <label for="series-filter">Time series</label>
-              <select id="series-filter">
-                <option value="both">Historical + RCP8.5</option>
-                <option value="historical">Historical only</option>
-                <option value="rcp85">RCP8.5 only</option>
-              </select>
-              <a id="full" target="_blank" rel="noreferrer">Open full screen ↗</a>
-            </div>
-          </div>
-          <iframe id="chart" title="Neighbourhood heatwave time series"></iframe>
-          <div class="chart-foot">
-            <span>Hover, zoom and export within the chart</span>
-            <span>Historical + RCP8.5</span>
-          </div>
-        </section>
-      </section>
-
-      <footer>
-        <p><b>How to use:</b> click a neighbourhood on the map or choose it from the list.</p>
-        <p>Cite the atlas release and the underlying workflow and datasets separately.</p>
-      </footer>
-    </main>
-    <script src="assets/leaflet.js"></script>
-    <script src="assets/atlas.js?v=8"></script>
-  </body>
-</html>
+<html lang="en" data-atlas-version="11.0.0"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alanya Climate Risk Atlas | Heatwave Atlas</title><meta name="description" content="Neighbourhood heatwave time series and supplied land-surface-temperature, land-cover and population context for Alanya.">
+<link rel="stylesheet" href="assets/atlas.css?v=11.0.0"><link rel="stylesheet" href="assets/navigation.css?v=11.0.0"><link rel="stylesheet" href="assets/evidence-atlas.css?v=11.0.0">
+<link rel="stylesheet" href="assets/atlas-shell-v11.css?v=11.0.0"><script src="assets/translations-v11.js?v=11.0.0"></script><script src="assets/atlas-i18n-v11.js?v=11.0.0"></script></head><body class="evidence-atlas heatwaves"><a class="skip-link" href="#analysis-title">Skip to analysis</a><main>
+<header><div><p class="eyebrow">PATHWAYS2RESILIENCE · ALANYA</p><h1>Heatwave Atlas</h1></div><div class="header-note"><span></span>Evidence · Scenarios · Uncertainty</div></header>
+<nav class="hazard-nav" aria-label="Climate hazard"><span class="atlas-name">ALANYA CLIMATE RISK ATLAS <small>v11 FINAL</small></span><div class="hazard-links"><a href="index.html" class="active" aria-current="page">Heatwaves</a><a href="floods/index.html">Floods</a><a href="drought/index.html">Drought</a><a href="wildfires/index.html">Wildfires</a></div><div class="language-switch" role="group" aria-label="Language"><button type="button" data-language="en" lang="en" aria-label="English">EN</button><button type="button" data-language="tr" lang="tr" aria-label="Türkçe">TR</button></div></nav>
+<div class="evidence-workspace"><aside class="evidence-side"><p class="section-label">ANALYSIS LIBRARY</p><h2>Explore the evidence</h2><p class="side-intro">Select an analysis. Every view retains its source scale and interpretation.</p><nav id="analysis-list" aria-label="Analysis"></nav>
+<section class="source-box"><h3>Source &amp; spatial scope</h3><p id="source-summary"></p><p id="scope-summary"></p></section>
+<section class="source-box compact"><h3>Research record</h3><a href="heatwaves/downloads/source-manifest.json" download>Provenance &amp; SHA-256 manifest ↓</a><a href="data/neighbourhoods.geojson" download>Neighbourhood boundaries · GeoJSON ↓</a><a href="guide.html">Release & installation guide ↗</a></section><p class="side-version">Atlas 11.0 · Final bilingual release<br>Source heatwave values and spatial layers retained.</p></aside>
+<section class="evidence-main"><div class="analysis-heading"><div><p id="analysis-kicker" class="section-label"></p><h2 id="analysis-title" tabindex="-1">Loading analysis…</h2><p id="analysis-description"></p></div><span id="analysis-status" class="status-pill"></span></div>
+<div id="interpretation" class="interpretation" role="note"></div><div id="summary-cards" class="evidence-cards" aria-live="polite"></div>
+<div class="evidence-tabs" role="tablist" aria-label="Analysis view"><button id="tab-explorer" role="tab" aria-selected="true" aria-controls="pane-explorer" data-view="explorer">Explorer</button><button id="tab-figures" role="tab" aria-selected="false" aria-controls="pane-figures" data-view="figures" tabindex="-1">Source figures</button><button id="tab-data" role="tab" aria-selected="false" aria-controls="pane-data" data-view="data" tabindex="-1">Data &amp; downloads</button><button id="tab-methods" role="tab" aria-selected="false" aria-controls="pane-methods" data-view="methods" tabindex="-1">Methods &amp; limitations</button></div>
+<section id="pane-explorer" class="evidence-pane" role="tabpanel" aria-labelledby="tab-explorer"><div id="explorer-controls" class="explorer-controls"></div><div class="explorer-grid"><div class="map-column"><div id="map-stage" class="map-stage"><div id="evidence-map" aria-label="Interactive analytical map"></div><div class="map-tools"><button id="reset-map" type="button" title="Fit the source boundary">Reset extent</button><button id="expand-map" type="button">Expand ↗</button></div><div class="north-arrow" aria-hidden="true">↑<b>N</b></div></div><div class="map-settings"><label><input id="basemap-toggle" type="checkbox"> Street basemap (online)</label><label>Layer opacity <input id="layer-opacity" type="range" min="20" max="100" value="78"></label><span id="map-network-status"></span></div><p id="map-caption" class="micro-copy"></p></div><section class="insight-panel"><p class="section-label">RESULTS IN CONTEXT</p><h3 id="chart-title"></h3><div id="analysis-chart" class="analysis-chart"></div><a id="open-source-chart" class="text-button" target="_blank" rel="noopener">Open full time-series chart ↗</a><p id="chart-caption" class="micro-copy"></p><section id="selected-feature" class="selected-feature" aria-live="polite"><b>Inspect the source values</b><p>Click a mapped cell, line or point.</p></section></section></div><div id="exposure-note" class="context-note" hidden></div></section>
+<section id="pane-figures" class="evidence-pane" role="tabpanel" aria-labelledby="tab-figures" hidden><div class="figure-toolbar"><label>Find a source figure<input id="figure-search" type="search" placeholder="Search titles and captions…"></label><label class="check-label"><input type="checkbox" id="all-figures"> Show all source figures</label><span id="figure-count"></span></div><div id="source-figures" class="source-figures"></div></section>
+<section id="pane-data" class="evidence-pane" role="tabpanel" aria-labelledby="tab-data" hidden><div class="data-toolbar"><label>Source table<select id="table-select"></select></label><label>Filter rows<input id="table-filter" type="search" placeholder="Search within this table…"></label><a id="table-download" class="text-button" download>Download CSV ↓</a></div><p id="table-description" class="micro-copy"></p><div class="table-scroll"><table id="source-table"></table></div><div class="table-pagination"><button id="table-prev" type="button">← Previous</button><span id="table-page" aria-live="polite"></span><button id="table-next" type="button">Next →</button></div><div id="related-downloads" class="related-downloads"></div></section>
+<section id="pane-methods" class="evidence-pane" role="tabpanel" aria-labelledby="tab-methods" hidden><div id="method-content" class="method-content"></div></section>
+<p id="app-status" role="status" class="app-status" aria-live="polite"></p><noscript><p>Enable JavaScript to explore the maps. Source data remain available in the downloads folder.</p></noscript>
+</section></div><footer><p><b>P2R Alanya</b> · Climate evidence for resilience planning</p><p>Module boundaries and periods differ. Results cannot be added across hazards.</p></footer></main>
+<script src="assets/leaflet.js?v=11.0.0"></script><script src="plotly.min.js?v=11.0.0"></script><script src="data/heatwave-catalog.js?v=11.0.0"></script><script src="assets/heatwaves.js?v=11.0.0"></script></body></html>

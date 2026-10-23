@@ -1,27 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-atlas-version="11.0.0">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Alanya Climate Risk Atlas | Floods</title>
   <meta name="description" content="Interactive coastal and river flood maps, resident-population exposure and river-discharge scenarios for Alanya, from the supplied CLIMAAX analysis outputs.">
-  <link rel="stylesheet" href="../assets/atlas.css">
-  <link rel="stylesheet" href="../assets/navigation.css">
-  <link rel="stylesheet" href="assets/floods.css">
-</head>
+  <link rel="stylesheet" href="../assets/atlas.css?v=11.0.0">
+  <link rel="stylesheet" href="../assets/navigation.css?v=11.0.0">
+  <link rel="stylesheet" href="assets/floods.css?v=11.0.0">
+<link rel="stylesheet" href="../assets/atlas-shell-v11.css?v=11.0.0"><script src="../assets/translations-v11.js?v=11.0.0"></script><script src="../assets/atlas-i18n-v11.js?v=11.0.0"></script></head>
 <body>
 <main>
   <header>
     <div><p class="eyebrow">PATHWAYS2RESILIENCE · ALANYA</p><h1>Flood Atlas</h1></div>
     <div class="header-note"><span></span>Coast · Rivers · People · Climate</div>
   </header>
-  <nav class="hazard-nav" aria-label="Climate hazard">
-    <span class="atlas-name">ALANYA CLIMATE RISK ATLAS</span>
-    <a href="../index.html">Heatwaves</a>
-    <a class="active" href="index.html" aria-current="page">Floods</a>
-  <a href="../drought/index.html">Drought</a>
-        <a href="../wildfires/index.html">Wildfires</a>
-      </nav>
+  <nav class="hazard-nav" aria-label="Climate hazard"><span class="atlas-name">ALANYA CLIMATE RISK ATLAS <small>v11 FINAL</small></span><div class="hazard-links"><a href="../index.html">Heatwaves</a><a href="../floods/index.html" class="active" aria-current="page">Floods</a><a href="../drought/index.html">Drought</a><a href="../wildfires/index.html">Wildfires</a></div><div class="language-switch" role="group" aria-label="Language"><button type="button" data-language="en" lang="en" aria-label="English">EN</button><button type="button" data-language="tr" lang="tr" aria-label="Türkçe">TR</button></div></nav>
   <div class="flood-workspace">
     <aside class="flood-side">
       <div class="section-label">FOUR COMPLEMENTARY ANALYSES</div>
@@ -37,7 +31,7 @@
         <h3 id="download-heading">Source tables</h3><div id="downloads"></div>
         <a class="provenance-link" href="downloads/source-manifest.json" download>Data provenance · JSON ↓</a>
       </section>
-      <div class="side-version">Analysis outputs: 15 October 2026 · Atlas v10</div>
+      <div class="side-version">Analysis outputs: 15 October 2026 · Atlas v11</div>
     </aside>
     <section class="flood-main" aria-labelledby="analysis-title">
       <div class="analysis-heading"><div><p class="section-label" id="analysis-kicker">FLOOD ANALYSIS</p><h2 id="analysis-title">Loading the flood atlas…</h2><p id="analysis-description"></p></div><span id="analysis-tag" class="analysis-tag"></span></div>
@@ -72,6 +66,6 @@
   </div>
   <footer><p><b>P2R Alanya</b> · Model-based screening for climate-resilience planning.</p><p>Spatial scopes differ by analysis; results should not be added across modules.</p></footer>
 </main>
-<script src="assets/floods.js" defer></script>
+<script src="assets/floods.js?v=11.0.0" defer></script>
 </body>
 </html>

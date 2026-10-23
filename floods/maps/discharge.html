@@ -1,6 +1,6 @@
-<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alanya | River discharge scenarios</title>
-<link rel="stylesheet" href="../../assets/leaflet.css">
-<script src="../../assets/leaflet.js"></script>
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alanya | River discharge scenarios</title><script src="../../assets/translations-v11.js?v=11.0.0"></script><script src="../../assets/atlas-i18n-v11.js?v=11.0.0"></script>
+<link rel="stylesheet" href="../../assets/leaflet.css?v=11.0.0">
+<script src="../../assets/leaflet.js?v=11.0.0"></script>
 <style>body{margin:0;font:14px Arial;color:#173747}#map{height:100vh}#panel{position:absolute;z-index:1000;right:15px;top:15px;background:white;padding:16px;width:300px;box-shadow:0 2px 10px #999}select{width:100%;margin:10px 0}p{line-height:1.4}</style>
 <div id="map"></div><div id="panel"><h3>Alanya | River discharge</h3><select id="scenario"></select>
 <label><input type="checkbox" id="tiles"> OpenStreetMap basemap</label><p>Click a polygon for source-indicator percentage change and model spread.</p><p><b>Not flood depth or flood extent.</b> Full model subcatchments are shown. Discharges must not be summed.</p><p>Basemap is optional. No local gauge validation was performed.</p></div><script>
@@ -13,6 +13,6 @@ layer=L.geoJSON(D.geo,{style:f=>{const r=v[String(f.properties.SUBID)];let col='
 sel.onchange=redraw;redraw();map.fitBounds(layer.getBounds());
 document.getElementById('tiles').onchange=e=>{if(e.target.checked){if(location.protocol==='file:'){alert('Open through http://127.0.0.1 first.');e.target.checked=false;return;}tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:17}).addTo(map);tiles.on('tileerror',()=>{if(tiles){map.removeLayer(tiles);tiles=null;e.target.checked=false;alert('Basemap unavailable. Polygon data remain available.')}});tiles.bringToBack();}else if(tiles){map.removeLayer(tiles);tiles=null;}};
 </script>
-<link rel="stylesheet" href="../assets/map-enhancements.css">
+<link rel="stylesheet" href="../assets/map-enhancements.css?v=11.0.0">
 <script>window.ATLAS_MODULE="discharge";</script>
-<script src="../assets/map-enhancements.js"></script>
+<script src="../assets/map-enhancements.js?v=11.0.0"></script>

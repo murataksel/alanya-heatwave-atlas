@@ -7,7 +7,12 @@
   const qa = document.getElementById('qa');
   if (!scenario || typeof map === 'undefined') return;
   const initialBounds = map.getBounds();
-  const options = element => Array.from(element?.options || [], option => ({value: option.value, label: option.textContent}));
+  // Parent/iframe messages use canonical source labels. Display translations
+  // must never become the source of a later English rendering.
+  const sourceLabels = new WeakMap();
+  for (const element of [scenario, qa]) Array.from(element?.options || []).forEach(option => sourceLabels.set(option, option.textContent));
+  const label = option => sourceLabels.get(option) ?? option?.textContent ?? '';
+  const options = element => Array.from(element?.options || [], option => ({value: option.value, label: label(option)}));
 
   document.querySelectorAll('.panel, #panel').forEach(panel => {
     if (!panel.querySelector('select')) return;
@@ -48,7 +53,7 @@
 
   function getState() {
     const state = {module: moduleId, scenario: scenario.value,
-      label: scenario.options[scenario.selectedIndex]?.textContent || '', options: options(scenario)};
+      label: label(scenario.options[scenario.selectedIndex]), options: options(scenario)};
     if (moduleId === 'coastal') state.datasetId = datasets[Number(scenario.value)]?.id;
     if (moduleId === 'river') state.returnPeriod = rps[Number(scenario.value)];
     if (moduleId === 'exposure') {
@@ -79,6 +84,7 @@
   };
   scenario.addEventListener('change', emit);
   qa?.addEventListener('change', emit);
+  window.addEventListener('atlas-language-change', emit);
   const params = new URLSearchParams(location.search);
   if (params.has('scenario')) choose(scenario, params.get('scenario'));
   if (params.has('qa')) choose(qa, params.get('qa'));

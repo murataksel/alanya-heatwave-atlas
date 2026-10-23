@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "Please cite this atlas software and the underlying workflow and datasets separately. No DOI has been assigned to this v10 package."
+message: "Please cite this atlas software and the underlying workflow and datasets separately. No DOI has been assigned to this v11 package."
 title: "Alanya Climate Risk Atlas: Heatwaves, Floods, Agricultural Drought and Wildfires"
 type: software
 authors:
   - family-names: "Aksel"
     given-names: "Murat"
     affiliation: "Alanya Alaaddin Keykubat University"
-version: 10.0.0
+version: 11.0.0
 date-released: 2026-10-23
 url: "https://murataksel.github.io/alanya-heatwave-atlas/"
 repository-code: "https://github.com/murataksel/alanya-heatwave-atlas"

@@ -1,0 +1,417 @@
+{
+  "release": "11.0.0",
+  "source": "Existing v10 heatwave charts, polygons and thematic rasters",
+  "numerical_changes": false,
+  "charts": 102,
+  "csv_rows": 33660,
+  "files": [
+    {
+      "path": "charts/Akdam_Mahallesi_heatwave_timeseries.html",
+      "sha256": "da5f2d22c52eccca0019c22576cd97a9112a44636b90972bfed059735b318fee"
+    },
+    {
+      "path": "charts/Akçatı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "56fef842dbdf4341bcddfa6b2f0fda12c4880426f274c423353d3f4ca946586a"
+    },
+    {
+      "path": "charts/Alacami_Mahallesi_heatwave_timeseries.html",
+      "sha256": "f8e7e2cb3fdfd27e1f3cd7695fd620929be5f61dc88aa04c0d366f63e8b498d6"
+    },
+    {
+      "path": "charts/Alara_Mahallesi_heatwave_timeseries.html",
+      "sha256": "8acb9427b8cc9706befd9705845a01bc78f351ae1f6d8762a2eee4ebd6d0d505"
+    },
+    {
+      "path": "charts/Aliefendi_Mahallesi_heatwave_timeseries.html",
+      "sha256": "11a12cb6e2a0bf11c4b98128b488acdc31ffcd71595a296cdaab5d26647ae3bc"
+    },
+    {
+      "path": "charts/Asmaca_Mahallesi_heatwave_timeseries.html",
+      "sha256": "4b1c935df328a88f73743b186f77f33d026296ed3cc4c5eb17b1150556a4a287"
+    },
+    {
+      "path": "charts/Avsallar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "ca12c25eea8ef4c782e328087a789e34f625d84374bd995721e33f87bba2cb50"
+    },
+    {
+      "path": "charts/Bademağacı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "3d4b1f9a9bba20a876ddd117f3d681190df34f7221d50ecbd87a22542929e79c"
+    },
+    {
+      "path": "charts/Basırlı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "d7ad3b7c1dd5fa492556e78a2abd683ea7e947226839a1fb17ba0b58f3841307"
+    },
+    {
+      "path": "charts/Bayır_Mahallesi_heatwave_timeseries.html",
+      "sha256": "119e40055a2609cc3bc2b9bfa880a50496db7d27d6b94809e5c56bc5c0cdd4c0"
+    },
+    {
+      "path": "charts/Bayırkozağacı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "d70090d021208287f0bd8860a81c365831fa1dba0b93d761931c34f89ea7e434"
+    },
+    {
+      "path": "charts/Başköy_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c17389b30058fecdf9adcaa6695917b4163308fb1a1649e0f0747fc7a96c1b7b"
+    },
+    {
+      "path": "charts/Bektaş_Mahallesi_heatwave_timeseries.html",
+      "sha256": "083d420433a2242c29b5128396efaf1d64b8db0fb4126be39289ab9cd1e43797"
+    },
+    {
+      "path": "charts/Beldibi_Mahallesi_heatwave_timeseries.html",
+      "sha256": "fad0857ac4cb14aee943e0a270de47142345f0db25f0504d4de2f47ef213475b"
+    },
+    {
+      "path": "charts/Beyreli_Mahallesi_heatwave_timeseries.html",
+      "sha256": "3247da8871b9ac9c3f3ae5fb9c07c0fece5298c81376016d5f362db582a73a32"
+    },
+    {
+      "path": "charts/Bucak_Mahallesi_heatwave_timeseries.html",
+      "sha256": "0a5f6e7afd09c7768d70051e8982ff18f44f5c8f9e9dac2829e93d01fe225074"
+    },
+    {
+      "path": "charts/Burçaklar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "0976514cf4897caa3074cc9700478f97dafefd450deb6574a9ad48d45ff3a3aa"
+    },
+    {
+      "path": "charts/Büyükhasbahçe_Mahallesi_heatwave_timeseries.html",
+      "sha256": "75a270ed72ea4f4d48074f7ddfe1bf96703a85e4c6c96eab97b6c85350126562"
+    },
+    {
+      "path": "charts/Büyükpınar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "af9993e1831a6f3d7b9d374dd3701bb4c9cbf43d0edb8f0e0d116d1a52bf6a03"
+    },
+    {
+      "path": "charts/Bıçakçı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "44f6efb1b6f8b1571bc5f3b5093bebca9775cd11e8fe3594c5d3a0d1406e36c4"
+    },
+    {
+      "path": "charts/Cikcilli_Mahallesi_heatwave_timeseries.html",
+      "sha256": "e9253355ed1dfc1a7e61d5de1a4b08bda9a034e957964a45deb0af35c48ed0ac"
+    },
+    {
+      "path": "charts/Cumhuriyet_Mahallesi_heatwave_timeseries.html",
+      "sha256": "06a93da6d170be1c3d3de733cef53b0c8f9d41ac965a12e27c3c10da3bd4c71c"
+    },
+    {
+      "path": "charts/Demirtaş_Mahallesi_heatwave_timeseries.html",
+      "sha256": "6c698e98a693062d1d32b2bef2a01076a393dedf502515f00e7174b8d7d855e2"
+    },
+    {
+      "path": "charts/Dere_Mahallesi_heatwave_timeseries.html",
+      "sha256": "3433ee68c0824e8e7bf3ebd03cf4a3767d12b414c8440ff654592900d06987ed"
+    },
+    {
+      "path": "charts/Değirmendere_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c982ac2600012d61c5c5bff175cd5d5b19d98d7ca24bd27c58d9e193727cfb70"
+    },
+    {
+      "path": "charts/Dinek_Mahallesi_heatwave_timeseries.html",
+      "sha256": "efd1b44ca55d3694db575386565608c0572b391d813efd623e56423e58afe6e6"
+    },
+    {
+      "path": "charts/Elikesik_Mahallesi_heatwave_timeseries.html",
+      "sha256": "a28e4f3f6488a8d66ccf11e5b03a73b5688d92a5f230eac97ad8767bb009ac05"
+    },
+    {
+      "path": "charts/Emişbeleni_Mahallesi_heatwave_timeseries.html",
+      "sha256": "6efbdce4ade90fea11223be3577ee7c828ae743afae3367b78ff2e47843db83c"
+    },
+    {
+      "path": "charts/Fakırcalı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "3f47bc5f50c6646572f3f02b75a1160d4f825c4d87557ac9c1284db672b0b174"
+    },
+    {
+      "path": "charts/Fığla_Mahallesi_heatwave_timeseries.html",
+      "sha256": "5ae79bbcfd080b772b2e3c4d53172d8db064ef81f7aa5d6520ca8f617298eb4f"
+    },
+    {
+      "path": "charts/Gözübüyük_Mahallesi_heatwave_timeseries.html",
+      "sha256": "1fd580576b2f03c10d2d40ded511c85b541b64b39f79fc003e7834301c79cb38"
+    },
+    {
+      "path": "charts/Gözüküçüklü_Mahallesi_heatwave_timeseries.html",
+      "sha256": "8343f4ed8b3a97315c1643884bdff377ffbd99fb52045236134079b56abd1aa5"
+    },
+    {
+      "path": "charts/Güller_Pınarı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "b3cc32647215b63a600df06f8166c68ceb492bcbd1e6dba9e2f03e3e6d8efb0b"
+    },
+    {
+      "path": "charts/Gümüşgöze_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c58ae6b8ba366b37a6f959102ce57b65c88e79384b99013f80f65d9541aebbd6"
+    },
+    {
+      "path": "charts/Gümüşkavak_Mahallesi_heatwave_timeseries.html",
+      "sha256": "ca868a1018934382ac7a5e63b02f47378a5d3e6d2ac519d3b3e854765a8562fa"
+    },
+    {
+      "path": "charts/Güney_Mahallesi_heatwave_timeseries.html",
+      "sha256": "20482eadd3e7531490c0327c6018074cffc84dff3a9e5e5c425f80c9715795a7"
+    },
+    {
+      "path": "charts/Güzelbağ_Mahallesi_heatwave_timeseries.html",
+      "sha256": "d597e181f5e78bbf32bb9661537d7feac82807cd69f5b5943ed30a086b485913"
+    },
+    {
+      "path": "charts/Hacet_Mahallesi_heatwave_timeseries.html",
+      "sha256": "f0bebffd9901b2c8d5e36a600f88450add6ee8363100e2fa69b078e875d05697"
+    },
+    {
+      "path": "charts/Hacıkerimler_Mahallesi_heatwave_timeseries.html",
+      "sha256": "8b2c3d2bbb580f461adbc17971dc6daf168e9051d91af1a3e385a14173715f1e"
+    },
+    {
+      "path": "charts/Hacımehmetli_Mahallesi_heatwave_timeseries.html",
+      "sha256": "b2b64ba36a0d36ea1cb7e825ec627d5d97e1d603d4c0bc9dd848bdec8a18354b"
+    },
+    {
+      "path": "charts/Hisariçi_Mahallesi_heatwave_timeseries.html",
+      "sha256": "e8350110b37a9235ab0ca85973c79540c3fc8685205fdd4e0d1d8c7452910ec6"
+    },
+    {
+      "path": "charts/Hocalar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "4c28f1f246abce59a8c5058ed899eaa7a11784bb59992b2c0a853762e2e1f8bb"
+    },
+    {
+      "path": "charts/Kadıpaşa_Mahallesi_heatwave_timeseries.html",
+      "sha256": "bdb0393639422bced4f2cab8ab7d5c02352af09baddfbe236b1abd0d55baa61d"
+    },
+    {
+      "path": "charts/Karakocalı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "7c917a92ca5cbe5704546f32237022ca442ec6d4d1c0c500a62a3c69db5550f7"
+    },
+    {
+      "path": "charts/Karamanlar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "a60624c9254413ad763c451940824f45fc1260770023e871b4ce6ee830a5310d"
+    },
+    {
+      "path": "charts/Karapınar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "313ea8e025aef9a93e0644250ec1af42fed528bf82091bd9a2c45e0be0b8ffca"
+    },
+    {
+      "path": "charts/Kargıcak_Mahallesi_heatwave_timeseries.html",
+      "sha256": "164dc8906d69734afd8f09befd3bc0173b8f6e41133e5817b6440ea262f85357"
+    },
+    {
+      "path": "charts/Kayabaşı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "5a32f6cf2264f897bb94708399b5704fc0acfe72914119e400955a7bb347212c"
+    },
+    {
+      "path": "charts/Kestel_Mahallesi_heatwave_timeseries.html",
+      "sha256": "b61c84cfd149782bdbcd52995a1c9928305c4f6d7d50d8488215168b51e522dd"
+    },
+    {
+      "path": "charts/Keşefli_Mahallesi_heatwave_timeseries.html",
+      "sha256": "abe8f54fd18ca85014ce2e3495ce67267e41a81a3b55ff28f53be7a7321a2784"
+    },
+    {
+      "path": "charts/Kocaoğlanlı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "76ee7876567346999a74ba5033f1a0ecf2e420223e7ffe54cf4aa3cd0270eb27"
+    },
+    {
+      "path": "charts/Konaklı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "60f876eaa9ea797c418f348d897474cbe7d1133c7627ece73405cc2524b50635"
+    },
+    {
+      "path": "charts/Kuzyaka_Mahallesi_heatwave_timeseries.html",
+      "sha256": "334fa8a634294ce96372074a9b8ff65fe84c04198c6905396f257706ee44b5b4"
+    },
+    {
+      "path": "charts/Küçükhasbahçe_Mahallesi_heatwave_timeseries.html",
+      "sha256": "d670eefadcf0838e635fe26ae7bfa916018c7ccd5c26a5f6c3c4e78ad1f759c9"
+    },
+    {
+      "path": "charts/Kızlar_Pınarı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "b49cdf7adb421ebf6218e3254d3d7c111d73d5bc00051d8edf11186d395018ea"
+    },
+    {
+      "path": "charts/Kızılcaşehir_Mahallesi_heatwave_timeseries.html",
+      "sha256": "16f22f4c6156fa3170cf9a9b5b6a54cad6f1b41b4cb7bd7a9af8256d0292ca15"
+    },
+    {
+      "path": "charts/Mahmutlar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "a1b2e94fbf06ab327aea302b67b2a1ddf44dd65260fb607b531a208af681814a"
+    },
+    {
+      "path": "charts/Mahmutseydi_Mahallesi_heatwave_timeseries.html",
+      "sha256": "dbb7c982002791eb92a7551ac53e203a2c745f871106b7102fb68b461fe3e4ba"
+    },
+    {
+      "path": "charts/Oba_Mahallesi_heatwave_timeseries.html",
+      "sha256": "d5beef52aff3c46f562c44125d1d31b0ba26d0cf88c0f8c213411b92dea5a659"
+    },
+    {
+      "path": "charts/Obaalacami_Mahallesi_heatwave_timeseries.html",
+      "sha256": "cf4cd93d4c80babff407ecbc175c3ebe8abf14cfbb1e0d44c36abee4b2ae2934"
+    },
+    {
+      "path": "charts/Okurcalar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "a3b7a3c26026f53c734397a678cf14816d53c06704b4cc79cc30b0cc9a30d4aa"
+    },
+    {
+      "path": "charts/Orhan_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c9bceac64d65080326768f69b279d772d36666f2def146fc60556bd7233627bf"
+    },
+    {
+      "path": "charts/Payallar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "846006a9e7edf5a6bb2d66a149c5f471761d7305851a9a5b359acf8edf1b4a3f"
+    },
+    {
+      "path": "charts/Paşaköy_Mahallesi_heatwave_timeseries.html",
+      "sha256": "65a56c5ea3f71e66a734fd6d2f200c3c1023d8985845abc62e1deec670c86677"
+    },
+    {
+      "path": "charts/Saburlar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "b13bba796dfec4b995fd7dffef03481c5d9c740e0214cc91a51956c64d845962"
+    },
+    {
+      "path": "charts/Sapadere_Mahallesi_heatwave_timeseries.html",
+      "sha256": "094b700859fa7eb35c7c7b4f6c2d79358ec6e5e4af1ff443202d0f3faba98c61"
+    },
+    {
+      "path": "charts/Saray_Mahallesi_heatwave_timeseries.html",
+      "sha256": "68ebaa238e425262ef03c9b2113c77398efdaf9e0706f15ad833d8a5f8def44a"
+    },
+    {
+      "path": "charts/Seki_Mahallesi_heatwave_timeseries.html",
+      "sha256": "5d9d597be19969c00e095be355acc510f7d7df37da76511e0bb5f67b217e3809"
+    },
+    {
+      "path": "charts/Soğukpınar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "cbd03d92e3eb4080f9c514aa49111aacaac48c13d7f388c0eca9484fb99a9119"
+    },
+    {
+      "path": "charts/Sugözü_Mahallesi_heatwave_timeseries.html",
+      "sha256": "7ffa62c313c79c94cdc89623b220767ade73a0c107b14989fb246a158e75553d"
+    },
+    {
+      "path": "charts/Süleymanlar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "efdcc92764457578e426375e240bdc264255a26e5dc9b12f8618d4eec1bca32f"
+    },
+    {
+      "path": "charts/Taşbaşı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "5a690dea4aad1ba8fa463c43df5111c1532a8c7e8c34bf7d7feb59b137936427"
+    },
+    {
+      "path": "charts/Tepe_Mahallesi_heatwave_timeseries.html",
+      "sha256": "584e29ee95dbcad9bf1da305296112ecc0c17c87e474eafbcc4773d592c6435b"
+    },
+    {
+      "path": "charts/Tophane_Mahallesi_heatwave_timeseries.html",
+      "sha256": "4b069dcd91d1a2debb1b400dd0502bb1094495316a499f9a38eb284817a75806"
+    },
+    {
+      "path": "charts/Toslak_Mahallesi_heatwave_timeseries.html",
+      "sha256": "5bb60680645028b5419a237fdd93aea72d6ec379f963629773e890f1331773e4"
+    },
+    {
+      "path": "charts/Tosmur_Mahallesi_heatwave_timeseries.html",
+      "sha256": "ffc81645ef775a6d27172a39bef9ef0014599443724615dec7afbe0e380c413b"
+    },
+    {
+      "path": "charts/Türkler_Mahallesi_heatwave_timeseries.html",
+      "sha256": "d58522763b26a06f72e60761a225a666ae733c7b885965dfd440c337f230663c"
+    },
+    {
+      "path": "charts/Türktaş_Mahallesi_heatwave_timeseries.html",
+      "sha256": "5e77543503ca312f190bdf40b7adc8818a655dd260a79d5829f8e79bf4ccd2bc"
+    },
+    {
+      "path": "charts/Tırılar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "9909f4996d3fac07d53424beccf2d2b3c99455dd13e6535cb73efe25e5d8e55c"
+    },
+    {
+      "path": "charts/Uzunöz_Mahallesi_heatwave_timeseries.html",
+      "sha256": "2401f37324553bfd95658ef21ad8643e6c8e67c46193e9326d582eaaa92baa9a"
+    },
+    {
+      "path": "charts/Uğrak_Mahallesi_heatwave_timeseries.html",
+      "sha256": "37f1f8d756911c35e663ad1a68409bbb056d0f742ddfdc395299f9662ece5d13"
+    },
+    {
+      "path": "charts/Uğurlu_Mahallesi_heatwave_timeseries.html",
+      "sha256": "0704f00a9d1422305d2f55f6cf361f219e3895874a1eff38290c4b6bdc987948"
+    },
+    {
+      "path": "charts/Yalçı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "aa8d9fd58db869b8505395e8ece35165cc7d37ec15ecaee2808612086fae96f8"
+    },
+    {
+      "path": "charts/Yasirali_Mahallesi_heatwave_timeseries.html",
+      "sha256": "4df1b7430e02315be9f9d1e920a248a11c2891d68b431de89f4c0220092f52f8"
+    },
+    {
+      "path": "charts/Yaylakonak_Mahallesi_heatwave_timeseries.html",
+      "sha256": "03222a9d4357956ede216afd39cad4a4aa82490f74293e3ce87dcbbbd0df3a88"
+    },
+    {
+      "path": "charts/Yaylalı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c6e4c18c4fc1491cea42032a9a416d14b35e2fda4707bf9c55a70bc6759febbc"
+    },
+    {
+      "path": "charts/Yenice_Mahallesi_heatwave_timeseries.html",
+      "sha256": "35a68d2e5e35f35bc1128e3576d81d8367db1ce526c7df61910ac7f0f7a31814"
+    },
+    {
+      "path": "charts/Yeniköy_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c8ab6180cf3c319ae554e1b506efbc913305ff4188716aa9658d9971c61f6096"
+    },
+    {
+      "path": "charts/Yeşilöz_Mahallesi_heatwave_timeseries.html",
+      "sha256": "bd7cbc87d9a898f13be003df497a3cceb09857b1f76b09eb27130d6f92e9a9ab"
+    },
+    {
+      "path": "charts/Çakallar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "52cbf7897aa7870a2767d90116111d48fc81d2a33b47a674e8002bbaea468168"
+    },
+    {
+      "path": "charts/Çamlıca_Mahallesi_heatwave_timeseries.html",
+      "sha256": "235c7a2f2e523c728f1504677308059fec8193b426c643315653087f474212bc"
+    },
+    {
+      "path": "charts/Çarşı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "ea1d4741a31164f4f74d1fdbb2b8d16702fbdc1f3ae35a0ecd434148d063785d"
+    },
+    {
+      "path": "charts/Çıplaklı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "4b23edb5329411d58c6bb148a5c80f2092f0234cbf9c41af71d2f61cd58d21b3"
+    },
+    {
+      "path": "charts/Öteköy_Mahallesi_heatwave_timeseries.html",
+      "sha256": "804704cc363d8e95e54a27848e2bfabb6a52526834cd00be50e9a431ec93360c"
+    },
+    {
+      "path": "charts/Özvadi_Mahallesi_heatwave_timeseries.html",
+      "sha256": "6945c527692deda2a211a1ac961a8b838e88f694920e5f0defee6d847dcd9fb5"
+    },
+    {
+      "path": "charts/Üzümlü_Mahallesi_heatwave_timeseries.html",
+      "sha256": "16dcfc88412714a5d3ad291893d1fbef782a4e28a9bf1394be369fbb77589e1b"
+    },
+    {
+      "path": "charts/İmamlı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "c09122f4a2eae9df509aa8071827a5a75db37e895cb31a3db901632ce8fc26ff"
+    },
+    {
+      "path": "charts/İncekum_Mahallesi_heatwave_timeseries.html",
+      "sha256": "64a748a2348d9352363848579fda62eeabf81bffcd96f6c45785549023786074"
+    },
+    {
+      "path": "charts/İsbatlı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "9fbc5cd6d175d519539c1ebcfe56ac12f59496866a1f037327db71a7db5d056c"
+    },
+    {
+      "path": "charts/İshaklı_Mahallesi_heatwave_timeseries.html",
+      "sha256": "364e27e7ce2f73085cf7346af24fe29dde500c39c472b2466960b4947506e222"
+    },
+    {
+      "path": "charts/Şekerhane_Mahallesi_heatwave_timeseries.html",
+      "sha256": "4549e952dda5b60fcb755eb83bd9bb6f505d34ebfae09c294d34845a3afa46f3"
+    },
+    {
+      "path": "charts/Şıhlar_Mahallesi_heatwave_timeseries.html",
+      "sha256": "e5a092d335dde7e41a7399d75e8b41adde2750d2f9cb66352ab94c623f633cf3"
+    }
+  ]
+}

@@ -1,0 +1,3033 @@
+{
+  "release": "11.0.0 FINAL",
+  "release_date": "2026-10-23",
+  "patch_base": "Alanya Climate Risk Atlas v10 FULL",
+  "archive_root": "alanya-heatwave-atlas/",
+  "scope": "Bilingual presentation and navigation; source numerical results retained.",
+  "changed_file_count": 233,
+  "new_files": [
+    "DEGISIKLIKLER_V11_TR.md",
+    "README_TR.md",
+    "TRANSLATED_FIGURES_V11.json",
+    "VALIDATION_V11.json",
+    "assets/atlas-i18n-v11.js",
+    "assets/atlas-shell-v11.css",
+    "assets/heatwaves.js",
+    "assets/translations-v11.js",
+    "data/heatwave-catalog.js",
+    "drought/figures-tr/Alanya_Avocado_yield_reduction.svg",
+    "drought/figures-tr/Alanya_Banana_yield_reduction.svg",
+    "drought/figures-tr/Alanya_Citrus_yield_reduction.svg",
+    "drought/figures-tr/Alanya_annual_precipitation.svg",
+    "drought/figures-tr/Alanya_climatic_water_balance.svg",
+    "drought/figures-tr/Alanya_crop_production_density.svg",
+    "drought/figures-tr/Alanya_crop_revenue_loss_density.svg",
+    "drought/figures-tr/Alanya_crop_risk_summary.svg",
+    "drought/figures-tr/Alanya_irrigation_requirement_comparison.svg",
+    "drought/figures-tr/Alanya_irrigation_seasonality.svg",
+    "drought/figures-tr/Alanya_reference_ET0.svg",
+    "drought/figures-tr/Alanya_soil_AWC.svg",
+    "drought/figures-tr/Alanya_study_domain.svg",
+    "drought/figures-tr/Alanya_yield_reduction_comparison.svg",
+    "floods/figures-tr/coastal-2050-t100.svg",
+    "floods/figures-tr/coastal-area.svg",
+    "floods/figures-tr/coastal-change-central.svg",
+    "floods/figures-tr/coastal-transitions.svg",
+    "floods/figures-tr/discharge-model-spread.svg",
+    "floods/figures-tr/discharge-q10-rcp85.svg",
+    "floods/figures-tr/discharge-q50-rcp45.svg",
+    "floods/figures-tr/discharge-seasonality.svg",
+    "floods/figures-tr/population-central.svg",
+    "floods/figures-tr/population-displacement.svg",
+    "floods/figures-tr/population-exposure.svg",
+    "floods/figures-tr/population-qa.svg",
+    "floods/figures-tr/river-area.svg",
+    "floods/figures-tr/river-qa.svg",
+    "floods/figures-tr/river-t100-central.svg",
+    "floods/figures-tr/river-t100.svg",
+    "guide.html",
+    "heatwaves/downloads/heatwave-source-series.csv",
+    "heatwaves/downloads/source-manifest.json",
+    "wildfires/figures-tr/00_ml_map_overview.svg",
+    "wildfires/figures-tr/01_institutional_fire_history.svg",
+    "wildfires/figures-tr/02_fire_counts_by_forestry_unit.svg",
+    "wildfires/figures-tr/03_local_resources_map.svg",
+    "wildfires/figures-tr/04_agricultural_production_values.svg",
+    "wildfires/figures-tr/09_ml_rasterized_historical_fires.svg",
+    "wildfires/figures-tr/09_worldcover_map.svg",
+    "wildfires/figures-tr/10_ml_fire_observation_coverage.svg",
+    "wildfires/figures-tr/10_wildland_built_up_proximity.svg",
+    "wildfires/figures-tr/11_interface_buffer_sensitivity.svg",
+    "wildfires/figures-tr/11_ml_terrain_elevation.svg",
+    "wildfires/figures-tr/12_ml_fuel_type.svg",
+    "wildfires/figures-tr/13_ml_susceptibility_historical.svg",
+    "wildfires/figures-tr/14_effis_wui_indicator.svg",
+    "wildfires/figures-tr/14_ml_hazard_historical.svg",
+    "wildfires/figures-tr/15_ml_feature_importance.svg",
+    "wildfires/figures-tr/16_gis_boundary_comparison.svg",
+    "wildfires/figures-tr/17_gis_infrastructure_overview.svg",
+    "wildfires/figures-tr/18_gis_observed_fire_overlap.svg",
+    "wildfires/figures-tr/19_gis_fuel_proximity.svg",
+    "wildfires/figures-tr/20_ml_population_economic_ecological_risk.svg",
+    "wildfires/figures-tr/21_ml_aggregated_risk_analysis_zones.svg",
+    "wildfires/figures-tr/22_ml_hazard_and_risk_change.svg",
+    "wildfires/figures-tr/23_road_vulnerability_interval.svg",
+    "wildfires/figures-tr/24_road_risk_historical_future_interval.svg",
+    "wildfires/figures-tr/30_response_historical_annual_exceedance.svg",
+    "wildfires/figures-tr/31_response_historical_diagnostics.svg",
+    "wildfires/figures-tr/32_response_gumbel_diagnostics.svg",
+    "wildfires/figures-tr/33_response_joint_surfaces.svg",
+    "wildfires/figures-tr/34_response_cmip6_model_spread.svg",
+    "wildfires/figures-tr/35_response_native_cell_projections.svg",
+    "wildfires/figures-tr/36_response_affected_population.svg",
+    "wildfires/figures-tr/37_response_population_weather_cells.svg",
+    "wildfires/figures-tr/38_response_infrastructure_weather.svg",
+    "wildfires/figures-tr/39_response_relative_danger.svg",
+    "wildfires/figures-tr/40_response_pareto_profiles.svg",
+    "wildfires/figures-tr/41_chelsa_historical_susceptibility.svg",
+    "wildfires/figures-tr/42_chelsa_historical_hazard.svg",
+    "wildfires/figures-tr/43_response_rolling_climate_diagnostics.svg",
+    "wildfires/figures-tr/44_response_population_counterfactual.svg",
+    "wildfires/figures-tr/change_predictors_RCP45_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/change_predictors_RCP45_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/change_predictors_RCP85_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/change_predictors_RCP85_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/chelsa_future_RCP45_CSC_REMO2009_2021_2040.svg",
+    "wildfires/figures-tr/chelsa_future_RCP45_CSC_REMO2009_2041_2060.svg",
+    "wildfires/figures-tr/chelsa_future_RCP45_CSC_REMO2009_2061_2080.svg",
+    "wildfires/figures-tr/chelsa_future_RCP85_CSC_REMO2009_2021_2040.svg",
+    "wildfires/figures-tr/chelsa_future_RCP85_CSC_REMO2009_2041_2060.svg",
+    "wildfires/figures-tr/chelsa_future_RCP85_CSC_REMO2009_2061_2080.svg",
+    "wildfires/figures-tr/chelsa_hazard_RCP45_CSC_REMO2009_2021_2040.svg",
+    "wildfires/figures-tr/chelsa_hazard_RCP45_CSC_REMO2009_2041_2060.svg",
+    "wildfires/figures-tr/chelsa_hazard_RCP45_CSC_REMO2009_2061_2080.svg",
+    "wildfires/figures-tr/chelsa_hazard_RCP85_CSC_REMO2009_2021_2040.svg",
+    "wildfires/figures-tr/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.svg",
+    "wildfires/figures-tr/chelsa_hazard_RCP85_CSC_REMO2009_2061_2080.svg",
+    "wildfires/figures-tr/gis_hazard_TR_MJ_road_WGS84.svg",
+    "wildfires/figures-tr/gis_hazard_elektrik.svg",
+    "wildfires/figures-tr/gis_hazard_fiberhat.svg",
+    "wildfires/figures-tr/ml_change_RCP45_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/ml_change_RCP45_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/ml_change_RCP85_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/ml_change_RCP85_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/ml_hazard_RCP45_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/ml_hazard_RCP45_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/ml_hazard_RCP85_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/ml_hazard_RCP85_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/ml_susceptibility_RCP45_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/ml_susceptibility_RCP45_CLMcom_CCLM_204160.svg",
+    "wildfires/figures-tr/ml_susceptibility_RCP85_CLMcom_CCLM_202140.svg",
+    "wildfires/figures-tr/ml_susceptibility_RCP85_CLMcom_CCLM_204160.svg"
+  ],
+  "modified_files": [
+    "CITATION.cff",
+    "README.md",
+    "assets/evidence-atlas.js",
+    "charts/Akdam_Mahallesi_heatwave_timeseries.html",
+    "charts/Akçatı_Mahallesi_heatwave_timeseries.html",
+    "charts/Alacami_Mahallesi_heatwave_timeseries.html",
+    "charts/Alara_Mahallesi_heatwave_timeseries.html",
+    "charts/Aliefendi_Mahallesi_heatwave_timeseries.html",
+    "charts/Asmaca_Mahallesi_heatwave_timeseries.html",
+    "charts/Avsallar_Mahallesi_heatwave_timeseries.html",
+    "charts/Bademağacı_Mahallesi_heatwave_timeseries.html",
+    "charts/Basırlı_Mahallesi_heatwave_timeseries.html",
+    "charts/Bayır_Mahallesi_heatwave_timeseries.html",
+    "charts/Bayırkozağacı_Mahallesi_heatwave_timeseries.html",
+    "charts/Başköy_Mahallesi_heatwave_timeseries.html",
+    "charts/Bektaş_Mahallesi_heatwave_timeseries.html",
+    "charts/Beldibi_Mahallesi_heatwave_timeseries.html",
+    "charts/Beyreli_Mahallesi_heatwave_timeseries.html",
+    "charts/Bucak_Mahallesi_heatwave_timeseries.html",
+    "charts/Burçaklar_Mahallesi_heatwave_timeseries.html",
+    "charts/Büyükhasbahçe_Mahallesi_heatwave_timeseries.html",
+    "charts/Büyükpınar_Mahallesi_heatwave_timeseries.html",
+    "charts/Bıçakçı_Mahallesi_heatwave_timeseries.html",
+    "charts/Cikcilli_Mahallesi_heatwave_timeseries.html",
+    "charts/Cumhuriyet_Mahallesi_heatwave_timeseries.html",
+    "charts/Demirtaş_Mahallesi_heatwave_timeseries.html",
+    "charts/Dere_Mahallesi_heatwave_timeseries.html",
+    "charts/Değirmendere_Mahallesi_heatwave_timeseries.html",
+    "charts/Dinek_Mahallesi_heatwave_timeseries.html",
+    "charts/Elikesik_Mahallesi_heatwave_timeseries.html",
+    "charts/Emişbeleni_Mahallesi_heatwave_timeseries.html",
+    "charts/Fakırcalı_Mahallesi_heatwave_timeseries.html",
+    "charts/Fığla_Mahallesi_heatwave_timeseries.html",
+    "charts/Gözübüyük_Mahallesi_heatwave_timeseries.html",
+    "charts/Gözüküçüklü_Mahallesi_heatwave_timeseries.html",
+    "charts/Güller_Pınarı_Mahallesi_heatwave_timeseries.html",
+    "charts/Gümüşgöze_Mahallesi_heatwave_timeseries.html",
+    "charts/Gümüşkavak_Mahallesi_heatwave_timeseries.html",
+    "charts/Güney_Mahallesi_heatwave_timeseries.html",
+    "charts/Güzelbağ_Mahallesi_heatwave_timeseries.html",
+    "charts/Hacet_Mahallesi_heatwave_timeseries.html",
+    "charts/Hacıkerimler_Mahallesi_heatwave_timeseries.html",
+    "charts/Hacımehmetli_Mahallesi_heatwave_timeseries.html",
+    "charts/Hisariçi_Mahallesi_heatwave_timeseries.html",
+    "charts/Hocalar_Mahallesi_heatwave_timeseries.html",
+    "charts/Kadıpaşa_Mahallesi_heatwave_timeseries.html",
+    "charts/Karakocalı_Mahallesi_heatwave_timeseries.html",
+    "charts/Karamanlar_Mahallesi_heatwave_timeseries.html",
+    "charts/Karapınar_Mahallesi_heatwave_timeseries.html",
+    "charts/Kargıcak_Mahallesi_heatwave_timeseries.html",
+    "charts/Kayabaşı_Mahallesi_heatwave_timeseries.html",
+    "charts/Kestel_Mahallesi_heatwave_timeseries.html",
+    "charts/Keşefli_Mahallesi_heatwave_timeseries.html",
+    "charts/Kocaoğlanlı_Mahallesi_heatwave_timeseries.html",
+    "charts/Konaklı_Mahallesi_heatwave_timeseries.html",
+    "charts/Kuzyaka_Mahallesi_heatwave_timeseries.html",
+    "charts/Küçükhasbahçe_Mahallesi_heatwave_timeseries.html",
+    "charts/Kızlar_Pınarı_Mahallesi_heatwave_timeseries.html",
+    "charts/Kızılcaşehir_Mahallesi_heatwave_timeseries.html",
+    "charts/Mahmutlar_Mahallesi_heatwave_timeseries.html",
+    "charts/Mahmutseydi_Mahallesi_heatwave_timeseries.html",
+    "charts/Oba_Mahallesi_heatwave_timeseries.html",
+    "charts/Obaalacami_Mahallesi_heatwave_timeseries.html",
+    "charts/Okurcalar_Mahallesi_heatwave_timeseries.html",
+    "charts/Orhan_Mahallesi_heatwave_timeseries.html",
+    "charts/Payallar_Mahallesi_heatwave_timeseries.html",
+    "charts/Paşaköy_Mahallesi_heatwave_timeseries.html",
+    "charts/Saburlar_Mahallesi_heatwave_timeseries.html",
+    "charts/Sapadere_Mahallesi_heatwave_timeseries.html",
+    "charts/Saray_Mahallesi_heatwave_timeseries.html",
+    "charts/Seki_Mahallesi_heatwave_timeseries.html",
+    "charts/Soğukpınar_Mahallesi_heatwave_timeseries.html",
+    "charts/Sugözü_Mahallesi_heatwave_timeseries.html",
+    "charts/Süleymanlar_Mahallesi_heatwave_timeseries.html",
+    "charts/Taşbaşı_Mahallesi_heatwave_timeseries.html",
+    "charts/Tepe_Mahallesi_heatwave_timeseries.html",
+    "charts/Tophane_Mahallesi_heatwave_timeseries.html",
+    "charts/Toslak_Mahallesi_heatwave_timeseries.html",
+    "charts/Tosmur_Mahallesi_heatwave_timeseries.html",
+    "charts/Türkler_Mahallesi_heatwave_timeseries.html",
+    "charts/Türktaş_Mahallesi_heatwave_timeseries.html",
+    "charts/Tırılar_Mahallesi_heatwave_timeseries.html",
+    "charts/Uzunöz_Mahallesi_heatwave_timeseries.html",
+    "charts/Uğrak_Mahallesi_heatwave_timeseries.html",
+    "charts/Uğurlu_Mahallesi_heatwave_timeseries.html",
+    "charts/Yalçı_Mahallesi_heatwave_timeseries.html",
+    "charts/Yasirali_Mahallesi_heatwave_timeseries.html",
+    "charts/Yaylakonak_Mahallesi_heatwave_timeseries.html",
+    "charts/Yaylalı_Mahallesi_heatwave_timeseries.html",
+    "charts/Yenice_Mahallesi_heatwave_timeseries.html",
+    "charts/Yeniköy_Mahallesi_heatwave_timeseries.html",
+    "charts/Yeşilöz_Mahallesi_heatwave_timeseries.html",
+    "charts/Çakallar_Mahallesi_heatwave_timeseries.html",
+    "charts/Çamlıca_Mahallesi_heatwave_timeseries.html",
+    "charts/Çarşı_Mahallesi_heatwave_timeseries.html",
+    "charts/Çıplaklı_Mahallesi_heatwave_timeseries.html",
+    "charts/Öteköy_Mahallesi_heatwave_timeseries.html",
+    "charts/Özvadi_Mahallesi_heatwave_timeseries.html",
+    "charts/Üzümlü_Mahallesi_heatwave_timeseries.html",
+    "charts/İmamlı_Mahallesi_heatwave_timeseries.html",
+    "charts/İncekum_Mahallesi_heatwave_timeseries.html",
+    "charts/İsbatlı_Mahallesi_heatwave_timeseries.html",
+    "charts/İshaklı_Mahallesi_heatwave_timeseries.html",
+    "charts/Şekerhane_Mahallesi_heatwave_timeseries.html",
+    "charts/Şıhlar_Mahallesi_heatwave_timeseries.html",
+    "drought/data/catalog.js",
+    "drought/index.html",
+    "floods/assets/map-enhancements.js",
+    "floods/charts/daily-9714987.html",
+    "floods/charts/daily-9715207.html",
+    "floods/charts/daily-9715517.html",
+    "floods/index.html",
+    "floods/maps/coastal.html",
+    "floods/maps/discharge.html",
+    "floods/maps/exposure.html",
+    "floods/maps/river.html",
+    "index.html",
+    "wildfires/data/catalog.js",
+    "wildfires/index.html",
+    "wildfires/source-report.html"
+  ],
+  "deleted_files": [],
+  "files": {
+    ".nojekyll": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "CITATION.cff": {
+      "bytes": 687,
+      "sha256": "6f3da66a59830d87c57a91ce1d91ea519bfbc355079bd760c9c5b31269e1c1ae"
+    },
+    "DEGISIKLIKLER_V10_TR.md": {
+      "bytes": 5222,
+      "sha256": "d0d7ea153224d529bcaa52af2e4289d27d218105672fb0a1bea87086d9d07e29"
+    },
+    "DEGISIKLIKLER_V11_TR.md": {
+      "bytes": 4117,
+      "sha256": "d418ce407c1de55efe86f8bf476215a252da3543152e6f9946ee493a3fd3ccb3"
+    },
+    "DEGISIKLIKLER_V9_TR.md": {
+      "bytes": 2828,
+      "sha256": "4538e171b4ae3acea72c5dab8170bc7dba659a7b11726414c365deae7bb6402a"
+    },
+    "README.md": {
+      "bytes": 3767,
+      "sha256": "345079a7e4c55f4439bb50ae5e31aa894289db80660e881eec64255e82ef89d2"
+    },
+    "README_TR.md": {
+      "bytes": 3854,
+      "sha256": "4a9db74d6a434f0a4fba9332f71f0398c00f722cfdf5accfa5e2a465e7f934b4"
+    },
+    "RELEASE_MANIFEST_V10.json": {
+      "bytes": 138344,
+      "sha256": "b55585f082e3ac7e9da189bf6658ae6d29ad1a1b64af68104a8af7d30f8fc05c"
+    },
+    "TRANSLATED_FIGURES_V11.json": {
+      "bytes": 15419,
+      "sha256": "cc77453105bd61fc72bd36ee6fedd5d3fe1690c47ef07863be095f678ac37e91"
+    },
+    "VALIDATION_V10.json": {
+      "bytes": 2444,
+      "sha256": "888fbf8c3597b037ac85ba4ae766c9df0493affb0ffab7409eb6e7fc92bf7a57"
+    },
+    "VALIDATION_V11.json": {
+      "bytes": 3723,
+      "sha256": "f9ee79fafb08133536d589fc048ad19ca8a241ed184b4dad0d56670c5f1dbfa8"
+    },
+    "assets/atlas-i18n-v11.js": {
+      "bytes": 11453,
+      "sha256": "85e78daa8c00aa0250198a4a2df7229e7194017aad8d8380ce873b4d68bf15ca"
+    },
+    "assets/atlas-shell-v11.css": {
+      "bytes": 4763,
+      "sha256": "7786e814f9bb9a73b052f08200b9bf9f9bcf79a0607c4edfae4f088b12e01232"
+    },
+    "assets/atlas.css": {
+      "bytes": 4116,
+      "sha256": "52416141f6742d54581eda6d2b02145364203395b00e622dc851f80583b0eb8f"
+    },
+    "assets/atlas.js": {
+      "bytes": 6938,
+      "sha256": "c627192ba3f268b8ba12b79fa050956ed732ed394b96df322168f5aad364887a"
+    },
+    "assets/evidence-atlas.css": {
+      "bytes": 13515,
+      "sha256": "38112be87964e5854f708fd80974e52a21cb6230a6dc7726c5aeca1d9fa3900c"
+    },
+    "assets/evidence-atlas.js": {
+      "bytes": 62574,
+      "sha256": "fa2cef13fe22bc18b2e00ff9631b95df9c261acbe49382de7f594e061e341468"
+    },
+    "assets/heatwaves.js": {
+      "bytes": 20886,
+      "sha256": "9fdaf2934ea11bd4e4b085d299ca821aedfffa972cc6cf7831e33624aacf73b2"
+    },
+    "assets/layers.css": {
+      "bytes": 1146,
+      "sha256": "49a836854286e5110a9a4d26ef2566ca31c044d131823da2da4526c5e0c049e1"
+    },
+    "assets/leaflet.css": {
+      "bytes": 14806,
+      "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6"
+    },
+    "assets/leaflet.js": {
+      "bytes": 147552,
+      "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a"
+    },
+    "assets/navigation.css": {
+      "bytes": 1040,
+      "sha256": "c50c4203db9b184fce09f00860948c8ff04aa9c58fd9e96a0a9e9d79c83ee537"
+    },
+    "assets/series-controls.css": {
+      "bytes": 487,
+      "sha256": "596434af4b90c99d1185b20051546130812eecc7e5f302bb9c5bc48fed15b231"
+    },
+    "assets/translations-v11.js": {
+      "bytes": 216306,
+      "sha256": "a773807a4c11af02c12f1bbb3ce152fc3017505ffe2eb16ee12c63072bb275cc"
+    },
+    "charts/Akdam_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13252,
+      "sha256": "34a4a1301c766f33e1e979e2df86b0d835aef269fe287b42aae0e4ce9e405f9e"
+    },
+    "charts/Akçatı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13221,
+      "sha256": "d2cf18d97057aceeb5dc8843f8175a6958acd37fb91a828c256bfd6bc28df73e"
+    },
+    "charts/Alacami_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12940,
+      "sha256": "5d5eed95670e245edeae0f993d4f989c7c4b66f16755e0442833bf61d5775e72"
+    },
+    "charts/Alara_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13252,
+      "sha256": "85d9aa2e99632f318fa22fdc866a9e0165099a7a6ac6024349fdabfdd08470a6"
+    },
+    "charts/Aliefendi_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "9868c7c92a1b74025ade6c377350bd580e5e611686805562c93e8cd8c4704ee7"
+    },
+    "charts/Asmaca_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13219,
+      "sha256": "c2b8c2947c449df8638960352135b8434153306df4608ac1a7ca6ef6b600ea8a"
+    },
+    "charts/Avsallar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13255,
+      "sha256": "abc3228075b973a23dea2edad8cfcabf5225b5fafa7256dcd25475b6ec1d08bb"
+    },
+    "charts/Bademağacı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13225,
+      "sha256": "2aee56b73e809ca175f59ac62fedb1439671a97cf6c83eb0388df77687da2d2a"
+    },
+    "charts/Basırlı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12942,
+      "sha256": "c7fc085d7fa00f9bbbac810720f2a6ddfe5c27aacd7c58f3fb6a4ff14d8cc512"
+    },
+    "charts/Bayır_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13181,
+      "sha256": "0feca26cc5674fbdae03c2bb4c21fa3b2ba1c947c77ac97deefbba5b32b21042"
+    },
+    "charts/Bayırkozağacı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13191,
+      "sha256": "77874437713e9ccbc2234511f9da5951c54c1e280820084fc34c3f111ab5c318"
+    },
+    "charts/Başköy_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13244,
+      "sha256": "cb373273c1f9cd747e0f3b78b479d93257a5d3189a678147946321feacc76d37"
+    },
+    "charts/Bektaş_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13255,
+      "sha256": "9a89a38a55b05b34634aab436b662c5d1eeec86c90eed9fb09442997698c2e3e"
+    },
+    "charts/Beldibi_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13243,
+      "sha256": "19e57e23ec8bc9f8b3100586b696c35734f3259bf5f0547c04a700f010348ccd"
+    },
+    "charts/Beyreli_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13243,
+      "sha256": "30d3cc03dc931ce90caaf32c034b565ca02d2d2ba32dab0b9752b24dfbad10d1"
+    },
+    "charts/Bucak_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12938,
+      "sha256": "b02e5ab621911a80abfc6d30fb07f3f48d7ca593de4cffe4ef07256c6724f4dd"
+    },
+    "charts/Burçaklar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13257,
+      "sha256": "738ba98672086dd5d5652c857756b88808dbd01f5d13b0c97a1341f909e5634e"
+    },
+    "charts/Büyükhasbahçe_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13264,
+      "sha256": "e38a03a5ceaaf11aa32302779e7d035a0f99eb3a165bf9abb63ed87e8c010ff3"
+    },
+    "charts/Büyükpınar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13249,
+      "sha256": "5449d1c67018fdab44a46ec6c670fbf4d1a1904a3f2884e1a69db08654f183f5"
+    },
+    "charts/Bıçakçı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12944,
+      "sha256": "0975cd407ea37c94f4a880d07c46eb17bd31361f0ff9880f54e4ea508744c1c8"
+    },
+    "charts/Cikcilli_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12941,
+      "sha256": "9129b70b07ee62afb07ddb4921389187f246b008be8ff95eb9332cb99d613ba2"
+    },
+    "charts/Cumhuriyet_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13258,
+      "sha256": "03df6208cc4e6733a02645418e778d84d6541b0430087ca0cf05baa1219a2202"
+    },
+    "charts/Demirtaş_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "998b1213c23218e81b469566c352dea81c7dcc6e5741152696434eb97e485f83"
+    },
+    "charts/Dere_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13143,
+      "sha256": "9e300be9efb629e3fd4b3987b9b94db9a669bd8925bc8a3089fd10cd92aeaadf"
+    },
+    "charts/Değirmendere_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13226,
+      "sha256": "5a4fc0e5ee270233df6353960d7f43741387a5145998f0f923ed836d93af32c8"
+    },
+    "charts/Dinek_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "7b16d17cd999ad1b4625db18b0224454e2eee04d046231dd32bb2e500cc37f05"
+    },
+    "charts/Elikesik_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13256,
+      "sha256": "54fa211bdc0c982c612f44f227373e2a52fd13a0a1066a5e1f3653de51c6a35f"
+    },
+    "charts/Emişbeleni_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13279,
+      "sha256": "dbda0d6605dd75baad208c9a83dcf7e9bdcf44242af0e2f81d60d976fe37c13d"
+    },
+    "charts/Fakırcalı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13247,
+      "sha256": "27378b3d55de453dbbb1c983313dd75fa3c2aba2c6b083a5d51592d0c9dd9601"
+    },
+    "charts/Fığla_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13255,
+      "sha256": "6703d4ff10b29be26ade4f44557511c40fddf8cc2f91343d02e6ac13fc02f67e"
+    },
+    "charts/Gözübüyük_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13260,
+      "sha256": "12042f414aa1cede3ca125ef689df6ab5f35304c2ac1ba26539fef7e0612624f"
+    },
+    "charts/Gözüküçüklü_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "dba9f4d11508691fa041c49538d5a3f24998e4df20442c821abaa6dc3c30588d"
+    },
+    "charts/Güller_Pınarı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13264,
+      "sha256": "e39fbec9e9349b808ed38f574c949eb166b7d56388ff3265be645d889c35fd7d"
+    },
+    "charts/Gümüşgöze_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13188,
+      "sha256": "8fbb34a9b2d856328d80ef4fb204400e5456a0ccf48f37809f28f80e94316a6d"
+    },
+    "charts/Gümüşkavak_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12946,
+      "sha256": "61d133168c07ff3c0839d3c3232476e461063c53998aaa99dd557594c9af24b0"
+    },
+    "charts/Güney_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "15588213b04ca12ef97a55fc18e018a9265613a74bf71d02cb71939695d227cf"
+    },
+    "charts/Güzelbağ_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13257,
+      "sha256": "c682ac6f2a4d798826a23124dcaeafa20d608348cc1f1d9b56915436180ec330"
+    },
+    "charts/Hacet_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "43200d81555171cde1ce8d358f73aa8472a738df82eaae8ec190d82736b453db"
+    },
+    "charts/Hacıkerimler_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13188,
+      "sha256": "f126d246e08cf316dfed887677a9dd53e2fa51b112802537e17f1da43417e603"
+    },
+    "charts/Hacımehmetli_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12946,
+      "sha256": "55866b979b8a8bc93b7a096fd6b5a83c6e44342126f1d34da907fcf9ca66c10c"
+    },
+    "charts/Hisariçi_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13257,
+      "sha256": "5087ca8d3f04e8f187e0369b1c534bc47563ce21eee5ef819fbc57b47112b68b"
+    },
+    "charts/Hocalar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13243,
+      "sha256": "e95ac48156c21547a2a6bdcb48982d1af87e9ef6634888164dd15523245f8b48"
+    },
+    "charts/Kadıpaşa_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13258,
+      "sha256": "181d6364a210e6525df0fb2f1b13a5dd8e94671fb5b68f791b5c9c37394acd8b"
+    },
+    "charts/Karakocalı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12944,
+      "sha256": "132ce874627a5eab8fcae5564633fb69f3c9c78c3680de6559bc7ca1d64461a1"
+    },
+    "charts/Karamanlar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13257,
+      "sha256": "ec105e76657910a70b42c6949f8e3d99a65fc06f3dd0d60fc40ce17a09e2d9d8"
+    },
+    "charts/Karapınar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12943,
+      "sha256": "ab31144bf19fdc9922609466d16a3f23b2ebc497829971261b8372065b6bbdec"
+    },
+    "charts/Kargıcak_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "056c7ddb7608241b0ff631e013c7e2805b7ffb63652b396b85676b14553874e6"
+    },
+    "charts/Kayabaşı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13185,
+      "sha256": "87835914b30ada03d3b945f0632bafe1ad81c2f3fff551f14a32a8ae177b9c37"
+    },
+    "charts/Kestel_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13303,
+      "sha256": "d6caf88bc98a4f3dc2f18c0bbf58ab1e44d9a33b021929919723993aae8fd902"
+    },
+    "charts/Keşefli_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13244,
+      "sha256": "51e895cf06c6c27fd4651802f10eab10a828c26e023de971b79bc0970a1ad766"
+    },
+    "charts/Kocaoğlanlı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13249,
+      "sha256": "1e87f7d1c87f229944a08f09c076f7aee05b67b447ce34a18e0b396f1b0ca078"
+    },
+    "charts/Konaklı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13276,
+      "sha256": "cf1349fb3f48565cd8ec0e3132155f5cb4d4a7b89fdd2be17a65d7af40685bcc"
+    },
+    "charts/Kuzyaka_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13220,
+      "sha256": "830c02b610bc4943d8ec92ab08850e0ab982f3b14b68bc875ec43c2297d247ac"
+    },
+    "charts/Küçükhasbahçe_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13265,
+      "sha256": "6ff08a360324439260ac8178c3d12cb567f7ccc547e2ae1451fe491652f5891c"
+    },
+    "charts/Kızlar_Pınarı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13264,
+      "sha256": "88c92a5243e820145256899c9d2112cfcaa27b30e5c23f4f5ad98c644516182f"
+    },
+    "charts/Kızılcaşehir_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13228,
+      "sha256": "8b726271b68835e3547c092918ba359fa4ffd448470830e787cd791a2ceca40d"
+    },
+    "charts/Mahmutlar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13306,
+      "sha256": "dc63cf7a88046da66e25b54b3ed68b2159cb38cc9137ecb6671ee6a3f343a861"
+    },
+    "charts/Mahmutseydi_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13259,
+      "sha256": "8dcbea9c9afbc225e6c4a54ddc63a4e34ceac89ed4b3adf64b234cbe591de344"
+    },
+    "charts/Oba_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13216,
+      "sha256": "9b9b223526b8b813f44ea4cc9965b5b253754387256fc7ddf6ad326a61cc1753"
+    },
+    "charts/Obaalacami_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13223,
+      "sha256": "17aeb6449999f5716e56933f3c5b996e28269c88dbc6e7feb5138e82e68775cb"
+    },
+    "charts/Okurcalar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "b3b41060b6165271c4b8c94a49b8796ec7a96e4a429d8b23ab44e1d56df0df3e"
+    },
+    "charts/Orhan_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13252,
+      "sha256": "38c18a1a0bba2ddd161160b7b81e2d98ed38053dda9de9d58468a2f3d01519ed"
+    },
+    "charts/Payallar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13276,
+      "sha256": "ee4c90c9dfaa5f623a7637b76be1b4a0cd07eca59339f92a82091ff0f798dc86"
+    },
+    "charts/Paşaköy_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13257,
+      "sha256": "e744f58651cf1646667537decf58ca6836d04f23a29a50a6cf742cc23a74712e"
+    },
+    "charts/Saburlar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13255,
+      "sha256": "729b22d6b600d85c5a736d0ed9cc19166318f66679130300ca048dd2314f9d5a"
+    },
+    "charts/Sapadere_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13244,
+      "sha256": "60ab64ec486e5eca7aa323286b7bb97590602662c5242a3c05486c029bdc7dfe"
+    },
+    "charts/Saray_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "5d2073120d80534724c8179eb21485891bfae37f603cfaa3d46d0551d432d338"
+    },
+    "charts/Seki_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13301,
+      "sha256": "ec9a66b82144df88d08fd6947ede1521dff7941b6c0d157b4885285b9cbfa58a"
+    },
+    "charts/Soğukpınar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13259,
+      "sha256": "8c0c6cdf75a321a6098b5f97acd5192a6955929b3789deab5c69bbfdb96d2f31"
+    },
+    "charts/Sugözü_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13256,
+      "sha256": "f67b76edb1d2a585face89b1a7c3c2a33a1395bade096c6684c589000722f9b3"
+    },
+    "charts/Süleymanlar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13187,
+      "sha256": "5833b98a778a8317875e1f0bfd76c31f8fd36d590588031dd2ec539df0f57e42"
+    },
+    "charts/Taşbaşı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12943,
+      "sha256": "dcc70b366b4e79cb66a61ee10746e89381641e21e5ca0c235d4ee06c7c7a419a"
+    },
+    "charts/Tepe_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13252,
+      "sha256": "b4c3460f42a830ff9b9fd0bf4157132f894bbff76117774e5765d12288ca5fa5"
+    },
+    "charts/Tophane_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13255,
+      "sha256": "87c9ca445d214635cf9e477ca70b773c0ca338a00bdfe0678a9b09836fb75e31"
+    },
+    "charts/Toslak_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13274,
+      "sha256": "b680b1de68f50a9933948010b788478708d775a2c3bc205db1ac782a30bc9443"
+    },
+    "charts/Tosmur_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13219,
+      "sha256": "c5ee7bed279959504256cbc0bac9f2abe0121a4750987077b52cda4875b1375d"
+    },
+    "charts/Türkler_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13276,
+      "sha256": "bbe2db4921db9c13259fb4268da6a462255728e3c98cfa830ceda220911fd93e"
+    },
+    "charts/Türktaş_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13184,
+      "sha256": "cd7d7f2d0a39ddc2df9bae6d189c911091b4ffcd3aa84ffbf15d9fb21f57b2a8"
+    },
+    "charts/Tırılar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "3983dfe8fbf202827cc91d8d27ff8290dafb375f81cd5a849ae4bd995bb87e4b"
+    },
+    "charts/Uzunöz_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12940,
+      "sha256": "d26c6669939e32550f0728769d30d8aa8e2a9bf4cdbce88b865f9a9fbcfd46d2"
+    },
+    "charts/Uğrak_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12939,
+      "sha256": "5b8c9b310086fecd8ec027e523df3dd5cd5d194c4899df29d7540ef61166af7e"
+    },
+    "charts/Uğurlu_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12940,
+      "sha256": "9bc32c01f35af9108e6f739c99cbc4db6dde8df6ee23754cba70cb99cddb3d8d"
+    },
+    "charts/Yalçı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12940,
+      "sha256": "2b87c88e37066b663af93d5718141eec2d82fb95c3a947b0372cd3fcc45435bd"
+    },
+    "charts/Yasirali_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13256,
+      "sha256": "d5da7caab2aafd05d2c5d834ce33102750b9622b9c5fe1fb03d57bf3f0066f6f"
+    },
+    "charts/Yaylakonak_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12943,
+      "sha256": "7605d500d8995d5a51ce2424fe2514e972b4e55da3250a55e6b824014b4dd0cf"
+    },
+    "charts/Yaylalı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12941,
+      "sha256": "0e73242df038183fa1d25f70dc4659cb2bd85dd7072351abc50330d7d2999592"
+    },
+    "charts/Yenice_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13253,
+      "sha256": "0b4ac1ced3e6acaf0899f36fc58136ba009176d9974b52cd34b53d40d5ed0ee6"
+    },
+    "charts/Yeniköy_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13256,
+      "sha256": "53fafe8ac63f86d487fc4e5bca46ef728bbc372f7177cd91346da33ee62dbbe5"
+    },
+    "charts/Yeşilöz_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "a69b042d6e34bdf96cbf5aa4e1d58a385d1e0113d290ad4374de9a26e3c2cb7b"
+    },
+    "charts/Çakallar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13256,
+      "sha256": "bd06252beca6b9212d7572829525d09dd4de9c9f18c7dff961c1ab2b5b745052"
+    },
+    "charts/Çamlıca_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "411fde08757dda941d229cee00ca20c2903004ed281d0e7fad17b3017ad16947"
+    },
+    "charts/Çarşı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13256,
+      "sha256": "a142d006c1118ac7c6a9ea1f7242251a77c9eba2944346d3ba3425649a374636"
+    },
+    "charts/Çıplaklı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13224,
+      "sha256": "d7d30aab8be3a2d116b9cfec8571208420abf475a65b052fc2437e190e708003"
+    },
+    "charts/Öteköy_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12941,
+      "sha256": "c38fba309ee3d34e63fe0fb5386848fac2d27e6ac8e6631a8a40f1441e8a6597"
+    },
+    "charts/Özvadi_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13243,
+      "sha256": "77e879de6c5840aff42db3c460c96f425bcb3694f20d98a7deb7e19ee306976e"
+    },
+    "charts/Üzümlü_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12942,
+      "sha256": "af1bf68f5edade184548a893ea9a890042c10e2ec226504cb4bd55041fc0b17b"
+    },
+    "charts/İmamlı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12941,
+      "sha256": "c54c43117bd9c7974713c4777c17d1cff8876c96b664f722e0dd0a59fc9f2348"
+    },
+    "charts/İncekum_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13255,
+      "sha256": "1c1ac42211077058d4b381e55e4147162b655017a59d29228521f233f4f55e5c"
+    },
+    "charts/İsbatlı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "7c08cb36e900afd570a203d0acca9d4814795eb83b0b450568e07b9c682321fc"
+    },
+    "charts/İshaklı_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13245,
+      "sha256": "4943a1605c170bbcdf65cdb78a954b6a4b7dd13192f0542dc34364dd11e52b0f"
+    },
+    "charts/Şekerhane_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 13258,
+      "sha256": "b424a7b5c2ca269865f90f21fa3b0bdcf7f8911c0f0c6ab0d985200b0462f240"
+    },
+    "charts/Şıhlar_Mahallesi_heatwave_timeseries.html": {
+      "bytes": 12941,
+      "sha256": "df777066e51a0d6a2d909f34f48a73308c267906a20f26d023876f58f0e33f2f"
+    },
+    "data/heatwave-catalog.js": {
+      "bytes": 2441965,
+      "sha256": "56cb3c0916271ae0dff0c186828536b3a7b88ed3d9a22cf1d0e50f16ef7c2736"
+    },
+    "data/lulc_2026.json": {
+      "bytes": 168,
+      "sha256": "4239220113c133bfd3f4fe1628d152a061a8c7c18df7193b5f698e5fd3dbe806"
+    },
+    "data/lulc_2026.png": {
+      "bytes": 634187,
+      "sha256": "5e5e6e9ea82337fb0798de3c487fa3b97ac2f151cadfe7e514d582c36725c56d"
+    },
+    "data/neighbourhoods.geojson": {
+      "bytes": 2024691,
+      "sha256": "ff95426a2e39f7d9df40d118c7fd6d7ac154740219f3c27e9f730cce98acf26a"
+    },
+    "data/risk_lst.json": {
+      "bytes": 147,
+      "sha256": "8f82a6847e1c5f19adb9258564891984c6239429fb367cc7513ef25f83f34207"
+    },
+    "data/risk_lst.png": {
+      "bytes": 494874,
+      "sha256": "fda072f3fa8466ee5638f60cf9e64b78c6509beb30b6d733836bd17d354b654d"
+    },
+    "data/vulnerable_population.json": {
+      "bytes": 244,
+      "sha256": "33bad531c4d91f655a96eef3519b3a66619bd28e7215fa6598f3bf5ef061a73a"
+    },
+    "data/vulnerable_population.png": {
+      "bytes": 301544,
+      "sha256": "b9f8163dfaa7c8f3dfe92e6df97589909568b801fa43c816661e3df2ae1e4194"
+    },
+    "drought/data/Alanya_boundary.geojson": {
+      "bytes": 47665,
+      "sha256": "6dad24d7527891c9b9ed239bbcd98916df774ba2336cd8e7bd3c6bd1219b5eba"
+    },
+    "drought/data/catalog.js": {
+      "bytes": 645367,
+      "sha256": "7db5202edd0750e3c04849e568de2fa190f019b45fe0b2e25d2752d9b6b1c0f7"
+    },
+    "drought/data/climate_hazard_cells.geojson": {
+      "bytes": 71915,
+      "sha256": "0f28bce7215f5d7ef44785d46a078dc59bf3880ff694390926ad038f21d2c038"
+    },
+    "drought/data/production_Avocado.geojson": {
+      "bytes": 83837,
+      "sha256": "e68f39fbe72885f00cfd900fe789640b1496d1244ad9baf671fed3f771dbbfb2"
+    },
+    "drought/data/production_Banana.geojson": {
+      "bytes": 83791,
+      "sha256": "1c6f5202d19efcdb8936d3099d2d000e344cdff685f4c6bf20852ed28d45e9b0"
+    },
+    "drought/data/production_Citrus.geojson": {
+      "bytes": 84018,
+      "sha256": "198d81520a2a1074f3f4545968dfd10e570466166d6d07a4e1fb04a015d14a69"
+    },
+    "drought/data/production_hazard_intersections.geojson": {
+      "bytes": 192398,
+      "sha256": "8ed1993335557a20dbb08c38eec53812e419a36cc291434aedb0a226d000535a"
+    },
+    "drought/downloads/Alanya_clipped_hazard_cells.csv": {
+      "bytes": 6074,
+      "sha256": "1e6a187285feeada99b33bb236d8351b9c8835ee242581a72fe41dd064e163e4"
+    },
+    "drought/downloads/Alanya_crop_risk_summary.csv": {
+      "bytes": 915,
+      "sha256": "53588a7b49b7edda274fc8d2195742b3be3c1c826fdf74da3bc334bd9ccf53c1"
+    },
+    "drought/downloads/Alanya_hazard_area_weighted_summary.csv": {
+      "bytes": 1505,
+      "sha256": "ca354da93fc1e987cfaddab4491808d7539ee85e6c7b9716c0bceaece513734f"
+    },
+    "drought/downloads/Alanya_price_sensitivity.csv": {
+      "bytes": 398,
+      "sha256": "a8b3e15a06fa1a30d1995f4a8f9576483436cf858993d0856a8d221def09ec11"
+    },
+    "drought/downloads/Alanya_production_hazard_intersections.csv": {
+      "bytes": 21042,
+      "sha256": "9c27564dbf3b3a7bd6e98c6a381eb0eadb9f9f6df1432b0eda285934cc58b7da"
+    },
+    "drought/downloads/Alanya_weighting_comparison.csv": {
+      "bytes": 295,
+      "sha256": "550f47c1d44652aedfabb0c5581f44693c0d9ec4f18ab86304acdf0da63dd3b0"
+    },
+    "drought/downloads/CDS_requests_Alanya.json": {
+      "bytes": 4287,
+      "sha256": "7a0d319fee168df9fb8baf94fc95a81fd914ef36917111cb8732d7eeb982604d"
+    },
+    "drought/downloads/crop_parameters_normalized.csv": {
+      "bytes": 563,
+      "sha256": "340a4d93f8b4d1091afe0d51caf081291a8fdf668bccdd390caa3fd0a67fe5b7"
+    },
+    "drought/downloads/geospatial-source.zip": {
+      "bytes": 3164950,
+      "sha256": "bde4fd7eaf7bf05c4952578965800f33059d48ea3c52982843cbfba248845980"
+    },
+    "drought/downloads/input_manifest.csv": {
+      "bytes": 2637,
+      "sha256": "79abd726faed6ed93c3aa0b3ca6da9ae309eaabfed54994408c249b555d0b4c1"
+    },
+    "drought/downloads/legacy_crop_order_numeric_check.csv": {
+      "bytes": 431,
+      "sha256": "38206ba2944b1afcf1c97d36b996c3f0491b6aebc3cc41dc6b197ef513634fb2"
+    },
+    "drought/downloads/method_and_data_audit.csv": {
+      "bytes": 1534,
+      "sha256": "6f2eb4049bf30a14d7d97273cddb8d8f02f663470b76ed13dbcf99d59010d2c4"
+    },
+    "drought/downloads/monthly_inherited_irrigation_mm.csv": {
+      "bytes": 3317,
+      "sha256": "029f4140f75134bbb3e18aafd6a28db0c5c4d9fa62d3e1e401dcebffb80b622d"
+    },
+    "drought/downloads/notebook_execution.json": {
+      "bytes": 645,
+      "sha256": "aab5b8423c196ca7329e04d498757530ebd2757394640a092193d241687cc3c3"
+    },
+    "drought/downloads/recalculation_input_inventory.csv": {
+      "bytes": 558,
+      "sha256": "ce2f780e354c082db8ab3a21448c2d969dd8293c4cfdf3681c578c16bf533e11"
+    },
+    "drought/downloads/run_config.json": {
+      "bytes": 1682,
+      "sha256": "b564a2286c37ce825647ab98d80976a9e067275d1817391ad8a9303561b885c1"
+    },
+    "drought/downloads/runtime_versions.json": {
+      "bytes": 163,
+      "sha256": "7feff1bf08e0549fb9d55b0c92c901b6f3cd4d48fffc07f48ddc5979624c9983"
+    },
+    "drought/downloads/source-manifest.json": {
+      "bytes": 9279,
+      "sha256": "9c7b6f4de5be508797787d7ff25da6c6ae274871e3c523deb304bfdac1dd57d5"
+    },
+    "drought/downloads/web-map-vectors.zip": {
+      "bytes": 125813,
+      "sha256": "d2c9221204473686be3bd57e1edbf05b7ea192be46884e5a4384868b3d4f4126"
+    },
+    "drought/figures/Alanya_Avocado_yield_reduction.webp": {
+      "bytes": 139336,
+      "sha256": "10c5b90165c69009fcd6a3a2b4bceecfea7dffe48a447094f74c343507052995"
+    },
+    "drought/figures/Alanya_Banana_yield_reduction.webp": {
+      "bytes": 139464,
+      "sha256": "53de0ec3223e79a4d2b5eb159092cbf29602ebff35d3e6cc7d2ace2f4f75318e"
+    },
+    "drought/figures/Alanya_Citrus_yield_reduction.webp": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "drought/figures/Alanya_annual_precipitation.webp": {
+      "bytes": 137832,
+      "sha256": "faa8d21de59e04217e9cc06b2a686cb4a189a21d900980ce5064f662019c02f8"
+    },
+    "drought/figures/Alanya_climatic_water_balance.webp": {
+      "bytes": 137784,
+      "sha256": "a1c2085100221b32c1ac4ff8e4deef7b74e8a6a3416faa0a7d5f120b542cd424"
+    },
+    "drought/figures/Alanya_crop_production_density.webp": {
+      "bytes": 216956,
+      "sha256": "30d113bdac96f4ed60aee475d0347521290ab3ec22a28c4c78bb2f9ea095d2b2"
+    },
+    "drought/figures/Alanya_crop_revenue_loss_density.webp": {
+      "bytes": 245730,
+      "sha256": "bec21798d997c1bfdf0cce745df7baf6826df25a8252b2d3a7d279a0539c23e2"
+    },
+    "drought/figures/Alanya_crop_risk_summary.webp": {
+      "bytes": 71274,
+      "sha256": "3130ab69a6ad234263513e762f4dab269f531d2e7ccfdef1eb4293ffdab72a98"
+    },
+    "drought/figures/Alanya_irrigation_requirement_comparison.webp": {
+      "bytes": 236766,
+      "sha256": "5d4712d0d27822c70bb17f5d4c944e91bc48726b6f091f22dcaba0a8ae9c7657"
+    },
+    "drought/figures/Alanya_irrigation_seasonality.webp": {
+      "bytes": 113722,
+      "sha256": "d5728d8d638cf3a09d2d3fd5b2113878bc41f3b5303be7271fa3723ba2dc88bd"
+    },
+    "drought/figures/Alanya_reference_ET0.webp": {
+      "bytes": 146724,
+      "sha256": "d03a14b341db25eb130d3a41721e60dfa1938e3c63d13db6656d0444853c2f24"
+    },
+    "drought/figures/Alanya_soil_AWC.webp": {
+      "bytes": 143064,
+      "sha256": "f5c5d5d72995e6aeaad79e41b4f49147f66f58677d168800b5579d9e843a334f"
+    },
+    "drought/figures/Alanya_study_domain.webp": {
+      "bytes": 141834,
+      "sha256": "9fdb1ae2f2a727a4003f59009ee18e2c81ca7a5ebfe3e4f424f9ff4c0bde21ab"
+    },
+    "drought/figures/Alanya_yield_reduction_comparison.webp": {
+      "bytes": 231128,
+      "sha256": "288083282d8a2cae5b63544b373de5000de1ecb6b3082edb0c48a9e8bb013a05"
+    },
+    "drought/figures-tr/Alanya_Avocado_yield_reduction.svg": {
+      "bytes": 412320,
+      "sha256": "8e9253f352e7a7760b574feaad464165e3f8feab58e628bfc842c686fca10ced"
+    },
+    "drought/figures-tr/Alanya_Banana_yield_reduction.svg": {
+      "bytes": 412316,
+      "sha256": "a01f7ed35d652176a549e9e0c158eea547661e86bebe52c0384cf40706586f14"
+    },
+    "drought/figures-tr/Alanya_Citrus_yield_reduction.svg": {
+      "bytes": 412322,
+      "sha256": "8c759cfed24efc9575efb06ab96236f56d487df07160f3bd17f1acc4050969c4"
+    },
+    "drought/figures-tr/Alanya_annual_precipitation.svg": {
+      "bytes": 412371,
+      "sha256": "97100a574dfdf216406b8994da609568bcb40014aa66b7123e4d988cd05c62aa"
+    },
+    "drought/figures-tr/Alanya_climatic_water_balance.svg": {
+      "bytes": 412050,
+      "sha256": "4438010acb1886b3f5385fdf07dec40b347986cbbc19594e15792fbf38e93358"
+    },
+    "drought/figures-tr/Alanya_crop_production_density.svg": {
+      "bytes": 1223734,
+      "sha256": "3515fd3c8b7bebf43a25bf0020bf3d6bd2b0c3db5cc6e493e2e914b8f79e2d7f"
+    },
+    "drought/figures-tr/Alanya_crop_revenue_loss_density.svg": {
+      "bytes": 1175758,
+      "sha256": "b1ee75878805c2b1eac47c7d68e32e31ad038fd772e0d024fc668227a9f692b4"
+    },
+    "drought/figures-tr/Alanya_crop_risk_summary.svg": {
+      "bytes": 17497,
+      "sha256": "8566d4162ad77cb02f6af25d1075516b6498b14b4b0b0eef9eb808ae12fd1e36"
+    },
+    "drought/figures-tr/Alanya_irrigation_requirement_comparison.svg": {
+      "bytes": 1197816,
+      "sha256": "a6c6ece01c2b438a24e27ece34a0f9d483dfdaabaa49baca0487d9c2162dc6f3"
+    },
+    "drought/figures-tr/Alanya_irrigation_seasonality.svg": {
+      "bytes": 25121,
+      "sha256": "5c0e154275b5affbb48f66f9e9c0cb431e65ec04e4c0dd23bc030d13c67248a5"
+    },
+    "drought/figures-tr/Alanya_reference_ET0.svg": {
+      "bytes": 412840,
+      "sha256": "79a97a902fd1fb7a598442312fdc4488633f146c298c13ab89b522580fddb6af"
+    },
+    "drought/figures-tr/Alanya_soil_AWC.svg": {
+      "bytes": 412808,
+      "sha256": "3e01e3fa4914751b818b0e727c03a51ddbab733c66b7c6248bf161ba760671d2"
+    },
+    "drought/figures-tr/Alanya_study_domain.svg": {
+      "bytes": 422424,
+      "sha256": "5578265b2b5f0e094565131d45796e6b041d9744a9a6326712a2c0aa7253c5ce"
+    },
+    "drought/figures-tr/Alanya_yield_reduction_comparison.svg": {
+      "bytes": 1196444,
+      "sha256": "bee6af8ba475b73062770cccc4254f00825f4a1cf8a05701d103707e2f39b7a6"
+    },
+    "drought/index.html": {
+      "bytes": 6815,
+      "sha256": "0a10a4d93020ef3f8aabe883333438776e731066503247dbeecf15afdef6e9c9"
+    },
+    "floods/assets/floods.css": {
+      "bytes": 8733,
+      "sha256": "0c34051730101bad92dc2cca3f443f9d7c9eb7703f69247c0c9ec5e5203fb1b7"
+    },
+    "floods/assets/floods.js": {
+      "bytes": 12674,
+      "sha256": "479762e493a588402068999b90db5eb9648c925d291aba60c63d558aa7f0c9ca"
+    },
+    "floods/assets/map-enhancements.css": {
+      "bytes": 1666,
+      "sha256": "31d40123fb158646270d5545edd2583bd3199370a704007da50ed45cb70336e4"
+    },
+    "floods/assets/map-enhancements.js": {
+      "bytes": 4472,
+      "sha256": "6833c23dde13e8d9228a55cb5eccefef05adc3789f746e261653349d041b889a"
+    },
+    "floods/charts/daily-9714987.html": {
+      "bytes": 1239026,
+      "sha256": "eb126b4869a3c55105688a5e36e9832265c94abfc6b52391ec3a6f087f7711da"
+    },
+    "floods/charts/daily-9715207.html": {
+      "bytes": 1099038,
+      "sha256": "eac5b438d625cfbfb7402651b3ed489d263ceee16431a7f9230157ed9664c88a"
+    },
+    "floods/charts/daily-9715517.html": {
+      "bytes": 1240751,
+      "sha256": "e85f3165577cce136f21bae200567b65061174bca3ef86e20a167660968ec9b8"
+    },
+    "floods/data/catalog.json": {
+      "bytes": 212308,
+      "sha256": "87c7c8fa9dea5289cf1eade8f2f9d36fe8927be04fe709ae783d7d6eda0f139a"
+    },
+    "floods/downloads/annual-population-truncated.csv": {
+      "bytes": 2403,
+      "sha256": "1c4a0bf664e4b89e862765a141edce2b8e040ee85fd98cf0a4e8252c49080843"
+    },
+    "floods/downloads/catchment-inventory.csv": {
+      "bytes": 1129,
+      "sha256": "59b68a119379f7d425a9272b201c1895fbb41bf18a50cdfafca31f3b8512827c"
+    },
+    "floods/downloads/coastal-hazard-summary.csv": {
+      "bytes": 2100,
+      "sha256": "d38945986665cb8bfe03075c4537fe773bf8fb36b6e5e64c2d7dc2e3ffd8048b"
+    },
+    "floods/downloads/discharge-absolute-ensemble.csv": {
+      "bytes": 16212,
+      "sha256": "63e345663a1690e502ce141c4b238f91c55eda675a42b18b809e1e8c0ecf31c7"
+    },
+    "floods/downloads/discharge-monthly-ensemble.csv": {
+      "bytes": 98126,
+      "sha256": "fb9cac432cceece7b3282e1fb74dccf26b6a42f780528e893d4c593a3f716afe"
+    },
+    "floods/downloads/discharge-period-audit.csv": {
+      "bytes": 1025,
+      "sha256": "6397903c788c799532186cde3369f88bac0a1d777ef85903e8aafa92b9116e2f"
+    },
+    "floods/downloads/discharge-relative-ensemble.csv": {
+      "bytes": 14236,
+      "sha256": "406dd6f99ad665a94820633f344ac1e33abd8d33914fc09b5cb8a8c203c37375"
+    },
+    "floods/downloads/ehype-catchments.geojson": {
+      "bytes": 50597,
+      "sha256": "24062ff102b844aac7b391e046c158700e4806481845fab50b304eb8effde3a7"
+    },
+    "floods/downloads/population-qa.csv": {
+      "bytes": 18042,
+      "sha256": "22209189c14da749bdd75212600065ef2c5539ca587939f8d6bdc9f137f73b5f"
+    },
+    "floods/downloads/resident-population-exposure.csv": {
+      "bytes": 28414,
+      "sha256": "e5cdad3a5acc84988e134589ac2fa510e29d650a41a38a1a562a09d299febde3"
+    },
+    "floods/downloads/river-hazard-summary.csv": {
+      "bytes": 13145,
+      "sha256": "95391ba7b6a48073a0d8074dd09bbce69479d0f365eacac1cbc4e3fd87735bd3"
+    },
+    "floods/downloads/river-t100-qa.csv": {
+      "bytes": 520,
+      "sha256": "fb1584261a7392df9220d2b04e0854b21a6ccccc1f8d09c591f7def860739f8e"
+    },
+    "floods/downloads/source-manifest.json": {
+      "bytes": 14314,
+      "sha256": "a564d11e4e821ea7eb9bc0b8a5e925ea6ccc99ac456c44a41a7c0a6683961ef8"
+    },
+    "floods/figures/coastal-2050-t100.webp": {
+      "bytes": 848720,
+      "sha256": "8d8c9f90fd6d76a75a2e5b165ae3cbea5d8501d38fedfc6a61e0d25d8f511720"
+    },
+    "floods/figures/coastal-area.webp": {
+      "bytes": 46714,
+      "sha256": "c156c35ddc155001180850975717220ba9c0e39327425fac752cb1e377e86f6f"
+    },
+    "floods/figures/coastal-change-central.webp": {
+      "bytes": 1551800,
+      "sha256": "ba99ac90e14a2984062b32e67a66918db46908b27f7cd95c1ac9c30c890c2d2d"
+    },
+    "floods/figures/coastal-transitions.webp": {
+      "bytes": 856390,
+      "sha256": "9e53005ece4279a072768e8793f38385405258d17f32d55f31696ac0d86bca9d"
+    },
+    "floods/figures/discharge-model-spread.webp": {
+      "bytes": 69618,
+      "sha256": "876ad7548f283a5f0764855a22901f7b1324c5c518a60304cf4833841f85a10a"
+    },
+    "floods/figures/discharge-q10-rcp85.webp": {
+      "bytes": 789478,
+      "sha256": "258dcfe3abf0af2d5386893bab9832ff980490bf93c7643e05ebdf34186df0ab"
+    },
+    "floods/figures/discharge-q50-rcp45.webp": {
+      "bytes": 789890,
+      "sha256": "f4552867623070c52b4ff9773a80b617a39776d4274a003e682f4a75beed11c1"
+    },
+    "floods/figures/discharge-seasonality.webp": {
+      "bytes": 221144,
+      "sha256": "d7e86a448d87b8e810e09e2f4e2e8646e5acbac09ee20e582b574dae9e2e8799"
+    },
+    "floods/figures/population-central.webp": {
+      "bytes": 1221706,
+      "sha256": "841f50906f3e05bf34e0166fec92930cc8b33e5f90a65bea6fdbcec387a55d1b"
+    },
+    "floods/figures/population-displacement.webp": {
+      "bytes": 68706,
+      "sha256": "9456a7fef4c3018b0b6c74b0841bb561f80d4b6dcd8e61330bfbd9dec7938812"
+    },
+    "floods/figures/population-exposure.webp": {
+      "bytes": 64696,
+      "sha256": "51bdbf416c69836e572acd25728ed9fa1b301f41dda416d62c82a7b7c4db83a9"
+    },
+    "floods/figures/population-qa.webp": {
+      "bytes": 1317660,
+      "sha256": "88f03f5265cd69b46c72f90423f791bd5d34fb8a0041f19794793b28a7a20881"
+    },
+    "floods/figures/river-area.webp": {
+      "bytes": 41300,
+      "sha256": "a866b8535ba620b1d4528bbd3423532408f19def1ebdb09a04037e5d7a013ef8"
+    },
+    "floods/figures/river-qa.webp": {
+      "bytes": 1030676,
+      "sha256": "f5a81159a2b796058396d3811e15ddb69f8a3c8efe1642962c77f2bb75136fc5"
+    },
+    "floods/figures/river-t100-central.webp": {
+      "bytes": 1191872,
+      "sha256": "e60fde1d5bbee261a0f26dc65d4f9845bc6322848b5ee45dae265f6bbe700910"
+    },
+    "floods/figures/river-t100.webp": {
+      "bytes": 1114032,
+      "sha256": "b7d31c905b641fd8b82f01990d0f05d84c2869a408363d8e00869f5ddfb30e89"
+    },
+    "floods/figures-tr/coastal-2050-t100.svg": {
+      "bytes": 51606,
+      "sha256": "40cc2a4bec567f58d08e076f80cb63802d83cd4e1c9e8d4729169cadcacdce9f"
+    },
+    "floods/figures-tr/coastal-area.svg": {
+      "bytes": 18717,
+      "sha256": "45b578603af548d1bb73d3d646ef152f6da8d3fa1838a908e95a005dd3d0c74b"
+    },
+    "floods/figures-tr/coastal-change-central.svg": {
+      "bytes": 51320,
+      "sha256": "d92635be800963f7dc61873a399305bc865c563213c0d302791b820053886d82"
+    },
+    "floods/figures-tr/coastal-transitions.svg": {
+      "bytes": 48042,
+      "sha256": "b04f84b9ff4bb723820d6c9422938b5b519e60ca123cf754895a6a120798440e"
+    },
+    "floods/figures-tr/discharge-model-spread.svg": {
+      "bytes": 15721,
+      "sha256": "0380bd5b846d32c8e0a2739277d6251e596ec2e780d88d48fe8b1f4272f235af"
+    },
+    "floods/figures-tr/discharge-q10-rcp85.svg": {
+      "bytes": 46365,
+      "sha256": "688bfcc7e2f194bc5d246f6504a4b6f7ef102b1fea298eeacb61843e25bc9290"
+    },
+    "floods/figures-tr/discharge-q50-rcp45.svg": {
+      "bytes": 47178,
+      "sha256": "dbc027eac6026f51dadb20744c3ed7b106711770df734f28c84a92695c590652"
+    },
+    "floods/figures-tr/discharge-seasonality.svg": {
+      "bytes": 19848,
+      "sha256": "14ea1fef3e30d8983d8ff0b6f7592e130b439c1875f101a6b734b38c20a64957"
+    },
+    "floods/figures-tr/population-central.svg": {
+      "bytes": 443427,
+      "sha256": "ba06f2d634a873f629df582a656fc64dd53ea3f00b7d9bf959a4a0eee7163bc4"
+    },
+    "floods/figures-tr/population-displacement.svg": {
+      "bytes": 18598,
+      "sha256": "fe9108bf17b6fd229be020237e3afb60a286fa6198d54e16819091a6842bff9f"
+    },
+    "floods/figures-tr/population-exposure.svg": {
+      "bytes": 18599,
+      "sha256": "f49b5400581b435efa50470171b6d0f81e04633d3fcf965fad43aa33eba26fa5"
+    },
+    "floods/figures-tr/population-qa.svg": {
+      "bytes": 480914,
+      "sha256": "d30606110e7029d6151435fecc0d8f1e3e86ea892f4cefaa278ac76b00cd8e2d"
+    },
+    "floods/figures-tr/river-area.svg": {
+      "bytes": 17471,
+      "sha256": "a9e86b45922d86f4fa556f0bfb7558100bd420aad4eed76342c35b3c8f275569"
+    },
+    "floods/figures-tr/river-qa.svg": {
+      "bytes": 8945,
+      "sha256": "685f0e9a9bb9e2beefd09a57b12df8435847e5478d3279dfc17aac8907af5efa"
+    },
+    "floods/figures-tr/river-t100-central.svg": {
+      "bytes": 2596739,
+      "sha256": "44a81b240856ee7c51c06d85bff346c0dce6dd74640833a945ecff29accadf2e"
+    },
+    "floods/figures-tr/river-t100.svg": {
+      "bytes": 1202472,
+      "sha256": "3a51258c9e5b9dbe35c6e0f9073f83efdebe5f5b2db31332bf100a939df83210"
+    },
+    "floods/index.html": {
+      "bytes": 6609,
+      "sha256": "4e55bd4cecb9904ab6977a486fb7a320af7fa09e0d8909b1a3bd5d990b99fe2a"
+    },
+    "floods/maps/coastal.html": {
+      "bytes": 714109,
+      "sha256": "556396a7f58ab148f0b9fa679c4e8ce972dc1747477738c35dd85cf14a750cb5"
+    },
+    "floods/maps/discharge.html": {
+      "bytes": 158775,
+      "sha256": "56b6f0424395caf213c4022bf86938bbe195e26f5af73587dfe8654f98fec2c8"
+    },
+    "floods/maps/exposure.html": {
+      "bytes": 665288,
+      "sha256": "022821cf61c77ce202695cedb4e5708ce88f6bc7c048d8d1bdcd7ef9db7dd607"
+    },
+    "floods/maps/river.html": {
+      "bytes": 4054587,
+      "sha256": "b0748445d8a308b7c69dcc496a1d177702a0ae9334abc1c49f4e360ee2fe25bd"
+    },
+    "guide.html": {
+      "bytes": 5364,
+      "sha256": "2c679b5946bf74763737207d206ddd92308bb17dd2af8c5035c626521e3a12b3"
+    },
+    "heatwaves/downloads/heatwave-source-series.csv": {
+      "bytes": 1458037,
+      "sha256": "fb4a1d9f7808cd490d0c47d4ed339833e3bfac1cabe5b00a260a1efa348ed5c4"
+    },
+    "heatwaves/downloads/source-manifest.json": {
+      "bytes": 17012,
+      "sha256": "d94a9df531df19cae647a49008cf76d700cb9f57984735eb57a81aeac5192beb"
+    },
+    "index.html": {
+      "bytes": 6950,
+      "sha256": "a35d62a897242b1e54a64ad342796f53d77cc60092757c7619201633132c9bc2"
+    },
+    "plotly.min.js": {
+      "bytes": 4851164,
+      "sha256": "8ef4c6ab1369f0019611cbcd2d5b8aafef23e5d19ef58c39d4b4249831fe2180"
+    },
+    "tools/build_hazard_assets.py": {
+      "bytes": 12931,
+      "sha256": "1edd7bcc3300bb85fa8399633820462527d4580d04212dd67b9848a6384402d3"
+    },
+    "tools/requirements-build.txt": {
+      "bytes": 73,
+      "sha256": "8ce4f2181a337184404e225dc4051be0f2fecca1e9a4edefbe64ad786a5e5488"
+    },
+    "wildfires/data/catalog.js": {
+      "bytes": 8160818,
+      "sha256": "b35f360d5dd19b801ce56f3213bc9c93f74f1dc5a40863e50a017b6ede82da94"
+    },
+    "wildfires/data/district-centres.geojson": {
+      "bytes": 621,
+      "sha256": "b35f971ad4e4b5dbfd1155055c8ed9a0eb668e72f199c95a5b7da85fe6b589d3"
+    },
+    "wildfires/data/effis-wui-source-indicator.geojson": {
+      "bytes": 630189,
+      "sha256": "a4501866063d95f6865fd0be4b7f3e57d162c57737a381ebb10c2066d4992faf"
+    },
+    "wildfires/data/electricity-lines.geojson": {
+      "bytes": 3089,
+      "sha256": "321b34ac0468c01ab8528ae108c222d3ecc2ddb09906f1ab023c045539025eed"
+    },
+    "wildfires/data/energy-facilities.geojson": {
+      "bytes": 2805,
+      "sha256": "8131f59afd2a1ddd403cbf67af69ad543676f5183e2c16cd5fc528d8f4d8feb0"
+    },
+    "wildfires/data/exploratory-hazard-line-segments.geojson": {
+      "bytes": 930765,
+      "sha256": "cbc0cdcef49dc5effdbcc1a8ee77427f348b8b7e36c73658dccccfb203db24df"
+    },
+    "wildfires/data/fibre-routes.geojson": {
+      "bytes": 34457,
+      "sha256": "983306df4f1c74b77877c13e4c8c46953365643f1a24f58f2fbed8bcf413a4c3"
+    },
+    "wildfires/data/native-weather-cells.geojson": {
+      "bytes": 106997,
+      "sha256": "67f130aa805c468db6c32e6eef60f0c7fbc919a737ac61ebece6bffe7877d7d7"
+    },
+    "wildfires/data/rivers.geojson": {
+      "bytes": 8853,
+      "sha256": "42cb743c61a91b82c89f4b49a7d3be15f074ba3ab6946069817f87b5ba8d4062"
+    },
+    "wildfires/data/road-risk-intervals.geojson": {
+      "bytes": 265114,
+      "sha256": "5702fe7b6be5fb994c9ee460a0d18c8bc17255a42c57e310674e248f64241e05"
+    },
+    "wildfires/data/selected-institutional-resources.geojson": {
+      "bytes": 9615,
+      "sha256": "e0c95144136c44c0641c5d384a1f49bd00774286afbdee4e2441bc7720b37708"
+    },
+    "wildfires/data/settlements.geojson": {
+      "bytes": 546,
+      "sha256": "bc4f5e05a58ec704358cdc56704eb871f2e4f90b65afdc8b40d4cf78ecf5642c"
+    },
+    "wildfires/data/supplied-alternative-district-boundary.geojson": {
+      "bytes": 32161,
+      "sha256": "3ee5d354206999825a8e6d324c3e1336bf0e5297d7ad603b83e22ff15ad7715c"
+    },
+    "wildfires/data/supplied-major-roads.geojson": {
+      "bytes": 6906,
+      "sha256": "a85e1b4a79c29a45d707e1d9429e9575a56754e07488a4e6af76408abf7ef57b"
+    },
+    "wildfires/data/weather-cell-energy-facilities.geojson": {
+      "bytes": 860,
+      "sha256": "bf3a7b4b0b805fbf324309e0fbe9f1f5e15445fa5e3cb59a9c429da12ea79326"
+    },
+    "wildfires/data/weather-cell-line-segments.geojson": {
+      "bytes": 46643,
+      "sha256": "19c2cf12679e2f80e04c32b0f6607932f3d039f5088504d49ae7e996c5470760"
+    },
+    "wildfires/data/working-district.geojson": {
+      "bytes": 100113,
+      "sha256": "d2480f0e856b42e219408a872d444fa03ddfa95345500bd010ceb329cc4aa1d1"
+    },
+    "wildfires/downloads/BOUNDARY_FIX_VERIFICATION.json": {
+      "bytes": 2148,
+      "sha256": "5d3ae2a245a65470614260f3b22f7d3af79993376369359c72b7a3fb70699045"
+    },
+    "wildfires/downloads/CHELSA_MODEL_METADATA.json": {
+      "bytes": 1826,
+      "sha256": "8ed1c9c1ab548ae2219849746742c24431eb8cf0aefaf94aec0a17d8b629cfed"
+    },
+    "wildfires/downloads/FINAL_INTEGRITY_CHECKS.csv": {
+      "bytes": 99766,
+      "sha256": "273f77508456088349e2191feb9338b30c5cf7bb2ebbe4861ed6d303071d05d8"
+    },
+    "wildfires/downloads/FINAL_NOTEBOOK_EXECUTION.json": {
+      "bytes": 4481,
+      "sha256": "138b956fb0beaed1a2d5ef3b340297159da76b880b3db59a76565e0ccdd99dd8"
+    },
+    "wildfires/downloads/FINAL_SOFTWARE_VERSIONS.json": {
+      "bytes": 568,
+      "sha256": "97992792d8db7fb5f9e18fe89c762cd4293b32f25b61e0ca4394c7043165a92e"
+    },
+    "wildfires/downloads/FINAL_VERIFICATION.json": {
+      "bytes": 434,
+      "sha256": "998a95f3f274787e41fc059e67ea82cfced41db823e5bbf4cd96f316fe022f66"
+    },
+    "wildfires/downloads/FINAL_WORKFLOW_COVERAGE.csv": {
+      "bytes": 10029,
+      "sha256": "e6cd30971b76428c96893e211b40dd7d54d8bad5903549bbdd9af6f3cfdc2d2e"
+    },
+    "wildfires/downloads/INPUT_DECODER_VERIFICATION.json": {
+      "bytes": 447,
+      "sha256": "64e01a8a5472e66832e7e8f45705b7bbdb5dd99c0ddd6da2d8ec8ebe0b76f004"
+    },
+    "wildfires/downloads/ML_DELIVERY_CHECKS.json": {
+      "bytes": 280,
+      "sha256": "cff89f3298f05c706fb694307541d7ed5b40161a01eae8a1ff363765c3018536"
+    },
+    "wildfires/downloads/ML_MODEL_METADATA.json": {
+      "bytes": 1191,
+      "sha256": "c8d5bffe474ec514f69a2cbdfe11dd2b22547e96b1ece0b0d7a103682873679e"
+    },
+    "wildfires/downloads/ML_UPSTREAM_VERIFICATION.json": {
+      "bytes": 1932,
+      "sha256": "29a260171d6d43e649b7bac39f606a68c574c10ccac3a0af5d0a8736e0154553"
+    },
+    "wildfires/downloads/ML_VERIFICATION.json": {
+      "bytes": 1332,
+      "sha256": "0b44517caecf75ff09c3477a545757fc4a11e6495b1a168ef1eef54c747bee0e"
+    },
+    "wildfires/downloads/NOTEBOOK_VERIFICATION.json": {
+      "bytes": 593,
+      "sha256": "f20e00e84a8cea5020434db4298c00532c1d021ac4eda3bd9a14b8466d547ca4"
+    },
+    "wildfires/downloads/REQUEST_SCHEMA_VERIFICATION.json": {
+      "bytes": 11154,
+      "sha256": "9ef3f6a17ef765479c815a352cc87c7f4a69b3e786e29646ef411d153af49fb1"
+    },
+    "wildfires/downloads/RUN_STATUS.json": {
+      "bytes": 13979,
+      "sha256": "d6cc0ae64c08e0d36d253ecde88d595155a67c98a2cf5966a7dd007ab8d17d2f"
+    },
+    "wildfires/downloads/agriculture_year_summary.csv": {
+      "bytes": 339,
+      "sha256": "72a6306fe6a347b33c7378247c9e49a6f6bc68d46b38b9b7e8bcd0d1d5c31edf"
+    },
+    "wildfires/downloads/captions.json": {
+      "bytes": 16730,
+      "sha256": "086bf27982ee5e527727b0ae3ab232077026fba5269e90d779ad239774a8aecb"
+    },
+    "wildfires/downloads/chelsa_climate_input_coverage.csv": {
+      "bytes": 24044,
+      "sha256": "dc67415630ebaf13b2abd8965c0a09957ff9657b6518b11fb1e92bd3a48453ad"
+    },
+    "wildfires/downloads/chelsa_feature_importance.csv": {
+      "bytes": 807,
+      "sha256": "d69743a4ee92c9eb11378940c01382929af066d7b681c6fcaa7a4720e4eb1e2b"
+    },
+    "wildfires/downloads/chelsa_fire_label_support.csv": {
+      "bytes": 156,
+      "sha256": "44b146679e98dc715898642a2e055343cfb3f4f5fb4148da908dcb1b2f5e504c"
+    },
+    "wildfires/downloads/chelsa_future_climate_novelty.csv": {
+      "bytes": 2657,
+      "sha256": "6453bde825c0ff8e5b5d252890b07b05f2c19319a3768da98f44106a35bc05cb"
+    },
+    "wildfires/downloads/chelsa_future_summary.csv": {
+      "bytes": 657,
+      "sha256": "1a0af96156eebda784b918649f2fa3d1375b8b854307c5b21ccc250380900f83"
+    },
+    "wildfires/downloads/chelsa_hazard_class_areas.csv": {
+      "bytes": 3555,
+      "sha256": "8ea9e637ee41069113e3ca592063c4015714c26b3fc08cc05abe067fe48555a7"
+    },
+    "wildfires/downloads/chelsa_model_validation.csv": {
+      "bytes": 755,
+      "sha256": "7d792e008f3ab9746e23d612d5d4e9cd683f83972aa9a2e80e45e10507e6b600"
+    },
+    "wildfires/downloads/chelsa_predictor_spatial_support.csv": {
+      "bytes": 360,
+      "sha256": "82539703544bc80cee4b672bda2f82fdee0aa4fe4963fd2c64e537b658a8c4e6"
+    },
+    "wildfires/downloads/chelsa_spatial_splits.csv": {
+      "bytes": 128512,
+      "sha256": "0a379d0fdac77731a2c4b6e27351fa144136c384b6118c8901e246248bb4cfc5"
+    },
+    "wildfires/downloads/crop_value_arithmetic_differences.csv": {
+      "bytes": 316,
+      "sha256": "ee3246f43ff19c5339efe484ec1d891002f94dd34caad50039d94eef04420a3c"
+    },
+    "wildfires/downloads/effis_layer_coverage.csv": {
+      "bytes": 998,
+      "sha256": "804d7d27f847ca80c2adbb9addd6bb22b35441bbae9f1c027363689bf71e12e2"
+    },
+    "wildfires/downloads/forestry_unit_history_summary.csv": {
+      "bytes": 894,
+      "sha256": "febd8648f54fb2470f9cb6bd471503ce52c2cfbab89ffc195b7c77efc83bee2f"
+    },
+    "wildfires/downloads/geospatial-source.zip": {
+      "bytes": 7538499,
+      "sha256": "127e0c50e752855ef0f917d787a9845d600d406683c2b1a010cd30c06907ae61"
+    },
+    "wildfires/downloads/gis_all_layer_audit.csv": {
+      "bytes": 7060,
+      "sha256": "7b7701c23eb8d3fff5047f3bca5bec437306802f729aa026d15c4c3841287950"
+    },
+    "wildfires/downloads/gis_boundary_comparison.csv": {
+      "bytes": 335,
+      "sha256": "ca02cf4a4614bdf5ab3fa6a686a26566fb81d64e02a44916821a9398dfa04696"
+    },
+    "wildfires/downloads/gis_boundary_sensitivity_inventory.csv": {
+      "bytes": 2867,
+      "sha256": "8a60e6e706b71ccc3427087058b9f908de554668fd91884886cc0cde2400bd22"
+    },
+    "wildfires/downloads/gis_district_inventory.csv": {
+      "bytes": 879,
+      "sha256": "953acb12b7e5e96904aece44a4d4cf4868270fb14b6d86b2d6566b61f5177f54"
+    },
+    "wildfires/downloads/gis_energy_facility_attributes.csv": {
+      "bytes": 1472,
+      "sha256": "67ed252ba224150e9dc09f413c06d237659d1032ca3cccc5889482f358a1daa7"
+    },
+    "wildfires/downloads/gis_facility_nearest_mapped_assets.csv": {
+      "bytes": 945,
+      "sha256": "0094e37fbd86cab55dad7417a2fc1c1274c36f455325a702f597755b7791d9f3"
+    },
+    "wildfires/downloads/gis_fuel_proximity_sensitivity.csv": {
+      "bytes": 2488,
+      "sha256": "44924c598535e0178fbdb5c0963bf55c610873b55cb811ada614cf13d6613718"
+    },
+    "wildfires/downloads/gis_historical_burn_cell_overlap.csv": {
+      "bytes": 5952,
+      "sha256": "9aef9f7569a0b7a3b429d28bb43e13cb4095a125aa391909fa60fe60b3ef3946"
+    },
+    "wildfires/downloads/gis_line_hazard_partitions.csv": {
+      "bytes": 139806,
+      "sha256": "5d0a3025537be023d5e124a38f96aba4752915e972d2fb34f7eabdc3273ba78f"
+    },
+    "wildfires/downloads/gis_line_hazard_summary.csv": {
+      "bytes": 11575,
+      "sha256": "4e5a03af101d24b7a589ef4828e25dae619ec992da1abdde23c7b6371f871536"
+    },
+    "wildfires/downloads/gis_point_hazard_exposure.csv": {
+      "bytes": 3850,
+      "sha256": "ea1949aa55d712f11f635470473cafe74c85d1c73fb15a4f009e287b7b956efb"
+    },
+    "wildfires/downloads/gis_shared_corridor_candidates.csv": {
+      "bytes": 466,
+      "sha256": "0265b040df9273ae88f5c90bf82a0ca9bb50432c406cd6de6591329ba2e29be6"
+    },
+    "wildfires/downloads/local_resource_coordinate_checks.csv": {
+      "bytes": 4021,
+      "sha256": "0a25414e760b7fb52693aa8ccb3583ffaf306b940b6709afea4cf0dd72914492"
+    },
+    "wildfires/downloads/ml_climate_absolute_changes.csv": {
+      "bytes": 8846,
+      "sha256": "a4f5e707fb065184e0553f02b5fa011ed9f9117a04e6247198b9d2d47851365a"
+    },
+    "wildfires/downloads/ml_corine2000_area.csv": {
+      "bytes": 694,
+      "sha256": "d35b5ad7084cdb75510109bda0b09988567830ed1255de92752e38a7c000b29b"
+    },
+    "wildfires/downloads/ml_feature_importance.csv": {
+      "bytes": 937,
+      "sha256": "952525c0c50c07905eab0bc517f8bd6c485fd9c9a0b01b73d528e03899405d51"
+    },
+    "wildfires/downloads/ml_fire_label_support.csv": {
+      "bytes": 264,
+      "sha256": "2da095a7d57144f504d9a6377dc92b157797cf6dc20811dc686ec544977d0425"
+    },
+    "wildfires/downloads/ml_future_climate_novelty.csv": {
+      "bytes": 5682,
+      "sha256": "991820b89640fb623a3e567847bd40cd137faaaa64f1a4503ae7e81a38402600"
+    },
+    "wildfires/downloads/ml_future_scenario_summary.csv": {
+      "bytes": 985,
+      "sha256": "7095246d89ab4518a530ec892e8e8ac9fce2c2687b13b18a2c1f87dcf8030fa1"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_HIST_1991_2020.csv": {
+      "bytes": 458,
+      "sha256": "917bceb8eee375496aa02911883d9e84cf3f43b5523470809039aeb3de2b498b"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_RCP45_CSC_REMO2009_2021_2040.csv": {
+      "bytes": 568,
+      "sha256": "a1f5265085a8a8346a97854a02d2abd8d2976585f5fcbd433dba9c67429ea298"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_RCP45_CSC_REMO2009_2041_2060.csv": {
+      "bytes": 551,
+      "sha256": "8ea0610010cc8b283b549d85a90d0959247bd0372a08ec2b0cfb5003acae61f4"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_RCP45_CSC_REMO2009_2061_2080.csv": {
+      "bytes": 565,
+      "sha256": "ee9807247db48b5a9a4586be4c34388ac2920a7a2082c91448ddc754a648fb0e"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_RCP85_CSC_REMO2009_2021_2040.csv": {
+      "bytes": 570,
+      "sha256": "b997f6cd9212094942d4c3a9c684f9d6cdb3274b9854444e57ba2110b28a92ee"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_RCP85_CSC_REMO2009_2041_2060.csv": {
+      "bytes": 552,
+      "sha256": "3bb7867966509f2f06fbd38b989f1c9b65dc54ce758a6821be5ec9e50b7cad71"
+    },
+    "wildfires/downloads/ml_hazard_area_CHELSA_RCP85_CSC_REMO2009_2061_2080.csv": {
+      "bytes": 555,
+      "sha256": "da9fdcd52e3b30623e7c5c0a2d0b6d2f6028b2aaa77ff1ecd465e59c66850b4d"
+    },
+    "wildfires/downloads/ml_hazard_area_HIST_199110.csv": {
+      "bytes": 386,
+      "sha256": "39d89fcfc87f94a45546e3b4926a5fea3480da0e1c22704cc2eeb265b495901c"
+    },
+    "wildfires/downloads/ml_hazard_area_RCP45_CLMcom_CCLM_202140.csv": {
+      "bytes": 487,
+      "sha256": "153b2a866174259b1a6da8f3e9ca1a28e1acb5f3564cb54f2b4957da770ab85b"
+    },
+    "wildfires/downloads/ml_hazard_area_RCP45_CLMcom_CCLM_204160.csv": {
+      "bytes": 484,
+      "sha256": "5a4cb7cdf0238535b52878a7b1734fd3b20c403f452da15369e2d7ab8cd61628"
+    },
+    "wildfires/downloads/ml_hazard_area_RCP85_CLMcom_CCLM_202140.csv": {
+      "bytes": 490,
+      "sha256": "a627f2cb0a9f9672a0cc9733a8162931dafb6ddb98b196f5335683bee5f63aa2"
+    },
+    "wildfires/downloads/ml_hazard_area_RCP85_CLMcom_CCLM_204160.csv": {
+      "bytes": 472,
+      "sha256": "3196a43a9e2f6de7309070c85709df325309c0b11d20b4d8fb648c32dd5623ea"
+    },
+    "wildfires/downloads/ml_hazard_class_area_all_scenarios.csv": {
+      "bytes": 2139,
+      "sha256": "5663bd6c0cfc2c738731dd7636928180959a1fb4c3aaccb53aae2c08d333ac8a"
+    },
+    "wildfires/downloads/ml_hazard_transition_matrix.csv": {
+      "bytes": 23154,
+      "sha256": "e856cd8351f702a9bfa954d3a7c749f5b095a240129d806f66b3e5ef4c6abab8"
+    },
+    "wildfires/downloads/ml_input_hash_verification.csv": {
+      "bytes": 15460,
+      "sha256": "facce196deb31fcc5170240f19cb36ebccbb543fd617e6f4fa40e7565a3641f8"
+    },
+    "wildfires/downloads/ml_model_validation.csv": {
+      "bytes": 1021,
+      "sha256": "a608bc3c3356f998d9aeba71a77b1f1a1057bfa86779b16b4c56638ccf8fed88"
+    },
+    "wildfires/downloads/ml_modis_district_annual_detected_area.csv": {
+      "bytes": 2960,
+      "sha256": "a8033f8efc9913446cf4346ce79481b8c5c9e60c651862527a86b7c655976c29"
+    },
+    "wildfires/downloads/ml_modis_monthly_quality.csv": {
+      "bytes": 16076,
+      "sha256": "7655e604ead75a55bef00a0f10d4d07ae8469a292c927f227107b0aa187b3615"
+    },
+    "wildfires/downloads/ml_risk_5km_zone_summary.csv": {
+      "bytes": 730849,
+      "sha256": "7bf841002fb87826052b670218a2d53db18c45320ed12b944cf542e2649305aa"
+    },
+    "wildfires/downloads/ml_risk_class_areas.csv": {
+      "bytes": 23706,
+      "sha256": "8b0755d0c6d715a0fa00a5561fe0af264fbe7c9de39b45a6ffd9e2b8f010a7c2"
+    },
+    "wildfires/downloads/ml_training_and_spatial_splits.csv": {
+      "bytes": 160962,
+      "sha256": "b60496a97a4320ddd60e7c3851f0dae69d246b50ee38f8293128c05bf038e2d6"
+    },
+    "wildfires/downloads/ml_training_feature_ranges.csv": {
+      "bytes": 798,
+      "sha256": "d3686fb2133a2b646e748e8af3174551b777a01d9576a82b1cd6d19c8edb7bf4"
+    },
+    "wildfires/downloads/ml_vulnerability_source_coverage.csv": {
+      "bytes": 763,
+      "sha256": "f9f20fa478b3b50fd23ddfdb010d2a7eb8914c52337bf2a6964dc05586112728"
+    },
+    "wildfires/downloads/response_affected_population_curves.csv": {
+      "bytes": 485121,
+      "sha256": "5a24f8fe28d28b5ee764493b6f912ed24b8cd905174b15580b68e7439cf907f5"
+    },
+    "wildfires/downloads/response_affected_population_summary.csv": {
+      "bytes": 5632,
+      "sha256": "68f4d6dc57659ed5854b50c1560cfd05921d6eb2471aee6c0ab66b79f21e442f"
+    },
+    "wildfires/downloads/response_cmip6_annual_climate.csv": {
+      "bytes": 58393,
+      "sha256": "333597126c536563e630d15779859d1d711d13772ab17808a08f459d55b01bb4"
+    },
+    "wildfires/downloads/response_cmip6_projections.csv": {
+      "bytes": 47310,
+      "sha256": "89952a4bb58302e7e83b5ba0ccaa4ffd84577e55070823f527751de1f78ecb80"
+    },
+    "wildfires/downloads/response_cmip6_rolling20_diagnostics.csv": {
+      "bytes": 40855,
+      "sha256": "6e37001fe6ad1f4b1aa1991adc412aacac028c5dd6ce7aa720fd51a25a7689e3"
+    },
+    "wildfires/downloads/response_energy_facility_weather_exposure.csv": {
+      "bytes": 12196,
+      "sha256": "2d65e96fb106b37a79d69c91f0a230a0a8ea8aad3ff6bb0082eb770acc766aa1"
+    },
+    "wildfires/downloads/response_fwi_fuel_pareto.csv": {
+      "bytes": 2688,
+      "sha256": "fc765633580e9ec6522bc110b65427fece17cfd5b3098d6c51c6b47b5709e065"
+    },
+    "wildfires/downloads/response_historical_annual.csv": {
+      "bytes": 12659,
+      "sha256": "05ef388b7acc73518e927942d179a4c02b9dfd8d52d04f51dc3c1a2c9adf0288"
+    },
+    "wildfires/downloads/response_historical_gumbel.csv": {
+      "bytes": 2536,
+      "sha256": "c52e20b246e7322af6f9aeb871973bf2c0c56be5bc53d88647318b3de2de92bd"
+    },
+    "wildfires/downloads/response_historical_population_curves.csv": {
+      "bytes": 10192,
+      "sha256": "4c66b67bead672dd4fbc9edaf5be931ed9f5aa65c409bd64fa4f78131900599e"
+    },
+    "wildfires/downloads/response_infrastructure_native_cell_exposure.csv": {
+      "bytes": 114474,
+      "sha256": "bd16336f86bf0185030f41a34a3a79ff1a160809d95a49e1ec13d1ca08cd24ef"
+    },
+    "wildfires/downloads/response_infrastructure_weather_summary.csv": {
+      "bytes": 18137,
+      "sha256": "d93576cf75c830836c567084a847c5065b112faa9463400396cdde37232d5ceb"
+    },
+    "wildfires/downloads/response_polynomial_diagnostics.csv": {
+      "bytes": 545,
+      "sha256": "d76b0d11cc6843f3da74e36949b743e26cd15e06a00227474b1a2c30fe6817d3"
+    },
+    "wildfires/downloads/response_population_counterfactual_summary.csv": {
+      "bytes": 580,
+      "sha256": "0f847cf6e38fb179622e1809502c9a39705bad9329f1ff06dcc98dc51f4b1be0"
+    },
+    "wildfires/downloads/response_projection_model_spread.csv": {
+      "bytes": 2785,
+      "sha256": "b1361e3c14fd0b29e0789de0ce417ba8dcedcf79c47b835269c365eceb3ad922"
+    },
+    "wildfires/downloads/response_ssp_population_native_cells.csv": {
+      "bytes": 10335,
+      "sha256": "519986df2887793f921254df2dc319d4d7ebf34c148435aefcd10e81a2a06fa0"
+    },
+    "wildfires/downloads/response_ssp_population_totals.csv": {
+      "bytes": 376,
+      "sha256": "f2a14dc20e9266920136414b4b499d9051213435a02f07ca3c22c5b1152e0d8a"
+    },
+    "wildfires/downloads/response_surface_table.csv": {
+      "bytes": 60817,
+      "sha256": "53a6e5a5b15dd0c31b53484bfd04af8b860ea74b89c4f8622ca55b5d6e52352e"
+    },
+    "wildfires/downloads/road_risk_uncertainty_length_summary.csv": {
+      "bytes": 3694,
+      "sha256": "a502d4fa0ff3f68138d8b785249c309ee9d73089767455b745a5ad97e7cd604d"
+    },
+    "wildfires/downloads/source-manifest.json": {
+      "bytes": 70066,
+      "sha256": "0844c6b73ee4df5e15002641164f7b43cd0d9c971be13f3ba46e711de4cac8b0"
+    },
+    "wildfires/downloads/source_hash_verification.csv": {
+      "bytes": 530,
+      "sha256": "870b452d5653ba211c80a7fc1d47bb2fc510e2734443441ecaf1f1c15d335f8a"
+    },
+    "wildfires/downloads/source_quality_checks.csv": {
+      "bytes": 1343,
+      "sha256": "a2b5f344567cce848e71340bd399530722d5a676c342d7d6bba5a5516fb24022"
+    },
+    "wildfires/downloads/web-map-vectors.zip": {
+      "bytes": 459578,
+      "sha256": "d88a1572de7f59823a0256ece14e16188a4b1c6360865226224f280ea1a10488"
+    },
+    "wildfires/downloads/wildland_interface_buffer_sensitivity.csv": {
+      "bytes": 520,
+      "sha256": "d6d2d23a4e62a49c7c18fc33f8028608e905ba6106fc0396f0705de6d569b73a"
+    },
+    "wildfires/downloads/worldcover_area_summary.csv": {
+      "bytes": 1364,
+      "sha256": "eed4a66d5ec23eb61fc8e347010efe62516d15e07d4f3d590833d62de1ac9ac5"
+    },
+    "wildfires/figures/00_ml_map_overview.webp": {
+      "bytes": 235760,
+      "sha256": "0753de511ed09293f82ac82224b4931c736f899b954799d28561beeed7b45ef0"
+    },
+    "wildfires/figures/01_institutional_fire_history.webp": {
+      "bytes": 43306,
+      "sha256": "0ae09dc3d0826ad22a2cfd1d4d8baa8ceae302f82e3612f567085f5b6dd4f404"
+    },
+    "wildfires/figures/02_fire_counts_by_forestry_unit.webp": {
+      "bytes": 35936,
+      "sha256": "5ce4c026c94bad1feb0d7c2feb8a8cb9ceef2dbd4721b48fb573ad7effffe374"
+    },
+    "wildfires/figures/03_local_resources_map.webp": {
+      "bytes": 105184,
+      "sha256": "413927a61d3df1683913d6d2fc0e30676d81c1fed3ff3c7da08eaec3f20bf9df"
+    },
+    "wildfires/figures/04_agricultural_production_values.webp": {
+      "bytes": 59964,
+      "sha256": "ad3717234d28d4d1bd6b1cfcbd147ba347c23fd177af3b189ec3d9b715d8c5d7"
+    },
+    "wildfires/figures/09_ml_rasterized_historical_fires.webp": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "wildfires/figures/09_worldcover_map.webp": {
+      "bytes": 240070,
+      "sha256": "d1b8e7ec11dc5178b4d0fe516a852ae6d7774903e760dcdaf10b16e37965db9f"
+    },
+    "wildfires/figures/10_ml_fire_observation_coverage.webp": {
+      "bytes": 117556,
+      "sha256": "896a2910806f73c60802c3cae2b528fa23272770d95f4723cf63680e9e982a0c"
+    },
+    "wildfires/figures/10_wildland_built_up_proximity.webp": {
+      "bytes": 146704,
+      "sha256": "557182194aea7e5622a6285060ce2c529167ac8594548d7c3f24b6b1718f778b"
+    },
+    "wildfires/figures/11_interface_buffer_sensitivity.webp": {
+      "bytes": 32302,
+      "sha256": "8cbe6f000d99f875ebd1297216f5da4f1e91d4a1f8ca7fd39ec2dda2508a3fff"
+    },
+    "wildfires/figures/11_ml_terrain_elevation.webp": {
+      "bytes": 117184,
+      "sha256": "7c8db69a950c29ad7c3735c8779d3ccc41509eeee1e8fbcb429074e88d6fe55f"
+    },
+    "wildfires/figures/12_ml_fuel_type.webp": {
+      "bytes": 118222,
+      "sha256": "5d9970845ac00089931222012f8001fdb68cf8e61c90025d348aaa8e798a18f6"
+    },
+    "wildfires/figures/13_ml_susceptibility_historical.webp": {
+      "bytes": 117032,
+      "sha256": "89c45a54e36ed97864a4d295bcb631693d816807f48a3c38b0dcd8b8d87688a2"
+    },
+    "wildfires/figures/14_effis_wui_indicator.webp": {
+      "bytes": 287540,
+      "sha256": "792f9ea903cae17fb51451c785198a704d5f4918fed35d871e8cee9ce315913a"
+    },
+    "wildfires/figures/14_ml_hazard_historical.webp": {
+      "bytes": 121582,
+      "sha256": "b186b93f45a3bf5597fee465ced86fc71e626376ed372d3a68217ed48ca2bd31"
+    },
+    "wildfires/figures/15_ml_feature_importance.webp": {
+      "bytes": 40828,
+      "sha256": "8158e37efed18b2f63fd8f6bf8b124f25ae07b4928924c220e4e13ce49e73742"
+    },
+    "wildfires/figures/16_gis_boundary_comparison.webp": {
+      "bytes": 119006,
+      "sha256": "7610c157dce51d8b812f568fd4cd31e0a9d2c6d80c148ea598d84320471374ad"
+    },
+    "wildfires/figures/17_gis_infrastructure_overview.webp": {
+      "bytes": 180844,
+      "sha256": "2206244f96a5d4720ed1a0dfb429216db6e357fa6081138c21149cec67c35342"
+    },
+    "wildfires/figures/18_gis_observed_fire_overlap.webp": {
+      "bytes": 148794,
+      "sha256": "fdaccbd02162c518614f163982170ad2110bd42f22bf1104465ed69f7fa1688d"
+    },
+    "wildfires/figures/19_gis_fuel_proximity.webp": {
+      "bytes": 47970,
+      "sha256": "82bea12ceeecb6d6c0ce37fe8a8f7c6d41ce66e69d6150e133ab5c5a712ef131"
+    },
+    "wildfires/figures/20_ml_population_economic_ecological_risk.webp": {
+      "bytes": 251460,
+      "sha256": "8e6b8b6b54822d7a6e237f00cedcf5c9ef5c5ca38d360829b5b166238195dfaa"
+    },
+    "wildfires/figures/21_ml_aggregated_risk_analysis_zones.webp": {
+      "bytes": 289426,
+      "sha256": "e5cb0e3a645a0f7cf9f7f92c89a4715e93f75525c2faea53c6a3329016cb38e2"
+    },
+    "wildfires/figures/22_ml_hazard_and_risk_change.webp": {
+      "bytes": 161166,
+      "sha256": "bce1c138cb5872abac84f8a13ae18e051327726a9d2c757b046847ff9e9bf32c"
+    },
+    "wildfires/figures/23_road_vulnerability_interval.webp": {
+      "bytes": 133204,
+      "sha256": "f99bbc152fc7c7a93810ed56143e89d9b811ca8a565b2321dc5b130df00baabd"
+    },
+    "wildfires/figures/24_road_risk_historical_future_interval.webp": {
+      "bytes": 224066,
+      "sha256": "032287956398775b3c8213702ba6fa5eb2a8d1aa030f0e08c57191f212bf52e8"
+    },
+    "wildfires/figures/30_response_historical_annual_exceedance.webp": {
+      "bytes": 99442,
+      "sha256": "00186bcc5c17e71da8b6ee45eab410c434f43f04a2d0ea03491e5fa0431a5c84"
+    },
+    "wildfires/figures/31_response_historical_diagnostics.webp": {
+      "bytes": 282754,
+      "sha256": "a1144c00c51f7ff0d78c64c4f80691d3497fbdfe60063109aae3f84b6eeecbe6"
+    },
+    "wildfires/figures/32_response_gumbel_diagnostics.webp": {
+      "bytes": 64108,
+      "sha256": "1d19c85dbd2efa5f64fd0071b658048f0af7f62d471304481321b9b620f76192"
+    },
+    "wildfires/figures/33_response_joint_surfaces.webp": {
+      "bytes": 248264,
+      "sha256": "17b78760fff2089eea2f072cb842c037a5dfa35c7cf52ce67bfe59d156ad6336"
+    },
+    "wildfires/figures/34_response_cmip6_model_spread.webp": {
+      "bytes": 312204,
+      "sha256": "6172e7fc22f85a3ff25eb578061eab7dc13ee42187f5a7c09167463e2a46ea34"
+    },
+    "wildfires/figures/35_response_native_cell_projections.webp": {
+      "bytes": 159520,
+      "sha256": "ffdfdaf18c302ab5bec33fec86249c67eea4523d756210dd6aab94e65a59cb9b"
+    },
+    "wildfires/figures/36_response_affected_population.webp": {
+      "bytes": 57356,
+      "sha256": "19e27e4d95bf955627ef418b922737630897ec8ccd32aff6eb68fede7ed53f43"
+    },
+    "wildfires/figures/37_response_population_weather_cells.webp": {
+      "bytes": 102852,
+      "sha256": "9026f044f264664d7577831f591bd89c8ac519e0dccaea212d080e0066c5fd75"
+    },
+    "wildfires/figures/38_response_infrastructure_weather.webp": {
+      "bytes": 169444,
+      "sha256": "4f01bc7c2378c50c163fd432437bf004835c738622e3fddb844623eefcd3addc"
+    },
+    "wildfires/figures/39_response_relative_danger.webp": {
+      "bytes": 103328,
+      "sha256": "a1dc6f629835a9f25688c06b210e8266aad2acdc9c94fc1128555175b5d920bc"
+    },
+    "wildfires/figures/40_response_pareto_profiles.webp": {
+      "bytes": 111852,
+      "sha256": "834e1b0aa180ade129eeb2d032558b957bad7e17240c25c9a64af06e751f118a"
+    },
+    "wildfires/figures/41_chelsa_historical_susceptibility.webp": {
+      "bytes": 116376,
+      "sha256": "03267b703da914139136f0613fc30d0780103df2723a37d06409c9c89d56b962"
+    },
+    "wildfires/figures/42_chelsa_historical_hazard.webp": {
+      "bytes": 117002,
+      "sha256": "aed421a05db9d8cc0f9ee62c8b8f378bff1d0c0190615588452d5a4b77bf9ec4"
+    },
+    "wildfires/figures/43_response_rolling_climate_diagnostics.webp": {
+      "bytes": 241362,
+      "sha256": "6274baa6228960fb09b36d62cfedd2cbb253b8141192f4d7974fef9dcd36e972"
+    },
+    "wildfires/figures/44_response_population_counterfactual.webp": {
+      "bytes": 50958,
+      "sha256": "60db33a37c5c104e4d352b6f378555d77ed78ab5c156b01a63b8b2604f2f18a1"
+    },
+    "wildfires/figures/change_predictors_RCP45_CLMcom_CCLM_202140.webp": {
+      "bytes": 584682,
+      "sha256": "002fbb72191038bdcda5f7aaca6005568f8959d637001866554352c76753e6e7"
+    },
+    "wildfires/figures/change_predictors_RCP45_CLMcom_CCLM_204160.webp": {
+      "bytes": 582340,
+      "sha256": "1f24aed563de96dcb3817c57cbc42274df8e60f5ca1b2770624cff7eec83ea2c"
+    },
+    "wildfires/figures/change_predictors_RCP85_CLMcom_CCLM_202140.webp": {
+      "bytes": 587648,
+      "sha256": "249a34df40cdd8c7198c10a39fef04ad37fe7144d72a8717c56b1d34f60e5921"
+    },
+    "wildfires/figures/change_predictors_RCP85_CLMcom_CCLM_204160.webp": {
+      "bytes": 572778,
+      "sha256": "2f66b2ab327e480da9d7111c8c485a76e9775c4486b7769fc4947876bd3e37b1"
+    },
+    "wildfires/figures/chelsa_future_RCP45_CSC_REMO2009_2021_2040.webp": {
+      "bytes": 115732,
+      "sha256": "e5a2f97851b5f3736b10984ddd9fe3299e07d27fc938add9edac56e83c11648f"
+    },
+    "wildfires/figures/chelsa_future_RCP45_CSC_REMO2009_2041_2060.webp": {
+      "bytes": 116114,
+      "sha256": "40f34ed9a6445e566b5fd75648dfdf09b7db981fe7e3ce4391a5f7575bf784ce"
+    },
+    "wildfires/figures/chelsa_future_RCP45_CSC_REMO2009_2061_2080.webp": {
+      "bytes": 115890,
+      "sha256": "7f986b804993d76f2deeba8b3481b3f93176b6cc2104659bb506095e861f83ca"
+    },
+    "wildfires/figures/chelsa_future_RCP85_CSC_REMO2009_2021_2040.webp": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "wildfires/figures/chelsa_future_RCP85_CSC_REMO2009_2041_2060.webp": {
+      "bytes": 116048,
+      "sha256": "1826cd325eb05a6099c1b51fd8025cccb0d63d474f9fa87c603e41159b73d721"
+    },
+    "wildfires/figures/chelsa_future_RCP85_CSC_REMO2009_2061_2080.webp": {
+      "bytes": 116680,
+      "sha256": "212d5a06ff03a26026fa39c0cf477f10b191b3d313f033a2184422c552c3cb44"
+    },
+    "wildfires/figures/chelsa_hazard_RCP45_CSC_REMO2009_2021_2040.webp": {
+      "bytes": 118726,
+      "sha256": "3e5fcf771fbef928da8baf5bad35aef905a86ba3c48a0bf58c20a8241836bb59"
+    },
+    "wildfires/figures/chelsa_hazard_RCP45_CSC_REMO2009_2041_2060.webp": {
+      "bytes": 118632,
+      "sha256": "116ceccd084dafb580f1599209649b37095338ab3989890fa684d8183565c4bf"
+    },
+    "wildfires/figures/chelsa_hazard_RCP45_CSC_REMO2009_2061_2080.webp": {
+      "bytes": 118400,
+      "sha256": "ba8ea3c381999d433fb87c375c289dd556d2090d2ebc407be7cb2b38a40acac8"
+    },
+    "wildfires/figures/chelsa_hazard_RCP85_CSC_REMO2009_2021_2040.webp": {
+      "bytes": 120120,
+      "sha256": "7c4952e2153d59271748e3979adde82b3346a6b4b5331ae17bb7391eec9208f0"
+    },
+    "wildfires/figures/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.webp": {
+      "bytes": 118626,
+      "sha256": "f44ce8bd13d2b26eed2901a3537f5e748fb8ca14f6b594cd30c0e9030918845c"
+    },
+    "wildfires/figures/chelsa_hazard_RCP85_CSC_REMO2009_2061_2080.webp": {
+      "bytes": 118486,
+      "sha256": "8b2a9370eace5fe6c5c203af0ff4eb1a1bf8a23a2c8ed122d17c04218bfb107d"
+    },
+    "wildfires/figures/gis_hazard_TR_MJ_road_WGS84.webp": {
+      "bytes": 134202,
+      "sha256": "f6f8fdb442c03b90900e37d1758b25fe8f90c116d6364ee207de86fb16e60c25"
+    },
+    "wildfires/figures/gis_hazard_elektrik.webp": {
+      "bytes": 122632,
+      "sha256": "5971dba5cf61714e64ee5d2c2a152b86d75533ffe5b072fb7db66146dd7dc2da"
+    },
+    "wildfires/figures/gis_hazard_fiberhat.webp": {
+      "bytes": 110500,
+      "sha256": "5d2f2adecd308524ace00452f0e8fcfa8bd458f41672ff393a1b8a9c2d1c2dad"
+    },
+    "wildfires/figures/ml_change_RCP45_CLMcom_CCLM_202140.webp": {
+      "bytes": 116828,
+      "sha256": "31e6967602bf391808609c0c1bcb9ddf4f68378ee3d9aca9ec94a919515a6829"
+    },
+    "wildfires/figures/ml_change_RCP45_CLMcom_CCLM_204160.webp": {
+      "bytes": 118412,
+      "sha256": "d01a1da1079dfb01c6a2d9a0fea206aab54cbeaf8b0ff1597d5f020c23762c18"
+    },
+    "wildfires/figures/ml_change_RCP85_CLMcom_CCLM_202140.webp": {
+      "bytes": 117512,
+      "sha256": "3c8e0f37ea126ed857c48ff55dd0f842d5151d9d27824cbc144f4ab40925e5e9"
+    },
+    "wildfires/figures/ml_change_RCP85_CLMcom_CCLM_204160.webp": {
+      "bytes": 119436,
+      "sha256": "908a7dd1d3d1aa35830c82388c278ad5e2faa60164d7c83e244013060833851c"
+    },
+    "wildfires/figures/ml_hazard_RCP45_CLMcom_CCLM_202140.webp": {
+      "bytes": 122218,
+      "sha256": "a9c881511faee1c1f95c8904a769373544144343f4e893dfd8315c90aae1a9f7"
+    },
+    "wildfires/figures/ml_hazard_RCP45_CLMcom_CCLM_204160.webp": {
+      "bytes": 121426,
+      "sha256": "1daf3ebae68453f90686b0b94f261fa4e51bcea18e4932fd876d9fbe3d31523b"
+    },
+    "wildfires/figures/ml_hazard_RCP85_CLMcom_CCLM_202140.webp": {
+      "bytes": 122304,
+      "sha256": "6493d16c13be684d35b9e4c53a3627a191fde51d4a4f7627a53343377f8ed903"
+    },
+    "wildfires/figures/ml_hazard_RCP85_CLMcom_CCLM_204160.webp": {
+      "bytes": 121258,
+      "sha256": "b09fd1f6a7b0aad0d593dc1e61e8a638b44f29c0fffc8fb57affb1850ecc9a54"
+    },
+    "wildfires/figures/ml_susceptibility_RCP45_CLMcom_CCLM_202140.webp": {
+      "bytes": 111582,
+      "sha256": "8ccec51604332d77ed7f4d192818a82f0aa50ce37bcd0cb1044efec76b172e29"
+    },
+    "wildfires/figures/ml_susceptibility_RCP45_CLMcom_CCLM_204160.webp": {
+      "bytes": 111482,
+      "sha256": "70e5b7c719c24fe047c2fca9202cc8fa99f8601735e5ab22a936fb224c59d08f"
+    },
+    "wildfires/figures/ml_susceptibility_RCP85_CLMcom_CCLM_202140.webp": {
+      "bytes": 111614,
+      "sha256": "a31ed4ca9ecfb2995063dca64715516bffc43e7967957bc081f68e6706e5bf8a"
+    },
+    "wildfires/figures/ml_susceptibility_RCP85_CLMcom_CCLM_204160.webp": {
+      "bytes": 110918,
+      "sha256": "f6ed9da6f31efcc7e1f88ce31830b386a2ca37a2f7c2409fb44eb6ac7dbfdb01"
+    },
+    "wildfires/figures-tr/00_ml_map_overview.svg": {
+      "bytes": 456627,
+      "sha256": "98a5eec2b4a18635a49276a3cccfe0d4c0b6bd633db281e30ec0bf2ddb55af1f"
+    },
+    "wildfires/figures-tr/01_institutional_fire_history.svg": {
+      "bytes": 21625,
+      "sha256": "c7983f025c8a1acc68e406d73052dff712a1946f285cf6ab7bf2be2aa731402f"
+    },
+    "wildfires/figures-tr/02_fire_counts_by_forestry_unit.svg": {
+      "bytes": 14760,
+      "sha256": "04f2a2a125b3da55ab7ace4032b218a8a883dd3777e321ba6293dab99d314388"
+    },
+    "wildfires/figures-tr/03_local_resources_map.svg": {
+      "bytes": 105442,
+      "sha256": "640fe30f9f678b3300d55b3ee01f40627739659869ef78f355069f34611141bb"
+    },
+    "wildfires/figures-tr/04_agricultural_production_values.svg": {
+      "bytes": 13662,
+      "sha256": "73d1bf181a045fe4ec378f379228210dc9b6626df91d86ce8a9db28e5d33e07d"
+    },
+    "wildfires/figures-tr/09_ml_rasterized_historical_fires.svg": {
+      "bytes": 245690,
+      "sha256": "8c1ed36a555caea6152cefcd167b623254ff6569532a34fb40e9ea01589e9e28"
+    },
+    "wildfires/figures-tr/09_worldcover_map.svg": {
+      "bytes": 562902,
+      "sha256": "49cfae33eefb9690e2b6d60eb3bd1bd995c5e1f5d97d504b35cf9a9dddafdfe4"
+    },
+    "wildfires/figures-tr/10_ml_fire_observation_coverage.svg": {
+      "bytes": 257259,
+      "sha256": "6f46d116b7374a6357b58b336f5a16e0ca8896e5a6ec2432c3cc19f4d07af9b2"
+    },
+    "wildfires/figures-tr/10_wildland_built_up_proximity.svg": {
+      "bytes": 316561,
+      "sha256": "c9924695980be7a1f689d254988aa0f692ed6acef24fd1465dbeafc092205434"
+    },
+    "wildfires/figures-tr/11_interface_buffer_sensitivity.svg": {
+      "bytes": 14698,
+      "sha256": "06f105ff319d2e9a79fb872101a2a8b2a0ca0df6bf02d8c005bcc4e4bd94aeee"
+    },
+    "wildfires/figures-tr/11_ml_terrain_elevation.svg": {
+      "bytes": 269182,
+      "sha256": "4f34a2339461f4a1458efe9772ecabace6a53b86c117c6a2adb448f2e2229f01"
+    },
+    "wildfires/figures-tr/12_ml_fuel_type.svg": {
+      "bytes": 257783,
+      "sha256": "99bd54f568d6f23c3de3d2174b936f76844e5a23e11d8597d180187160b399ac"
+    },
+    "wildfires/figures-tr/13_ml_susceptibility_historical.svg": {
+      "bytes": 260198,
+      "sha256": "e2ca50f069f0afe84d9ec5e159a4330fb4191ae109d33c7b33806e6f243c0677"
+    },
+    "wildfires/figures-tr/14_effis_wui_indicator.svg": {
+      "bytes": 497273,
+      "sha256": "3953642455f2cae92de8a7c656d372f6e5c5e2d26727260d03bf39b698472e25"
+    },
+    "wildfires/figures-tr/14_ml_hazard_historical.svg": {
+      "bytes": 260980,
+      "sha256": "c1e8ca94ad75c9ed6fd8bd7f33a09be3207c88fc072948856b55463db11e591a"
+    },
+    "wildfires/figures-tr/15_ml_feature_importance.svg": {
+      "bytes": 15474,
+      "sha256": "8e7ee6c59ae1d164af64b0a5dcf4adccb95535d2a34baddaa23bb7dc777b8d3d"
+    },
+    "wildfires/figures-tr/16_gis_boundary_comparison.svg": {
+      "bytes": 143423,
+      "sha256": "0af577b3018ecbbc87343dd7cc4ba54d66f3675572aa66f32ab50b7f7d6afb19"
+    },
+    "wildfires/figures-tr/17_gis_infrastructure_overview.svg": {
+      "bytes": 162465,
+      "sha256": "cbfd5cbbe1218ee9ce31e896c017f4439786a7871567768e51cf79553395cc6d"
+    },
+    "wildfires/figures-tr/18_gis_observed_fire_overlap.svg": {
+      "bytes": 125613,
+      "sha256": "eddd9c27eb32411b8fa9b633dfceb8961d6659a6ffd4d21eb232a137c5cb5575"
+    },
+    "wildfires/figures-tr/19_gis_fuel_proximity.svg": {
+      "bytes": 13636,
+      "sha256": "64634d1b95e60c0ad6dd4ebdd617413414702ae460995d392c94ccab02adeab0"
+    },
+    "wildfires/figures-tr/20_ml_population_economic_ecological_risk.svg": {
+      "bytes": 780957,
+      "sha256": "0f32f741566a9aaae85bd87c107ab2007cbdbb6556ef4a6deabd4b3cb17c2167"
+    },
+    "wildfires/figures-tr/21_ml_aggregated_risk_analysis_zones.svg": {
+      "bytes": 781835,
+      "sha256": "4c1fa4dfcf39737bd43f1e3b700d2661de1054e507c76c13b1adf6c45812de6d"
+    },
+    "wildfires/figures-tr/22_ml_hazard_and_risk_change.svg": {
+      "bytes": 583012,
+      "sha256": "01f963104398873324384d7e6b3ed352970d00a50d750f2b32ef2fca045b0f5e"
+    },
+    "wildfires/figures-tr/23_road_vulnerability_interval.svg": {
+      "bytes": 186375,
+      "sha256": "1b47e81e9ec4d848fe145916475aebf5191f35d57deb49f443c5b6d6471d0f4a"
+    },
+    "wildfires/figures-tr/24_road_risk_historical_future_interval.svg": {
+      "bytes": 520934,
+      "sha256": "4fab11952d5dbdc218c434d70f6870c1d0972e146db8d48db9fb482265779486"
+    },
+    "wildfires/figures-tr/30_response_historical_annual_exceedance.svg": {
+      "bytes": 216751,
+      "sha256": "fce92bdabc6d2beff79561c3e5d6c2df1c7e88b6e2d6a65ce641c190244efa35"
+    },
+    "wildfires/figures-tr/31_response_historical_diagnostics.svg": {
+      "bytes": 171861,
+      "sha256": "f2918038434123232c74c525aa3647ea342ddd3e0590487b11d4776a8ce842af"
+    },
+    "wildfires/figures-tr/32_response_gumbel_diagnostics.svg": {
+      "bytes": 24279,
+      "sha256": "a650a9c433131b396793239fe48808030bea5681d1b1cfd02719b3ddf9decab2"
+    },
+    "wildfires/figures-tr/33_response_joint_surfaces.svg": {
+      "bytes": 7948216,
+      "sha256": "1bef9b57578db884e04512350a863c30f747e8a2a2b729686a2c58840b0e4f12"
+    },
+    "wildfires/figures-tr/34_response_cmip6_model_spread.svg": {
+      "bytes": 53004,
+      "sha256": "5d2abe3fe2c511418482e85d15d7f3ffeb1cf2c43f42cd83bca28a1712fab903"
+    },
+    "wildfires/figures-tr/35_response_native_cell_projections.svg": {
+      "bytes": 334918,
+      "sha256": "76eb03a30d01520632a2da1e8ce0c4339238e1504b70e8ffd12dc76063278cf0"
+    },
+    "wildfires/figures-tr/36_response_affected_population.svg": {
+      "bytes": 67972,
+      "sha256": "1dcb88329f25d9a22095e0c6fb2006d9368ea0b312bd6f27d474b7dc2b56c300"
+    },
+    "wildfires/figures-tr/37_response_population_weather_cells.svg": {
+      "bytes": 217933,
+      "sha256": "a272c4ffabc9f30b65f523dc7202ec9713133eed04590cc314dcf337592dadd8"
+    },
+    "wildfires/figures-tr/38_response_infrastructure_weather.svg": {
+      "bytes": 214003,
+      "sha256": "12947f33102d66721602c5bb3753e7355d3f3d9f8d8d4bcc1087604c72440708"
+    },
+    "wildfires/figures-tr/39_response_relative_danger.svg": {
+      "bytes": 218343,
+      "sha256": "d110e9ec8e1c24922bd0e0035e6da36bcfab7ef1cb9e2e7eac1948e102d85512"
+    },
+    "wildfires/figures-tr/40_response_pareto_profiles.svg": {
+      "bytes": 184979,
+      "sha256": "739cb6cb9a46bbd1780824d435fab755e4b24eadf143fdfbb742d7b46a6d08b8"
+    },
+    "wildfires/figures-tr/41_chelsa_historical_susceptibility.svg": {
+      "bytes": 260303,
+      "sha256": "b99f0b33369aa16b6fb3a658b3a879afa7f127d7603566963efded56e1a05c1e"
+    },
+    "wildfires/figures-tr/42_chelsa_historical_hazard.svg": {
+      "bytes": 263337,
+      "sha256": "a27ad42314614877aaf2c18846bee6b50f52060d222fc105d8c67b3658640161"
+    },
+    "wildfires/figures-tr/43_response_rolling_climate_diagnostics.svg": {
+      "bytes": 51710,
+      "sha256": "01f9ef043116846f79ad1fa55bb0f475f37afc2a8df7e5688781d9214de6f19d"
+    },
+    "wildfires/figures-tr/44_response_population_counterfactual.svg": {
+      "bytes": 60501,
+      "sha256": "d584da1f633b082874cef8aab3d5654d874ce5b799e4ddd3aa74682b53574f2b"
+    },
+    "wildfires/figures-tr/change_predictors_RCP45_CLMcom_CCLM_202140.svg": {
+      "bytes": 588223,
+      "sha256": "a14198bbdb7169ae95a6c9d8122960aba6fced1531faeb0690d9edabb66c25dd"
+    },
+    "wildfires/figures-tr/change_predictors_RCP45_CLMcom_CCLM_204160.svg": {
+      "bytes": 570076,
+      "sha256": "84218b44bc818c3a71091ddc43fe9cf75fa5d7d4893e59fc0604dbbdd5c1e274"
+    },
+    "wildfires/figures-tr/change_predictors_RCP85_CLMcom_CCLM_202140.svg": {
+      "bytes": 588159,
+      "sha256": "386fd43a1c8c3c22189d2432669281d045e3663334de2ec6bfdfe05e607254c2"
+    },
+    "wildfires/figures-tr/change_predictors_RCP85_CLMcom_CCLM_204160.svg": {
+      "bytes": 551438,
+      "sha256": "842103fad114954312f1f80fc0d0b15761e355087eec73d109bd531209fe2730"
+    },
+    "wildfires/figures-tr/chelsa_future_RCP45_CSC_REMO2009_2021_2040.svg": {
+      "bytes": 260964,
+      "sha256": "d8fd4f5438a26176977dc076e19fcdd2aacc8ebbb70092877fa76ed35e02c77c"
+    },
+    "wildfires/figures-tr/chelsa_future_RCP45_CSC_REMO2009_2041_2060.svg": {
+      "bytes": 262944,
+      "sha256": "d29c59a802b391d23326865ede37aeaf1900ffabfb696dc061be45370f95bed7"
+    },
+    "wildfires/figures-tr/chelsa_future_RCP45_CSC_REMO2009_2061_2080.svg": {
+      "bytes": 262884,
+      "sha256": "731d01d63029a5449c7f6ce2cf5f6c5281a849e6ef5833ab24ce0fb66ce649bb"
+    },
+    "wildfires/figures-tr/chelsa_future_RCP85_CSC_REMO2009_2021_2040.svg": {
+      "bytes": 261996,
+      "sha256": "7f641ccf96553a41a748363f805ef4ed013ccd1c962336f76eea5748a1684af5"
+    },
+    "wildfires/figures-tr/chelsa_future_RCP85_CSC_REMO2009_2041_2060.svg": {
+      "bytes": 263364,
+      "sha256": "64dcf7b0a0d223bf14716667beeda847c05283b4d4bcc77bce1ffc646d3de55a"
+    },
+    "wildfires/figures-tr/chelsa_future_RCP85_CSC_REMO2009_2061_2080.svg": {
+      "bytes": 263224,
+      "sha256": "4d92e588cb664414a228c05af882094bd40fb1f8997ae01810f44914d2a1ed57"
+    },
+    "wildfires/figures-tr/chelsa_hazard_RCP45_CSC_REMO2009_2021_2040.svg": {
+      "bytes": 262752,
+      "sha256": "c61921cb20d75c54d5af240a0fba7021639706f22c76bad1d859f555ac703782"
+    },
+    "wildfires/figures-tr/chelsa_hazard_RCP45_CSC_REMO2009_2041_2060.svg": {
+      "bytes": 261328,
+      "sha256": "acfffeece573e1ad26eea6d44ce2c8fe305bea66383a89f2e7423df16554ece3"
+    },
+    "wildfires/figures-tr/chelsa_hazard_RCP45_CSC_REMO2009_2061_2080.svg": {
+      "bytes": 260436,
+      "sha256": "eeb63843ae8702a95cdced846a6f775fa48f351df3ace8a4e86f99a2a23cb8c2"
+    },
+    "wildfires/figures-tr/chelsa_hazard_RCP85_CSC_REMO2009_2021_2040.svg": {
+      "bytes": 262328,
+      "sha256": "ffea739d5ff53946016dba9ec8236b3beb372048a91d4a8587a8eadebf639570"
+    },
+    "wildfires/figures-tr/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.svg": {
+      "bytes": 261076,
+      "sha256": "3e15d133d16266f3f3a86ff1cad1740a26d8fb41f272401d9e4c6ae8cc2a8538"
+    },
+    "wildfires/figures-tr/chelsa_hazard_RCP85_CSC_REMO2009_2061_2080.svg": {
+      "bytes": 260256,
+      "sha256": "7ef371a3978607cbeddffaae90386b199cfcf59b3a70af3d39c226cb058d2d4f"
+    },
+    "wildfires/figures-tr/gis_hazard_TR_MJ_road_WGS84.svg": {
+      "bytes": 145278,
+      "sha256": "84621e5deb8e0fd858bd7cdbda7a8226a5dea1db71a9215094ad5d4080ee0958"
+    },
+    "wildfires/figures-tr/gis_hazard_elektrik.svg": {
+      "bytes": 133010,
+      "sha256": "efb42e15930ddc6167dc712848944c9195a94d3df38998a7f5b37104491367c2"
+    },
+    "wildfires/figures-tr/gis_hazard_fiberhat.svg": {
+      "bytes": 150267,
+      "sha256": "cc436a188cef6172c4c4fd385ec0b71e277061ed783922c29d9b83f82adffef7"
+    },
+    "wildfires/figures-tr/ml_change_RCP45_CLMcom_CCLM_202140.svg": {
+      "bytes": 255721,
+      "sha256": "0a4a5ead13dbe35ed828e57a28e4f750c55ba04c0b5c339841203f3b00f53d9a"
+    },
+    "wildfires/figures-tr/ml_change_RCP45_CLMcom_CCLM_204160.svg": {
+      "bytes": 258297,
+      "sha256": "470980bdb3dbc100918d5b2eea385d2b61c966f4b987656d6746e9bd06967c9b"
+    },
+    "wildfires/figures-tr/ml_change_RCP85_CLMcom_CCLM_202140.svg": {
+      "bytes": 255809,
+      "sha256": "954852099041bb0106fb9e3a692555a270b75976f0fa66f6343d9b6d202e65cc"
+    },
+    "wildfires/figures-tr/ml_change_RCP85_CLMcom_CCLM_204160.svg": {
+      "bytes": 258973,
+      "sha256": "da714523ec5f05e4ff56c68bdc87b568e7130eca18297715cbf0e7e8f2628d93"
+    },
+    "wildfires/figures-tr/ml_hazard_RCP45_CLMcom_CCLM_202140.svg": {
+      "bytes": 261571,
+      "sha256": "e8b3ca706816ee0ae457bb7e4253d55d6cccdfd01d336e1caa6c835fae0130b1"
+    },
+    "wildfires/figures-tr/ml_hazard_RCP45_CLMcom_CCLM_204160.svg": {
+      "bytes": 259959,
+      "sha256": "23225c1b34ed2e04d8051aa3ff036380ddda326bf496f04653282910444193b5"
+    },
+    "wildfires/figures-tr/ml_hazard_RCP85_CLMcom_CCLM_202140.svg": {
+      "bytes": 261419,
+      "sha256": "4a32d740ff8616bc90dac3f40a3f0077846a1fc04ff5d6d71a4d54900a101ec8"
+    },
+    "wildfires/figures-tr/ml_hazard_RCP85_CLMcom_CCLM_204160.svg": {
+      "bytes": 258279,
+      "sha256": "be4607c2fa074ddc225eec0c744b2fabddc064c4687373750d04b90f7da3c6f7"
+    },
+    "wildfires/figures-tr/ml_susceptibility_RCP45_CLMcom_CCLM_202140.svg": {
+      "bytes": 260565,
+      "sha256": "951d99cce2830771b82ba855dfa2fefc9412da14b04ddc6b7f76318b32338c29"
+    },
+    "wildfires/figures-tr/ml_susceptibility_RCP45_CLMcom_CCLM_204160.svg": {
+      "bytes": 260734,
+      "sha256": "d835b94e0f54f9ad75665905effbd497f7adec9212399a322c841415772205b2"
+    },
+    "wildfires/figures-tr/ml_susceptibility_RCP85_CLMcom_CCLM_202140.svg": {
+      "bytes": 260813,
+      "sha256": "d777945f4900e205ba889319124763aa2f4b895abd65ba5fef1c8fdd92424310"
+    },
+    "wildfires/figures-tr/ml_susceptibility_RCP85_CLMcom_CCLM_204160.svg": {
+      "bytes": 259495,
+      "sha256": "6ad266c700a3140e9b032447f9d4b7fc7b4a10460a23f4aad8a8dc91166ee636"
+    },
+    "wildfires/index.html": {
+      "bytes": 6834,
+      "sha256": "36239d720b9b9e7af8aa5a8a10a88ad42fdc5458aec598e67ef59ced4a2a73bc"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130984,
+      "sha256": "c92953224febddd317606d3d20c09984490ad899bca8493d27869c55f22d1e85"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 5979,
+      "sha256": "d21b894325374c2bc2b6ba516daeb969aaef58baa9ec09f9da0ee30a100e76a4"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130984,
+      "sha256": "32317f64c0036040ce5ef696dc00d36342f39235964a25840aa0440d83bbbe2e"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 5636,
+      "sha256": "86778c39f93c34d6c292f16b0b8be2c459e2e3fbaac6d90136571652a955f925"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130984,
+      "sha256": "6aea1f03711afee6125d607590a38710652663d0994344900e49c378b3c6c7bf"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 5636,
+      "sha256": "86778c39f93c34d6c292f16b0b8be2c459e2e3fbaac6d90136571652a955f925"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130984,
+      "sha256": "85f2e23f3217a687da21180071504ba86ebf740586bd6d1fbaa8560b433afcd6"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 6395,
+      "sha256": "70f1c382b9bcb61772b8a7253f04bdd64825315ab9af5fa278afb902fe10a920"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130984,
+      "sha256": "81a0e33d47a467f2174424473d4f103524328b262d4565bdc161c7dfd8d7d582"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 5636,
+      "sha256": "86778c39f93c34d6c292f16b0b8be2c459e2e3fbaac6d90136571652a955f925"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130984,
+      "sha256": "dbdcff9f5a7aa027df565dbe9cf77700beffec5ba3ff709ebe824011a94121f7"
+    },
+    "wildfires/rasters/chelsa_climate_novelty_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 5636,
+      "sha256": "86778c39f93c34d6c292f16b0b8be2c459e2e3fbaac6d90136571652a955f925"
+    },
+    "wildfires/rasters/chelsa_hazard_HIST_1991_2020.js": {
+      "bytes": 129800,
+      "sha256": "2f027085d07f11a043649acd355f03879df8170db59f18115263755af70fbf9f"
+    },
+    "wildfires/rasters/chelsa_hazard_HIST_1991_2020.png": {
+      "bytes": 16863,
+      "sha256": "b5d5bdf3eb26b1c0457614f6654089e827d63379132367fe1d7763c682c08ce5"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 129814,
+      "sha256": "391a444e5649b2613193abdb5e54e6655e8e5eda7be7667daaf26820b3b1cf0f"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 16426,
+      "sha256": "a9037eccd6b0935cde3fb65af4fc1186b64bb775419944bf7707fbbc64ed012e"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 129814,
+      "sha256": "38dc372191f34395823f88e7d2ffd38fffbf6868b73de4d6a35bf740179b5532"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 15562,
+      "sha256": "89c887329e2ce25f1055a90fd9b73c8f57c9b878d7e0137e03e285523974af0f"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 129814,
+      "sha256": "f5f2771451ce208f3db8d771a0c67f73d43cad95a755b4c6018b9333c56a866c"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 14906,
+      "sha256": "acd5259d7634cb9026cf03eb41ef5f63477b9ba9d7c1d9a5e75e04401b2b961f"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 129814,
+      "sha256": "7e3e5afc5edabbd691a300e0ba7eb26d8f347ac0489a82b14c748b9dff692cd5"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 16108,
+      "sha256": "47dcb8c1a400f775c6b98bdb97d454baf01a5ab2bd48373829471ebb159a78da"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 129814,
+      "sha256": "c2b1aee5da489384d5a993953bb8bd83150ce6272da3aada7854f8f32d9e774b"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 15309,
+      "sha256": "361bca4a3b84375245802192ee5e3a9ded8426b76e93fb5ff769033ee85912a4"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 129814,
+      "sha256": "46588ee311a63e77f228727d228abe1673f2f0e1cd5bb967dec4e22ac46ba21d"
+    },
+    "wildfires/rasters/chelsa_hazard_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 14801,
+      "sha256": "fd361e292a0c93cd10905e3c7f54f91ddf3c3b339abd9db836e3e34d29ba8f1d"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_HIST_1991_2020.js": {
+      "bytes": 130320,
+      "sha256": "5b32e77b6a937455bf7c732416fa9966fa00c967e42f823dd22dcf9ba9f2ed2f"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_HIST_1991_2020.png": {
+      "bytes": 13144,
+      "sha256": "2f36c6ae0918dc03c4ffd9bdcb64bc379fab54bca047a3242e91acbc8c218f6b"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130334,
+      "sha256": "fc25171a996da9e5f64676b4316a0f5c390fcc1503d34a28037371c40da837ba"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 13565,
+      "sha256": "67e946547a4bfd6878ff9d7e8d5cad3b37deb0937c6cc01938285e593ca1ddc8"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130334,
+      "sha256": "b6f8870da27fac596cc098f8bd8c5829549e41d1a1c1b4ed849a06ad47121711"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 14023,
+      "sha256": "6cc31e14ed8d57edf4916be464fa7e589c65351686ee3cd0452aeb11398b1c3b"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130334,
+      "sha256": "23160b3ccd8ccf83b7764007d70ac51f3350eee9bc6dce1c770a273ccdc69264"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 13718,
+      "sha256": "eec282e39dd55f7865cc11275836312a7f359f3702ccea1679d5e85243bce0ee"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130334,
+      "sha256": "7c7a1d8088cdd87d26eac1a6a212b5f96e26ad69858092c89f41fc86e44205d9"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 13952,
+      "sha256": "58346145145f29c5702186e6e4bc779840b9b340483b53f38365854c46559fb4"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130334,
+      "sha256": "cff0a9ee7994fad4a4d64ce232bf472e226a6b8aee98f8a253317b192a89bb07"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 13839,
+      "sha256": "b0a90234c5e2e7671139919ad8003bcffd27e6151cc6b52165cf018821aacaa7"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130334,
+      "sha256": "4ccaae0ee6986062f58d1631fa4ef75349bfe182815c2930c1d52c2f63a4de90"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 13592,
+      "sha256": "47d29f0cce67f9cbb14baa2ec348ea0621fd25d1329b2853f3f4977f5e2a82f7"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_HIST_1991_2020.js": {
+      "bytes": 130329,
+      "sha256": "7888bc68cf6cd993805b8472558b24cc2a6245bdc07a4cec72dfce7aaaa0db19"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_HIST_1991_2020.png": {
+      "bytes": 13429,
+      "sha256": "b8dfc5eab9386ef519abea8e45c0842f53b1727d8aab26b7e0421afa06c6445b"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130343,
+      "sha256": "1e5201dd3adecf15a79b16f389d49f862a6bf9560deb41fa28e452e742d032cf"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 13820,
+      "sha256": "7ef81dd350269419a600623dd9a1f0d25d7d5541dc62ac05646cff1fae19fc09"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130343,
+      "sha256": "dd85f095fe442273c1bee6baa5029a307822aaa75b65694f19dad510befbd1c9"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 13894,
+      "sha256": "5725393dc756c69d76da53cc6b616f06a7d52c0fc70086c8701f5c2649d97684"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130343,
+      "sha256": "1acab841652ce60a4a8bc5cc1293a0f92906d58c318475df001e0fa4f0113890"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 13584,
+      "sha256": "6ef234df938dd703b742409cf3e4ee9b1551b1dff10f28aa552bb0de7f928bb0"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130343,
+      "sha256": "353ead8e5f609f2892d4ed2e7e2fdfc76f3544b6d597d0b0b4240d07b1736ab6"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 13859,
+      "sha256": "ac0bd32b29d174a585dbabeff3bdf1c600e77efea953412436b3edad31f9c254"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130343,
+      "sha256": "68dd423c86a90581645a1664e40efdfbcd9611d1675bd143863ffef0eccdd596"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 13693,
+      "sha256": "1e0a710484c91be5c45a03a50e1ad76f6ae0a3b0ebca0fef2b3661e2ca9b55aa"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130343,
+      "sha256": "b3dc5f271a38d6544b9c520aa92fe2430e1c443464b5b9b39dd304d9d0e02027"
+    },
+    "wildfires/rasters/chelsa_risk_ecological_economic_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 13435,
+      "sha256": "59c809f4873894d95869aa0ad94c0d3d14cccef9717cb4fe53363ff8cb938447"
+    },
+    "wildfires/rasters/chelsa_risk_economic_HIST_1991_2020.js": {
+      "bytes": 130318,
+      "sha256": "8a9a5be3e806d2d9c35ef09bef92a01f1235fcddd5ca24da85573c4e8e4f866c"
+    },
+    "wildfires/rasters/chelsa_risk_economic_HIST_1991_2020.png": {
+      "bytes": 13880,
+      "sha256": "f6ead7522bc68167a8da66cb4ef5ff5ae802e29a7a8231ca858ce2f44903b637"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130332,
+      "sha256": "0aefceca60485f16d0199a0cb82f8f3606e58410b09de267771dc3b5215d0a91"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 13716,
+      "sha256": "30c9005350fd097ca15e0f80877d1d7427bd113cae35648c205debdddb2c30c5"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130332,
+      "sha256": "d6b6e912f4a66b3767175df9a92e4943aba86ad69483654734166397448ea385"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 12070,
+      "sha256": "fbc255c4a6db9aaaed1055845e132d42192a8cabd57e3d9a28ac1edbc60c4f0a"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130332,
+      "sha256": "408b0e9ba17fd687da7d533c145ca09e48dcd78bcaf6eb9aecd57ff22f8dbb29"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 11253,
+      "sha256": "b7c2242e09d0e51bfd024784610ee436f771cd4c8a8a2eba77840cb672e8c9e7"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130332,
+      "sha256": "4c615d51128792f7d8e7e8cb876d6f97bc89fdd00e5e5126a8f5e5680dee7031"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 12961,
+      "sha256": "075ed503981f76e306cc23ab23cfca2c3f178571c06455784c1c94b0647306c1"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130332,
+      "sha256": "5f39b03db8db16836c728305b3a40b86803f1622c0ac55f88e026e11632a46fc"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 11822,
+      "sha256": "330cbb2bdc5d412b9f9b3c119db7eada2a7a73e27851c57874d912c6ecf8b213"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130332,
+      "sha256": "43c4d6a802ef402524e59b7b7c7acaad387d818e837dc0fcda2db1254673c625"
+    },
+    "wildfires/rasters/chelsa_risk_economic_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 11107,
+      "sha256": "2372aa445c407d04605c1b40047bbdf3c457a2f15246ff74bc5372097a540127"
+    },
+    "wildfires/rasters/chelsa_risk_population_HIST_1991_2020.js": {
+      "bytes": 130320,
+      "sha256": "8f267a1ce06e4157814b4581c92b85b58b756e3b4c59890a51d8ee32efc14998"
+    },
+    "wildfires/rasters/chelsa_risk_population_HIST_1991_2020.png": {
+      "bytes": 14224,
+      "sha256": "b97e007d03b83f8b02bb4eec904d354919a568205dee5227f17d98e69fe68631"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130334,
+      "sha256": "a819044b4ad0e7f693f11ddf7428224b93f04656dde91e5d7dd862aac713c4e5"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 13315,
+      "sha256": "cbf3d4f6e37dc8cb47f89c9d2eee2260079e60e278df91d90fa49b4d01e28d1d"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130334,
+      "sha256": "2ac82e6cf514d5fde1b5f7682cac315339cb9cc9f2eed223a1307df83bd31df7"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 13080,
+      "sha256": "08af8f40fcda2eae70b3d009827971bf9ac2cfd51a99826e56389dd31bf760f5"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130334,
+      "sha256": "1425c46e98344cf3e77ebd0b4c3e26696ff9bcbc11e23f3cb9ff045fda088e78"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 12711,
+      "sha256": "750b74ff522907b911d69a03dd9566ecbf9b368271c07c3ba2002a822f5b9a79"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 130334,
+      "sha256": "98dcd21e7662fddd844ce3423af1c51f8ebd5329b8d078f9703c614a21f270c5"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 12950,
+      "sha256": "422ac8c89118d098cea7051e1c6e6ca3d09d10b546c65f82e5c4f6f4203fb638"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 130334,
+      "sha256": "b921989a358eebf0f4d9540e29ce514bf3297fd5e28a4fc5fece1261aa165337"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 13036,
+      "sha256": "bca926e2e25e7b87325d8491561649da6223ffe576610b1d715d3127c2ea4afc"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 130334,
+      "sha256": "91c53701febd57841bb627219b0738bc00ebac60b5d30c5b7f6786f7d41059cf"
+    },
+    "wildfires/rasters/chelsa_risk_population_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 12628,
+      "sha256": "8c867c411af8ba3fe09b47378be517b3bb75004826df1fc7bf7a470f1856d25f"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 213154,
+      "sha256": "20045d79c2ae6ae67001095741f9e5cf4f69c459512b960b7962d0a004491618"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 28975,
+      "sha256": "8a074a2e5d28b3f58ed3518510a3cc7ddf50e9c46a4708840dcf557589401462"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 221949,
+      "sha256": "f4d573e1f1208b8c4e996372c2627808737756fde02f5505d2158854d1bb1f69"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 30298,
+      "sha256": "395fa0662c2725e59d0b48892bd483f553b7ceb98a1b393e48755e078fb873b3"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 220835,
+      "sha256": "ad27fc705f8800e24b3d58b79d1a63cc8847539cc27d13e9bcb2624432e86058"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 30417,
+      "sha256": "aba7ffeb4bcba20fd83a9863f23faa954a0ea0d3233eb31621481ced598005e6"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 216191,
+      "sha256": "cb3fd1cc7e947ccb871c2214910af369afc3c31014a7e15a687ddc39e690c176"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 29188,
+      "sha256": "5757bcd1c3ed587a88863cfb3e19a9e43fa2857111684480a5b208d83adfe7cc"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 221398,
+      "sha256": "41342e2199b88cdc6c428ac9fe21450576ac92e88196d8ffc8c6a2c83ce6eed0"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 30363,
+      "sha256": "b253f5dda0974641b0206e3b7ce4cb1ef2527df653085d8dfeb4c85862108af6"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 220762,
+      "sha256": "06702e944d01933b080d182f71dfbf9fe72134ac136df735315bf77b483b0f00"
+    },
+    "wildfires/rasters/chelsa_score_change_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 30236,
+      "sha256": "fdc99146f62b53976334eacc3b49946336ba1f8ca260d5ab9d956618eac6bd54"
+    },
+    "wildfires/rasters/chelsa_susceptibility_HIST_1991_2020.js": {
+      "bytes": 209907,
+      "sha256": "0b51b557894a241c51025cd6294ceaabe7ce1de8518f914ebeacc0251571c047"
+    },
+    "wildfires/rasters/chelsa_susceptibility_HIST_1991_2020.png": {
+      "bytes": 25901,
+      "sha256": "f9fdecc105013e0f6a43ef2224e23d4619b4749f3546cc43c6777e33449ec773"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP45_CSC_REMO2009_2021_2040.js": {
+      "bytes": 213180,
+      "sha256": "0322980a25a3b158fde7ae299d14ceacafe56ff357b3fcad9b7de58bcdb1ecf3"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP45_CSC_REMO2009_2021_2040.png": {
+      "bytes": 26364,
+      "sha256": "c0d663c8f9b62cd3e90bc2b9a8f0e0d44032f7d7eeb88e852224a4aea1171ca2"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP45_CSC_REMO2009_2041_2060.js": {
+      "bytes": 219234,
+      "sha256": "dc1b4fd97267ba338603b7f7090fb19f9782146484d3fbd41152c50d9531a5d9"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP45_CSC_REMO2009_2041_2060.png": {
+      "bytes": 28229,
+      "sha256": "023c3c05e75e4a8fc0b56ea30e8e43b042232f13eedf76a911552d013a24b1a5"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP45_CSC_REMO2009_2061_2080.js": {
+      "bytes": 217710,
+      "sha256": "59b859bdf64104e1cf758fd29a993f27230fd7a806037547ffc7e566a6b703ea"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP45_CSC_REMO2009_2061_2080.png": {
+      "bytes": 29077,
+      "sha256": "c378f644b2b2cd38f4429b46cd471ec51054f111af073377c9c4a17e16fc66d8"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP85_CSC_REMO2009_2021_2040.js": {
+      "bytes": 216507,
+      "sha256": "0d64bee3300f0b4d36dd8e7007b956858202d2b96ce5468910c5490ed7f8bb48"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP85_CSC_REMO2009_2021_2040.png": {
+      "bytes": 26959,
+      "sha256": "09ada54cb55de5a15c8f9f97fbf5be42ee164e6c6e7750607e02aa201ac8f390"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP85_CSC_REMO2009_2041_2060.js": {
+      "bytes": 218134,
+      "sha256": "abdf394397a5499fc4dc64fbc17935b28e3144523dd1920ce28190e474cf9078"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP85_CSC_REMO2009_2041_2060.png": {
+      "bytes": 28952,
+      "sha256": "a895715e69ec0e31eb554ff14fe490939db6b149cc9e73410b5a4e7426a2d1fb"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP85_CSC_REMO2009_2061_2080.js": {
+      "bytes": 216828,
+      "sha256": "6a1e35ebb6cf51b7af5ab9bf32635172998b1d76196bea014ef27ac22dda7627"
+    },
+    "wildfires/rasters/chelsa_susceptibility_RCP85_CSC_REMO2009_2061_2080.png": {
+      "bytes": 28925,
+      "sha256": "3ba6768f60b564d06e6343153dd5426ed38440d3c276609136fdaa6cb1693e25"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 130976,
+      "sha256": "2e548f81e929c260fc40234dc2ba8eefd02f694adddfb8520eea5832d5816bfc"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 7401,
+      "sha256": "55f59bb46a84bcd5bc10b619c0874fe1dd8f3acfd227199700169803ecc779be"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 130976,
+      "sha256": "afd65d9d5f0abcfa823a7a026e40c4269ceb8c91c1d4b21505199b8e06c678da"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 6877,
+      "sha256": "638ba108ff880f29daa494024d724ad3b67538d5e588d6cc982e50523694db84"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 130976,
+      "sha256": "9a8e6e03cb903ebaa04ca9d4124f18eff26a752a00d28215900aee0b4dd4e680"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 6796,
+      "sha256": "4e94f71b8bd1e41355dc7b78fff5b2fa162f0a3ecc06c59ecb34133d57f7d940"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 130976,
+      "sha256": "b094452ed58ff000ac80ca4a85838eb3d7589e618c1965a8c8aa98742cfeb628"
+    },
+    "wildfires/rasters/ml_climate_novelty_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 5636,
+      "sha256": "86778c39f93c34d6c292f16b0b8be2c459e2e3fbaac6d90136571652a955f925"
+    },
+    "wildfires/rasters/ml_hazard_HIST_199110.js": {
+      "bytes": 129795,
+      "sha256": "240542cf80e00260e236d34662f69392660b5ae071faadc842de688adccb0ca1"
+    },
+    "wildfires/rasters/ml_hazard_HIST_199110.png": {
+      "bytes": 15932,
+      "sha256": "99153d0064c2f0ef8e3428785088c1e19f08ddfcf3140f1329ae0bdfbd296727"
+    },
+    "wildfires/rasters/ml_hazard_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 129806,
+      "sha256": "1886e6673755cd8f444d863bec36dcd4eea30d7c5e6ce089e5ec452dfc984d97"
+    },
+    "wildfires/rasters/ml_hazard_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 16315,
+      "sha256": "1fa5f9191f3f7b15853d857a92924c13033747987b706db57974122fb50c3916"
+    },
+    "wildfires/rasters/ml_hazard_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 129806,
+      "sha256": "0e31fcd368f87cb14389dd75a0accb4b06f5f9f36a97870d3502eec6a3105058"
+    },
+    "wildfires/rasters/ml_hazard_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 15178,
+      "sha256": "49a90864830d9fb8b10eb572c6488c7e0ff4235dbfaedc5c8e4613035a66f4bc"
+    },
+    "wildfires/rasters/ml_hazard_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 129806,
+      "sha256": "bcfe0ddbec319c53cfa1a2b52e57ee03bfea768c2b8bbfdbd01253ff4e643ab5"
+    },
+    "wildfires/rasters/ml_hazard_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 16214,
+      "sha256": "da9a31dec9dda5e0d15a14ade12225f386414c594ed978e82dc38bf9b16a333f"
+    },
+    "wildfires/rasters/ml_hazard_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 129806,
+      "sha256": "17a21b544401b6316582774430558fc401ec22f3b6b8d26957af12b41b78bdf7"
+    },
+    "wildfires/rasters/ml_hazard_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 14072,
+      "sha256": "26f90c6ccce5f088b542e5abdfe0fed9bdb58a3bb5c3c08f77dce4bc872877f7"
+    },
+    "wildfires/rasters/ml_risk_ecological_HIST_199110.js": {
+      "bytes": 130313,
+      "sha256": "1bd7dbd0bc52f8f1b27435629af6b0fe1c4bb2b2a12d92cdd3444ae8cc428f6e"
+    },
+    "wildfires/rasters/ml_risk_ecological_HIST_199110.png": {
+      "bytes": 12686,
+      "sha256": "865b9e9e079af4d6bce94b0e4d476062b0f21ce209705382a45b11b53c9a17e7"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 130326,
+      "sha256": "087ea550297ed84a90768046be1a6805a849f7d545d0d69b08cf4ad124bd7d3e"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 13523,
+      "sha256": "d672840d34e4fe4cbe1b4ea6ab5068d954dee437240444588adb4853b390beaa"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 130326,
+      "sha256": "2e6cb2f9cbe366ea5305c292c41079d486de120962f7c70a433a34cfb0f2ae16"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 13608,
+      "sha256": "714c2583ee2cdbc99c9138d0d62d27da9af304e481ba26463c25844e274ac038"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 130326,
+      "sha256": "0aaf5aeb108e322a790b8d598aa65b4b7e70fe54eb88dda8c1de814266f7d8db"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 13574,
+      "sha256": "19ba796a1f763b23d6141a4e87aea2298831df673b4cc66d021e4011f9329f5d"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 130326,
+      "sha256": "f6d84c5bcb2bba135af5ce796eaef856e6f1d480ab9297c0ba9d797862de21a0"
+    },
+    "wildfires/rasters/ml_risk_ecological_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 13147,
+      "sha256": "c9df9d93ec2e7761dd6693580b33ae35c2de5efeeb43fa9a965509e8a48d00e7"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_HIST_199110.js": {
+      "bytes": 130322,
+      "sha256": "127c98ce152af695996a90f41458d0a831ef22716eb517a1ee585aeb7279292d"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_HIST_199110.png": {
+      "bytes": 12978,
+      "sha256": "255c908eda62b1301133d651924ac84b50384f3f11767f77ce14aaaedcad7517"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 130335,
+      "sha256": "556f06fb9d11b65c9461d7edb6b6234d21d92aafe266ed9ac3a9937a06532e13"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 13522,
+      "sha256": "d8b2ee73a14c3462595dcd86d06906c4b3bd8e5675875c51ff8a9a6463645ea2"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 130335,
+      "sha256": "62108894e46d9cfafe9c31fc84b9f10883dd1530fc9ab908210392757dba2d74"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 13612,
+      "sha256": "5e3ed0b7153db7ac0a099ca22c0b1515af602c8d1f9f266a8bda2ba215fd6ce1"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 130335,
+      "sha256": "b4e1b13c7b8480d8fa0dc38d38a460b04d507323967b67e4a8c70d240cf39185"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 13727,
+      "sha256": "add06b2ecce406597cf22f31ed212d08a47151c865e63c71f4ac84dbbb9a0399"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 130335,
+      "sha256": "1d4b9121d46b48d77d30e34251b53f6b690102b2a489b332e74591d91c333d36"
+    },
+    "wildfires/rasters/ml_risk_ecological_economic_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 12989,
+      "sha256": "37d7a74d814df4f665d281f279cb1f37d45bb0a501d9a445141274c40f27900a"
+    },
+    "wildfires/rasters/ml_risk_economic_HIST_199110.js": {
+      "bytes": 130311,
+      "sha256": "31d412d957e136ef0d6c2a35aea5ca4259bab74a8624d2307e86285f1ad531b0"
+    },
+    "wildfires/rasters/ml_risk_economic_HIST_199110.png": {
+      "bytes": 13820,
+      "sha256": "8af46653c4168bea58365eac94f08ffd344be488eaac30fe602a29dd4e380946"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 130324,
+      "sha256": "3f152e5f049337163b24582f5ca2b0f4dbb973b7534c97635654f9b618c4224a"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 12806,
+      "sha256": "588398bfadb181a98e094847de5bf7f8f2c9ef979a948341363b460aa6249798"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 130324,
+      "sha256": "0b03188f777e48ad7692bdb0b3b280d7a4b77d65c997d49fa9243fcb5bf008cb"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 11851,
+      "sha256": "5ba0c8fb4a08118d80509a0dcee6a115b72250f04da32a10c13ab57ead149c7d"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 130324,
+      "sha256": "5a472b7ffe5b70d84e88f5542d81620ca21dedcb8a7dfb114749fbadd4919271"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 12792,
+      "sha256": "0919bd4f32a7e0d32531536060901d93815044f75fdf3a2bd1f82da1842d6723"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 130324,
+      "sha256": "f63ba1e4b5e912dc2d131fd7082fe09604366ac6ae3adfa1a23d916cd57c4724"
+    },
+    "wildfires/rasters/ml_risk_economic_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 10482,
+      "sha256": "354e147bef572118a984c563cdf7db4b1fefcc3bf4508d3a0c8bf9239bdffc58"
+    },
+    "wildfires/rasters/ml_risk_population_HIST_199110.js": {
+      "bytes": 130313,
+      "sha256": "b1d1db709d0e7c3f609a5a7f5a76da472da5ce4ead7305468bade0171c59f595"
+    },
+    "wildfires/rasters/ml_risk_population_HIST_199110.png": {
+      "bytes": 13324,
+      "sha256": "307a72fa952fbf0f0a2e2f87f8dea4adac85b782833a4eeba055769420d33689"
+    },
+    "wildfires/rasters/ml_risk_population_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 130326,
+      "sha256": "6d98ee76208f228ead6a1746ee20b52fddebfd02741664f696b7c7ddcf8eb6e3"
+    },
+    "wildfires/rasters/ml_risk_population_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 13571,
+      "sha256": "29bceb6d8ae44b9043e18e38776de24813ea5d1b6d1edf0042876a31ad9298d0"
+    },
+    "wildfires/rasters/ml_risk_population_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 130326,
+      "sha256": "7fd3fdac54c7b74e756ad50e826fbeeb8a82500c3f4518ad8bc5c5792d3af552"
+    },
+    "wildfires/rasters/ml_risk_population_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 12880,
+      "sha256": "e35a9a67c44db14013194099dc4a4e8ff151e850f62b7c57c6952ed8134b9e32"
+    },
+    "wildfires/rasters/ml_risk_population_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 130326,
+      "sha256": "4b14818a56bcbf94cf4832caa9090adedb129374315f90e45a4d14cc67b68b39"
+    },
+    "wildfires/rasters/ml_risk_population_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 13628,
+      "sha256": "050dad8768e726de55544cdbde6f0a98cc85419854707a8d8add7c29856b2303"
+    },
+    "wildfires/rasters/ml_risk_population_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 130326,
+      "sha256": "193e591c275c38857a2da51cbb8bc60d4eca6b499fa1fd03d636682e91a9e900"
+    },
+    "wildfires/rasters/ml_risk_population_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 11888,
+      "sha256": "8d94cf6fbd585a5e4f2dec5dc9d2af0bdea676006be35569cfa7bf90d6ede747"
+    },
+    "wildfires/rasters/ml_susceptibility_HIST_199110.js": {
+      "bytes": 220007,
+      "sha256": "de5af47ae44f3576f80868ff4876feaa812e2d83567555f8497c171b9030a5f4"
+    },
+    "wildfires/rasters/ml_susceptibility_HIST_199110.png": {
+      "bytes": 25390,
+      "sha256": "8ce07c0fe7ae5d0904842fed70680fcffdfa4ae83c4f16df70400b6c947d6484"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 219669,
+      "sha256": "e43e6af0e1351c50077a8a5fbdc01976ba2267363baf0d9241536fa45a50efed"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 26090,
+      "sha256": "b6783cb3ae82a57c3598db84dd8345e293e54283e4cbfb01a7a0e404c82ff978"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 219993,
+      "sha256": "c2dd8ba3f2c89537c546cd6ee8cd52ad6e5f69c522401676163293aaa1ac5bc2"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 26796,
+      "sha256": "50500dffcd9aefd4d1763ae85dc195853774a740f5c8f0daae7478d22834970d"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 219575,
+      "sha256": "28edc6a2b86bbc93f8f9e9a209a09dc049fa2fa8c071e6dc5cc67e74771607f0"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 26481,
+      "sha256": "0785e84a90b50caa6ccee1aa6a4a8995d2262136473fd74f57311912a76e35e3"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 218372,
+      "sha256": "8df3eaa50e0b0c786d7ba0875a61a14ea283bd0c068b5e2cdfcbbd71f6663dce"
+    },
+    "wildfires/rasters/ml_susceptibility_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 27104,
+      "sha256": "16fee7877e298ab064ec900d990ad8f6a5671a9151c4132ad71defa638a1a156"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP45_CLMcom_CCLM_202140.js": {
+      "bytes": 210508,
+      "sha256": "64304daa02306761390a9d7dddb802395c22f66c72dc989b372640fadb419200"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP45_CLMcom_CCLM_202140.png": {
+      "bytes": 22157,
+      "sha256": "8761406965afa374e0b37ac81b792587a6d45754851149f7b41e9701c78f64f9"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP45_CLMcom_CCLM_204160.js": {
+      "bytes": 222432,
+      "sha256": "b9e4bd59a07f34522a7bbe2a30f3630c9700df5f720140cb48499ccf976c0424"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP45_CLMcom_CCLM_204160.png": {
+      "bytes": 24270,
+      "sha256": "fc9008051944d5de210808b7d5550a4e11ca4e475139021b825fe5ac825817fa"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP85_CLMcom_CCLM_202140.js": {
+      "bytes": 208642,
+      "sha256": "e83d71199170efbde1c8ab44d2f5facf4a4384850e3a7ed99d1a5bd57b2842ae"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP85_CLMcom_CCLM_202140.png": {
+      "bytes": 22190,
+      "sha256": "ca0c76e79fa6d390168d992c4beaa6c2f9c13a1da699fadfbb2a4d32f14ff0a3"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP85_CLMcom_CCLM_204160.js": {
+      "bytes": 221709,
+      "sha256": "be32e343ade381542d247c4301d1dd8ddb65fdcc33dfacf7beb1896703a6753d"
+    },
+    "wildfires/rasters/ml_susceptibility_change_RCP85_CLMcom_CCLM_204160.png": {
+      "bytes": 24435,
+      "sha256": "3cd7cc11555f48e4569b7543fab5412ba08b333311cfdef274f9f452e409ed0b"
+    },
+    "wildfires/source-report.html": {
+      "bytes": 51423,
+      "sha256": "6c025fba1290f2312950109ae0ebf503cda80d33cda1ee47003d31695fc87c19"
+    }
+  },
+  "hash_note": "SHA-256 and byte lengths cover every delivered source file except this manifest itself. The update archive also includes the unchanged .nojekyll deployment marker."
+}
