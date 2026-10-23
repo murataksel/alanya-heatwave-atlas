@@ -1,0 +1,239 @@
+{
+  "version": "9.0",
+  "interpretation": "Web integration only; hazard, exposure and discharge outputs were not recalculated.",
+  "inputs": [
+    {
+      "archive": "coastal_floods_outputs.rar",
+      "sha256": "9b05b194d312e746355c41f16b869e04ee641a9a1e46e44c2a65aeb9919e0be7"
+    },
+    {
+      "archive": "flood_damage_outputs.rar",
+      "sha256": "1274a1f4710c1c81890adf5e92a25d87351d7a119883ae8b84c6a31b78b9ba8d"
+    },
+    {
+      "archive": "river_discharge_analysis_outputs.rar",
+      "sha256": "24a029ce74ff4473387d075eaf0f6d2f60eb01e73a15a5f36f1ddf9397e9c407"
+    },
+    {
+      "archive": "river_flooding_cache.rar",
+      "sha256": "3d54b424052d02757cd183c9ffcd0b723e837b16e96155ab323aa7abf14b2018"
+    },
+    {
+      "archive": "river_flooding_outputs.rar",
+      "sha256": "537ef5d9489c9bdc9477427df3309579397b9455f4cd9fabbea9f7371b38abd0"
+    }
+  ],
+  "web_assets": [
+    {
+      "source": "coastal_floods_outputs/outputs/Alanya_97f652ba8f06/maps_v3_en/Alanya_V3_EN_INTERACTIVE.html",
+      "source_sha256": "6ce476405e2d250b9223317ca465fdb56485f1599ab104361a3bab8c6a3ecb39",
+      "web_path": "floods/maps/coastal.html",
+      "action": "Original inline numerical data retained; local Leaflet URLs, responsive controls and parent-page bridge added"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/Alanya_RIVER_INTERACTIVE_EN.html",
+      "source_sha256": "49e143256fd8c8ac26cafa19e01a303cdcbecab4b2fe6d371269fbb78c21829f",
+      "web_path": "floods/maps/river.html",
+      "action": "Original inline numerical data retained; local Leaflet URLs, responsive controls and parent-page bridge added"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/Alanya_03_INTERACTIVE_EN.html",
+      "source_sha256": "35333de73b12fea665d4781100fca4c5e0ee8c774ec4ae72fbe3885ca6e36818",
+      "web_path": "floods/maps/exposure.html",
+      "action": "Original inline numerical data retained; local Leaflet URLs, responsive controls and parent-page bridge added"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/Alanya_04_INTERACTIVE_EN.html",
+      "source_sha256": "4b2148718661dec11a031a0ff9972e6cd056112a5359dc55000f96d728781058",
+      "web_path": "floods/maps/discharge.html",
+      "action": "Original inline numerical data retained; local Leaflet URLs, responsive controls and parent-page bridge added"
+    },
+    {
+      "source": "coastal_floods_outputs/outputs/Alanya_97f652ba8f06/hazard/Alanya_flood_hazard_summary.csv",
+      "source_sha256": "d38945986665cb8bfe03075c4537fe773bf8fb36b6e5e64c2d7dc2e3ffd8048b",
+      "web_path": "floods/downloads/coastal-hazard-summary.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/tables/Alanya_River_hazard_summary_EN.csv",
+      "source_sha256": "95391ba7b6a48073a0d8074dd09bbce69479d0f365eacac1cbc4e3fd87735bd3",
+      "web_path": "floods/downloads/river-hazard-summary.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/qa_mask_partition/run_20261015_195828_681816/Alanya_River_T100_mask_partition_EN.csv",
+      "source_sha256": "fb1584261a7392df9220d2b04e0854b21a6ccccc1f8d09c591f7def860739f8e",
+      "web_path": "floods/downloads/river-t100-qa.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/tables/Alanya_03_population_exposure_EN.csv",
+      "source_sha256": "e5cdad3a5acc84988e134589ac2fa510e29d650a41a38a1a562a09d299febde3",
+      "web_path": "floods/downloads/resident-population-exposure.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/tables/Alanya_03_population_QA_partition_EN.csv",
+      "source_sha256": "22209189c14da749bdd75212600065ef2c5539ca587939f8d6bdc9f137f73b5f",
+      "web_path": "floods/downloads/population-qa.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/tables/Alanya_03_EAPE_EAPD_truncated_EN.csv",
+      "source_sha256": "1c4a0bf664e4b89e862765a141edce2b8e040ee85fd98cf0a4e8252c49080843",
+      "web_path": "floods/downloads/annual-population-truncated.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/tables/Alanya_04_extreme_relative_ensemble_EN.csv",
+      "source_sha256": "406dd6f99ad665a94820633f344ac1e33abd8d33914fc09b5cb8a8c203c37375",
+      "web_path": "floods/downloads/discharge-relative-ensemble.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/tables/Alanya_04_extreme_absolute_ensemble_EN.csv",
+      "source_sha256": "63e345663a1690e502ce141c4b238f91c55eda675a42b18b809e1e8c0ecf31c7",
+      "web_path": "floods/downloads/discharge-absolute-ensemble.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/tables/Alanya_04_monthly_ensemble_EN.csv",
+      "source_sha256": "fb9cac432cceece7b3282e1fb74dccf26b6a42f780528e893d4c593a3f716afe",
+      "web_path": "floods/downloads/discharge-monthly-ensemble.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/tables/Alanya_04_period_label_audit_EN.csv",
+      "source_sha256": "6397903c788c799532186cde3369f88bac0a1d777ef85903e8aafa92b9116e2f",
+      "web_path": "floods/downloads/discharge-period-audit.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_flooding_cache/cache/selections/a2ff7ad26f53/Alanya_04_catchment_inventory_EN.csv",
+      "source_sha256": "59b68a119379f7d425a9272b201c1895fbb41bf18a50cdfafca31f3b8512827c",
+      "web_path": "floods/downloads/catchment-inventory.csv",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/vectors/Alanya_EHYPE_selected_subcatchments.geojson",
+      "source_sha256": "24062ff102b844aac7b391e046c158700e4806481845fab50b304eb8effde3a7",
+      "web_path": "floods/downloads/ehype-catchments.geojson",
+      "action": "Byte-identical copy"
+    },
+    {
+      "source": "coastal_floods_outputs/outputs/Alanya_97f652ba8f06/maps_v3_en/Alanya_V3_EN_area_vs_return_period.png",
+      "source_sha256": "1e6ee412cbb9639286eadde336bc7ec4290aeeaf9f83215017ad6c5b0db8f81b",
+      "web_path": "floods/figures/coastal-area.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "coastal_floods_outputs/outputs/Alanya_97f652ba8f06/maps_v3_en/Alanya_V3_EN_depth_2050_T100_coastal_overview.png",
+      "source_sha256": "9c2b89a04086ed5620abc2eb8a7c331c77a1d4a6e02f19e239e73cb59bbd636c",
+      "web_path": "floods/figures/coastal-2050-t100.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "coastal_floods_outputs/outputs/Alanya_97f652ba8f06/maps_v3_en/Alanya_V3_EN_depth_change_2050_T100_central_alanya.png",
+      "source_sha256": "b9f17af8d4151fb925433e0ac395e6db3dcc118a4ec4f1fe78048e942ba53043",
+      "web_path": "floods/figures/coastal-change-central.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "coastal_floods_outputs/outputs/Alanya_97f652ba8f06/maps_v3_en/Alanya_V3_EN_threshold_transitions_2050_T100_coastal_overview.png",
+      "source_sha256": "1ff542fc35e4f53e77b66a393babb22bf2199c18a1345ec888ac07b68001af8e",
+      "web_path": "floods/figures/coastal-transitions.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/figures/Alanya_River_area_vs_return_period_EN.png",
+      "source_sha256": "79701ac118bb29d1cc8aad86252c2f507733537dfe6bbea76966af368461277f",
+      "web_path": "floods/figures/river-area.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/figures/Alanya_River_depth_T100_overview_EN.png",
+      "source_sha256": "6378f2ca91f5aa34398aed31d540301d2e0fc43e40cc55e606d31446b7a269c7",
+      "web_path": "floods/figures/river-t100.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/figures/Alanya_River_depth_T100_central_alanya_EN.png",
+      "source_sha256": "1667a7b05e9722afb7af6d00baea9ef40a2a01b38b8c1568439251c457fd0e80",
+      "web_path": "floods/figures/river-t100-central.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_flooding_outputs/outputs/Alanya_River_20261015T134540_687366Z/figures/Alanya_River_QA_flags_overview_EN.png",
+      "source_sha256": "4f05a30738155767cfc58d9a12c863fb5e22ef7c78143f7668cc2282387d918c",
+      "web_path": "floods/figures/river-qa.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/maps_en/Alanya_03_exposed_by_return_period_EN.png",
+      "source_sha256": "8c48c4d0308b0db8543f38baa150d4a2e5c0eadb56f1bea69ba8f2bb716f015f",
+      "web_path": "floods/figures/population-exposure.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/maps_en/Alanya_03_displacement_proxy_by_return_period_EN.png",
+      "source_sha256": "d414fd368d6af94e0e7bcf566f3968b772cff6e1980395408a86137d6b44437b",
+      "web_path": "floods/figures/population-displacement.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/maps_en/Alanya_03_exposed_raw_T100_P2025_central_alanya_EN.png",
+      "source_sha256": "9f8be7a9141ad2a11bd4d2c9b91996c0ab6293d7ccfcd69420ba7ff95539ca8a",
+      "web_path": "floods/figures/population-central.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "flood_damage_outputs/outputs/Alanya_03_41b3fbb202/run_20261015T181632_841514Z/maps_en/Alanya_03_QA_study_area_EN.png",
+      "source_sha256": "17903d121d3e50a92906a6adf9f3c2fc78c14fc68821a44ac90cc3e4fca7cf8d",
+      "web_path": "floods/figures/population-qa.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/maps_en/Alanya_04_Q10_change_rcp85_2041-2070_EN.png",
+      "source_sha256": "857241ee6bfbb6eab1e54b2ae962f80dd5eb3212b9497bbecdb59152e47e9168",
+      "web_path": "floods/figures/discharge-q10-rcp85.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/maps_en/Alanya_04_Q50_change_rcp45_2041-2070_EN.png",
+      "source_sha256": "095ffd9e9c379c31d80d9d94942e3f97cdf1d2c9ead0fa1bd97a648a8a9cc0b1",
+      "web_path": "floods/figures/discharge-q50-rcp45.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/figures_en/Alanya_04_Q10_SUBID_9714987_EN.png",
+      "source_sha256": "4a5773be11463cf73d46b669082734cf4c59e9d6c8eb75f5970e97aab000989a",
+      "web_path": "floods/figures/discharge-model-spread.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/figures_en/Alanya_04_seasonality_2041-2070_SUBID_9714987_EN.png",
+      "source_sha256": "05ddeae28ab496ab11390fd3d08e81a43a5e22792069299469052bb9ab2a08b9",
+      "web_path": "floods/figures/discharge-seasonality.webp",
+      "action": "Lossless WebP encoding; original pixel dimensions retained"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/figures_en/Alanya_04_daily_SUBID_9714987_EN.html",
+      "source_sha256": "da180845f30c37d3a5ba5150958cd14052c8a52ba57908694dbc7f3e9740041c",
+      "web_path": "floods/charts/daily-9714987.html",
+      "action": "Original numerical data retained; Plotly library URL made local to the atlas"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/figures_en/Alanya_04_daily_SUBID_9715207_EN.html",
+      "source_sha256": "ca0a8011d48d964fb005b6dcb3e3500f5998b823b653dbdf94915e55d0d37cf0",
+      "web_path": "floods/charts/daily-9715207.html",
+      "action": "Original numerical data retained; Plotly library URL made local to the atlas"
+    },
+    {
+      "source": "river_discharge_analysis_outputs/outputs/Alanya_04_a2ff7ad26f53/run_20261015T190045_071483Z/figures_en/Alanya_04_daily_SUBID_9715517_EN.html",
+      "source_sha256": "f582f84fce3c040e4166a763629c38aeb58355d396c0c600ee350fdef5d4eebd",
+      "web_path": "floods/charts/daily-9715517.html",
+      "action": "Original numerical data retained; Plotly library URL made local to the atlas"
+    }
+  ],
+  "cache_policy": "Only selected catchment inventory/geometry is published. Raw caches, national shapefiles, NetCDF stacks and intermediate duplicate runs are not web assets."
+}

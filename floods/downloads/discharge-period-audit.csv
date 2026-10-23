@@ -1,0 +1,8 @@
+﻿product,start_year,source_period_label,analysis_period_label,label_matches,rule
+extreme_absolute,1971,1971-2000,1971-2000,True,Decoded time start year matched to documented fixed 30-year periods; values unchanged
+extreme_absolute,2011,2011-2040,2011-2040,True,Decoded time start year matched to documented fixed 30-year periods; values unchanged
+extreme_absolute,2041,2041-2070,2041-2070,True,Decoded time start year matched to documented fixed 30-year periods; values unchanged
+extreme_absolute,2071,2071-2100,2071-2100,True,Decoded time start year matched to documented fixed 30-year periods; values unchanged
+extreme_relative,2011,1971-2000,2011-2040,False,Decoded time start year matched to documented fixed 30-year periods; values unchanged
+extreme_relative,2041,1971-2000,2041-2070,False,Decoded time start year matched to documented fixed 30-year periods; values unchanged
+extreme_relative,2071,1971-2000,2071-2100,False,Decoded time start year matched to documented fixed 30-year periods; values unchanged

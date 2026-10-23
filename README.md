@@ -1,36 +1,55 @@
-# Alanya Neighbourhood Heatwave Atlas
+# Alanya Climate Risk Atlas — v9
 
-This static web atlas links 102 Alanya neighbourhood polygons to neighbourhood-specific interactive HWI, HWF and HWTL time-series graphics. The optional raster overlay presents the supplied LST risk classes (4–7).
+The P2R Alanya atlas combines the existing 102-neighbourhood heatwave interface with four independent flood-analysis viewers. Start at `index.html`; choose **Floods** in the upper navigation. The existing heatwave charts, polygons and raster data are retained.
+
+## Flood analyses
+
+| Viewer | Spatial unit | Available selections |
+| --- | --- | --- |
+| Coastal flooding | Original coastal source-grid cells, 90 m | 2018 baseline and 2050 RCP8.5; T2, T5, T10, T25, T50, T100 and T250; T100 depth change and 0.10 m threshold transitions |
+| River flooding | Native JRC source cells | Historical climate only; T10, T20, T30, T40, T50, T75, T100, T200 and T500 |
+| Population exposure | Historical river cells intersecting the OSM-derived Alanya study polygon | T100 interactive map; projected resident population for 2025; exposed residents, displacement-threshold proxy and three QA cases |
+| River discharge | Nine full E-HYPE model subcatchments | RCP4.5/RCP8.5; 2011–2040, 2041–2070, 2071–2100; Q10/Q50 source-indicator changes; three interactive daily-flow charts for 1991–2005 |
+
+The shared scenario menu stays synchronised with the original map controls. Selections are reflected in the URL and in the adjacent summary cards. Each viewer includes a source/scope note, downloadable tables and four full-resolution figures. Figures are encoded losslessly as WebP. Map legends, opacity controls and numerical cell/catchment popups remain available. Mobile layouts include an expandable sources-and-downloads panel.
+
+## Interpretation
+
+These are supplied model outputs, not locally validated official hazard maps. The web integration does not recalculate hazards, population exposure or discharge indicators. Different viewers use different spatial scopes; their areas and values must not be added as if they shared one study boundary.
+
+- Coastal 2050 layers are RCP8.5. River-inundation layers have historical climate only.
+- Raw river depth includes permanent-water and suspicious-depth flag overlaps. Mask semantics and local file release identity remain unverified in the source run. QA exclusions are sensitivity cases, not validation.
+- Population is a 2025 projection; seasonal visitors are not included. The displacement proxy uses depth greater than 1 m and is not observed displacement. The interactive population map is T100; its downloadable table covers T10–T500.
+- No monetary losses were computed. The source OSM building/facility request failed, so an empty/incomplete inventory must not be read as absence of assets or exposure.
+- River-discharge scenarios describe model indicators, not flood depths or flood extents. Full model subcatchment discharges must not be summed; no local gauge validation was performed.
+- Uncoloured areas can mean a value below the display threshold or missing data.
 
 ## Run locally
 
-Do not open `index.html` directly because browsers block local GeoJSON requests. Start a small web server in this folder, for example `python -m http.server 8000`, then open `http://localhost:8000`.
+Open a terminal in this folder and run:
 
-## Publish with GitHub Pages
+```bash
+python -m http.server 8000
+```
 
-1. Create a public GitHub repository, for example `alanya-heatwave-atlas`.
-2. Upload the **contents** of this folder to the repository root and commit them.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select branch **main** and folder **/(root)**, then save.
-6. GitHub will display the public atlas URL. Add that URL to the Figshare description.
+Then open `http://localhost:8000` for heatwaves or `http://localhost:8000/floods/` for floods. Keep the directory tree intact. Opening HTML by double-clicking does not support the required same-origin data requests reliably.
 
-## Archive and obtain a DOI with Figshare
+Leaflet and Plotly are local files. Only basemap tiles require an internet connection; source data do not depend on a notebook, Python backend or CDN at viewing time. The supplied fallback behaviour is retained when tiles are unavailable. The discharge basemap is optional and initially off.
 
-1. Create a Figshare item of type **Dataset** or **Software**. Dataset is preferable when the indicator data are the primary research output.
-2. Upload the release ZIP, a methodology PDF, and—where possible—the underlying CSV/XLSX data used to create the charts.
-3. Complete title, authors, affiliations, ORCID identifiers, keywords, funding, spatial coverage, temporal coverage, methodology, and reuse licence.
-4. Add the GitHub Pages atlas URL and GitHub repository URL to the description.
-5. Reserve a DOI, insert it into `CITATION.cff`, create a new ZIP, replace the Figshare file, and then publish the record.
-6. Cite the Figshare DOI in the report; use the interactive atlas URL for the QR code.
+## Existing GitHub Pages deployment
 
-## Recommended citation architecture
+Repository: https://github.com/murataksel/alanya-heatwave-atlas
 
-- **Figshare DOI:** authoritative, citable research object and versioned archive.
-- **GitHub Pages:** live interactive interface.
-- **GitHub repository:** transparent source and issue history.
-- **Zenodo alternative:** GitHub release archiving with DOI; use either Zenodo or Figshare as the primary DOI to avoid citation fragmentation.
+Publish the **contents** of this folder at the repository root, retaining `charts/`, `assets/`, `data/`, `plotly.min.js` and the new `floods/` directory. The heatwave URL remains unchanged. The flood viewer is `https://murataksel.github.io/alanya-heatwave-atlas/floods/`.
 
-## Required attribution checks before public release
+`.nojekyll` is retained. All application asset paths are relative and work under the repository subpath. No WMS/WFS/GeoServer service is required for these self-contained map outputs.
 
-Confirm the licence and citation requirements for the neighbourhood boundaries, heatwave indicators, LST raster, basemap and methodology. OpenStreetMap attribution is already displayed on the map. Replace every placeholder in `CITATION.cff` before publication.
+## Provenance and verification
+
+The input analyses were completed on 15 October 2026. `floods/downloads/source-manifest.json` records the supplied archive hashes, selected source files, their hashes and the web transformations. Raw caches, national shapefiles, NetCDF stacks and duplicate intermediate runs are not copied to the public web assets.
+
+Validation covered all relative HTML asset links and catalog references, unchanged numerical payloads in the four maps, byte-identical source-table copies, exact source-image pixels, JavaScript syntax, and 45 scenario/QA combinations through the original source-map scripts and the parent-page controller in a DOM/Leaflet test double. Daily-chart switching, deep links and message-origin checks were also exercised. No actual browser layout or network-tile rendering check was available in this execution environment.
+
+## Citation and archive
+
+Retain the source-data attribution and licence requirements for each workflow. OpenStreetMap attribution is present on the maps. `CITATION.cff` is retained from v8; its DOI placeholder is not a published DOI. Complete/review citation metadata before creating a formal DOI release. A DOI archive and the live interactive GitHub Pages URL serve different purposes.

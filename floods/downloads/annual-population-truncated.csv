@@ -1,0 +1,16 @@
+﻿metric,qa_policy,population_year,expected_annual_people_truncated,p_min,p_max,T_min,T_max,decreasing_event_steps,status
+displacement_proxy,outside_both_flags,2025,451.26210305578417,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+displacement_proxy,outside_permanent_water_flags,2025,492.19740120603024,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+displacement_proxy,raw,2025,571.7571167584892,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed,outside_both_flags,2025,864.1843083119489,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed,outside_permanent_water_flags,2025,917.0376489584904,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed,raw,2025,1047.1399807345783,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.1m,outside_both_flags,2025,864.1843083119489,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.1m,outside_permanent_water_flags,2025,917.0376489584904,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.1m,raw,2025,1047.1399807345783,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.3m,outside_both_flags,2025,777.8888719191103,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.3m,outside_permanent_water_flags,2025,830.2768546538093,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.3m,raw,2025,959.5802396367976,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.5m,outside_both_flags,2025,691.8464368733917,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.5m,outside_permanent_water_flags,2025,743.5112805490373,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
+exposed_ge_0.5m,raw,2025,872.5096342192842,0.002,0.1,10.0,500.0,0,Truncated CLIMAAX trapezoidal integral; no extrapolation at either tail
