@@ -1,0 +1,9 @@
+{
+  "district_cells": 2020073,
+  "valid_cells": 2020073,
+  "coverage": 1.0,
+  "resolution_m": 30.0,
+  "tpi_radius_m": 300,
+  "method": "weighted flatness and relative low position (negative TPI), fixed parameters",
+  "limitations": "DSM includes vegetation/buildings. No flow routing, sewer capacity, infiltration, hydraulic depth or damage calibration."
+}

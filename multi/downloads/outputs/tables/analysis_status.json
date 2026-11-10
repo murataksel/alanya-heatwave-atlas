@@ -1,0 +1,10 @@
+{
+  "facilities": 289,
+  "road_segments": 14975,
+  "thermal_facility_coverage": 289,
+  "thermal_road_coverage": 14954,
+  "climate_mapping_missing": 0,
+  "operational_risk_computed": false,
+  "composite_risk_computed": false,
+  "outputs": "physical indicators, environmental sensitivity context and descriptive exposure percentiles"
+}

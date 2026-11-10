@@ -1,0 +1,8 @@
+﻿input,exists,file
+boundary,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/gis/alanya_boundary.geojson
+neighbourhoods,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/gis/neighbourhoods.gpkg
+buildings,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/gis/buildings.gpkg
+roads,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/gis/roads.gpkg
+omgi_daily.xlsx,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/mgm/omgi_daily.xlsx
+manual_daily.xlsx,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/mgm/manual_daily.xlsx
+mgm_idf_2020.xlsx,True,/workspace/scratch/af886c5af5e8/CLIMAAX_HEAVY_RAIN_ALANYA_v1/data/input/mgm/mgm_idf_2020.xlsx

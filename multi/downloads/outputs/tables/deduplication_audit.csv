@@ -1,0 +1,9 @@
+﻿asset_id,parent_asset_id,reason
+osm_node_1188835885,osm_way_486169940,duplicate site POI or nested hospital geometry
+osm_node_4702112124,osm_way_472700922,duplicate site POI or nested hospital geometry
+osm_node_4702112125,osm_way_472687085,duplicate site POI or nested hospital geometry
+osm_node_4702121714,osm_way_472703214,duplicate site POI or nested hospital geometry
+osm_way_261131152,,parent sports site; pitches counted separately
+osm_way_442739445,,parent sports site; pitches counted separately
+osm_way_1155034614,,parent sports site; pitches counted separately
+osm_way_1181397934,,parent sports site; pitches counted separately

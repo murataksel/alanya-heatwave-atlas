@@ -1,0 +1,49 @@
+{
+  "terrain_file": "data/input/microscale/alanya_terrain_utm36.tif",
+  "assumed_floor_height_m": 3.0,
+  "reference_mean_speed_ms": 10.0,
+  "reference_height_m": 10.0,
+  "target_height_m": 10.0,
+  "terrain_mesh_resolution_m": 100,
+  "vegetation": "grass",
+  "directions_from_deg": [
+    0.0,
+    22.5,
+    45.0,
+    67.5,
+    90.0,
+    112.5,
+    135.0,
+    157.5,
+    180.0,
+    202.5,
+    225.0,
+    247.5,
+    270.0,
+    292.5,
+    315.0,
+    337.5
+  ],
+  "pilot_domains": [
+    {
+      "name": "alanya_centre_pilot",
+      "purpose": "Suggested CFD pilot, not an administrative unit; adjust after building-height survey",
+      "bbox_wgs84": [
+        31.995,
+        36.541,
+        32.005,
+        36.549
+      ]
+    },
+    {
+      "name": "eastern_coast_pilot",
+      "purpose": "Suggested second pilot; adjust after building-height survey",
+      "bbox_wgs84": [
+        32.075,
+        36.495,
+        32.085,
+        36.503
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "buildings": 27960,
+  "declared_height": 221,
+  "levels": 1678,
+  "direct_or_levels": 1720,
+  "missing": 26240,
+  "assumed_floor_height_m": 3.0,
+  "note": "OSM declarations are not surveyed heights. Missing heights are not replaced by a single invented value. Levels-based heights are preparation estimates only."
+}

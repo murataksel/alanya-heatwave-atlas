@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "boundary": {
+    "file": "data/input/alanya_boundary.geojson",
+    "source": "OpenStreetMap relation 1726977, not certified municipal boundary"
+  },
+  "buildings": {
+    "file": "data/input/buildings.gpkg",
+    "count": 27960,
+    "sha256": "b42a04909cf289483f2905cb9f2a22e0a246dc1f8d3819d9485d630e9906766a",
+    "completeness": "unknown"
+  },
+  "roads": {
+    "file": "data/input/roads.gpkg",
+    "count": 6538,
+    "sha256": "eba0c8bc6903b9d459985dd0b7fcd0ce6221324ea7c9861fc448494a3edbd80c",
+    "completeness": "unknown"
+  },
+  "meteorological_data": "Not downloaded; user CDS authentication required",
+  "MGM_measurements": "17310 Alanya daily maximum wind XLSX supplied: 10851 days, 1995–2025; height/gust duration and daily boundary not confirmed",
+  "monetary_values": "Not supplied",
+  "package_version": "3.0",
+  "extreme_analysis": "Code implemented and tested with synthetic data; no actual Alanya return levels computed",
+  "primary_period": "1979 through last complete calendar year",
+  "physical_high_resolution_wind": "Input preparation/external solver interface only; DEM and surveyed building heights not supplied; no CFD run",
+  "bias_correction": "Chronological daily station-cell validation and conditional adjustment implemented; actual local ERA5 cache not provided here; no actual bias value computed"
+}

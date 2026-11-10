@@ -1,0 +1,20 @@
+{
+  "alanya_osm_area_km2": 1818.1004926146445,
+  "facility_counts": {
+    "airport": 1,
+    "healthcare_candidate": 1,
+    "healthcare_outpatient": 1,
+    "hospital": 4,
+    "sports": 275,
+    "wastewater_treatment": 7
+  },
+  "road_segment_counts": {
+    "road_local": 13073,
+    "road_main": 1902
+  },
+  "road_length_km": {
+    "road_local": 2634.1820426778336,
+    "road_main": 380.7571858989215
+  },
+  "scope_note": "OSM Alanya boundary plus GZP airport and mapped main roads in the external airport connection corridor. Dual carriageways are counted as distinct mapped centrelines. Sports may include private/hotel facilities. No completeness claim."
+}

@@ -1,0 +1,31 @@
+{
+  "minimum": 27.39312171936035,
+  "maximum": 34.03538513183594,
+  "lower": 0.0,
+  "upper": 60.0,
+  "scale_kind": "fixed",
+  "below": 0,
+  "above": 0,
+  "extend": "neither",
+  "views": [
+    {
+      "name": "Alanya merkez",
+      "extent_utm_m": [
+        406890.9702790844,
+        4042614.2248861482,
+        413666.96199778776,
+        4048785.3215705906
+      ]
+    },
+    {
+      "name": "Doğu kıyısı",
+      "extent_utm_m": [
+        412654.30857638014,
+        4036986.771516075,
+        422141.1812516715,
+        4045951.1280990485
+      ]
+    }
+  ],
+  "note": "Display settings only. Percentile endpoints saturate colours; gust values and exposure totals are unchanged."
+}

@@ -1,0 +1,22 @@
+{
+  "omgi_start": "2005-01-03",
+  "omgi_end": "2025-12-31",
+  "omgi_rows": 7646,
+  "omgi_missing": 0,
+  "manual_blank_policy": "missing",
+  "manual_numeric_days": 3115,
+  "manual_rows": 11323,
+  "overlap_paired_days": 2208,
+  "overlap_disagreements_gt_1mm": 763,
+  "annual_max_start": 1964,
+  "annual_max_end": 2020,
+  "annual_max_years": 57,
+  "annual_max_usable_years": 56,
+  "flagged_annual_max_years": [
+    2010
+  ],
+  "matched_period": "1976-2005",
+  "matched_years": 30,
+  "daily_time_definition": "Unconfirmed: UTC daily default; 06UTC end-labelled and +/-1-day sensitivity exported.",
+  "official_idf": "Preserved exactly. Matched-period LP3 refit is separate. Asterisk-flagged 2010 annual maxima retained raw and withheld from refits; flag definition not supplied."
+}

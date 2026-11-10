@@ -1,0 +1,66 @@
+{
+  "observations": {
+    "omgi_start": "2005-01-03",
+    "omgi_end": "2025-12-31",
+    "omgi_rows": 7646,
+    "omgi_missing": 0,
+    "manual_blank_policy": "missing",
+    "manual_numeric_days": 3115,
+    "manual_rows": 11323,
+    "overlap_paired_days": 2208,
+    "overlap_disagreements_gt_1mm": 763,
+    "annual_max_start": 1964,
+    "annual_max_end": 2020,
+    "annual_max_years": 57,
+    "annual_max_usable_years": 56,
+    "flagged_annual_max_years": [
+      2010
+    ],
+    "matched_period": "1976-2005",
+    "matched_years": 30,
+    "daily_time_definition": "Unconfirmed: UTC daily default; 06UTC end-labelled and +/-1-day sensitivity exported.",
+    "official_idf": "Preserved exactly. Matched-period LP3 refit is separate. Asterisk-flagged 2010 annual maxima retained raw and withheld from refits; flag definition not supplied."
+  },
+  "geography": {
+    "neighbourhoods": 102,
+    "buildings": 27960,
+    "confirmed_residential": 3285,
+    "unknown_use": 12654,
+    "other_non_residential": 12021,
+    "unassigned_buildings": 8,
+    "boundary_overlap_m2": 14546129.369908534,
+    "boundary_unassigned_m2": 43056768.433737054,
+    "district_m2": 1818100492.6146429,
+    "neighbourhood_coverage_fraction": 0.9763177207800622,
+    "assignment": "one representative point per footprint; ambiguous neighbourhood areas withheld"
+  },
+  "terrain": {
+    "district_cells": 2020073,
+    "valid_cells": 2020073,
+    "coverage": 1.0,
+    "resolution_m": 30.0,
+    "tpi_radius_m": 300,
+    "method": "weighted flatness and relative low position (negative TPI), fixed parameters",
+    "limitations": "DSM includes vegetation/buildings. No flow routing, sewer capacity, infiltration, hydraulic depth or damage calibration."
+  },
+  "hazard": {
+    "chains": [
+      "ichec-ec-earth_knmi-racmo22e",
+      "mohc-hadgem2-es_knmi-racmo22e",
+      "mpi-m-mpi-esm-lr_smhi-rca4"
+    ],
+    "baseline": "1976-2005",
+    "durations_h": [
+      3,
+      24
+    ],
+    "cells": 24,
+    "models_required": 3,
+    "method": "Duration- and return-period-specific MGM multiplicative anchoring; change factors preserved for each model and cell.",
+    "spatial_assumption": "Single-station bias factor transferred uniformly across district; unvalidated in uplands.",
+    "temporal_assumption": "MGM rolling-duration maxima vs CORDEX fixed 3h/24h blocks; difference not independently corrected.",
+    "tail": "200/500y levels are extrapolations from about 30y baseline; supplied LP3 table is a separate 56y reference.",
+    "daily_validation_scope": "Daily ERA5 validation does not validate CORDEX projections or subdaily rainfall.",
+    "monotonicity_issues": 0
+  }
+}

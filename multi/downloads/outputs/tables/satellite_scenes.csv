@@ -1,0 +1,10 @@
+﻿item_id,datetime_utc,scene_cloud_percent,platform,path,row,source_url
+LC08_L2SP_177035_20250624_02_T1,2025-06-24T08:28:10.322261Z,0.45,landsat-8,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_177035_20250624_02_T1
+LC08_L2SP_177035_20250726_02_T1,2025-07-26T08:28:20.041705Z,1.46,landsat-8,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_177035_20250726_02_T1
+LC08_L2SP_177035_20250811_02_T1,2025-08-11T08:28:28.139989Z,0.02,landsat-8,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_177035_20250811_02_T1
+LC09_L2SP_177035_20250616_02_T1,2025-06-16T08:28:02.370198Z,1.34,landsat-9,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_177035_20250616_02_T1
+LC09_L2SP_177035_20250702_02_T1,2025-07-02T08:28:09.994583Z,2.42,landsat-9,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_177035_20250702_02_T1
+LC08_L2SP_177035_20250827_02_T1,2025-08-27T08:28:29.583344Z,1.85,landsat-8,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_177035_20250827_02_T1
+LC08_L2SP_177035_20250608_02_T1,2025-06-08T08:27:58.447446Z,7.02,landsat-8,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_177035_20250608_02_T1
+LC08_L2SP_177035_20250710_02_T1,2025-07-10T08:28:12.988498Z,6.8,landsat-8,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC08_L2SP_177035_20250710_02_T1
+LC09_L2SP_177035_20250819_02_T1,2025-08-19T08:28:33.123884Z,2.09,landsat-9,177,035,https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_177035_20250819_02_T1

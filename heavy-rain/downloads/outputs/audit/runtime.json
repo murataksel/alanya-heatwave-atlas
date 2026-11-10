@@ -1,0 +1,144 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "rasterio": "1.5.2",
+    "xarray": "2026.9.0",
+    "netCDF4": "1.7.5.1.post1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "config": {
+    "project": "Pathways2Resilience Alanya",
+    "crs": "EPSG:32636",
+    "languages": [
+      "EN",
+      "TR"
+    ],
+    "station": {
+      "id": "17310",
+      "name": "ALANYA",
+      "latitude": 36.5507,
+      "longitude": 31.9803,
+      "coordinate_source": "https://antalya.mgm.gov.tr/gozlem-sebekesi.aspx (Alanya station map)"
+    },
+    "daily": {
+      "source": "omgi",
+      "manual_blank_policy": "missing",
+      "wet_day_mm": 1.0,
+      "day_end_hour_utc": 0,
+      "date_label": "start",
+      "calibration_start": "2005-01-01",
+      "calibration_end": "2018-12-31",
+      "validation_start": "2019-01-01",
+      "validation_end": "2025-12-31",
+      "year_coverage": 0.98,
+      "month_coverage": 0.9,
+      "min_wet_samples": 40,
+      "min_calibration_years": 10,
+      "min_validation_years": 5,
+      "unconfirmed_day_definition": true
+    },
+    "climate": {
+      "baseline": "1976-2005",
+      "future_periods": [
+        "2041-2070"
+      ],
+      "scenarios": [
+        "rcp45",
+        "rcp85"
+      ],
+      "durations_h": [
+        3,
+        24
+      ],
+      "return_periods": [
+        2,
+        5,
+        10,
+        25,
+        50,
+        100,
+        200,
+        500
+      ],
+      "chains": [
+        "ichec-ec-earth_knmi-racmo22e",
+        "mohc-hadgem2-es_knmi-racmo22e",
+        "mpi-m-mpi-esm-lr_smhi-rca4"
+      ],
+      "base_url": "https://object-store.os-api.cci1.ecmwf.int/climaax/precipitation_idf_europe/",
+      "source_bias": "non_bias_corrected",
+      "station_factor_transfer": "uniform_multiplicative",
+      "max_station_distance_km": 30,
+      "min_baseline_annual_max_years": 25
+    },
+    "analysis": {
+      "main_duration_h": 3,
+      "main_return_period": 100,
+      "design_return_period": 10,
+      "bootstrap": 300,
+      "seed": 17310,
+      "min_rainfall_coverage": 0.99
+    },
+    "terrain": {
+      "enabled": true,
+      "resolution_m": 30,
+      "buffer_m": 3000,
+      "tpi_radius_m": 300,
+      "slope_scale_deg": 5,
+      "depression_scale_m": 2,
+      "weights": {
+        "flatness": 0.5,
+        "relative_low_position": 0.5
+      },
+      "breaks": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "source": "Copernicus DEM GLO-30 DSM",
+      "note": "Exploratory terrain screening, not a hydrodynamic flood model"
+    },
+    "screening": {
+      "score_breaks": [
+        0.75,
+        1.25,
+        2.0
+      ],
+      "rainfall_reference": "matched-period MGM LP3 T10",
+      "note": "Dimensionless prioritisation index: (P_T/P_local_T10) * (0.5 + terrain susceptibility). No calibrated damage probability."
+    },
+    "maps": {
+      "dpi": 300,
+      "basemap": false,
+      "atlas_top_n": 12,
+      "detail_extents_wgs84": {
+        "central": [
+          31.94,
+          36.51,
+          32.07,
+          36.6
+        ],
+        "eastern": [
+          32.06,
+          36.43,
+          32.2,
+          36.55
+        ]
+      },
+      "all_neighbourhood_pages": false
+    },
+    "paths": {
+      "boundary": "data/input/gis/alanya_boundary.geojson",
+      "neighbourhoods": "data/input/gis/neighbourhoods.gpkg",
+      "buildings": "data/input/gis/buildings.gpkg",
+      "roads": "data/input/gis/roads.gpkg",
+      "dem": "data/cache/dem/alanya_dem.tif"
+    }
+  }
+}

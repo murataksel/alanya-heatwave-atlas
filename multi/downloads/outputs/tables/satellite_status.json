@@ -1,0 +1,24 @@
+{
+  "analysis_configuration": {
+    "collection": "landsat-c2-l2",
+    "start": "2025-06-01",
+    "end": "2025-08-31",
+    "max_scene_cloud_percent": 20,
+    "max_scenes_per_path_row": 9,
+    "scenes_per_month": 3,
+    "resolution_m": 100,
+    "min_valid_observations": 3
+  },
+  "period": [
+    "2025-06-01",
+    "2025-08-31"
+  ],
+  "selected_scenes": 9,
+  "working_resolution_m": 100,
+  "scope_pixels": 183431,
+  "pixels_with_min_observations": 180619,
+  "scope_pixel_coverage_fraction": 0.9846699848989539,
+  "minimum_valid_observations": 3,
+  "sentinel2_executed": false,
+  "note": "2025 summer clear-sky Landsat snapshot. This is a surface-temperature composite, not a heatwave frequency or a multi-year climatology. NDVI/NDBI are spectral indices, not measured canopy shade or impervious-surface fractions."
+}

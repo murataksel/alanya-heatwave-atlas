@@ -1,0 +1,13 @@
+{
+  "neighbourhoods": 102,
+  "buildings": 27960,
+  "confirmed_residential": 3285,
+  "unknown_use": 12654,
+  "other_non_residential": 12021,
+  "unassigned_buildings": 8,
+  "boundary_overlap_m2": 14546129.369908534,
+  "boundary_unassigned_m2": 43056768.433737054,
+  "district_m2": 1818100492.6146429,
+  "neighbourhood_coverage_fraction": 0.9763177207800622,
+  "assignment": "one representative point per footprint; ambiguous neighbourhood areas withheld"
+}

@@ -1,0 +1,27 @@
+﻿field,unit,definition
+asset_id,identifier,Stable OSM-derived analysis-unit ID
+scope,category,Alanya or explicit external airport connection scope
+length_m,m,Mapped clipped road centreline length; distinct carriageways counted separately
+area_m2,m2,Mapped polygon area; missing for location-only points
+context_buffer_m,m,100 m around facility geometry; 30 m around road geometry
+lst_median,degC,Spatial median of the summer temporal LST median composite in the context buffer
+lst_p90,degC,Spatial P90 of the temporal median composite; not a temporal extreme
+lst_valid_fraction,fraction,Fraction of intersecting context pixels with valid LST
+lst_observations_median,count,Median number of clear-sky observations in context pixels
+local_heat_excess_median,degC,"LST median minus approximately 1.1 km neighbourhood mean, sampled in context buffer"
+ndvi_median,dimensionless,Spectral vegetation greenness; not shade or a vegetation fraction
+ndbi_median,dimensionless,Spectral built-surface proxy; not measured impervious fraction
+elevation_median,m,Copernicus DSM context elevation
+slope_median,degree,Surface-model gradient angle at 100 m analysis support
+tpi_median,m,Elevation minus local mean; not HAND or flood depth
+mapped_waterway_distance_m,m,Minimum distance from mapped asset geometry to mapped OSM waterways
+recent_TXgt35_days_annual_mean,days/year,"ERA5-Land annual Tmax>35 C day-count mean, 2015-2025"
+baseline_precip_P99_all_days_mm,mm/day,ERA5 1991-2020 all-day precipitation 99th percentile
+temperature_profile_distance_km,km,Distance from asset representative point to actual returned ERA5-Land profile location
+TXgt35_days_change_recent_minus_baseline,days/year,Recent minus baseline; periods overlap
+lst_area_percentile,percentile,"Midrank within valid study-area land pixels, including altitude/land-cover gradients"
+local_heat_excess_area_percentile,percentile,Midrank of local surface-heat excess within the same study area
+qa_flags,text,"Missing data, thermal support, location-only geometry and access/status caveats"
+operational_vulnerability,not computed,Missing by design; not assigned from unknown operating conditions
+flood_depth_m,not computed,No new inundation simulation was performed
+monetary_damage,not computed,No vulnerability-damage or monetary-loss model was performed

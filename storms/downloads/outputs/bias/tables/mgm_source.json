@@ -1,0 +1,39 @@
+{
+  "file": "data/input/mgm/alanya_17310_daily_max_source.xlsx",
+  "sha256": "06e229a2b25149f299fa25056d007dee99b655a51cf6510d4523fc6af04eba6e",
+  "input_rows": 10851,
+  "valid_days": 10851,
+  "first": "1995-01-01 00:00:00",
+  "last": "2025-12-31 00:00:00",
+  "station": {
+    "id": "17310",
+    "name": "ALANYA",
+    "latitude": 36.5507,
+    "longitude": 31.9803,
+    "coordinate_source": "https://antalya.mgm.gov.tr/gozlem-sebekesi.aspx (Alanya 17310 map link)",
+    "historical_location_homogeneity": "not confirmed; present published coordinates used"
+  },
+  "definition": {
+    "statistic": "daily maximum wind speed",
+    "units": "m/s",
+    "height_m": null,
+    "gust_seconds": null,
+    "confirmed": false,
+    "note": "Workbook does not state sensor height or gust averaging duration. Fill from MGM metadata; do not infer 3 seconds from the word maximum."
+  },
+  "day_window": {
+    "timezone": "UTC",
+    "start_hour_utc": 0,
+    "label": "start_date",
+    "confirmed": false,
+    "note": "UTC appears in workbook footer; the daily boundary itself is not specified. Assumed 00–24 UTC; compare 07–07 as sensitivity, not model selection.",
+    "sensitivity_start_hours_utc": [
+      0,
+      7
+    ]
+  },
+  "source_notes": [
+    "1) NOTLAR:       1-  Verilen Saat UTC (Koordine Edilmiş Evrensel Saat)'dir. Türkiye saatine çevirmek için kışın 2 saat, yaz saatine göre ise 3 saat eklenir. 2016 Yılı ve sonrası 3 saat eklenir. Son 25 güne kadar olan bilgiler kalite kontrolünden geçmemiştir, daha sonraki tarihlerde değerler değişebilir. Sistemde ve verilerde      "
+  ],
+  "warning": "Daily maximum speed does not by itself certify 10 m / 3-second gust. No invented observations or infilling."
+}

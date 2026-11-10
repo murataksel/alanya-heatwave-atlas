@@ -1,0 +1,18 @@
+{
+  "precipitation_model": "era5",
+  "temperature_model": "era5_land",
+  "native_resolution_note": "ERA5 precipitation: 0.25 degree. ERA5-Land temperature: 0.1 degree, nearest land cell for each representative 0.25 degree analysis location. No facility-scale meteorology or station bias correction is inferred. Returned coordinates for each variable are retained.",
+  "baseline": [
+    1991,
+    2020
+  ],
+  "recent": [
+    2015,
+    2025
+  ],
+  "periods_overlap": true,
+  "future_scenarios_computed": false,
+  "bias_corrected_to_station": false,
+  "climate_cell_requests": 9,
+  "unique_returned_grid_locations": 9
+}

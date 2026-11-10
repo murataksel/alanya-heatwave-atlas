@@ -1,0 +1,56 @@
+{
+  "name": "Alanya",
+  "language": "TR",
+  "crs": "EPSG:32636",
+  "boundary_query": "Alanya, Antalya, Türkiye",
+  "boundary_file": "data/input/alanya_boundary.geojson",
+  "buildings_file": "data/input/buildings.gpkg",
+  "roads_file": "data/input/roads.gpkg",
+  "neighbourhoods_file": "data/input/neighbourhoods.gpkg",
+  "catalogue_start": "1991-01-01",
+  "catalogue_radius_km": 2000,
+  "algorithm": "hodges",
+  "event_date": null,
+  "track_id": null,
+  "screen_thresholds_ms": [
+    15.6,
+    20,
+    25,
+    32.7
+  ],
+  "road_segment_m": 100,
+  "max_download_events": 3,
+  "era5_start": "1979-01-01",
+  "era5_end": "auto_complete_year",
+  "minimum_hourly_coverage": 0.99,
+  "basemap": false,
+  "hazard_source": "scenarios",
+  "main_scenario": "T100",
+  "evt_min_years": 30,
+  "evt_year_coverage": 1.0,
+  "evt_min_peaks": 40,
+  "evt_threshold_quantile": 0.99,
+  "evt_threshold_quantiles": [
+    0.98,
+    0.99,
+    0.995
+  ],
+  "evt_run_hours": 72,
+  "evt_return_periods": [
+    50,
+    100
+  ],
+  "evt_bootstrap": 300,
+  "evt_confidence": 0.95,
+  "evt_seed": 20261027,
+  "scenario_pattern_count": 3,
+  "stress_gusts_ms": [
+    50,
+    60
+  ],
+  "map_gust_limits_ms": [
+    0,
+    60
+  ],
+  "scenario_make_all_maps": false
+}

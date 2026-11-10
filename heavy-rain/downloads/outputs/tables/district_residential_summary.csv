@@ -1,0 +1,4 @@
+﻿scenario,period,mapped_buildings,assessed_buildings,elevated_or_high_buildings,elevated_or_high_share_pct
+historical,1976-2005,3285,3285,2420,73.66818873668188
+rcp45,2041-2070,3285,3285,3273,99.63470319634703
+rcp85,2041-2070,3285,3285,2815,85.69254185692542

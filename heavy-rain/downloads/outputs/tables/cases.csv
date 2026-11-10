@@ -1,0 +1,7 @@
+﻿case_id,buildings_file,duration_h,scenario,period,return_period
+3h_T100_historical_1976-2005,outputs/gis/buildings_3h_T100_historical_1976-2005.gpkg,3,historical,1976-2005,100
+3h_T100_rcp45_2041-2070,outputs/gis/buildings_3h_T100_rcp45_2041-2070.gpkg,3,rcp45,2041-2070,100
+3h_T100_rcp85_2041-2070,outputs/gis/buildings_3h_T100_rcp85_2041-2070.gpkg,3,rcp85,2041-2070,100
+24h_T100_historical_1976-2005,outputs/gis/buildings_24h_T100_historical_1976-2005.gpkg,24,historical,1976-2005,100
+24h_T100_rcp45_2041-2070,outputs/gis/buildings_24h_T100_rcp45_2041-2070.gpkg,24,rcp45,2041-2070,100
+24h_T100_rcp85_2041-2070,outputs/gis/buildings_24h_T100_rcp85_2041-2070.gpkg,24,rcp85,2041-2070,100

@@ -1,0 +1,7 @@
+{
+  "dataset": "Copernicus DEM GLO-30",
+  "tiles": 2,
+  "working_resolution_m": 100,
+  "tpi_square_window_m": 1100,
+  "note": "A digital surface model. Terrain position and slope are screening indicators; no drainage capacity, flood depth, flood extent or HAND is inferred."
+}

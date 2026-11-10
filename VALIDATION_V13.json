@@ -1,0 +1,32 @@
+{
+  "release": "13.0.0",
+  "date": "2026-11-10",
+  "passed": 9,
+  "failed": 0,
+  "checks": [
+    "All 2214 non-entry v12 files are byte-identical; only the four old HTML entry points changed.",
+    "All 102 original source tables/JSON/GIS entries pass byte-level SHA-256 and ZIP CRC checks.",
+    "heavy-rain: 27,960 unique valid display footprints, source attribute fidelity and missingness checked.",
+    "storms: 27,960 unique valid display footprints, source attribute fidelity and missingness checked.",
+    "Heavy Rain: six cases reconcile; 64 neighbourhoods without residential inventory remain unavailable; all 24 climate-cell joins are complete.",
+    "All six screening images retain source colours/classes/nodata and pass 7500 exact source-pixel-centre back-projection comparisons.",
+    "Multi: all 289 facilities and 14,975 road segments join one-to-one to original values, lengths and missingness; all display geometries are valid.",
+    "Storms: supplied threshold totals, station coverage, 23 complete years and source inventory counts reconcile; no spatial gust field is fabricated.",
+    "All seven navigation entry points, local static resources, table downloads and both-language figure paths resolve."
+  ],
+  "preserved_v12_files": 2214,
+  "changed_v12_files": [
+    "drought/index.html",
+    "floods/index.html",
+    "index.html",
+    "wildfires/index.html"
+  ],
+  "purpose": "Source preservation and display verification, not scientific model validation.",
+  "browser_qa": {
+    "desktop": "Passed: seven hazard links, preserved heat-risk entry and Flood page, Heavy Rain scenario/duration controls, T100-only screening, building source popups, source tables/filter/download link, Multi sector and facility selection including GZP, climate charts, Storms threshold/observation/readiness views.",
+    "languages": "TR/EN controls, source-building popup and GZP detail verified. Complete chart dictionary added; final Turkish class ticks verified as Düşük / Orta / Artmış / Yüksek.",
+    "mobile": "All three new sections checked in 390 px iframe (375 px content); page scrollWidth equals clientWidth. All seven main links visible in two rows. Heavy Rain empty residential inventory and Multi indicator switching verified.",
+    "scientific_model_validation": false,
+    "published_by_this_task": false
+  }
+}

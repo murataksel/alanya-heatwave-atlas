@@ -1,0 +1,20 @@
+{
+  "chains": [
+    "ichec-ec-earth_knmi-racmo22e",
+    "mohc-hadgem2-es_knmi-racmo22e",
+    "mpi-m-mpi-esm-lr_smhi-rca4"
+  ],
+  "baseline": "1976-2005",
+  "durations_h": [
+    3,
+    24
+  ],
+  "cells": 24,
+  "models_required": 3,
+  "method": "Duration- and return-period-specific MGM multiplicative anchoring; change factors preserved for each model and cell.",
+  "spatial_assumption": "Single-station bias factor transferred uniformly across district; unvalidated in uplands.",
+  "temporal_assumption": "MGM rolling-duration maxima vs CORDEX fixed 3h/24h blocks; difference not independently corrected.",
+  "tail": "200/500y levels are extrapolations from about 30y baseline; supplied LP3 table is a separate 56y reference.",
+  "daily_validation_scope": "Daily ERA5 validation does not validate CORDEX projections or subdaily rainfall.",
+  "monotonicity_issues": 0
+}

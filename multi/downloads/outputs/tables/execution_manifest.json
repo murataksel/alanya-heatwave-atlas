@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "created_utc": "2026-11-07T20:56:26.150140+00:00",
+  "result_level": "Executed physical-indicator, exposure and environmental-context screening",
+  "no_synthetic_analysis_data": true,
+  "osm_source_snapshots": {
+    "alanya_boundary": "2026-11-07T14:58:36Z",
+    "facilities": "2026-11-07T14:50:36Z",
+    "roads": "2026-11-07T14:52:36Z",
+    "waterways": "2026-11-07T14:56:36Z"
+  },
+  "statuses": {
+    "climate_status": {
+      "precipitation_model": "era5",
+      "temperature_model": "era5_land",
+      "native_resolution_note": "ERA5 precipitation: 0.25 degree. ERA5-Land temperature: 0.1 degree, nearest land cell for each representative 0.25 degree analysis location. No facility-scale meteorology or station bias correction is inferred. Returned coordinates for each variable are retained.",
+      "baseline": [
+        1991,
+        2020
+      ],
+      "recent": [
+        2015,
+        2025
+      ],
+      "periods_overlap": true,
+      "future_scenarios_computed": false,
+      "bias_corrected_to_station": false,
+      "climate_cell_requests": 9,
+      "unique_returned_grid_locations": 9
+    },
+    "analysis_status": {
+      "facilities": 289,
+      "road_segments": 14975,
+      "thermal_facility_coverage": 289,
+      "thermal_road_coverage": 14954,
+      "climate_mapping_missing": 0,
+      "operational_risk_computed": false,
+      "composite_risk_computed": false,
+      "outputs": "physical indicators, environmental sensitivity context and descriptive exposure percentiles"
+    },
+    "satellite_status": {
+      "analysis_configuration": {
+        "collection": "landsat-c2-l2",
+        "start": "2025-06-01",
+        "end": "2025-08-31",
+        "max_scene_cloud_percent": 20,
+        "max_scenes_per_path_row": 9,
+        "scenes_per_month": 3,
+        "resolution_m": 100,
+        "min_valid_observations": 3
+      },
+      "period": [
+        "2025-06-01",
+        "2025-08-31"
+      ],
+      "selected_scenes": 9,
+      "working_resolution_m": 100,
+      "scope_pixels": 183431,
+      "pixels_with_min_observations": 180619,
+      "scope_pixel_coverage_fraction": 0.9846699848989539,
+      "minimum_valid_observations": 3,
+      "sentinel2_executed": false,
+      "note": "2025 summer clear-sky Landsat snapshot. This is a surface-temperature composite, not a heatwave frequency or a multi-year climatology. NDVI/NDBI are spectral indices, not measured canopy shade or impervious-surface fractions."
+    },
+    "terrain_status": {
+      "dataset": "Copernicus DEM GLO-30",
+      "tiles": 2,
+      "working_resolution_m": 100,
+      "tpi_square_window_m": 1100,
+      "note": "A digital surface model. Terrain position and slope are screening indicators; no drainage capacity, flood depth, flood extent or HAND is inferred."
+    }
+  },
+  "validation": {
+    "numerical_spatial_integration_tests_passed": 4,
+    "formula_error_scan_passed": true,
+    "workbook_blank_temperature_recalculation_passed": true,
+    "pdf_pages_visually_reviewed": 4,
+    "notebooks": [
+      {
+        "file": "00_START_HERE.ipynb",
+        "executed_code_cells": 4
+      },
+      {
+        "file": "01_Infrastructure_inventory.ipynb",
+        "executed_code_cells": 4
+      },
+      {
+        "file": "02_Climate_indicators.ipynb",
+        "executed_code_cells": 4
+      },
+      {
+        "file": "03_Satellite_and_terrain.ipynb",
+        "executed_code_cells": 3
+      },
+      {
+        "file": "04_Exposure_maps_and_report.ipynb",
+        "executed_code_cells": 4
+      }
+    ],
+    "notebook_execution_mode": "IPython cell execution with captured rich outputs; standard python3 metadata retained"
+  },
+  "not_executed": [
+    "Sentinel-2 optional Earth Engine script",
+    "multi-year Landsat optional Earth Engine script",
+    "future climate projections",
+    "new inundation simulation",
+    "operational vulnerability and monetary loss model"
+  ]
+}
