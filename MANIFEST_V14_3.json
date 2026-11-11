@@ -1,0 +1,29 @@
+{
+  "release": "v14.3",
+  "type": "hotfix overlay",
+  "applies_to": "v14.1",
+  "root_cause": "The published page referenced two missing scripts: the Heatwave translation dictionary and the viewport-based building-layer helper. The helper error aborts Heatwave startup.",
+  "files": [
+    {
+      "path": "index.html",
+      "change": "Updated both Heatwave v12 script URLs to v14.3.0."
+    },
+    {
+      "path": "assets/heatwave-buildings-v12.js",
+      "change": "Restored the original v12 Heatwave script.",
+      "sha256": "39e964fa57c830cd51c4fa7bee027da8aee3c536e5466bf5778fcc18ee9c468a"
+    },
+    {
+      "path": "assets/heatwave-translations-v12.js",
+      "change": "Restored the original v12 Heatwave script.",
+      "sha256": "b5a6ab2e6550d0aa72b913792319bc8216d132652c4423789629a7df7945109f"
+    }
+  ],
+  "validation": [
+    "ZIP integrity checked.",
+    "Both scripts parse with node --check.",
+    "index.html points to both included scripts with cache-busted v14.3.0 URLs.",
+    "The translation script loads before the shared translation engine; the building helper loads before assets/heatwaves.js."
+  ],
+  "data_changed": false
+}
