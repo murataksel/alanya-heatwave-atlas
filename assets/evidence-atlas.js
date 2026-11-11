@@ -29,6 +29,7 @@ const map=L.map('evidence-map',{preferCanvas:true,zoomControl:true,scrollWheelZo
 const basemap=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
 basemap.on('tileerror',()=>{$('map-network-status').textContent='Basemap unavailable · analytical layers remain visible';});
 basemap.on('tileload',()=>{$('map-network-status').textContent='';});
+basemap.addTo(map);
 L.control.scale({imperial:false,position:'bottomright'}).addTo(map);
 const baseBoundary=D?A.geo.Alanya_boundary:A.geo['Working district'];
 const boundary=L.geoJSON(baseBoundary,{interactive:false,style:{color:'#284f59',weight:1.7,fill:false}}).addTo(map);
@@ -326,6 +327,7 @@ document.querySelectorAll('.evidence-tabs button').forEach(b=>{b.addEventListene
 $('reset-map').addEventListener('click',fit);
 $('expand-map').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await $('map-stage').requestFullscreen();}catch(e){$('app-status').textContent='Full-screen is unavailable in this browser. Use browser zoom or expand the window.';}});
 document.addEventListener('fullscreenchange',()=>{setTimeout(()=>map.invalidateSize(),100);$('expand-map').textContent=document.fullscreenElement?'Close full screen ↙':'Expand ↗';});
+$('basemap-toggle').checked=true;
 $('basemap-toggle').addEventListener('change',e=>{if(e.target.checked)basemap.addTo(map);else{map.removeLayer(basemap);$('map-network-status').textContent='Analytical layers only';}});
 $('layer-opacity').addEventListener('input',()=>{if(rasterLayer)rasterLayer.setOpacity(opacity());sourceLayers.forEach(l=>{if(l.setStyle)l.setStyle({fillOpacity:opacity()});});});
 $('figure-search').addEventListener('input',figures);$('all-figures').addEventListener('change',()=>{figures();syncURL();});

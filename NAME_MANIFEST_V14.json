@@ -1,0 +1,24 @@
+{
+  "base": "v13",
+  "release": "v14",
+  "files": [
+    "index.html",
+    "floods/index.html",
+    "floods/maps/coastal.html",
+    "floods/maps/river.html",
+    "drought/index.html",
+    "wildfires/index.html",
+    "heavy-rain/index.html",
+    "multi/index.html",
+    "storms/index.html",
+    "assets/heatwaves.js",
+    "assets/extended-atlas-v13.js",
+    "assets/evidence-atlas.js",
+    "assets/heatwave-layers-v12.css",
+    "assets/branding-v14.js",
+    "assets/heatwave-vulnerability-v14.js",
+    "RELEASE_NOTES_V14_EN.md",
+    "DEGISIKLIKLER_V14_TR.md"
+  ],
+  "note": "Overlay update. Preserve relative paths."
+}
