@@ -1,15 +1,18 @@
-# Alanya Climate Change Atlas v14 — shared map and evidence update
+# Alanya Climate Change Atlas v14.1 — Heatwave loading repair
 
-This is a compact overlay for the v13 site package. Copy the included files into the v13 repository, preserving the directory structure, and allow them to replace files with the same names.
+This is a complete overlay for the v13 repository. It includes the v14 shared atlas updates and the full v12 Heatwave layer runtime required by the new fourth Heatwave analysis. Copy all contents into the existing repository, preserving folder structure and replacing same-name files.
 
-## What changed
+## Repair
 
-- Renamed the shared bilingual identity to **Alanya Climate Change Atlas** across the seven hazard sections.
-- Enabled OpenStreetMap street tiles by default on the Coastal and River flood interactive maps; users can switch the basemap off. Existing flood layers, scales, and caveats remain intact.
-- Added a fourth Heatwave analysis, **Vulnerability & buildings**, combining the supplied vulnerable-population grid, independently selectable CLIMAAX five-class heat-risk raster, and Overture building footprints. The CLIMAAX source legend is preserved. No building-level vulnerability score or population-to-building assignment is inferred.
-- Made the supplied building inventory available in Windstorms views and enabled the detail layer. The page clearly distinguishes station temporal records and threshold summaries from a spatial gust field; no spatial wind field was supplied.
-- Enabled online OSM backgrounds by default on the interactive analytical map engines and standardized shared navigation and bilingual atlas identity.
+The published Heatwave page referenced `heatwaves/layers-v12/catalog.js`, but that catalog was missing from the deployed repository. The Heatwave script then stopped at startup when it tried to read the CLIMAAX risk layer definition, leaving the analysis panel at “Loading analysis…” while the basemap and neighbourhood outlines were still visible. This release supplies the complete layer catalog, risk overlay, metadata and building tiles, plus the source downloads. A clear in-page error is shown if the catalog is missing in a future deployment.
 
-## Scope and verification
+## Included v14 updates
 
-Source analytical outputs were retained; no hazard model was rerun. OpenStreetMap tiles require an internet connection and are subject to OSM attribution and usage policies. The update was syntax-checked and inspected in-browser across all seven hazard pages, both flood map views, and the Heatwave vulnerability view.
+- Shared bilingual **Alanya Climate Change Atlas** identity across seven hazard sections.
+- OpenStreetMap default basemaps for the Coastal and River flood maps and interactive analytical maps.
+- Fourth Heatwave analysis: Vulnerability & buildings, with the supplied vulnerable-population grid, independent Overture building footprints, and the CLIMAAX five-class heat-risk raster and legend.
+- Windstorm building detail access and explicit disclosure that the source package contains no spatial gust field.
+
+## Verification
+
+The published catalog URL was checked and returned GitHub Pages 404; the browser console identified the resulting undefined `risk` access in the Heatwave startup script. The repaired archive was checked for the referenced catalog, risk raster, building tiles and original download files. JavaScript syntax checks pass. Source hazard results were not recalculated.

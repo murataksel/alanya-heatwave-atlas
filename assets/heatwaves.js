@@ -3,6 +3,7 @@
 'use strict';
 const D=window.HEATWAVE_LAYERS_V12;
 const A=window.HEAT_DATA,$=id=>document.getElementById(id),E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+if(!D?.risk?.image||!D?.buildings){$('analysis-title').textContent='Heatwave layer package unavailable';$('analysis-description').textContent='The uploaded CLIMAAX and building layer catalogue could not be loaded. Restore the complete heatwaves/layers-v12 folder and reload this page.';$('app-status').textContent='Required Heatwave layer catalogue is missing.';return;}
 const t=s=>window.ATLAS_I18N?.t(s)||s;
 const state={module:'indicators',view:'explorer',name:A.geo.features[0].properties.Name,series:'both',indicator:'all',layer:'lst',buildings:false};
 const names=Object.keys(A.series).sort((a,b)=>a.localeCompare(b,'tr'));

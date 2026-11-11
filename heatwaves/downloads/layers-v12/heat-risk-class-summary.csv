@@ -1,0 +1,6 @@
+﻿code,label,label_tr,color,pixel_count,area_km2
+1,Very low,Çok düşük,#006837,86,0.0774
+2,Low,Düşük,#238443,389431,350.4879
+3,Medium,Orta,#ffffbf,33524,30.1716
+4,High,Yüksek,#ff7f00,12277,11.0493
+5,Very high,Çok yüksek,#d7191c,814,0.7326
