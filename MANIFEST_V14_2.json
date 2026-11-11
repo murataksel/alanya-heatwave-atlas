@@ -1,0 +1,23 @@
+{
+  "release": "v14.2",
+  "type": "hotfix overlay",
+  "applies_to": "v14.1",
+  "root_cause": "Published index.html referenced assets/heatwave-buildings-v12.js, which was absent from the repository. Heatwave startup stopped when createHeatwaveBuildingLayer was called.",
+  "files": [
+    {
+      "path": "index.html",
+      "change": "Cache-busted the building-layer script URL to v14.2.0."
+    },
+    {
+      "path": "assets/heatwave-buildings-v12.js",
+      "change": "Restored the original v12 viewport-based building layer helper.",
+      "sha256": "39e964fa57c830cd51c4fa7bee027da8aee3c536e5466bf5778fcc18ee9c468a"
+    }
+  ],
+  "validation": [
+    "Building-layer helper JavaScript syntax checked with node --check.",
+    "Heatwave application JavaScript syntax checked with node --check.",
+    "index.html references the helper before assets/heatwaves.js and the referenced file is present in this ZIP."
+  ],
+  "data_changed": false
+}
